@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "task-automation",
+  "name": "Task Automation",
+  "version": "1.0.0",
+  "description": "Automate repetitive development tasks, scripts, and build operations under strict execution controls.",
+  "source": "core",
+  "category": "productivity",
+  "tags": ["task", "automation", "build", "pipeline", "scripts"],
+  "lifecycle": "ENABLED",
+  "entrypoint": "index.js",
+  "permissions": ["READ", "WRITE", "EXECUTE"],
+  "tools": ["filesystem", "terminal"],
+  "sandbox": {
+    "allowedPaths": ["."],
+    "timeoutMs": 30000,
+    "allowNetwork": false,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "taskName": { "type": "string", "description": "Name or command of task to execute" },
+    "arguments": { "type": "array", "description": "Command line arguments or options" }
+  },
+  "outputs": {
+    "success": { "type": "boolean" },
+    "exitCode": { "type": "number" },
+    "stdout": { "type": "string" },
+    "stderr": { "type": "string" }
+  }
+}

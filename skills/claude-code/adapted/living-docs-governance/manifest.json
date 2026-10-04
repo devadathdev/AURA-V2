@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "living-docs-governance",
+  "name": "living-docs-governance",
+  "version": "1.0.0",
+  "description": "Keep a long-lived project's documentation from rotting by assigning existing project docs clear constitution, map, status, and history roles, then wiring the active agent harness to those canonical sources. Use in the maintain phase when docs drift from code, agents lose context between sessions, or intentional removals keep being recreated. Prefer adopting the repository's current docs structure over creating new root files. 中文触发：文档治理、活文档、项目状态追踪、防文档漂移、项目地图、健康仪表盘、删除区、长期项目治理",
+  "source": "claude-code",
+  "category": "ai",
+  "tags": [
+    "living",
+    "docs",
+    "governance",
+    "ai",
+    "git"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/living-docs-governance/SKILL.md",
+  "permissions": [
+    "READ",
+    "WRITE",
+    "GITHUB",
+    "SYSTEM"
+  ],
+  "tools": [
+    "filesystem",
+    "terminal",
+    "git",
+    "github"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.292Z"
+}

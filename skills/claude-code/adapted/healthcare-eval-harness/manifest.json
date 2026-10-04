@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "healthcare-eval-harness",
+  "name": "healthcare-eval-harness",
+  "version": "1.0.0",
+  "description": "Patient safety evaluation harness for healthcare application deployments. Automated test suites for CDSS accuracy, PHI exposure, clinical workflow integrity, and integration compliance. Blocks deployments on safety failures. Use when a healthcare deployment must be gated on patient-safety tests for CDSS accuracy, PHI exposure, and workflow integrity.",
+  "source": "claude-code",
+  "category": "security",
+  "tags": [
+    "healthcare",
+    "eval",
+    "harness",
+    "node",
+    "security",
+    "ai",
+    "database"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/healthcare-eval-harness/SKILL.md",
+  "permissions": [
+    "READ",
+    "EXECUTE",
+    "DEPLOY",
+    "DATABASE",
+    "SYSTEM"
+  ],
+  "tools": [
+    "filesystem",
+    "terminal",
+    "web"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": false,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.175Z"
+}

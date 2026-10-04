@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "customer-billing-ops",
+  "name": "customer-billing-ops",
+  "version": "1.0.0",
+  "description": "Operate customer billing workflows such as subscriptions, refunds, churn triage, billing-portal recovery, and plan analysis using connected billing tools like Stripe. Use when the user needs to help a customer, inspect subscription state, or manage revenue-impacting billing operations.",
+  "source": "claude-code",
+  "category": "development",
+  "tags": [
+    "customer",
+    "billing",
+    "ops",
+    "ai",
+    "git"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/customer-billing-ops/SKILL.md",
+  "permissions": [
+    "READ",
+    "EXECUTE",
+    "NETWORK",
+    "GITHUB",
+    "SECRET"
+  ],
+  "tools": [
+    "filesystem",
+    "terminal",
+    "git",
+    "github",
+    "web"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.007Z"
+}

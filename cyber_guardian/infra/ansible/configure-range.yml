@@ -1,0 +1,26 @@
+---
+# Ansible playbook for cyber range configuration (Phase 1 stub)
+# Configures Wazuh, Suricata, and target VMs after Terraform provisioning
+
+- name: Configure Aura Cyber Range
+  hosts: all
+  become: true
+  vars:
+    wazuh_manager: defender.range.local
+    suricata_interface: eth0
+    range_network: 10.99.0.0/24
+
+  tasks:
+    - name: Placeholder — Wazuh agent installation
+      debug:
+        msg: "Wazuh agent configuration will be applied to {{ inventory_hostname }}"
+
+    - name: Placeholder — Suricata IDS configuration
+      debug:
+        msg: "Suricata rules and network monitoring on {{ inventory_hostname }}"
+      when: "'defender' in group_names"
+
+    - name: Placeholder — Target VM hardening baseline
+      debug:
+        msg: "Applying intentionally vulnerable test configuration to {{ inventory_hostname }}"
+      when: "'targets' in group_names"

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "suit_001",
+    "name": "Industrial Exoskeleton",
+    "modules": [
+      "frame",
+      "actuation",
+      "power",
+      "sensors",
+      "human_interface",
+      "thermal_management"
+    ],
+    "design_goals": [
+      "mobility",
+      "ergonomics",
+      "load_assistance",
+      "environmental_protection"
+    ],
+    "weapon_systems": false,
+    "simulation": "human_machine_interaction_conceptual"
+  },
+  {
+    "id": "suit_002",
+    "name": "Rescue Exosuit",
+    "modules": [
+      "frame",
+      "actuation",
+      "power",
+      "sensors",
+      "human_interface",
+      "thermal_management"
+    ],
+    "design_goals": [
+      "mobility",
+      "ergonomics",
+      "load_assistance",
+      "environmental_protection"
+    ],
+    "weapon_systems": false,
+    "simulation": "human_machine_interaction_conceptual"
+  },
+  {
+    "id": "suit_003",
+    "name": "Medical Assist Exosuit",
+    "modules": [
+      "frame",
+      "actuation",
+      "power",
+      "sensors",
+      "human_interface",
+      "thermal_management"
+    ],
+    "design_goals": [
+      "mobility",
+      "ergonomics",
+      "load_assistance",
+      "environmental_protection"
+    ],
+    "weapon_systems": false,
+    "simulation": "human_machine_interaction_conceptual"
+  },
+  {
+    "id": "suit_004",
+    "name": "Space Mobility Suit",
+    "modules": [
+      "frame",
+      "actuation",
+      "power",
+      "sensors",
+      "human_interface",
+      "thermal_management"
+    ],
+    "design_goals": [
+      "mobility",
+      "ergonomics",
+      "load_assistance",
+      "environmental_protection"
+    ],
+    "weapon_systems": false,
+    "simulation": "human_machine_interaction_conceptual"
+  },
+  {
+    "id": "suit_005",
+    "name": "Hazmat Support Suit",
+    "modules": [
+      "frame",
+      "actuation",
+      "power",
+      "sensors",
+      "human_interface",
+      "thermal_management"
+    ],
+    "design_goals": [
+      "mobility",
+      "ergonomics",
+      "load_assistance",
+      "environmental_protection"
+    ],
+    "weapon_systems": false,
+    "simulation": "human_machine_interaction_conceptual"
+  },
+  {
+    "id": "suit_006",
+    "name": "Construction Assist Suit",
+    "modules": [
+      "frame",
+      "actuation",
+      "power",
+      "sensors",
+      "human_interface",
+      "thermal_management"
+    ],
+    "design_goals": [
+      "mobility",
+      "ergonomics",
+      "load_assistance",
+      "environmental_protection"
+    ],
+    "weapon_systems": false,
+    "simulation": "human_machine_interaction_conceptual"
+  },
+  {
+    "id": "suit_007",
+    "name": "Underwater Work Suit",
+    "modules": [
+      "frame",
+      "actuation",
+      "power",
+      "sensors",
+      "human_interface",
+      "thermal_management"
+    ],
+    "design_goals": [
+      "mobility",
+      "ergonomics",
+      "load_assistance",
+      "environmental_protection"
+    ],
+    "weapon_systems": false,
+    "simulation": "human_machine_interaction_conceptual"
+  },
+  {
+    "id": "suit_008",
+    "name": "Mobility Assist Suit",
+    "modules": [
+      "frame",
+      "actuation",
+      "power",
+      "sensors",
+      "human_interface",
+      "thermal_management"
+    ],
+    "design_goals": [
+      "mobility",
+      "ergonomics",
+      "load_assistance",
+      "environmental_protection"
+    ],
+    "weapon_systems": false,
+    "simulation": "human_machine_interaction_conceptual"
+  },
+  {
+    "id": "suit_009",
+    "name": "Search Rescue Suit",
+    "modules": [
+      "frame",
+      "actuation",
+      "power",
+      "sensors",
+      "human_interface",
+      "thermal_management"
+    ],
+    "design_goals": [
+      "mobility",
+      "ergonomics",
+      "load_assistance",
+      "environmental_protection"
+    ],
+    "weapon_systems": false,
+    "simulation": "human_machine_interaction_conceptual"
+  },
+  {
+    "id": "suit_010",
+    "name": "Thermal Protection Suit",
+    "modules": [
+      "frame",
+      "actuation",
+      "power",
+      "sensors",
+      "human_interface",
+      "thermal_management"
+    ],
+    "design_goals": [
+      "mobility",
+      "ergonomics",
+      "load_assistance",
+      "environmental_protection"
+    ],
+    "weapon_systems": false,
+    "simulation": "human_machine_interaction_conceptual"
+  }
+]

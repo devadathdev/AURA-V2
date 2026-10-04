@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "github-ops",
+  "name": "github-ops",
+  "version": "1.0.0",
+  "description": "GitHub repository operations, automation, and management. Issue triage, PR management, CI/CD operations, release management, and security monitoring using the gh CLI. Use when the user wants to manage GitHub issues, PRs, CI status, releases, contributors, stale items, or any GitHub operational task beyond simple git commands.",
+  "source": "claude-code",
+  "category": "security",
+  "tags": [
+    "github",
+    "ops",
+    "security",
+    "ai",
+    "git"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/github-ops/SKILL.md",
+  "permissions": [
+    "READ",
+    "EXECUTE",
+    "NETWORK",
+    "GITHUB"
+  ],
+  "tools": [
+    "filesystem",
+    "terminal",
+    "git",
+    "github",
+    "web"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.157Z"
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "electromagnetic_induction",
+    "domain": "physics",
+    "title": "Electromagnetic Induction",
+    "components": [
+      "magnet",
+      "coil",
+      "current_meter"
+    ],
+    "relationships": [
+      "moving_magnet->induces->current"
+    ],
+    "learning_objectives": [
+      "Understand magnetic flux",
+      "Observe induced current"
+    ]
+  },
+  {
+    "id": "four_stroke_engine",
+    "domain": "mechanical_engineering",
+    "title": "Four-Stroke Engine",
+    "components": [
+      "cylinder",
+      "piston",
+      "valves",
+      "spark_plug",
+      "crankshaft"
+    ],
+    "relationships": [
+      "piston->drives->crankshaft"
+    ],
+    "learning_objectives": [
+      "Understand intake/compression/power/exhaust cycles"
+    ]
+  },
+  {
+    "id": "simple_led_circuit",
+    "domain": "electronics",
+    "title": "Simple LED Circuit",
+    "components": [
+      "battery",
+      "resistor",
+      "led",
+      "wire"
+    ],
+    "relationships": [
+      "battery->powers->led",
+      "resistor->limits->current"
+    ],
+    "learning_objectives": [
+      "Understand voltage, current and resistance"
+    ]
+  },
+  {
+    "id": "heart_circulation",
+    "domain": "biology",
+    "title": "Human Heart Circulation",
+    "components": [
+      "right_atrium",
+      "right_ventricle",
+      "lungs",
+      "left_atrium",
+      "left_ventricle"
+    ],
+    "relationships": [
+      "heart->pumps->blood",
+      "lungs->oxygenate->blood"
+    ],
+    "learning_objectives": [
+      "Trace pulmonary and systemic circulation"
+    ]
+  },
+  {
+    "id": "solar_ev_system",
+    "domain": "energy",
+    "title": "Solar Electric System",
+    "components": [
+      "solar_panel",
+      "charge_controller",
+      "battery",
+      "inverter",
+      "load"
+    ],
+    "relationships": [
+      "solar_panel->charges->battery",
+      "battery->supplies->load"
+    ],
+    "learning_objectives": [
+      "Understand energy conversion and storage"
+    ]
+  }
+]

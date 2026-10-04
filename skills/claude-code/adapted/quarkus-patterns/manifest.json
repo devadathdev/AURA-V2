@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "quarkus-patterns",
+  "name": "quarkus-patterns",
+  "version": "1.0.0",
+  "description": "Quarkus 3.x LTS architecture patterns with Camel for messaging, RESTful API design, CDI services, data access with Panache, and async processing. Use for Java Quarkus backend work with event-driven architectures. Use when building or reviewing a Quarkus service, especially with Camel messaging or Panache data access.",
+  "source": "claude-code",
+  "category": "development",
+  "tags": [
+    "quarkus",
+    "patterns",
+    "react",
+    "security",
+    "ai",
+    "testing",
+    "database"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/quarkus-patterns/SKILL.md",
+  "permissions": [
+    "READ",
+    "NETWORK",
+    "GITHUB"
+  ],
+  "tools": [
+    "filesystem",
+    "git",
+    "github",
+    "web"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.553Z"
+}

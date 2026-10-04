@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "tinystruct-patterns",
+  "name": "tinystruct-patterns",
+  "version": "1.0.0",
+  "description": "Expert guidance for developing with the tinystruct Java framework. Use when working on the tinystruct codebase or any project built on tinystruct — including creating Application classes, @Action-mapped routes, unit tests, ActionRegistry, HTTP/CLI dual-mode handling, the built-in HTTP server, the event system, JSON with Builder/Builders, database persistence with AbstractData, POJO generation, Server-Sent Events (SSE), file uploads, and outbound HTTP networking.",
+  "source": "claude-code",
+  "category": "quality",
+  "tags": [
+    "tinystruct",
+    "patterns",
+    "security",
+    "ai",
+    "testing",
+    "database"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/tinystruct-patterns/SKILL.md",
+  "permissions": [
+    "READ",
+    "WRITE",
+    "EXECUTE",
+    "NETWORK",
+    "GITHUB",
+    "DATABASE",
+    "SYSTEM"
+  ],
+  "tools": [
+    "filesystem",
+    "terminal",
+    "git",
+    "github",
+    "web"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.837Z"
+}

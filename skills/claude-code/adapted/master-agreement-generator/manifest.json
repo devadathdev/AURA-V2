@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "master-agreement-generator",
+  "name": "master-agreement-generator",
+  "version": "1.0.0",
+  "description": "Generate review drafts of counterparty master agreements from one template plus a JSON spec, with role-selected clauses and a Schedule A workflow limited to the executed agreement's notice authority. Use when you need reproducible drafting and separately reviewed execution preparation.",
+  "source": "claude-code",
+  "category": "security",
+  "tags": [
+    "master",
+    "agreement",
+    "generator",
+    "node",
+    "ai"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/master-agreement-generator/SKILL.md",
+  "permissions": [
+    "READ",
+    "WRITE",
+    "EXECUTE",
+    "GITHUB"
+  ],
+  "tools": [
+    "filesystem",
+    "terminal",
+    "git",
+    "github"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.327Z"
+}

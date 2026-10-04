@@ -1,0 +1,18 @@
+{
+  "fields": [
+    "source_name",
+    "source_url",
+    "retrieved_at",
+    "version",
+    "license",
+    "confidence",
+    "last_verified"
+  ],
+  "rules": [
+    "Authoritative reference data must retain source and version.",
+    "Conceptual records must be marked conceptual.",
+    "Simulation equations require deterministic implementation and unit checks.",
+    "External 3D assets require license and provenance before distribution.",
+    "Conflicting values must not be silently merged; retain competing source records."
+  ]
+}

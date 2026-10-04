@@ -1,0 +1,50 @@
+{
+  "learn-1789124530354-n0ltsyplqy9": {
+    "id": "learn-1789124530354-n0ltsyplqy9",
+    "input": "10020km in m",
+    "expectedOutput": "",
+    "actualOutput": "I can handle that more intelligently when a live AI key is connected. In local mode, try /brief, /find meeting, /convert 10 miles to km, /roll 2d6, /tasks, a time check, a calculation, or ask me to remember something.",
+    "rating": 2,
+    "tags": [
+      "negative"
+    ],
+    "timestamp": 1789124530358,
+    "useCount": 0
+  },
+  "learn-1789124536888-2t8yvt9i8dk": {
+    "id": "learn-1789124536888-2t8yvt9i8dk",
+    "input": "10020km in m",
+    "expectedOutput": "",
+    "actualOutput": "I can handle that more intelligently when a live AI key is connected. In local mode, try /brief, /find meeting, /convert 10 miles to km, /roll 2d6, /tasks, a time check, a calculation, or ask me to remember something.",
+    "rating": 5,
+    "tags": [
+      "positive"
+    ],
+    "timestamp": 1789124536888,
+    "useCount": 0
+  },
+  "learn-1789124537494-3a8trtm83ca": {
+    "id": "learn-1789124537494-3a8trtm83ca",
+    "input": "10020km in m",
+    "expectedOutput": "",
+    "actualOutput": "I can handle that more intelligently when a live AI key is connected. In local mode, try /brief, /find meeting, /convert 10 miles to km, /roll 2d6, /tasks, a time check, a calculation, or ask me to remember something.",
+    "rating": 5,
+    "tags": [
+      "positive"
+    ],
+    "timestamp": 1789124537494,
+    "useCount": 0
+  },
+  "learn-1789124538135-a4r818k60k4": {
+    "id": "learn-1789124538135-a4r818k60k4",
+    "input": "10020km in m",
+    "expectedOutput": "",
+    "actualOutput": "I can handle that more intelligently when a live AI key is connected. In local mode, try /brief, /find meeting, /convert 10 miles to km, /roll 2d6, /tasks, a time check, a calculation, or ask me to remember something.",
+    "rating": 5,
+    "tags": [
+      "positive"
+    ],
+    "timestamp": 1789124538135,
+    "useCount": 0
+  }
+}

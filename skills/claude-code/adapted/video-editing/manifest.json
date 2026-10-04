@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "video-editing",
+  "name": "video-editing",
+  "version": "1.0.0",
+  "description": "AI-assisted video editing workflows for cutting, structuring, and augmenting real footage. Covers the full pipeline from raw capture through FFmpeg, Remotion, ElevenLabs, fal.ai, and final polish in Descript or CapCut. Use when the user wants to edit video, cut footage, create vlogs, or build video content.",
+  "source": "claude-code",
+  "category": "ai",
+  "tags": [
+    "video",
+    "editing",
+    "python",
+    "react",
+    "ai"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/video-editing/SKILL.md",
+  "permissions": [
+    "READ",
+    "WRITE",
+    "EXECUTE",
+    "GITHUB"
+  ],
+  "tools": [
+    "filesystem",
+    "terminal",
+    "git",
+    "github"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.865Z"
+}

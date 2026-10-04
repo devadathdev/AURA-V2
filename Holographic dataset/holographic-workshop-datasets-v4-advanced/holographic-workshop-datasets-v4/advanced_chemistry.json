@@ -1,0 +1,338 @@
+[
+  {
+    "id": "chem_001",
+    "topic": "quantum chemistry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_002",
+    "topic": "molecular orbital theory",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_003",
+    "topic": "density functional theory",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_004",
+    "topic": "reaction kinetics",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_005",
+    "topic": "thermodynamics",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_006",
+    "topic": "electrochemistry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_007",
+    "topic": "photochemistry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_008",
+    "topic": "surface chemistry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_009",
+    "topic": "catalysis",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_010",
+    "topic": "organometallic chemistry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_011",
+    "topic": "supramolecular chemistry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_012",
+    "topic": "polymer chemistry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_013",
+    "topic": "solid-state chemistry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_014",
+    "topic": "coordination chemistry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_015",
+    "topic": "spectroscopy",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_016",
+    "topic": "mass spectrometry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_017",
+    "topic": "chromatography",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_018",
+    "topic": "chemical equilibrium",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_019",
+    "topic": "phase diagrams",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_020",
+    "topic": "materials chemistry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_021",
+    "topic": "computational chemistry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_022",
+    "topic": "green chemistry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_023",
+    "topic": "chemical biology",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_024",
+    "topic": "plasma chemistry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_025",
+    "topic": "atmospheric chemistry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_026",
+    "topic": "astrochemistry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_027",
+    "topic": "radiochemistry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  },
+  {
+    "id": "chem_028",
+    "topic": "theoretical chemistry",
+    "visualizations": [
+      "molecular_structure",
+      "energy_landscape",
+      "reaction_network",
+      "property_map"
+    ],
+    "simulation_level": "conceptual",
+    "requires_verified_data": true
+  }
+]

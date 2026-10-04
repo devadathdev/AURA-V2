@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "mle-workflow",
+  "name": "mle-workflow",
+  "version": "1.0.0",
+  "description": "Production machine-learning engineering workflow for data contracts, reproducible training, model evaluation, deployment, monitoring, and rollback. Use when building, reviewing, or hardening ML systems beyond one-off notebooks.",
+  "source": "claude-code",
+  "category": "ai",
+  "tags": [
+    "mle",
+    "workflow",
+    "docker",
+    "python",
+    "security",
+    "ai",
+    "testing",
+    "database"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/mle-workflow/SKILL.md",
+  "permissions": [
+    "READ",
+    "GITHUB",
+    "DEPLOY",
+    "SYSTEM"
+  ],
+  "tools": [
+    "filesystem",
+    "terminal",
+    "git",
+    "github",
+    "web"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.353Z"
+}

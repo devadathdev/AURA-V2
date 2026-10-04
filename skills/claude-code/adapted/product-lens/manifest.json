@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "product-lens",
+  "name": "product-lens",
+  "version": "1.0.0",
+  "description": "Use this skill to validate the \"why\" before building, run product diagnostics, and pressure-test product direction before the request becomes an implementation contract.",
+  "source": "claude-code",
+  "category": "quality",
+  "tags": [
+    "product",
+    "lens",
+    "ai"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/product-lens/SKILL.md",
+  "permissions": [
+    "READ",
+    "EXECUTE",
+    "GITHUB"
+  ],
+  "tools": [
+    "filesystem",
+    "terminal",
+    "git",
+    "github"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.505Z"
+}

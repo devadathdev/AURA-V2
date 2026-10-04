@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "claude-devfleet",
+  "name": "claude-devfleet",
+  "version": "1.0.0",
+  "description": "Orchestrate multi-agent coding tasks via Claude DevFleet — plan projects, dispatch parallel agents in isolated worktrees, monitor progress, and read structured reports. Use when dispatching parallel coding agents across isolated worktrees and tracking their reports.",
+  "source": "claude-code",
+  "category": "ai",
+  "tags": [
+    "claude",
+    "devfleet",
+    "security",
+    "ai",
+    "git"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/claude-devfleet/SKILL.md",
+  "permissions": [
+    "READ",
+    "WRITE",
+    "EXECUTE",
+    "NETWORK",
+    "GITHUB"
+  ],
+  "tools": [
+    "filesystem",
+    "terminal",
+    "git",
+    "web"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:22.938Z"
+}

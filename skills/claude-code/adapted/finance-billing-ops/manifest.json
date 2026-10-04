@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "finance-billing-ops",
+  "name": "finance-billing-ops",
+  "version": "1.0.0",
+  "description": "Evidence-first revenue, pricing, refunds, team-billing, and billing-model truth workflow for ECC. Use when the user wants a sales snapshot, pricing comparison, duplicate-charge diagnosis, or code-backed billing reality instead of generic payments advice.",
+  "source": "claude-code",
+  "category": "ai",
+  "tags": [
+    "finance",
+    "billing",
+    "ops",
+    "ai",
+    "git"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/finance-billing-ops/SKILL.md",
+  "permissions": [
+    "READ",
+    "NETWORK",
+    "GITHUB"
+  ],
+  "tools": [
+    "filesystem",
+    "git",
+    "github",
+    "web"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.114Z"
+}

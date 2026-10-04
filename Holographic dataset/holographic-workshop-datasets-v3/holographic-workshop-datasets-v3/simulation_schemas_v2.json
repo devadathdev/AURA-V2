@@ -1,0 +1,125 @@
+[
+  {
+    "id": "ohms_law",
+    "domain": "electronics",
+    "equation": "I=V/R",
+    "inputs": [
+      "voltage_v",
+      "resistance_ohm"
+    ],
+    "outputs": [
+      "current_a"
+    ]
+  },
+  {
+    "id": "electrical_power",
+    "domain": "electronics",
+    "equation": "P=V*I",
+    "inputs": [
+      "voltage_v",
+      "current_a"
+    ],
+    "outputs": [
+      "power_w"
+    ]
+  },
+  {
+    "id": "spring_force",
+    "domain": "physics",
+    "equation": "F=k*x",
+    "inputs": [
+      "spring_constant_n_m",
+      "displacement_m"
+    ],
+    "outputs": [
+      "force_n"
+    ]
+  },
+  {
+    "id": "kinetic_energy",
+    "domain": "physics",
+    "equation": "E=0.5*m*v^2",
+    "inputs": [
+      "mass_kg",
+      "velocity_m_s"
+    ],
+    "outputs": [
+      "energy_j"
+    ]
+  },
+  {
+    "id": "potential_energy",
+    "domain": "physics",
+    "equation": "E=m*g*h",
+    "inputs": [
+      "mass_kg",
+      "gravity_m_s2",
+      "height_m"
+    ],
+    "outputs": [
+      "energy_j"
+    ]
+  },
+  {
+    "id": "gear_ratio",
+    "domain": "mechanical",
+    "equation": "ratio=teeth_out/teeth_in",
+    "inputs": [
+      "teeth_in",
+      "teeth_out"
+    ],
+    "outputs": [
+      "ratio"
+    ]
+  },
+  {
+    "id": "electrical_energy",
+    "domain": "energy",
+    "equation": "E=P*t",
+    "inputs": [
+      "power_w",
+      "time_s"
+    ],
+    "outputs": [
+      "energy_j"
+    ]
+  },
+  {
+    "id": "robot_joint",
+    "domain": "robotics",
+    "equation": "theta=theta0+omega*t",
+    "inputs": [
+      "theta0_deg",
+      "omega_deg_s",
+      "time_s"
+    ],
+    "outputs": [
+      "theta_deg"
+    ]
+  },
+  {
+    "id": "linear_motion",
+    "domain": "physics",
+    "equation": "x=x0+v*t",
+    "inputs": [
+      "x0_m",
+      "velocity_m_s",
+      "time_s"
+    ],
+    "outputs": [
+      "x_m"
+    ]
+  },
+  {
+    "id": "density",
+    "domain": "science",
+    "equation": "rho=m/V",
+    "inputs": [
+      "mass_kg",
+      "volume_m3"
+    ],
+    "outputs": [
+      "density_kg_m3"
+    ]
+  }
+]

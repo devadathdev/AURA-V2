@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "prediction-market-risk-review",
+  "name": "prediction-market-risk-review",
+  "version": "1.0.0",
+  "description": "Review prediction-market, basket, oracle, and trading-agent workflows for compliance, safety, data-quality, privacy, and execution risk. Use before any workflow handles venue auth, user portfolio data, API keys, or trade planning.",
+  "source": "claude-code",
+  "category": "security",
+  "tags": [
+    "prediction",
+    "market",
+    "risk",
+    "review",
+    "security",
+    "ai"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/prediction-market-risk-review/SKILL.md",
+  "permissions": [
+    "READ",
+    "NETWORK",
+    "GITHUB",
+    "SECRET"
+  ],
+  "tools": [
+    "filesystem",
+    "git",
+    "web"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.494Z"
+}

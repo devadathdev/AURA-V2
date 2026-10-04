@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "agent-harness-construction",
+  "name": "agent-harness-construction",
+  "version": "1.0.0",
+  "description": "Design and optimize AI agent action spaces, tool definitions, and observation formatting for higher completion rates. Use when defining or revising an agent's tool set, action space, or observation format.",
+  "source": "claude-code",
+  "category": "ai",
+  "tags": [
+    "agent",
+    "harness",
+    "construction",
+    "react",
+    "ai"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/agent-harness-construction/SKILL.md",
+  "permissions": [
+    "READ",
+    "WRITE",
+    "GITHUB",
+    "DEPLOY",
+    "DATABASE",
+    "SYSTEM"
+  ],
+  "tools": [
+    "filesystem",
+    "terminal",
+    "git",
+    "web"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:22.752Z"
+}

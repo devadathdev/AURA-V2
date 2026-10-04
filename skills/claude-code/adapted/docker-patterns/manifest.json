@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "docker-patterns",
+  "name": "docker-patterns",
+  "version": "1.0.0",
+  "description": "Docker and Docker Compose patterns for local development, hardened CLI installer harnesses, container security, networking, volumes, and multi-service orchestration. Use when creating or reviewing Dockerfiles and Compose services, testing installers across Linux distributions, or planning accurate native macOS and Windows validation.",
+  "source": "claude-code",
+  "category": "security",
+  "tags": [
+    "docker",
+    "patterns",
+    "kubernetes",
+    "node",
+    "security",
+    "ai",
+    "testing",
+    "database"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/docker-patterns/SKILL.md",
+  "permissions": [
+    "READ",
+    "EXECUTE",
+    "NETWORK",
+    "GITHUB",
+    "DATABASE",
+    "SECRET"
+  ],
+  "tools": [
+    "filesystem",
+    "terminal",
+    "git",
+    "github",
+    "web"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.067Z"
+}

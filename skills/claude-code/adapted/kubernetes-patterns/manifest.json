@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "kubernetes-patterns",
+  "name": "kubernetes-patterns",
+  "version": "1.0.0",
+  "description": "Kubernetes workload patterns, resource management, RBAC, probes, autoscaling, ConfigMap/Secret handling, and kubectl debugging for production-grade deployments. Use when writing or reviewing Kubernetes manifests, or debugging probes, RBAC, autoscaling, or resource limits.",
+  "source": "claude-code",
+  "category": "infrastructure",
+  "tags": [
+    "kubernetes",
+    "patterns",
+    "docker",
+    "python",
+    "node",
+    "security",
+    "ai",
+    "git"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/kubernetes-patterns/SKILL.md",
+  "permissions": [
+    "READ",
+    "EXECUTE",
+    "GITHUB",
+    "DEPLOY",
+    "SECRET"
+  ],
+  "tools": [
+    "filesystem",
+    "terminal",
+    "git",
+    "github",
+    "web"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.261Z"
+}

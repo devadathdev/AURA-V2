@@ -1,0 +1,1688 @@
+{
+  "ws_electric_motor": {
+    "workspace_id": "ws_electric_motor",
+    "name": "Electric Motor",
+    "description": "Direct current motor demonstration of magnetic field interactions, Lorentz force, and commutator operation.",
+    "category": "Physics & Electromagnetism",
+    "objects": [
+      {
+        "id": "obj_stator_magnet_n",
+        "name": "Stator Magnet (North Pole)",
+        "type": "magnet",
+        "position": {
+          "x": -110,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "material": "Neodymium",
+          "color": "#EF4444",
+          "polarity": "north",
+          "fieldStrength": 1.2,
+          "width": 40,
+          "height": 110,
+          "depth": 80
+        },
+        "connections": [
+          "obj_stator_magnet_s"
+        ],
+        "visible": true,
+        "metadata": {
+          "mass": "0.8kg",
+          "pole": "N"
+        }
+      },
+      {
+        "id": "obj_stator_magnet_s",
+        "name": "Stator Magnet (South Pole)",
+        "type": "magnet",
+        "position": {
+          "x": 110,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "material": "Neodymium",
+          "color": "#3B82F6",
+          "polarity": "south",
+          "fieldStrength": 1.2,
+          "width": 40,
+          "height": 110,
+          "depth": 80
+        },
+        "connections": [
+          "obj_stator_magnet_n"
+        ],
+        "visible": true,
+        "metadata": {
+          "mass": "0.8kg",
+          "pole": "S"
+        }
+      },
+      {
+        "id": "obj_rotor_shaft",
+        "name": "Rotor Steel Shaft",
+        "type": "cylinder",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 1.5707963267948966,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "material": "Hardened Steel",
+          "color": "#94A3B8",
+          "radius": 12,
+          "height": 260
+        },
+        "connections": [
+          "obj_coil_windings",
+          "obj_commutator"
+        ],
+        "visible": true,
+        "metadata": {
+          "mass": "0.5kg"
+        }
+      },
+      {
+        "id": "obj_coil_windings",
+        "name": "Armature Coil Windings",
+        "type": "coil",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "material": "Enameled Copper",
+          "color": "#F59E0B",
+          "windings": 240,
+          "gauge": "AWG 22",
+          "resistanceOhm": 1.8
+        },
+        "connections": [
+          "obj_commutator"
+        ],
+        "visible": true,
+        "metadata": {
+          "currentAmps": 4,
+          "magneticMoment": "3.2 A·m²"
+        }
+      },
+      {
+        "id": "obj_commutator",
+        "name": "Split-Ring Commutator",
+        "type": "cylinder",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 90
+        },
+        "rotation": {
+          "x": 1.5707963267948966,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "material": "Brass Segments",
+          "color": "#EAB308",
+          "radius": 18,
+          "height": 30
+        },
+        "connections": [
+          "obj_coil_windings",
+          "obj_carbon_brushes"
+        ],
+        "visible": true,
+        "metadata": {
+          "segments": 2
+        }
+      },
+      {
+        "id": "obj_carbon_brushes",
+        "name": "Carbon Brushes & Springs",
+        "type": "box",
+        "position": {
+          "x": -28,
+          "y": 0,
+          "z": 90
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "material": "Carbon Graphite",
+          "color": "#64748B",
+          "width": 14,
+          "height": 16,
+          "depth": 16
+        },
+        "connections": [
+          "obj_power_supply",
+          "obj_commutator"
+        ],
+        "visible": true,
+        "metadata": {
+          "springPressureKPa": 25
+        }
+      },
+      {
+        "id": "obj_magnetic_field",
+        "name": "Magnetic Flux Lines (B-Field)",
+        "type": "field",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#2EE6C5",
+          "fieldStrength": 1.2,
+          "lineCount": 16
+        },
+        "connections": [
+          "obj_stator_magnet_n",
+          "obj_stator_magnet_s"
+        ],
+        "visible": true,
+        "metadata": {
+          "fluxDensityTesla": 1.2
+        }
+      },
+      {
+        "id": "obj_power_supply",
+        "name": "DC Battery Pack (12V)",
+        "type": "box",
+        "position": {
+          "x": 0,
+          "y": -130,
+          "z": 80
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "material": "Lithium Cells",
+          "color": "#10B981",
+          "voltage": 12,
+          "maxCurrent": 10
+        },
+        "connections": [
+          "obj_carbon_brushes"
+        ],
+        "visible": true,
+        "metadata": {
+          "capacityAh": 5
+        }
+      },
+      {
+        "id": "obj_sensor_hall_01",
+        "name": "Hall Effect Magnetic Sensor",
+        "type": "sensor",
+        "position": {
+          "x": 15,
+          "y": 20,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 45,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {},
+        "connections": [],
+        "visible": true,
+        "metadata": {},
+        "groupId": "group_sensing_cluster",
+        "layerId": "layer_magnetic"
+      }
+    ],
+    "connections": [
+      {
+        "id": "conn_pwr_brush",
+        "source": "obj_power_supply",
+        "target": "obj_carbon_brushes",
+        "type": "electrical",
+        "state": "active"
+      },
+      {
+        "id": "conn_brush_comm",
+        "source": "obj_carbon_brushes",
+        "target": "obj_commutator",
+        "type": "mechanical",
+        "state": "active"
+      },
+      {
+        "id": "conn_comm_coil",
+        "source": "obj_commutator",
+        "target": "obj_coil_windings",
+        "type": "electrical",
+        "state": "active"
+      },
+      {
+        "id": "conn_mag_flux",
+        "source": "obj_stator_magnet_n",
+        "target": "obj_stator_magnet_s",
+        "type": "magnetic",
+        "state": "active"
+      }
+    ],
+    "annotations": [
+      {
+        "id": "ann_lorentz",
+        "target": "obj_coil_windings",
+        "title": "Lorentz Force",
+        "text": "F = I(L × B) generates rotational torque",
+        "offset": {
+          "x": 0,
+          "y": 55,
+          "z": 0
+        },
+        "visible": true
+      },
+      {
+        "id": "ann_comm",
+        "target": "obj_commutator",
+        "title": "Commutator",
+        "text": "Inverts current polarity every 180°",
+        "offset": {
+          "x": 0,
+          "y": 35,
+          "z": 90
+        },
+        "visible": true
+      }
+    ],
+    "simulation": {
+      "running": true,
+      "speed": 1,
+      "step": 0,
+      "parameters": {
+        "rpm": 1200,
+        "torqueNm": 0.85,
+        "currentAmps": 4,
+        "fluxTesla": 1.2,
+        "voltageVolts": 12,
+        "backEmfVolts": 9.6
+      }
+    },
+    "camera": {
+      "rotX": 0.25,
+      "rotY": 0.45,
+      "rotZ": 0,
+      "panX": 0,
+      "panY": 0,
+      "zoom": 1
+    },
+    "metadata": {
+      "createdAt": "2026-09-15T08:10:56.661Z",
+      "updatedAt": "2026-09-15T08:10:56.821Z",
+      "version": "1.0.0",
+      "author": "AURA Workshop Agent",
+      "safetyNotice": "Conceptual AI Visualization — Not Certified Engineering Specification"
+    },
+    "groups": [
+      {
+        "id": "group_sensing_cluster",
+        "name": "Magnetic Sensing Cluster",
+        "memberIds": [
+          "obj_sensor_hall_01"
+        ]
+      }
+    ],
+    "layers": [
+      {
+        "id": "layer_magnetic",
+        "name": "layer_magnetic",
+        "visible": true
+      }
+    ]
+  },
+  "ws_led_circuit": {
+    "workspace_id": "ws_led_circuit",
+    "name": "Simple LED Circuit",
+    "description": "Series electrical circuit: Battery (9V) → Current Limiting Resistor (330Ω) → Light Emitting Diode (LED).",
+    "category": "Electronics",
+    "objects": [
+      {
+        "id": "obj_battery",
+        "name": "9V DC Battery",
+        "type": "box",
+        "position": {
+          "x": -90,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "material": "Alkaline",
+          "color": "#10B981",
+          "voltage": 9
+        },
+        "connections": [
+          "obj_resistor"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_resistor",
+        "name": "Current Limiting Resistor",
+        "type": "cylinder",
+        "position": {
+          "x": 0,
+          "y": 40,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 1.5707963267948966
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "material": "Carbon Film",
+          "color": "#F59E0B",
+          "resistanceOhm": 330
+        },
+        "connections": [
+          "obj_battery",
+          "obj_led"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_led",
+        "name": "GaN Blue LED",
+        "type": "sphere",
+        "position": {
+          "x": 90,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "material": "Semiconductor",
+          "color": "#00F0FF",
+          "forwardVoltage": 3.2,
+          "currentMa": 17.5
+        },
+        "connections": [
+          "obj_resistor",
+          "obj_battery"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_ground_wire",
+        "name": "Return Ground Trace",
+        "type": "wire",
+        "position": {
+          "x": 0,
+          "y": -40,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "material": "Copper Trace",
+          "color": "#64748B"
+        },
+        "connections": [
+          "obj_led",
+          "obj_battery"
+        ],
+        "visible": true,
+        "metadata": {}
+      }
+    ],
+    "connections": [
+      {
+        "id": "conn_bat_res",
+        "source": "obj_battery",
+        "target": "obj_resistor",
+        "type": "electrical",
+        "state": "active"
+      },
+      {
+        "id": "conn_res_led",
+        "source": "obj_resistor",
+        "target": "obj_led",
+        "type": "electrical",
+        "state": "active"
+      },
+      {
+        "id": "conn_led_bat",
+        "source": "obj_led",
+        "target": "obj_battery",
+        "type": "electrical",
+        "state": "active"
+      }
+    ],
+    "annotations": [
+      {
+        "id": "ann_ohms",
+        "target": "obj_resistor",
+        "title": "Ohm's Law",
+        "text": "I = (9V - 3.2V) / 330Ω = 17.5 mA",
+        "offset": {
+          "x": 0,
+          "y": 25,
+          "z": 0
+        },
+        "visible": true
+      }
+    ],
+    "simulation": {
+      "running": true,
+      "speed": 1,
+      "step": 0,
+      "parameters": {
+        "currentMa": 17.5,
+        "ledBrightnessPct": 100,
+        "dissipatedPowerMw": 101.5
+      }
+    },
+    "camera": {
+      "rotX": 0.3,
+      "rotY": 0.3,
+      "rotZ": 0,
+      "panX": 0,
+      "panY": 0,
+      "zoom": 1.1
+    },
+    "metadata": {
+      "createdAt": "2026-09-15T08:10:56.662Z",
+      "updatedAt": "2026-09-15T08:10:56.662Z",
+      "version": "1.0.0",
+      "author": "AURA Workshop Agent",
+      "safetyNotice": "Conceptual AI Visualization"
+    }
+  },
+  "ws_robotic_arm": {
+    "workspace_id": "ws_robotic_arm",
+    "name": "Articulated Robotic Arm",
+    "description": "3-Axis kinematic manipulator with revolute joints, servo actuators, and end-effector gripper.",
+    "category": "Robotics",
+    "objects": [
+      {
+        "id": "obj_base_plinth",
+        "name": "Mounting Base",
+        "type": "cylinder",
+        "position": {
+          "x": 0,
+          "y": -100,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#334155",
+          "radius": 50,
+          "height": 25
+        },
+        "connections": [
+          "obj_shoulder_joint",
+          "obj_battery_pack"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_shoulder_joint",
+        "name": "Shoulder Servo Joint",
+        "type": "sphere",
+        "position": {
+          "x": 0,
+          "y": -75,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#00F0FF",
+          "radius": 24,
+          "maxTorqueNm": 45
+        },
+        "connections": [
+          "obj_base_plinth",
+          "obj_upper_arm"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_upper_arm",
+        "name": "Upper Arm Segment",
+        "type": "cylinder",
+        "position": {
+          "x": 0,
+          "y": -20,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.2
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#94A3B8",
+          "radius": 14,
+          "height": 90
+        },
+        "connections": [
+          "obj_shoulder_joint",
+          "obj_elbow_joint"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_elbow_joint",
+        "name": "Elbow Servo Joint",
+        "type": "sphere",
+        "position": {
+          "x": 18,
+          "y": 30,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#00F0FF",
+          "radius": 20,
+          "maxTorqueNm": 30
+        },
+        "connections": [
+          "obj_upper_arm",
+          "obj_forearm"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_forearm",
+        "name": "Forearm Segment",
+        "type": "cylinder",
+        "position": {
+          "x": 35,
+          "y": 70,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.3
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#94A3B8",
+          "radius": 10,
+          "height": 75
+        },
+        "connections": [
+          "obj_elbow_joint",
+          "obj_gripper"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_gripper",
+        "name": "End-Effector Gripper",
+        "type": "box",
+        "position": {
+          "x": 50,
+          "y": 110,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#EAB308",
+          "width": 28,
+          "height": 20,
+          "depth": 20,
+          "gripForceN": 60
+        },
+        "connections": [
+          "obj_forearm"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_battery_pack",
+        "name": "24V Li-Ion Battery Pack",
+        "type": "box",
+        "position": {
+          "x": -80,
+          "y": -100,
+          "z": 20
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#10B981",
+          "material": "Lithium Iron Phosphate",
+          "voltage": 24,
+          "capacityAh": 10,
+          "currentAmps": 5.2
+        },
+        "connections": [
+          "obj_base_plinth"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_battery_pack",
+        "name": "24V Li-Ion Battery Pack",
+        "type": "box",
+        "position": {
+          "x": -80,
+          "y": -100,
+          "z": 20
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#10B981",
+          "material": "Lithium Iron Phosphate",
+          "voltage": 24,
+          "capacityAh": 10,
+          "currentAmps": 5.2
+        },
+        "connections": [],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_battery_pack",
+        "name": "24V Li-Ion Battery Pack",
+        "type": "box",
+        "position": {
+          "x": -80,
+          "y": -100,
+          "z": 20
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#10B981",
+          "material": "Lithium Iron Phosphate",
+          "voltage": 24,
+          "capacityAh": 10,
+          "currentAmps": 5.2
+        },
+        "connections": [],
+        "visible": true,
+        "metadata": {}
+      }
+    ],
+    "connections": [
+      {
+        "id": "conn_b_s",
+        "source": "obj_base_plinth",
+        "target": "obj_shoulder_joint",
+        "type": "mechanical",
+        "state": "active"
+      },
+      {
+        "id": "conn_s_e",
+        "source": "obj_shoulder_joint",
+        "target": "obj_elbow_joint",
+        "type": "mechanical",
+        "state": "active"
+      },
+      {
+        "id": "conn_e_g",
+        "source": "obj_elbow_joint",
+        "target": "obj_gripper",
+        "type": "mechanical",
+        "state": "active"
+      },
+      {
+        "id": "conn_1789459856807",
+        "source": "obj_battery_pack",
+        "target": "obj_base_plinth",
+        "type": "electrical",
+        "state": "active"
+      },
+      {
+        "id": "conn_1789459856809",
+        "source": "obj_battery_pack",
+        "target": "obj_base_plinth",
+        "type": "electrical",
+        "state": "active"
+      },
+      {
+        "id": "conn_1789459856824",
+        "source": "obj_battery_pack",
+        "target": "obj_base_plinth",
+        "type": "electrical",
+        "state": "active"
+      }
+    ],
+    "annotations": [
+      {
+        "id": "ann_kin",
+        "target": "obj_gripper",
+        "title": "Forward Kinematics",
+        "text": "End-Effector Coordinates: (X: 50, Y: 110, Z: 0)",
+        "offset": {
+          "x": 20,
+          "y": 20,
+          "z": 0
+        },
+        "visible": true
+      }
+    ],
+    "simulation": {
+      "running": true,
+      "speed": 1,
+      "step": 3,
+      "parameters": {
+        "shoulderAngleDeg": 46.34298868021492,
+        "elbowAngleDeg": -5.100284881137572,
+        "payloadGrams": 250
+      },
+      "time": 0.0448,
+      "telemetryHistory": [
+        53.2,
+        57.18,
+        61.11
+      ]
+    },
+    "camera": {
+      "rotX": 0.2,
+      "rotY": 0.4,
+      "rotZ": 0,
+      "panX": 0,
+      "panY": 0,
+      "zoom": 1
+    },
+    "metadata": {
+      "createdAt": "2026-09-15T08:10:56.662Z",
+      "updatedAt": "2026-09-15T08:10:56.826Z",
+      "version": "1.0.0",
+      "author": "AURA Workshop Agent",
+      "safetyNotice": "Conceptual AI Visualization"
+    }
+  },
+  "ws_api_architecture": {
+    "workspace_id": "ws_api_architecture",
+    "name": "Microservice API Architecture",
+    "description": "Client Request Pipeline: Client → API Gateway → JWT Authentication → Backend Service → PostgreSQL Database.",
+    "category": "Programming & Systems",
+    "objects": [
+      {
+        "id": "obj_client",
+        "name": "Web / Mobile Client",
+        "type": "box",
+        "position": {
+          "x": -140,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#00F0FF",
+          "protocol": "HTTPS / TLS 1.3"
+        },
+        "connections": [
+          "obj_gateway"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_gateway",
+        "name": "Kong API Gateway",
+        "type": "box",
+        "position": {
+          "x": -70,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#F59E0B",
+          "rateLimit": "1000 req/s"
+        },
+        "connections": [
+          "obj_client",
+          "obj_auth",
+          "obj_backend"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_auth",
+        "name": "Auth Enclave (JWT)",
+        "type": "box",
+        "position": {
+          "x": -70,
+          "y": 70,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#FF4D6D",
+          "algorithm": "RS256"
+        },
+        "connections": [
+          "obj_gateway"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_backend",
+        "name": "Core Application Service",
+        "type": "box",
+        "position": {
+          "x": 30,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#10B981",
+          "runtime": "Node.js / Express"
+        },
+        "connections": [
+          "obj_gateway",
+          "obj_database"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_database",
+        "name": "PostgreSQL DB Cluster",
+        "type": "cylinder",
+        "position": {
+          "x": 120,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#3B82F6",
+          "storage": "pgvector / ACID"
+        },
+        "connections": [
+          "obj_backend"
+        ],
+        "visible": true,
+        "metadata": {}
+      }
+    ],
+    "connections": [
+      {
+        "id": "conn_c_g",
+        "source": "obj_client",
+        "target": "obj_gateway",
+        "type": "data",
+        "state": "active"
+      },
+      {
+        "id": "conn_g_a",
+        "source": "obj_gateway",
+        "target": "obj_auth",
+        "type": "data",
+        "state": "active"
+      },
+      {
+        "id": "conn_g_b",
+        "source": "obj_gateway",
+        "target": "obj_backend",
+        "type": "data",
+        "state": "active"
+      },
+      {
+        "id": "conn_b_d",
+        "source": "obj_backend",
+        "target": "obj_database",
+        "type": "data",
+        "state": "active"
+      }
+    ],
+    "annotations": [
+      {
+        "id": "ann_latency",
+        "target": "obj_gateway",
+        "title": "Edge Routing",
+        "text": "Avg Request Latency: 1.4ms",
+        "offset": {
+          "x": 0,
+          "y": 30,
+          "z": 0
+        },
+        "visible": true
+      }
+    ],
+    "simulation": {
+      "running": true,
+      "speed": 1,
+      "step": 0,
+      "parameters": {
+        "throughputRps": 850,
+        "activeConnections": 124
+      }
+    },
+    "camera": {
+      "rotX": 0.35,
+      "rotY": 0.1,
+      "rotZ": 0,
+      "panX": 0,
+      "panY": 0,
+      "zoom": 0.95
+    },
+    "metadata": {
+      "createdAt": "2026-09-15T08:10:56.662Z",
+      "updatedAt": "2026-09-15T08:10:56.662Z",
+      "version": "1.0.0",
+      "author": "AURA Workshop Agent",
+      "safetyNotice": "Conceptual Architecture Model"
+    }
+  },
+  "ws_human_heart": {
+    "workspace_id": "ws_human_heart",
+    "name": "Human Heart Cardiac Cycle",
+    "description": "Four-chamber circulatory model showing deoxygenated right atrium/ventricle, pulmonary artery, and oxygenated aorta systemic loop.",
+    "category": "Biology & Medicine",
+    "objects": [
+      {
+        "id": "obj_right_atrium",
+        "name": "Right Atrium",
+        "type": "sphere",
+        "position": {
+          "x": -40,
+          "y": 40,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#3B82F6",
+          "function": "Receives deoxygenated blood from Vena Cava"
+        },
+        "connections": [
+          "obj_right_ventricle"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_right_ventricle",
+        "name": "Right Ventricle",
+        "type": "sphere",
+        "position": {
+          "x": -35,
+          "y": -30,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#1D4ED8",
+          "function": "Pumps to Pulmonary Artery"
+        },
+        "connections": [
+          "obj_right_atrium"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_left_atrium",
+        "name": "Left Atrium",
+        "type": "sphere",
+        "position": {
+          "x": 40,
+          "y": 40,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#F87171",
+          "function": "Receives oxygenated blood from Lungs"
+        },
+        "connections": [
+          "obj_left_ventricle"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_left_ventricle",
+        "name": "Left Ventricle",
+        "type": "sphere",
+        "position": {
+          "x": 35,
+          "y": -30,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#EF4444",
+          "function": "Pumps oxygenated blood to Aorta"
+        },
+        "connections": [
+          "obj_left_atrium",
+          "obj_aorta"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_aorta",
+        "name": "Systemic Aorta Arch",
+        "type": "cylinder",
+        "position": {
+          "x": 10,
+          "y": 90,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.4
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#DC2626",
+          "bloodPressure": "120/80 mmHg"
+        },
+        "connections": [
+          "obj_left_ventricle"
+        ],
+        "visible": true,
+        "metadata": {}
+      }
+    ],
+    "connections": [
+      {
+        "id": "conn_ra_rv",
+        "source": "obj_right_atrium",
+        "target": "obj_right_ventricle",
+        "type": "mechanical",
+        "state": "active"
+      },
+      {
+        "id": "conn_la_lv",
+        "source": "obj_left_atrium",
+        "target": "obj_left_ventricle",
+        "type": "mechanical",
+        "state": "active"
+      },
+      {
+        "id": "conn_lv_ao",
+        "source": "obj_left_ventricle",
+        "target": "obj_aorta",
+        "type": "mechanical",
+        "state": "active"
+      }
+    ],
+    "annotations": [
+      {
+        "id": "ann_systole",
+        "target": "obj_left_ventricle",
+        "title": "Ventricular Systole",
+        "text": "Cardiac output: ~5.0 L/min at 72 BPM",
+        "offset": {
+          "x": 0,
+          "y": -45,
+          "z": 0
+        },
+        "visible": true
+      }
+    ],
+    "simulation": {
+      "running": true,
+      "speed": 1,
+      "step": 0,
+      "parameters": {
+        "heartRateBpm": 72,
+        "ejectionFractionPct": 62
+      }
+    },
+    "camera": {
+      "rotX": 0.2,
+      "rotY": 0.2,
+      "rotZ": 0,
+      "panX": 0,
+      "panY": 0,
+      "zoom": 1
+    },
+    "metadata": {
+      "createdAt": "2026-09-15T08:10:56.662Z",
+      "updatedAt": "2026-09-15T08:10:56.662Z",
+      "version": "1.0.0",
+      "author": "AURA Workshop Agent",
+      "safetyNotice": "Conceptual Educational Model — Not for Clinical Diagnosis"
+    }
+  },
+  "ws_four_stroke_engine": {
+    "workspace_id": "ws_four_stroke_engine",
+    "name": "Four-Stroke Engine",
+    "description": "Otto-cycle reciprocating engine showing Intake, Compression, Power (combustion), and Exhaust strokes.",
+    "category": "Mechanical Engineering",
+    "objects": [
+      {
+        "id": "obj_cylinder_block",
+        "name": "Engine Cylinder Wall",
+        "type": "cylinder",
+        "position": {
+          "x": 0,
+          "y": 20,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#475569",
+          "boreMm": 85,
+          "strokeMm": 88
+        },
+        "connections": [
+          "obj_piston"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_piston",
+        "name": "Aluminum Piston",
+        "type": "cylinder",
+        "position": {
+          "x": 0,
+          "y": 30,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 0.95,
+          "y": 0.5,
+          "z": 0.95
+        },
+        "properties": {
+          "color": "#00F0FF",
+          "massKg": 0.45
+        },
+        "connections": [
+          "obj_connecting_rod"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_connecting_rod",
+        "name": "H-Beam Connecting Rod",
+        "type": "cylinder",
+        "position": {
+          "x": 0,
+          "y": -25,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.1
+        },
+        "scale": {
+          "x": 0.4,
+          "y": 1.1,
+          "z": 0.4
+        },
+        "properties": {
+          "color": "#94A3B8",
+          "lengthMm": 142
+        },
+        "connections": [
+          "obj_piston",
+          "obj_crankshaft"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_crankshaft",
+        "name": "Forged Steel Crankshaft",
+        "type": "cylinder",
+        "position": {
+          "x": 0,
+          "y": -85,
+          "z": 0
+        },
+        "rotation": {
+          "x": 1.5707963267948966,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "properties": {
+          "color": "#EAB308",
+          "throwMm": 44
+        },
+        "connections": [
+          "obj_connecting_rod"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_spark_plug",
+        "name": "High-Tension Spark Plug",
+        "type": "cylinder",
+        "position": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 0.3,
+          "y": 0.4,
+          "z": 0.3
+        },
+        "properties": {
+          "color": "#F59E0B",
+          "gapMm": 0.8
+        },
+        "connections": [
+          "obj_cylinder_block"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_intake_valve",
+        "name": "Poppet Intake Valve",
+        "type": "cylinder",
+        "position": {
+          "x": -25,
+          "y": 85,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.15
+        },
+        "scale": {
+          "x": 0.25,
+          "y": 0.5,
+          "z": 0.25
+        },
+        "properties": {
+          "color": "#10B981"
+        },
+        "connections": [
+          "obj_cylinder_block"
+        ],
+        "visible": true,
+        "metadata": {}
+      },
+      {
+        "id": "obj_exhaust_valve",
+        "name": "Poppet Exhaust Valve",
+        "type": "cylinder",
+        "position": {
+          "x": 25,
+          "y": 85,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.15
+        },
+        "scale": {
+          "x": 0.25,
+          "y": 0.5,
+          "z": 0.25
+        },
+        "properties": {
+          "color": "#EF4444"
+        },
+        "connections": [
+          "obj_cylinder_block"
+        ],
+        "visible": true,
+        "metadata": {}
+      }
+    ],
+    "connections": [
+      {
+        "id": "conn_p_cr",
+        "source": "obj_piston",
+        "target": "obj_connecting_rod",
+        "type": "mechanical",
+        "state": "active"
+      },
+      {
+        "id": "conn_cr_cs",
+        "source": "obj_connecting_rod",
+        "target": "obj_crankshaft",
+        "type": "mechanical",
+        "state": "active"
+      }
+    ],
+    "annotations": [
+      {
+        "id": "ann_stroke",
+        "target": "obj_piston",
+        "title": "Otto Cycle",
+        "text": "Stroke Phase: Power Stroke (360° - 540°)",
+        "offset": {
+          "x": 0,
+          "y": 40,
+          "z": 0
+        },
+        "visible": true
+      }
+    ],
+    "simulation": {
+      "running": true,
+      "speed": 1,
+      "step": 0,
+      "parameters": {
+        "engineRpm": 2400,
+        "compressionRatio": "10.5:1",
+        "strokePhase": "POWER"
+      }
+    },
+    "camera": {
+      "rotX": 0.25,
+      "rotY": 0.35,
+      "rotZ": 0,
+      "panX": 0,
+      "panY": 0,
+      "zoom": 0.95
+    },
+    "metadata": {
+      "createdAt": "2026-09-15T08:10:56.662Z",
+      "updatedAt": "2026-09-15T08:10:56.662Z",
+      "version": "1.0.0",
+      "author": "AURA Workshop Agent",
+      "safetyNotice": "Conceptual Engineering Model"
+    }
+  }
+}

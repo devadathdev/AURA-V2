@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "documentation-lookup",
+  "name": "documentation-lookup",
+  "version": "1.0.0",
+  "description": "Use up-to-date library and framework docs via Context7 MCP instead of training data. Activates for setup questions, API references, code examples, or when the user names a framework (e.g. React, Next.js, Prisma).",
+  "source": "claude-code",
+  "category": "development",
+  "tags": [
+    "documentation",
+    "lookup",
+    "react",
+    "vue",
+    "ai"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/documentation-lookup/SKILL.md",
+  "permissions": [
+    "READ",
+    "WRITE",
+    "NETWORK",
+    "GITHUB",
+    "DATABASE"
+  ],
+  "tools": [
+    "filesystem",
+    "git",
+    "github",
+    "web"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.070Z"
+}

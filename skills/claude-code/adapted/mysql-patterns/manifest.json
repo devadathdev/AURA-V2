@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "mysql-patterns",
+  "name": "mysql-patterns",
+  "version": "1.0.0",
+  "description": "MySQL and MariaDB schema, query, indexing, transaction, replication, and connection-pool patterns for production backends. Use when designing MySQL or MariaDB schemas and indexes, or when a query, transaction, or replica lags.",
+  "source": "claude-code",
+  "category": "database",
+  "tags": [
+    "mysql",
+    "patterns",
+    "python",
+    "node",
+    "security",
+    "ai",
+    "database"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/mysql-patterns/SKILL.md",
+  "permissions": [
+    "READ",
+    "EXECUTE",
+    "GITHUB",
+    "DATABASE",
+    "SECRET"
+  ],
+  "tools": [
+    "filesystem",
+    "terminal",
+    "git",
+    "github"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.377Z"
+}

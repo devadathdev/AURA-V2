@@ -1,0 +1,93 @@
+[
+  {
+    "id": "motor_dc_001",
+    "category": "mechanical",
+    "name": "DC Motor",
+    "description": "Conceptual DC motor with rotor, stator, coil and shaft.",
+    "units": "rpm",
+    "properties": {
+      "mass_kg": 0.25,
+      "rated_voltage_v": 12,
+      "rated_rpm": 6000
+    }
+  },
+  {
+    "id": "battery_lipo_001",
+    "category": "electrical",
+    "name": "LiPo Battery",
+    "description": "Conceptual rechargeable battery for simulations.",
+    "units": "V",
+    "properties": {
+      "nominal_voltage_v": 11.1,
+      "capacity_mah": 2200,
+      "mass_kg": 0.18
+    }
+  },
+  {
+    "id": "resistor_001",
+    "category": "electrical",
+    "name": "Resistor",
+    "description": "Passive component for circuit visualization.",
+    "units": "ohm",
+    "properties": {
+      "resistance_ohm": 220,
+      "power_w": 0.25
+    }
+  },
+  {
+    "id": "led_001",
+    "category": "electrical",
+    "name": "LED",
+    "description": "Light-emitting diode for basic circuit demonstrations.",
+    "units": "V",
+    "properties": {
+      "forward_voltage_v": 2.0,
+      "current_ma": 20
+    }
+  },
+  {
+    "id": "solar_panel_001",
+    "category": "energy",
+    "name": "Solar Panel",
+    "description": "Conceptual photovoltaic panel for energy-flow demonstrations.",
+    "units": "W",
+    "properties": {
+      "power_w": 100,
+      "voltage_v": 18,
+      "mass_kg": 0.8
+    }
+  },
+  {
+    "id": "robot_joint_001",
+    "category": "robotics",
+    "name": "Servo Joint",
+    "description": "Conceptual rotary actuator for robotic-arm workspaces.",
+    "units": "deg",
+    "properties": {
+      "max_angle_deg": 180,
+      "torque_nm": 8
+    }
+  },
+  {
+    "id": "temperature_sensor_001",
+    "category": "sensor",
+    "name": "Temperature Sensor",
+    "description": "Conceptual temperature sensor for IoT demonstrations.",
+    "units": "C",
+    "properties": {
+      "range_min_c": -40,
+      "range_max_c": 125
+    }
+  },
+  {
+    "id": "gear_001",
+    "category": "mechanical",
+    "name": "Gear",
+    "description": "Generic gear for mechanical-system visualization.",
+    "units": "ratio",
+    "properties": {
+      "teeth": 24,
+      "module_mm": 2.0
+    }
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "remotion-video-creation",
+  "name": "remotion-video-creation",
+  "version": "1.0.0",
+  "description": "Best practices for Remotion - Video creation in React. 29 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more. Use when building video in React with Remotion — animations, audio, captions, charts, or transitions.",
+  "source": "claude-code",
+  "category": "development",
+  "tags": [
+    "remotion",
+    "video",
+    "creation",
+    "node",
+    "react",
+    "ai"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/remotion-video-creation/SKILL.md",
+  "permissions": [
+    "READ",
+    "GITHUB"
+  ],
+  "tools": [
+    "filesystem",
+    "git"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.683Z"
+}

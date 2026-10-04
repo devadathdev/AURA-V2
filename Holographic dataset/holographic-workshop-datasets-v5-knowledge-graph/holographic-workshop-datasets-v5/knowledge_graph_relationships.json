@@ -1,0 +1,590 @@
+[
+  {
+    "source": "element:H",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:He",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Li",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:C",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:N",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:O",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Na",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Mg",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Al",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Si",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:P",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:S",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Cl",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:K",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Ca",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Fe",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Co",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Ni",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Cu",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Zn",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Ga",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Ge",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:As",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Se",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Br",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Ag",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:In",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Sn",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:I",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Xe",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Cs",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Ba",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:La",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Ce",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Nd",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:W",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Pt",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Au",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Hg",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Pb",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Bi",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:Th",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:U",
+    "relation": "is_chemical_element",
+    "target": "knowledge:periodic_table",
+    "confidence": "reference",
+    "source_ref": "IUPAC"
+  },
+  {
+    "source": "element:C",
+    "relation": "forms",
+    "target": "material:graphene",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "element:C",
+    "relation": "forms",
+    "target": "material:carbon_nanotube",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "element:Au",
+    "relation": "forms",
+    "target": "material:gold_nanoparticle",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "element:Ag",
+    "relation": "forms",
+    "target": "material:silver_nanoparticle",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "element:Si",
+    "relation": "forms",
+    "target": "material:silicon_nanoparticle",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "element:Ti",
+    "relation": "forms",
+    "target": "material:titanium_dioxide_nanoparticle",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "element:C",
+    "relation": "forms",
+    "target": "material:carbon_fiber",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "element:Fe",
+    "relation": "component_of",
+    "target": "material:high_entropy_alloy",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "element:Ni",
+    "relation": "component_of",
+    "target": "material:high_entropy_alloy",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "element:Co",
+    "relation": "component_of",
+    "target": "material:high_entropy_alloy",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "element:Li",
+    "relation": "relevant_to",
+    "target": "concept:advanced_batteries",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "material:solid_electrolyte",
+    "relation": "relevant_to",
+    "target": "concept:advanced_batteries",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "material:perovskite",
+    "relation": "relevant_to",
+    "target": "concept:advanced_batteries",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "material:perovskite",
+    "relation": "relevant_to",
+    "target": "concept:photonic_computing",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "material:gold_nanoparticle",
+    "relation": "has_nanoscale_properties",
+    "target": "knowledge:nanomaterial_metrology",
+    "confidence": "reference",
+    "source_ref": "NIST"
+  },
+  {
+    "source": "material:silver_nanoparticle",
+    "relation": "has_nanoscale_properties",
+    "target": "knowledge:nanomaterial_metrology",
+    "confidence": "reference",
+    "source_ref": "NIST"
+  },
+  {
+    "source": "material:silicon_nanoparticle",
+    "relation": "has_nanoscale_properties",
+    "target": "knowledge:nanomaterial_metrology",
+    "confidence": "reference",
+    "source_ref": "NIST"
+  },
+  {
+    "source": "material:titanium_dioxide_nanoparticle",
+    "relation": "has_nanoscale_properties",
+    "target": "knowledge:nanomaterial_metrology",
+    "confidence": "reference",
+    "source_ref": "NIST"
+  },
+  {
+    "source": "material:carbon_nanotube",
+    "relation": "has_nanoscale_properties",
+    "target": "knowledge:nanomaterial_metrology",
+    "confidence": "reference",
+    "source_ref": "NIST"
+  },
+  {
+    "source": "robot:humanoid_robot",
+    "relation": "uses",
+    "target": "concept:autonomous_robotics",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "robot:quadruped_robot",
+    "relation": "uses",
+    "target": "concept:autonomous_robotics",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "robot:industrial_arm",
+    "relation": "uses",
+    "target": "concept:autonomous_robotics",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "robot:mobile_manipulator",
+    "relation": "uses",
+    "target": "concept:autonomous_robotics",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "robot:space_rover",
+    "relation": "uses",
+    "target": "concept:autonomous_robotics",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "robot:swarm_robot",
+    "relation": "uses",
+    "target": "concept:autonomous_robotics",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "robot:soft_robot",
+    "relation": "uses",
+    "target": "concept:autonomous_robotics",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "robot:medical_robot",
+    "relation": "uses",
+    "target": "concept:autonomous_robotics",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "robot:autonomous_vehicle",
+    "relation": "uses",
+    "target": "concept:autonomous_robotics",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "robot:underwater_robot",
+    "relation": "uses",
+    "target": "concept:autonomous_robotics",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "robot:space_rover",
+    "relation": "relevant_to",
+    "target": "concept:space_robotics",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "robot:swarm_robot",
+    "relation": "relevant_to",
+    "target": "concept:autonomous_robotics",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "suit:industrial_exoskeleton",
+    "relation": "is",
+    "target": "concept:human_robot_interaction",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "suit:rescue_exosuit",
+    "relation": "is",
+    "target": "concept:human_robot_interaction",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "suit:medical_assist_exosuit",
+    "relation": "is",
+    "target": "concept:human_robot_interaction",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "suit:space_mobility_suit",
+    "relation": "is",
+    "target": "concept:human_robot_interaction",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "suit:construction_assist_suit",
+    "relation": "is",
+    "target": "concept:human_robot_interaction",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "particle:positron",
+    "relation": "antiparticle_of",
+    "target": "particle:electron",
+    "confidence": "reference",
+    "source_ref": "PDG-style conceptual"
+  },
+  {
+    "source": "particle:antiproton",
+    "relation": "antiparticle_of",
+    "target": "particle:proton",
+    "confidence": "reference",
+    "source_ref": "PDG-style conceptual"
+  },
+  {
+    "source": "particle:antineutron",
+    "relation": "antiparticle_of",
+    "target": "particle:neutron",
+    "confidence": "reference",
+    "source_ref": "PDG-style conceptual"
+  },
+  {
+    "source": "particle:electron",
+    "relation": "participates_in",
+    "target": "concept:quantum_computing",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  },
+  {
+    "source": "particle:photon",
+    "relation": "relevant_to",
+    "target": "concept:photonic_computing",
+    "confidence": "conceptual",
+    "source_ref": "internal_schema"
+  }
+]

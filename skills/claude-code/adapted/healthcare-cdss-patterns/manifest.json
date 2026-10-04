@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "healthcare-cdss-patterns",
+  "name": "healthcare-cdss-patterns",
+  "version": "1.0.0",
+  "description": "Clinical Decision Support System (CDSS) development patterns. Drug interaction checking, dose validation, clinical scoring (NEWS2, qSOFA), alert severity classification, and integration into EMR workflows. Use when building clinical decision support — drug interaction checks, dose validation, clinical scoring, or alert severity.",
+  "source": "claude-code",
+  "category": "productivity",
+  "tags": [
+    "healthcare",
+    "cdss",
+    "patterns",
+    "react",
+    "ai",
+    "testing"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/healthcare-cdss-patterns/SKILL.md",
+  "permissions": [
+    "READ",
+    "EXECUTE",
+    "GITHUB",
+    "SYSTEM"
+  ],
+  "tools": [
+    "filesystem",
+    "terminal",
+    "git"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.171Z"
+}

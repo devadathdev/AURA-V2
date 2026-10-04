@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "scientific-db-pubmed-database",
+  "name": "pubmed-database",
+  "version": "1.0.0",
+  "description": "Direct PubMed and NCBI E-utilities search workflows for biomedical literature, MeSH queries, PMID lookup, citation retrieval, and API-backed literature monitoring. Use when a task needs biomedical literature from PubMed rather than general web search.",
+  "source": "claude-code",
+  "category": "ai",
+  "tags": [
+    "scientific",
+    "pubmed",
+    "database",
+    "python",
+    "ai"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/scientific-db-pubmed-database/SKILL.md",
+  "permissions": [
+    "READ",
+    "EXECUTE",
+    "NETWORK",
+    "DATABASE",
+    "SYSTEM"
+  ],
+  "tools": [
+    "filesystem",
+    "terminal",
+    "web"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.718Z"
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "production-audit",
+  "name": "production-audit",
+  "version": "1.0.0",
+  "description": "Local-evidence production readiness audit for shipped apps, pre-launch reviews, post-merge checks, and \"what breaks in prod?\" questions without sending repo data to an external audit service. Use when auditing production readiness before launch, after a merge, or when asked what breaks in prod.",
+  "source": "claude-code",
+  "category": "security",
+  "tags": [
+    "production",
+    "audit",
+    "docker",
+    "security",
+    "ai",
+    "testing",
+    "database",
+    "git"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/production-audit/SKILL.md",
+  "permissions": [
+    "READ",
+    "WRITE",
+    "GITHUB",
+    "DEPLOY"
+  ],
+  "tools": [
+    "filesystem",
+    "git",
+    "github",
+    "web"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.509Z"
+}

@@ -1,0 +1,24 @@
+{
+  "executionId": "exec_1789382278244_smt4b",
+  "skillId": "codebase-onboarding",
+  "source": "claude-code",
+  "status": "DENIED",
+  "startTime": "2026-09-14T10:37:58.244Z",
+  "endTime": "2026-09-14T10:37:58.244Z",
+  "durationMs": 0,
+  "inputs": {
+    "instruction": "test"
+  },
+  "permissionsRequested": [
+    "READ",
+    "WRITE",
+    "EXECUTE",
+    "NETWORK",
+    "GITHUB",
+    "SYSTEM",
+    "SECRET"
+  ],
+  "reason": "Execution blocked pending user authorization",
+  "approvalRequestId": "req_1789382278244_trf15",
+  "riskLevel": "CRITICAL"
+}

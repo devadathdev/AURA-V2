@@ -1,0 +1,602 @@
+[
+  {
+    "id": "cmd_0001",
+    "intent": "create",
+    "utterance": "Build a motor",
+    "tool": "create_object_or_system"
+  },
+  {
+    "id": "cmd_0002",
+    "intent": "create",
+    "utterance": "Build a battery",
+    "tool": "create_object_or_system"
+  },
+  {
+    "id": "cmd_0003",
+    "intent": "create",
+    "utterance": "Build the LED",
+    "tool": "create_object_or_system"
+  },
+  {
+    "id": "cmd_0004",
+    "intent": "create",
+    "utterance": "Build the robotic arm",
+    "tool": "create_object_or_system"
+  },
+  {
+    "id": "cmd_0005",
+    "intent": "create",
+    "utterance": "Build the solar panel",
+    "tool": "create_object_or_system"
+  },
+  {
+    "id": "cmd_0006",
+    "intent": "create",
+    "utterance": "Build the gear",
+    "tool": "create_object_or_system"
+  },
+  {
+    "id": "cmd_0007",
+    "intent": "create",
+    "utterance": "Build the circuit",
+    "tool": "create_object_or_system"
+  },
+  {
+    "id": "cmd_0008",
+    "intent": "create",
+    "utterance": "Build the engine",
+    "tool": "create_object_or_system"
+  },
+  {
+    "id": "cmd_0009",
+    "intent": "create",
+    "utterance": "Build the API architecture",
+    "tool": "create_object_or_system"
+  },
+  {
+    "id": "cmd_0010",
+    "intent": "create",
+    "utterance": "Build the heart",
+    "tool": "create_object_or_system"
+  },
+  {
+    "id": "cmd_0011",
+    "intent": "add",
+    "utterance": "Add a motor",
+    "tool": "create_object"
+  },
+  {
+    "id": "cmd_0012",
+    "intent": "add",
+    "utterance": "Add a battery",
+    "tool": "create_object"
+  },
+  {
+    "id": "cmd_0013",
+    "intent": "add",
+    "utterance": "Add the LED",
+    "tool": "create_object"
+  },
+  {
+    "id": "cmd_0014",
+    "intent": "add",
+    "utterance": "Add the robotic arm",
+    "tool": "create_object"
+  },
+  {
+    "id": "cmd_0015",
+    "intent": "add",
+    "utterance": "Add the solar panel",
+    "tool": "create_object"
+  },
+  {
+    "id": "cmd_0016",
+    "intent": "add",
+    "utterance": "Add the gear",
+    "tool": "create_object"
+  },
+  {
+    "id": "cmd_0017",
+    "intent": "add",
+    "utterance": "Add the circuit",
+    "tool": "create_object"
+  },
+  {
+    "id": "cmd_0018",
+    "intent": "add",
+    "utterance": "Add the engine",
+    "tool": "create_object"
+  },
+  {
+    "id": "cmd_0019",
+    "intent": "add",
+    "utterance": "Add the API architecture",
+    "tool": "create_object"
+  },
+  {
+    "id": "cmd_0020",
+    "intent": "add",
+    "utterance": "Add the heart",
+    "tool": "create_object"
+  },
+  {
+    "id": "cmd_0021",
+    "intent": "remove",
+    "utterance": "Remove a motor",
+    "tool": "delete_object"
+  },
+  {
+    "id": "cmd_0022",
+    "intent": "remove",
+    "utterance": "Remove a battery",
+    "tool": "delete_object"
+  },
+  {
+    "id": "cmd_0023",
+    "intent": "remove",
+    "utterance": "Remove the LED",
+    "tool": "delete_object"
+  },
+  {
+    "id": "cmd_0024",
+    "intent": "remove",
+    "utterance": "Remove the robotic arm",
+    "tool": "delete_object"
+  },
+  {
+    "id": "cmd_0025",
+    "intent": "remove",
+    "utterance": "Remove the solar panel",
+    "tool": "delete_object"
+  },
+  {
+    "id": "cmd_0026",
+    "intent": "remove",
+    "utterance": "Remove the gear",
+    "tool": "delete_object"
+  },
+  {
+    "id": "cmd_0027",
+    "intent": "remove",
+    "utterance": "Remove the circuit",
+    "tool": "delete_object"
+  },
+  {
+    "id": "cmd_0028",
+    "intent": "remove",
+    "utterance": "Remove the engine",
+    "tool": "delete_object"
+  },
+  {
+    "id": "cmd_0029",
+    "intent": "remove",
+    "utterance": "Remove the API architecture",
+    "tool": "delete_object"
+  },
+  {
+    "id": "cmd_0030",
+    "intent": "remove",
+    "utterance": "Remove the heart",
+    "tool": "delete_object"
+  },
+  {
+    "id": "cmd_0031",
+    "intent": "inspect",
+    "utterance": "Inspect a motor",
+    "tool": "inspect_object"
+  },
+  {
+    "id": "cmd_0032",
+    "intent": "inspect",
+    "utterance": "Inspect a battery",
+    "tool": "inspect_object"
+  },
+  {
+    "id": "cmd_0033",
+    "intent": "inspect",
+    "utterance": "Inspect the LED",
+    "tool": "inspect_object"
+  },
+  {
+    "id": "cmd_0034",
+    "intent": "inspect",
+    "utterance": "Inspect the robotic arm",
+    "tool": "inspect_object"
+  },
+  {
+    "id": "cmd_0035",
+    "intent": "inspect",
+    "utterance": "Inspect the solar panel",
+    "tool": "inspect_object"
+  },
+  {
+    "id": "cmd_0036",
+    "intent": "inspect",
+    "utterance": "Inspect the gear",
+    "tool": "inspect_object"
+  },
+  {
+    "id": "cmd_0037",
+    "intent": "inspect",
+    "utterance": "Inspect the circuit",
+    "tool": "inspect_object"
+  },
+  {
+    "id": "cmd_0038",
+    "intent": "inspect",
+    "utterance": "Inspect the engine",
+    "tool": "inspect_object"
+  },
+  {
+    "id": "cmd_0039",
+    "intent": "inspect",
+    "utterance": "Inspect the API architecture",
+    "tool": "inspect_object"
+  },
+  {
+    "id": "cmd_0040",
+    "intent": "inspect",
+    "utterance": "Inspect the heart",
+    "tool": "inspect_object"
+  },
+  {
+    "id": "cmd_0041",
+    "intent": "explain",
+    "utterance": "Explain a motor",
+    "tool": "explain_object"
+  },
+  {
+    "id": "cmd_0042",
+    "intent": "explain",
+    "utterance": "Explain a battery",
+    "tool": "explain_object"
+  },
+  {
+    "id": "cmd_0043",
+    "intent": "explain",
+    "utterance": "Explain the LED",
+    "tool": "explain_object"
+  },
+  {
+    "id": "cmd_0044",
+    "intent": "explain",
+    "utterance": "Explain the robotic arm",
+    "tool": "explain_object"
+  },
+  {
+    "id": "cmd_0045",
+    "intent": "explain",
+    "utterance": "Explain the solar panel",
+    "tool": "explain_object"
+  },
+  {
+    "id": "cmd_0046",
+    "intent": "explain",
+    "utterance": "Explain the gear",
+    "tool": "explain_object"
+  },
+  {
+    "id": "cmd_0047",
+    "intent": "explain",
+    "utterance": "Explain the circuit",
+    "tool": "explain_object"
+  },
+  {
+    "id": "cmd_0048",
+    "intent": "explain",
+    "utterance": "Explain the engine",
+    "tool": "explain_object"
+  },
+  {
+    "id": "cmd_0049",
+    "intent": "explain",
+    "utterance": "Explain the API architecture",
+    "tool": "explain_object"
+  },
+  {
+    "id": "cmd_0050",
+    "intent": "explain",
+    "utterance": "Explain the heart",
+    "tool": "explain_object"
+  },
+  {
+    "id": "cmd_0051",
+    "intent": "simulate",
+    "utterance": "Simulate a motor",
+    "tool": "simulate"
+  },
+  {
+    "id": "cmd_0052",
+    "intent": "simulate",
+    "utterance": "Simulate a battery",
+    "tool": "simulate"
+  },
+  {
+    "id": "cmd_0053",
+    "intent": "simulate",
+    "utterance": "Simulate the LED",
+    "tool": "simulate"
+  },
+  {
+    "id": "cmd_0054",
+    "intent": "simulate",
+    "utterance": "Simulate the robotic arm",
+    "tool": "simulate"
+  },
+  {
+    "id": "cmd_0055",
+    "intent": "simulate",
+    "utterance": "Simulate the solar panel",
+    "tool": "simulate"
+  },
+  {
+    "id": "cmd_0056",
+    "intent": "simulate",
+    "utterance": "Simulate the gear",
+    "tool": "simulate"
+  },
+  {
+    "id": "cmd_0057",
+    "intent": "simulate",
+    "utterance": "Simulate the circuit",
+    "tool": "simulate"
+  },
+  {
+    "id": "cmd_0058",
+    "intent": "simulate",
+    "utterance": "Simulate the engine",
+    "tool": "simulate"
+  },
+  {
+    "id": "cmd_0059",
+    "intent": "simulate",
+    "utterance": "Simulate the API architecture",
+    "tool": "simulate"
+  },
+  {
+    "id": "cmd_0060",
+    "intent": "simulate",
+    "utterance": "Simulate the heart",
+    "tool": "simulate"
+  },
+  {
+    "id": "cmd_0061",
+    "intent": "compare",
+    "utterance": "Compare a motor designs",
+    "tool": "compare_systems"
+  },
+  {
+    "id": "cmd_0062",
+    "intent": "compare",
+    "utterance": "Compare a battery designs",
+    "tool": "compare_systems"
+  },
+  {
+    "id": "cmd_0063",
+    "intent": "compare",
+    "utterance": "Compare the LED designs",
+    "tool": "compare_systems"
+  },
+  {
+    "id": "cmd_0064",
+    "intent": "compare",
+    "utterance": "Compare the robotic arm designs",
+    "tool": "compare_systems"
+  },
+  {
+    "id": "cmd_0065",
+    "intent": "compare",
+    "utterance": "Compare the solar panel designs",
+    "tool": "compare_systems"
+  },
+  {
+    "id": "cmd_0066",
+    "intent": "compare",
+    "utterance": "Compare the gear designs",
+    "tool": "compare_systems"
+  },
+  {
+    "id": "cmd_0067",
+    "intent": "compare",
+    "utterance": "Compare the circuit designs",
+    "tool": "compare_systems"
+  },
+  {
+    "id": "cmd_0068",
+    "intent": "compare",
+    "utterance": "Compare the engine designs",
+    "tool": "compare_systems"
+  },
+  {
+    "id": "cmd_0069",
+    "intent": "compare",
+    "utterance": "Compare the API architecture designs",
+    "tool": "compare_systems"
+  },
+  {
+    "id": "cmd_0070",
+    "intent": "compare",
+    "utterance": "Compare the heart designs",
+    "tool": "compare_systems"
+  },
+  {
+    "id": "cmd_0071",
+    "intent": "move",
+    "utterance": "Move a motor to the left",
+    "tool": "move_object"
+  },
+  {
+    "id": "cmd_0072",
+    "intent": "move",
+    "utterance": "Move a battery to the left",
+    "tool": "move_object"
+  },
+  {
+    "id": "cmd_0073",
+    "intent": "move",
+    "utterance": "Move the LED to the left",
+    "tool": "move_object"
+  },
+  {
+    "id": "cmd_0074",
+    "intent": "move",
+    "utterance": "Move the robotic arm to the left",
+    "tool": "move_object"
+  },
+  {
+    "id": "cmd_0075",
+    "intent": "move",
+    "utterance": "Move the solar panel to the left",
+    "tool": "move_object"
+  },
+  {
+    "id": "cmd_0076",
+    "intent": "move",
+    "utterance": "Move the gear to the left",
+    "tool": "move_object"
+  },
+  {
+    "id": "cmd_0077",
+    "intent": "move",
+    "utterance": "Move the circuit to the left",
+    "tool": "move_object"
+  },
+  {
+    "id": "cmd_0078",
+    "intent": "move",
+    "utterance": "Move the engine to the left",
+    "tool": "move_object"
+  },
+  {
+    "id": "cmd_0079",
+    "intent": "move",
+    "utterance": "Move the API architecture to the left",
+    "tool": "move_object"
+  },
+  {
+    "id": "cmd_0080",
+    "intent": "move",
+    "utterance": "Move the heart to the left",
+    "tool": "move_object"
+  },
+  {
+    "id": "cmd_0081",
+    "intent": "rotate",
+    "utterance": "Rotate a motor 45 degrees",
+    "tool": "rotate_object"
+  },
+  {
+    "id": "cmd_0082",
+    "intent": "rotate",
+    "utterance": "Rotate a battery 45 degrees",
+    "tool": "rotate_object"
+  },
+  {
+    "id": "cmd_0083",
+    "intent": "rotate",
+    "utterance": "Rotate the LED 45 degrees",
+    "tool": "rotate_object"
+  },
+  {
+    "id": "cmd_0084",
+    "intent": "rotate",
+    "utterance": "Rotate the robotic arm 45 degrees",
+    "tool": "rotate_object"
+  },
+  {
+    "id": "cmd_0085",
+    "intent": "rotate",
+    "utterance": "Rotate the solar panel 45 degrees",
+    "tool": "rotate_object"
+  },
+  {
+    "id": "cmd_0086",
+    "intent": "rotate",
+    "utterance": "Rotate the gear 45 degrees",
+    "tool": "rotate_object"
+  },
+  {
+    "id": "cmd_0087",
+    "intent": "rotate",
+    "utterance": "Rotate the circuit 45 degrees",
+    "tool": "rotate_object"
+  },
+  {
+    "id": "cmd_0088",
+    "intent": "rotate",
+    "utterance": "Rotate the engine 45 degrees",
+    "tool": "rotate_object"
+  },
+  {
+    "id": "cmd_0089",
+    "intent": "rotate",
+    "utterance": "Rotate the API architecture 45 degrees",
+    "tool": "rotate_object"
+  },
+  {
+    "id": "cmd_0090",
+    "intent": "rotate",
+    "utterance": "Rotate the heart 45 degrees",
+    "tool": "rotate_object"
+  },
+  {
+    "id": "cmd_0091",
+    "intent": "scale",
+    "utterance": "Scale a motor up",
+    "tool": "scale_object"
+  },
+  {
+    "id": "cmd_0092",
+    "intent": "scale",
+    "utterance": "Scale a battery up",
+    "tool": "scale_object"
+  },
+  {
+    "id": "cmd_0093",
+    "intent": "scale",
+    "utterance": "Scale the LED up",
+    "tool": "scale_object"
+  },
+  {
+    "id": "cmd_0094",
+    "intent": "scale",
+    "utterance": "Scale the robotic arm up",
+    "tool": "scale_object"
+  },
+  {
+    "id": "cmd_0095",
+    "intent": "scale",
+    "utterance": "Scale the solar panel up",
+    "tool": "scale_object"
+  },
+  {
+    "id": "cmd_0096",
+    "intent": "scale",
+    "utterance": "Scale the gear up",
+    "tool": "scale_object"
+  },
+  {
+    "id": "cmd_0097",
+    "intent": "scale",
+    "utterance": "Scale the circuit up",
+    "tool": "scale_object"
+  },
+  {
+    "id": "cmd_0098",
+    "intent": "scale",
+    "utterance": "Scale the engine up",
+    "tool": "scale_object"
+  },
+  {
+    "id": "cmd_0099",
+    "intent": "scale",
+    "utterance": "Scale the API architecture up",
+    "tool": "scale_object"
+  },
+  {
+    "id": "cmd_0100",
+    "intent": "scale",
+    "utterance": "Scale the heart up",
+    "tool": "scale_object"
+  }
+]

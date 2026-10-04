@@ -1,0 +1,29 @@
+{
+  "executionId": "exec_1789384888332_0dvy2",
+  "skillId": "code-analysis",
+  "source": "core",
+  "category": "development",
+  "status": "SUCCESS",
+  "startTime": "2026-09-14T11:21:28.332Z",
+  "endTime": "2026-09-14T11:21:28.377Z",
+  "durationMs": 45,
+  "inputs": {
+    "instruction": "Analyze codebase structure"
+  },
+  "outputs": "Analyzed 56 items in .: 18 files, 38 directories.",
+  "error": null,
+  "permissionsGranted": [
+    "READ"
+  ],
+  "toolsUsed": [
+    "filesystem"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 15000,
+    "allowNetwork": false,
+    "maxMemoryMb": 256
+  }
+}

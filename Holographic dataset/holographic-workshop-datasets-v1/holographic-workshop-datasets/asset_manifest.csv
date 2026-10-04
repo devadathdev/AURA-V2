@@ -1,0 +1,7 @@
+asset_id,type,category,format,source,status
+motor_dc_001,model,mechanical,glTF/GLB,internal/conceptual,placeholder
+battery_lipo_001,model,electrical,glTF/GLB,internal/conceptual,placeholder
+resistor_001,model,electrical,glTF/GLB,internal/conceptual,placeholder
+led_001,model,electrical,glTF/GLB,internal/conceptual,placeholder
+robot_joint_001,model,robotics,glTF/GLB,internal/conceptual,placeholder
+solar_panel_001,model,energy,glTF/GLB,internal/conceptual,placeholder

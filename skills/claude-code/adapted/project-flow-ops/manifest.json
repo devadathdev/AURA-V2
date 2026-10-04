@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "project-flow-ops",
+  "name": "project-flow-ops",
+  "version": "1.0.0",
+  "description": "Operate execution flow across GitHub and Linear by triaging issues and pull requests, linking active work, and keeping GitHub public-facing while Linear remains the internal execution layer. Use when the user wants backlog control, PR triage, or GitHub-to-Linear coordination.",
+  "source": "claude-code",
+  "category": "security",
+  "tags": [
+    "project",
+    "flow",
+    "ops",
+    "ai",
+    "git"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/project-flow-ops/SKILL.md",
+  "permissions": [
+    "READ",
+    "WRITE",
+    "GITHUB"
+  ],
+  "tools": [
+    "filesystem",
+    "git",
+    "github"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.520Z"
+}

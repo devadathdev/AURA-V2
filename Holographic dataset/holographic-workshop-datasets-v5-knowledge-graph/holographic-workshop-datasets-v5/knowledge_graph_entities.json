@@ -1,0 +1,820 @@
+[
+  {
+    "id": "element:H",
+    "type": "element",
+    "name": "Hydrogen",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:He",
+    "type": "element",
+    "name": "Helium",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Li",
+    "type": "element",
+    "name": "Lithium",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:C",
+    "type": "element",
+    "name": "Carbon",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:N",
+    "type": "element",
+    "name": "Nitrogen",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:O",
+    "type": "element",
+    "name": "Oxygen",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Na",
+    "type": "element",
+    "name": "Sodium",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Mg",
+    "type": "element",
+    "name": "Magnesium",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Al",
+    "type": "element",
+    "name": "Aluminium",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Si",
+    "type": "element",
+    "name": "Silicon",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:P",
+    "type": "element",
+    "name": "Phosphorus",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:S",
+    "type": "element",
+    "name": "Sulfur",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Cl",
+    "type": "element",
+    "name": "Chlorine",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:K",
+    "type": "element",
+    "name": "Potassium",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Ca",
+    "type": "element",
+    "name": "Calcium",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Fe",
+    "type": "element",
+    "name": "Iron",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Co",
+    "type": "element",
+    "name": "Cobalt",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Ni",
+    "type": "element",
+    "name": "Nickel",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Cu",
+    "type": "element",
+    "name": "Copper",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Zn",
+    "type": "element",
+    "name": "Zinc",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Ga",
+    "type": "element",
+    "name": "Gallium",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Ge",
+    "type": "element",
+    "name": "Germanium",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:As",
+    "type": "element",
+    "name": "Arsenic",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Se",
+    "type": "element",
+    "name": "Selenium",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Br",
+    "type": "element",
+    "name": "Bromine",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Ag",
+    "type": "element",
+    "name": "Silver",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:In",
+    "type": "element",
+    "name": "Indium",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Sn",
+    "type": "element",
+    "name": "Tin",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:I",
+    "type": "element",
+    "name": "Iodine",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Xe",
+    "type": "element",
+    "name": "Xenon",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Cs",
+    "type": "element",
+    "name": "Caesium",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Ba",
+    "type": "element",
+    "name": "Barium",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:La",
+    "type": "element",
+    "name": "Lanthanum",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Ce",
+    "type": "element",
+    "name": "Cerium",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Nd",
+    "type": "element",
+    "name": "Neodymium",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:W",
+    "type": "element",
+    "name": "Tungsten",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Pt",
+    "type": "element",
+    "name": "Platinum",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Au",
+    "type": "element",
+    "name": "Gold",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Hg",
+    "type": "element",
+    "name": "Mercury",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Pb",
+    "type": "element",
+    "name": "Lead",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Bi",
+    "type": "element",
+    "name": "Bismuth",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:Th",
+    "type": "element",
+    "name": "Thorium",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "element:U",
+    "type": "element",
+    "name": "Uranium",
+    "domain": "chemistry",
+    "source": "IUPAC",
+    "confidence": "reference"
+  },
+  {
+    "id": "material:graphene",
+    "type": "material",
+    "name": "Graphene",
+    "domain": "materials_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "material:carbon_nanotube",
+    "type": "material",
+    "name": "Carbon Nanotube",
+    "domain": "materials_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "material:gold_nanoparticle",
+    "type": "material",
+    "name": "Gold Nanoparticle",
+    "domain": "materials_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "material:silver_nanoparticle",
+    "type": "material",
+    "name": "Silver Nanoparticle",
+    "domain": "materials_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "material:silicon_nanoparticle",
+    "type": "material",
+    "name": "Silicon Nanoparticle",
+    "domain": "materials_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "material:titanium_dioxide_nanoparticle",
+    "type": "material",
+    "name": "Titanium Dioxide Nanoparticle",
+    "domain": "materials_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "material:perovskite",
+    "type": "material",
+    "name": "Perovskite",
+    "domain": "materials_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "material:aerogel",
+    "type": "material",
+    "name": "Aerogel",
+    "domain": "materials_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "material:high_entropy_alloy",
+    "type": "material",
+    "name": "High Entropy Alloy",
+    "domain": "materials_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "material:shape_memory_alloy",
+    "type": "material",
+    "name": "Shape Memory Alloy",
+    "domain": "materials_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "material:solid_electrolyte",
+    "type": "material",
+    "name": "Solid Electrolyte",
+    "domain": "materials_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "material:metal_organic_framework",
+    "type": "material",
+    "name": "Metal Organic Framework",
+    "domain": "materials_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "material:carbon_fiber",
+    "type": "material",
+    "name": "Carbon Fiber",
+    "domain": "materials_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "material:ceramic_matrix_composite",
+    "type": "material",
+    "name": "Ceramic Matrix Composite",
+    "domain": "materials_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "material:metamaterial",
+    "type": "material",
+    "name": "Metamaterial",
+    "domain": "materials_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "concept:quantum_computing",
+    "type": "concept",
+    "name": "Quantum Computing",
+    "domain": "advanced_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "concept:quantum_sensing",
+    "type": "concept",
+    "name": "Quantum Sensing",
+    "domain": "advanced_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "concept:fusion_energy",
+    "type": "concept",
+    "name": "Fusion Energy",
+    "domain": "advanced_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "concept:plasma_physics",
+    "type": "concept",
+    "name": "Plasma Physics",
+    "domain": "advanced_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "concept:space_robotics",
+    "type": "concept",
+    "name": "Space Robotics",
+    "domain": "advanced_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "concept:synthetic_biology",
+    "type": "concept",
+    "name": "Synthetic Biology",
+    "domain": "advanced_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "concept:protein_structure",
+    "type": "concept",
+    "name": "Protein Structure",
+    "domain": "advanced_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "concept:neuromorphic_computing",
+    "type": "concept",
+    "name": "Neuromorphic Computing",
+    "domain": "advanced_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "concept:photonic_computing",
+    "type": "concept",
+    "name": "Photonic Computing",
+    "domain": "advanced_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "concept:digital_twin",
+    "type": "concept",
+    "name": "Digital Twin",
+    "domain": "advanced_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "concept:autonomous_robotics",
+    "type": "concept",
+    "name": "Autonomous Robotics",
+    "domain": "advanced_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "concept:human_robot_interaction",
+    "type": "concept",
+    "name": "Human Robot Interaction",
+    "domain": "advanced_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "concept:orbital_mechanics",
+    "type": "concept",
+    "name": "Orbital Mechanics",
+    "domain": "advanced_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "concept:climate_modeling",
+    "type": "concept",
+    "name": "Climate Modeling",
+    "domain": "advanced_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "concept:advanced_batteries",
+    "type": "concept",
+    "name": "Advanced Batteries",
+    "domain": "advanced_science",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "robot:humanoid_robot",
+    "type": "robot",
+    "name": "Humanoid Robot",
+    "domain": "robotics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "robot:quadruped_robot",
+    "type": "robot",
+    "name": "Quadruped Robot",
+    "domain": "robotics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "robot:industrial_arm",
+    "type": "robot",
+    "name": "Industrial Arm",
+    "domain": "robotics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "robot:mobile_manipulator",
+    "type": "robot",
+    "name": "Mobile Manipulator",
+    "domain": "robotics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "robot:space_rover",
+    "type": "robot",
+    "name": "Space Rover",
+    "domain": "robotics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "robot:swarm_robot",
+    "type": "robot",
+    "name": "Swarm Robot",
+    "domain": "robotics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "robot:soft_robot",
+    "type": "robot",
+    "name": "Soft Robot",
+    "domain": "robotics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "robot:medical_robot",
+    "type": "robot",
+    "name": "Medical Robot",
+    "domain": "robotics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "robot:autonomous_vehicle",
+    "type": "robot",
+    "name": "Autonomous Vehicle",
+    "domain": "robotics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "robot:underwater_robot",
+    "type": "robot",
+    "name": "Underwater Robot",
+    "domain": "robotics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "suit:industrial_exoskeleton",
+    "type": "exosuit",
+    "name": "Industrial Exoskeleton",
+    "domain": "robotics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "suit:rescue_exosuit",
+    "type": "exosuit",
+    "name": "Rescue Exosuit",
+    "domain": "robotics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "suit:medical_assist_exosuit",
+    "type": "exosuit",
+    "name": "Medical Assist Exosuit",
+    "domain": "robotics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "suit:space_mobility_suit",
+    "type": "exosuit",
+    "name": "Space Mobility Suit",
+    "domain": "robotics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "suit:construction_assist_suit",
+    "type": "exosuit",
+    "name": "Construction Assist Suit",
+    "domain": "robotics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "particle:electron",
+    "type": "particle",
+    "name": "Electron",
+    "domain": "particle_physics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "particle:positron",
+    "type": "particle",
+    "name": "Positron",
+    "domain": "particle_physics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "particle:proton",
+    "type": "particle",
+    "name": "Proton",
+    "domain": "particle_physics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "particle:antiproton",
+    "type": "particle",
+    "name": "Antiproton",
+    "domain": "particle_physics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "particle:neutron",
+    "type": "particle",
+    "name": "Neutron",
+    "domain": "particle_physics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "particle:antineutron",
+    "type": "particle",
+    "name": "Antineutron",
+    "domain": "particle_physics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "particle:photon",
+    "type": "particle",
+    "name": "Photon",
+    "domain": "particle_physics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "particle:neutrino",
+    "type": "particle",
+    "name": "Neutrino",
+    "domain": "particle_physics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "particle:antineutrino",
+    "type": "particle",
+    "name": "Antineutrino",
+    "domain": "particle_physics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "particle:muon",
+    "type": "particle",
+    "name": "Muon",
+    "domain": "particle_physics",
+    "source": "internal_schema",
+    "confidence": "conceptual"
+  },
+  {
+    "id": "knowledge:periodic_table",
+    "type": "reference_dataset",
+    "name": "Periodic Table Reference",
+    "version": "IUPAC 2022",
+    "authority": "IUPAC"
+  },
+  {
+    "id": "knowledge:nanomaterial_metrology",
+    "type": "reference_dataset",
+    "name": "Nanomaterial Metrology",
+    "authority": "NIST"
+  },
+  {
+    "id": "knowledge:simulation_engine",
+    "type": "engine",
+    "name": "Deterministic Simulation Engine",
+    "requirements": [
+      "typed_units",
+      "validated_equations",
+      "input_ranges"
+    ]
+  },
+  {
+    "id": "knowledge:asset_registry",
+    "type": "registry",
+    "name": "3D Asset Registry",
+    "requirements": [
+      "asset_id",
+      "license",
+      "provenance",
+      "format"
+    ]
+  }
+]

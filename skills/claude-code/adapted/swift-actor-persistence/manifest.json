@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "swift-actor-persistence",
+  "name": "swift-actor-persistence",
+  "version": "1.0.0",
+  "description": "Thread-safe data persistence in Swift using actors — in-memory cache with file-backed storage, eliminating data races by design. Use when persisting data in Swift and a data race or thread-safety problem needs designing out.",
+  "source": "claude-code",
+  "category": "ai",
+  "tags": [
+    "swift",
+    "actor",
+    "persistence",
+    "react",
+    "ai"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/swift-actor-persistence/SKILL.md",
+  "permissions": [
+    "READ",
+    "WRITE",
+    "GITHUB"
+  ],
+  "tools": [
+    "filesystem",
+    "git"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.793Z"
+}

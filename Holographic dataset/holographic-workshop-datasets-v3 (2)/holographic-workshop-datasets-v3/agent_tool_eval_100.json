@@ -1,0 +1,702 @@
+[
+  {
+    "id": "eval_001",
+    "intent": "create",
+    "utterance": "Build a simple electric motor.",
+    "expected_tool": "create_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_002",
+    "intent": "add",
+    "utterance": "Add another battery.",
+    "expected_tool": "create_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_003",
+    "intent": "delete",
+    "utterance": "Remove the selected gear.",
+    "expected_tool": "delete_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_004",
+    "intent": "transform",
+    "utterance": "Rotate the robot arm by 30 degrees.",
+    "expected_tool": "transform_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_005",
+    "intent": "inspect",
+    "utterance": "Inspect this component.",
+    "expected_tool": "inspect_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_006",
+    "intent": "explain",
+    "utterance": "Explain how electromagnetic induction works.",
+    "expected_tool": "explain_system",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_007",
+    "intent": "simulate",
+    "utterance": "Start the LED circuit simulation.",
+    "expected_tool": "simulate",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_008",
+    "intent": "compare",
+    "utterance": "Compare the two motor designs.",
+    "expected_tool": "compare_systems",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_009",
+    "intent": "save",
+    "utterance": "Save this workshop as Motor Lab.",
+    "expected_tool": "save_workspace",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_010",
+    "intent": "load",
+    "utterance": "Open my previous robotics workshop.",
+    "expected_tool": "load_workspace",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_011",
+    "intent": "create",
+    "utterance": "Build a simple electric motor.",
+    "expected_tool": "create_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_012",
+    "intent": "add",
+    "utterance": "Add another battery.",
+    "expected_tool": "create_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_013",
+    "intent": "delete",
+    "utterance": "Remove the selected gear.",
+    "expected_tool": "delete_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_014",
+    "intent": "transform",
+    "utterance": "Rotate the robot arm by 30 degrees.",
+    "expected_tool": "transform_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_015",
+    "intent": "inspect",
+    "utterance": "Inspect this component.",
+    "expected_tool": "inspect_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_016",
+    "intent": "explain",
+    "utterance": "Explain how electromagnetic induction works.",
+    "expected_tool": "explain_system",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_017",
+    "intent": "simulate",
+    "utterance": "Start the LED circuit simulation.",
+    "expected_tool": "simulate",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_018",
+    "intent": "compare",
+    "utterance": "Compare the two motor designs.",
+    "expected_tool": "compare_systems",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_019",
+    "intent": "save",
+    "utterance": "Save this workshop as Motor Lab.",
+    "expected_tool": "save_workspace",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_020",
+    "intent": "load",
+    "utterance": "Open my previous robotics workshop.",
+    "expected_tool": "load_workspace",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_021",
+    "intent": "create",
+    "utterance": "Build a simple electric motor.",
+    "expected_tool": "create_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_022",
+    "intent": "add",
+    "utterance": "Add another battery.",
+    "expected_tool": "create_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_023",
+    "intent": "delete",
+    "utterance": "Remove the selected gear.",
+    "expected_tool": "delete_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_024",
+    "intent": "transform",
+    "utterance": "Rotate the robot arm by 30 degrees.",
+    "expected_tool": "transform_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_025",
+    "intent": "inspect",
+    "utterance": "Inspect this component.",
+    "expected_tool": "inspect_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_026",
+    "intent": "explain",
+    "utterance": "Explain how electromagnetic induction works.",
+    "expected_tool": "explain_system",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_027",
+    "intent": "simulate",
+    "utterance": "Start the LED circuit simulation.",
+    "expected_tool": "simulate",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_028",
+    "intent": "compare",
+    "utterance": "Compare the two motor designs.",
+    "expected_tool": "compare_systems",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_029",
+    "intent": "save",
+    "utterance": "Save this workshop as Motor Lab.",
+    "expected_tool": "save_workspace",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_030",
+    "intent": "load",
+    "utterance": "Open my previous robotics workshop.",
+    "expected_tool": "load_workspace",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_031",
+    "intent": "create",
+    "utterance": "Build a simple electric motor.",
+    "expected_tool": "create_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_032",
+    "intent": "add",
+    "utterance": "Add another battery.",
+    "expected_tool": "create_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_033",
+    "intent": "delete",
+    "utterance": "Remove the selected gear.",
+    "expected_tool": "delete_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_034",
+    "intent": "transform",
+    "utterance": "Rotate the robot arm by 30 degrees.",
+    "expected_tool": "transform_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_035",
+    "intent": "inspect",
+    "utterance": "Inspect this component.",
+    "expected_tool": "inspect_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_036",
+    "intent": "explain",
+    "utterance": "Explain how electromagnetic induction works.",
+    "expected_tool": "explain_system",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_037",
+    "intent": "simulate",
+    "utterance": "Start the LED circuit simulation.",
+    "expected_tool": "simulate",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_038",
+    "intent": "compare",
+    "utterance": "Compare the two motor designs.",
+    "expected_tool": "compare_systems",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_039",
+    "intent": "save",
+    "utterance": "Save this workshop as Motor Lab.",
+    "expected_tool": "save_workspace",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_040",
+    "intent": "load",
+    "utterance": "Open my previous robotics workshop.",
+    "expected_tool": "load_workspace",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_041",
+    "intent": "create",
+    "utterance": "Build a simple electric motor.",
+    "expected_tool": "create_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_042",
+    "intent": "add",
+    "utterance": "Add another battery.",
+    "expected_tool": "create_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_043",
+    "intent": "delete",
+    "utterance": "Remove the selected gear.",
+    "expected_tool": "delete_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_044",
+    "intent": "transform",
+    "utterance": "Rotate the robot arm by 30 degrees.",
+    "expected_tool": "transform_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_045",
+    "intent": "inspect",
+    "utterance": "Inspect this component.",
+    "expected_tool": "inspect_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_046",
+    "intent": "explain",
+    "utterance": "Explain how electromagnetic induction works.",
+    "expected_tool": "explain_system",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_047",
+    "intent": "simulate",
+    "utterance": "Start the LED circuit simulation.",
+    "expected_tool": "simulate",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_048",
+    "intent": "compare",
+    "utterance": "Compare the two motor designs.",
+    "expected_tool": "compare_systems",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_049",
+    "intent": "save",
+    "utterance": "Save this workshop as Motor Lab.",
+    "expected_tool": "save_workspace",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_050",
+    "intent": "load",
+    "utterance": "Open my previous robotics workshop.",
+    "expected_tool": "load_workspace",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_051",
+    "intent": "create",
+    "utterance": "Build a simple electric motor.",
+    "expected_tool": "create_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_052",
+    "intent": "add",
+    "utterance": "Add another battery.",
+    "expected_tool": "create_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_053",
+    "intent": "delete",
+    "utterance": "Remove the selected gear.",
+    "expected_tool": "delete_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_054",
+    "intent": "transform",
+    "utterance": "Rotate the robot arm by 30 degrees.",
+    "expected_tool": "transform_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_055",
+    "intent": "inspect",
+    "utterance": "Inspect this component.",
+    "expected_tool": "inspect_object",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_056",
+    "intent": "explain",
+    "utterance": "Explain how electromagnetic induction works.",
+    "expected_tool": "explain_system",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_057",
+    "intent": "simulate",
+    "utterance": "Start the LED circuit simulation.",
+    "expected_tool": "simulate",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_058",
+    "intent": "compare",
+    "utterance": "Compare the two motor designs.",
+    "expected_tool": "compare_systems",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_059",
+    "intent": "save",
+    "utterance": "Save this workshop as Motor Lab.",
+    "expected_tool": "save_workspace",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_060",
+    "intent": "load",
+    "utterance": "Open my previous robotics workshop.",
+    "expected_tool": "load_workspace",
+    "difficulty": "basic"
+  },
+  {
+    "id": "eval_061",
+    "intent": "create",
+    "utterance": "Build a simple electric motor.",
+    "expected_tool": "create_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_062",
+    "intent": "add",
+    "utterance": "Add another battery.",
+    "expected_tool": "create_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_063",
+    "intent": "delete",
+    "utterance": "Remove the selected gear.",
+    "expected_tool": "delete_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_064",
+    "intent": "transform",
+    "utterance": "Rotate the robot arm by 30 degrees.",
+    "expected_tool": "transform_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_065",
+    "intent": "inspect",
+    "utterance": "Inspect this component.",
+    "expected_tool": "inspect_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_066",
+    "intent": "explain",
+    "utterance": "Explain how electromagnetic induction works.",
+    "expected_tool": "explain_system",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_067",
+    "intent": "simulate",
+    "utterance": "Start the LED circuit simulation.",
+    "expected_tool": "simulate",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_068",
+    "intent": "compare",
+    "utterance": "Compare the two motor designs.",
+    "expected_tool": "compare_systems",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_069",
+    "intent": "save",
+    "utterance": "Save this workshop as Motor Lab.",
+    "expected_tool": "save_workspace",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_070",
+    "intent": "load",
+    "utterance": "Open my previous robotics workshop.",
+    "expected_tool": "load_workspace",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_071",
+    "intent": "create",
+    "utterance": "Build a simple electric motor.",
+    "expected_tool": "create_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_072",
+    "intent": "add",
+    "utterance": "Add another battery.",
+    "expected_tool": "create_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_073",
+    "intent": "delete",
+    "utterance": "Remove the selected gear.",
+    "expected_tool": "delete_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_074",
+    "intent": "transform",
+    "utterance": "Rotate the robot arm by 30 degrees.",
+    "expected_tool": "transform_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_075",
+    "intent": "inspect",
+    "utterance": "Inspect this component.",
+    "expected_tool": "inspect_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_076",
+    "intent": "explain",
+    "utterance": "Explain how electromagnetic induction works.",
+    "expected_tool": "explain_system",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_077",
+    "intent": "simulate",
+    "utterance": "Start the LED circuit simulation.",
+    "expected_tool": "simulate",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_078",
+    "intent": "compare",
+    "utterance": "Compare the two motor designs.",
+    "expected_tool": "compare_systems",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_079",
+    "intent": "save",
+    "utterance": "Save this workshop as Motor Lab.",
+    "expected_tool": "save_workspace",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_080",
+    "intent": "load",
+    "utterance": "Open my previous robotics workshop.",
+    "expected_tool": "load_workspace",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_081",
+    "intent": "create",
+    "utterance": "Build a simple electric motor.",
+    "expected_tool": "create_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_082",
+    "intent": "add",
+    "utterance": "Add another battery.",
+    "expected_tool": "create_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_083",
+    "intent": "delete",
+    "utterance": "Remove the selected gear.",
+    "expected_tool": "delete_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_084",
+    "intent": "transform",
+    "utterance": "Rotate the robot arm by 30 degrees.",
+    "expected_tool": "transform_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_085",
+    "intent": "inspect",
+    "utterance": "Inspect this component.",
+    "expected_tool": "inspect_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_086",
+    "intent": "explain",
+    "utterance": "Explain how electromagnetic induction works.",
+    "expected_tool": "explain_system",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_087",
+    "intent": "simulate",
+    "utterance": "Start the LED circuit simulation.",
+    "expected_tool": "simulate",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_088",
+    "intent": "compare",
+    "utterance": "Compare the two motor designs.",
+    "expected_tool": "compare_systems",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_089",
+    "intent": "save",
+    "utterance": "Save this workshop as Motor Lab.",
+    "expected_tool": "save_workspace",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_090",
+    "intent": "load",
+    "utterance": "Open my previous robotics workshop.",
+    "expected_tool": "load_workspace",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_091",
+    "intent": "create",
+    "utterance": "Build a simple electric motor.",
+    "expected_tool": "create_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_092",
+    "intent": "add",
+    "utterance": "Add another battery.",
+    "expected_tool": "create_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_093",
+    "intent": "delete",
+    "utterance": "Remove the selected gear.",
+    "expected_tool": "delete_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_094",
+    "intent": "transform",
+    "utterance": "Rotate the robot arm by 30 degrees.",
+    "expected_tool": "transform_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_095",
+    "intent": "inspect",
+    "utterance": "Inspect this component.",
+    "expected_tool": "inspect_object",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_096",
+    "intent": "explain",
+    "utterance": "Explain how electromagnetic induction works.",
+    "expected_tool": "explain_system",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_097",
+    "intent": "simulate",
+    "utterance": "Start the LED circuit simulation.",
+    "expected_tool": "simulate",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_098",
+    "intent": "compare",
+    "utterance": "Compare the two motor designs.",
+    "expected_tool": "compare_systems",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_099",
+    "intent": "save",
+    "utterance": "Save this workshop as Motor Lab.",
+    "expected_tool": "save_workspace",
+    "difficulty": "contextual"
+  },
+  {
+    "id": "eval_100",
+    "intent": "load",
+    "utterance": "Open my previous robotics workshop.",
+    "expected_tool": "load_workspace",
+    "difficulty": "contextual"
+  }
+]

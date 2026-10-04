@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "springboot-tdd",
+  "name": "springboot-tdd",
+  "version": "1.0.0",
+  "description": "Test-driven development for Spring Boot using JUnit 5, Mockito, MockMvc, Testcontainers, and JaCoCo. Use when adding features, fixing bugs, or refactoring.",
+  "source": "claude-code",
+  "category": "security",
+  "tags": [
+    "springboot",
+    "tdd",
+    "security",
+    "ai",
+    "database"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/springboot-tdd/SKILL.md",
+  "permissions": [
+    "READ",
+    "WRITE",
+    "GITHUB"
+  ],
+  "tools": [
+    "filesystem",
+    "git"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.772Z"
+}

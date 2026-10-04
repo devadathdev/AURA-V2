@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "code-analysis",
+  "name": "Code Analysis",
+  "version": "1.0.0",
+  "description": "Analyze code structure, dependencies, syntax, and structural quality metrics across the workspace.",
+  "source": "core",
+  "category": "development",
+  "tags": ["code", "analysis", "ast", "metrics", "quality"],
+  "lifecycle": "ENABLED",
+  "entrypoint": "index.js",
+  "permissions": ["READ"],
+  "tools": ["filesystem"],
+  "sandbox": {
+    "allowedPaths": ["."],
+    "timeoutMs": 15000,
+    "allowNetwork": false,
+    "maxMemoryMb": 256
+  },
+  "inputs": {
+    "targetPath": { "type": "string", "description": "File or folder path to analyze", "default": "." },
+    "includeMetrics": { "type": "boolean", "description": "Calculate line and file counts", "default": true }
+  },
+  "outputs": {
+    "success": { "type": "boolean" },
+    "summary": { "type": "object" },
+    "filesAnalyzed": { "type": "number" }
+  }
+}

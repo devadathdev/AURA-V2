@@ -1,0 +1,10 @@
+{
+  "dataset_version": "3.0",
+  "objects": 1000,
+  "systems": 250,
+  "commands": 100,
+  "simulation_schemas": 10,
+  "materials": 10,
+  "units": 15,
+  "note": "Conceptual starter dataset. External assets are references/placeholders only."
+}

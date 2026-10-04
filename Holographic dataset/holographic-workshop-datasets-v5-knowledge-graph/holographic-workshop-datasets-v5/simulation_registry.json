@@ -1,0 +1,64 @@
+[
+  {
+    "id": "sim:ohms_law",
+    "domain": "electronics",
+    "equation": "I=V/R",
+    "inputs": [
+      "V",
+      "R"
+    ],
+    "output": "I",
+    "unit_system": "SI",
+    "validation": "deterministic"
+  },
+  {
+    "id": "sim:kinetic_energy",
+    "domain": "physics",
+    "equation": "E=0.5*m*v^2",
+    "inputs": [
+      "m",
+      "v"
+    ],
+    "output": "E",
+    "unit_system": "SI",
+    "validation": "deterministic"
+  },
+  {
+    "id": "sim:solar_power",
+    "domain": "energy",
+    "equation": "P=G*A*eta",
+    "inputs": [
+      "irradiance",
+      "area",
+      "efficiency"
+    ],
+    "output": "P",
+    "unit_system": "SI",
+    "validation": "deterministic"
+  },
+  {
+    "id": "sim:robot_2link",
+    "domain": "robotics",
+    "equation": "planar_forward_kinematics",
+    "inputs": [
+      "L1",
+      "L2",
+      "theta1",
+      "theta2"
+    ],
+    "output": "end_effector_xy",
+    "unit_system": "SI+degrees",
+    "validation": "deterministic"
+  },
+  {
+    "id": "sim:particle_energy",
+    "domain": "particle_physics",
+    "equation": "E=mc^2",
+    "inputs": [
+      "mass"
+    ],
+    "output": "rest_energy",
+    "unit_system": "SI",
+    "validation": "deterministic"
+  }
+]

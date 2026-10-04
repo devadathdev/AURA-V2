@@ -1,0 +1,36 @@
+{
+  "executionId": "exec_1789322889155_0796r",
+  "skillId": "accessibility",
+  "source": "claude-code",
+  "category": "security",
+  "status": "SUCCESS",
+  "startTime": "2026-09-13T18:08:09.155Z",
+  "endTime": "2026-09-13T18:08:09.157Z",
+  "durationMs": 2,
+  "inputs": {
+    "query": "Audit button contrast"
+  },
+  "outputs": "Skill \"accessibility\" executed successfully following specification. Context instruction: \"Audit button contrast\"",
+  "error": null,
+  "permissionsGranted": [
+    "READ",
+    "WRITE",
+    "NETWORK",
+    "GITHUB",
+    "SECRET"
+  ],
+  "toolsUsed": [
+    "filesystem",
+    "git",
+    "github",
+    "web"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  }
+}

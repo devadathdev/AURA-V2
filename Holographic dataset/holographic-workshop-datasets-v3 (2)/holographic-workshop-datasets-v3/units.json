@@ -1,0 +1,72 @@
+[
+  {
+    "symbol": "m",
+    "name": "meter",
+    "dimension": "length"
+  },
+  {
+    "symbol": "kg",
+    "name": "kilogram",
+    "dimension": "mass"
+  },
+  {
+    "symbol": "s",
+    "name": "second",
+    "dimension": "time"
+  },
+  {
+    "symbol": "A",
+    "name": "ampere",
+    "dimension": "current"
+  },
+  {
+    "symbol": "K",
+    "name": "kelvin",
+    "dimension": "temperature"
+  },
+  {
+    "symbol": "N",
+    "name": "newton",
+    "dimension": "force"
+  },
+  {
+    "symbol": "Pa",
+    "name": "pascal",
+    "dimension": "pressure"
+  },
+  {
+    "symbol": "J",
+    "name": "joule",
+    "dimension": "energy"
+  },
+  {
+    "symbol": "W",
+    "name": "watt",
+    "dimension": "power"
+  },
+  {
+    "symbol": "V",
+    "name": "volt",
+    "dimension": "voltage"
+  },
+  {
+    "symbol": "ohm",
+    "name": "ohm",
+    "dimension": "resistance"
+  },
+  {
+    "symbol": "Hz",
+    "name": "hertz",
+    "dimension": "frequency"
+  },
+  {
+    "symbol": "rad",
+    "name": "radian",
+    "dimension": "angle"
+  },
+  {
+    "symbol": "rpm",
+    "name": "revolutions per minute",
+    "dimension": "angular_speed"
+  }
+]

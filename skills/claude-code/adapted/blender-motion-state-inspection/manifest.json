@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "blender-motion-state-inspection",
+  "name": "blender-motion-state-inspection",
+  "version": "1.0.0",
+  "description": "Use this skill when inspecting Blender characters, rigs, poses, animation retargeting, ground contact, facing direction, or model-vs-motion alignment where screenshots alone are not enough.",
+  "source": "claude-code",
+  "category": "ai",
+  "tags": [
+    "blender",
+    "motion",
+    "state",
+    "inspection",
+    "python",
+    "ai"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/blender-motion-state-inspection/SKILL.md",
+  "permissions": [
+    "READ",
+    "GITHUB"
+  ],
+  "tools": [
+    "filesystem",
+    "git",
+    "github"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:22.903Z"
+}

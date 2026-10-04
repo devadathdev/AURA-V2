@@ -1,0 +1,42 @@
+[
+  {
+    "id": "antimatter_positron",
+    "entity": "positron",
+    "relation": "antiparticle_of_electron",
+    "concepts": [
+      "annihilation",
+      "charge",
+      "mass_energy"
+    ]
+  },
+  {
+    "id": "antimatter_antiproton",
+    "entity": "antiproton",
+    "relation": "antiparticle_of_proton",
+    "concepts": [
+      "annihilation",
+      "baryon_number",
+      "mass_energy"
+    ]
+  },
+  {
+    "id": "antimatter_antihydrogen",
+    "entity": "antihydrogen",
+    "relation": "bound_antimatter_atom",
+    "concepts": [
+      "trapping",
+      "spectroscopy",
+      "matter_antimatter_symmetry"
+    ]
+  },
+  {
+    "id": "annihilation_energy",
+    "entity": "matter_antimatter_annihilation",
+    "relation": "energy_conversion",
+    "concepts": [
+      "mass_energy_equivalence",
+      "photons",
+      "conservation_laws"
+    ]
+  }
+]

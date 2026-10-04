@@ -1,0 +1,1850 @@
+[
+  {
+    "id": "pendulum_01",
+    "domain": "physics",
+    "title": "pendulum",
+    "variant": 1,
+    "components": [
+      "source",
+      "field",
+      "measurement",
+      "observer"
+    ],
+    "relationships": [
+      "source->connects_to->field",
+      "field->connects_to->measurement",
+      "measurement->connects_to->observer"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of pendulum",
+      "Inspect relationships between components in a physics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "pendulum_02",
+    "domain": "physics",
+    "title": "pendulum",
+    "variant": 2,
+    "components": [
+      "source",
+      "field",
+      "measurement",
+      "observer"
+    ],
+    "relationships": [
+      "source->connects_to->field",
+      "field->connects_to->measurement",
+      "measurement->connects_to->observer"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of pendulum",
+      "Inspect relationships between components in a physics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "spring-mass_01",
+    "domain": "physics",
+    "title": "spring-mass",
+    "variant": 1,
+    "components": [
+      "source",
+      "field",
+      "measurement",
+      "observer"
+    ],
+    "relationships": [
+      "source->connects_to->field",
+      "field->connects_to->measurement",
+      "measurement->connects_to->observer"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of spring-mass",
+      "Inspect relationships between components in a physics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "spring-mass_02",
+    "domain": "physics",
+    "title": "spring-mass",
+    "variant": 2,
+    "components": [
+      "source",
+      "field",
+      "measurement",
+      "observer"
+    ],
+    "relationships": [
+      "source->connects_to->field",
+      "field->connects_to->measurement",
+      "measurement->connects_to->observer"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of spring-mass",
+      "Inspect relationships between components in a physics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "projectile_01",
+    "domain": "physics",
+    "title": "projectile",
+    "variant": 1,
+    "components": [
+      "source",
+      "field",
+      "measurement",
+      "observer"
+    ],
+    "relationships": [
+      "source->connects_to->field",
+      "field->connects_to->measurement",
+      "measurement->connects_to->observer"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of projectile",
+      "Inspect relationships between components in a physics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "projectile_02",
+    "domain": "physics",
+    "title": "projectile",
+    "variant": 2,
+    "components": [
+      "source",
+      "field",
+      "measurement",
+      "observer"
+    ],
+    "relationships": [
+      "source->connects_to->field",
+      "field->connects_to->measurement",
+      "measurement->connects_to->observer"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of projectile",
+      "Inspect relationships between components in a physics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "optics_01",
+    "domain": "physics",
+    "title": "optics",
+    "variant": 1,
+    "components": [
+      "source",
+      "field",
+      "measurement",
+      "observer"
+    ],
+    "relationships": [
+      "source->connects_to->field",
+      "field->connects_to->measurement",
+      "measurement->connects_to->observer"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of optics",
+      "Inspect relationships between components in a physics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "optics_02",
+    "domain": "physics",
+    "title": "optics",
+    "variant": 2,
+    "components": [
+      "source",
+      "field",
+      "measurement",
+      "observer"
+    ],
+    "relationships": [
+      "source->connects_to->field",
+      "field->connects_to->measurement",
+      "measurement->connects_to->observer"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of optics",
+      "Inspect relationships between components in a physics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "electromagnetic_induction_01",
+    "domain": "physics",
+    "title": "electromagnetic induction",
+    "variant": 1,
+    "components": [
+      "source",
+      "field",
+      "measurement",
+      "observer"
+    ],
+    "relationships": [
+      "source->connects_to->field",
+      "field->connects_to->measurement",
+      "measurement->connects_to->observer"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of electromagnetic induction",
+      "Inspect relationships between components in a physics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "electromagnetic_induction_02",
+    "domain": "physics",
+    "title": "electromagnetic induction",
+    "variant": 2,
+    "components": [
+      "source",
+      "field",
+      "measurement",
+      "observer"
+    ],
+    "relationships": [
+      "source->connects_to->field",
+      "field->connects_to->measurement",
+      "measurement->connects_to->observer"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of electromagnetic induction",
+      "Inspect relationships between components in a physics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "fluid_pressure_01",
+    "domain": "physics",
+    "title": "fluid pressure",
+    "variant": 1,
+    "components": [
+      "source",
+      "field",
+      "measurement",
+      "observer"
+    ],
+    "relationships": [
+      "source->connects_to->field",
+      "field->connects_to->measurement",
+      "measurement->connects_to->observer"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of fluid pressure",
+      "Inspect relationships between components in a physics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "fluid_pressure_02",
+    "domain": "physics",
+    "title": "fluid pressure",
+    "variant": 2,
+    "components": [
+      "source",
+      "field",
+      "measurement",
+      "observer"
+    ],
+    "relationships": [
+      "source->connects_to->field",
+      "field->connects_to->measurement",
+      "measurement->connects_to->observer"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of fluid pressure",
+      "Inspect relationships between components in a physics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "led_circuit_01",
+    "domain": "electronics",
+    "title": "LED circuit",
+    "variant": 1,
+    "components": [
+      "source",
+      "passive_component",
+      "active_component",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->passive_component",
+      "passive_component->connects_to->active_component",
+      "active_component->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of led circuit",
+      "Inspect relationships between components in a electronics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "led_circuit_02",
+    "domain": "electronics",
+    "title": "LED circuit",
+    "variant": 2,
+    "components": [
+      "source",
+      "passive_component",
+      "active_component",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->passive_component",
+      "passive_component->connects_to->active_component",
+      "active_component->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of led circuit",
+      "Inspect relationships between components in a electronics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "rc_circuit_01",
+    "domain": "electronics",
+    "title": "RC circuit",
+    "variant": 1,
+    "components": [
+      "source",
+      "passive_component",
+      "active_component",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->passive_component",
+      "passive_component->connects_to->active_component",
+      "active_component->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of rc circuit",
+      "Inspect relationships between components in a electronics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "rc_circuit_02",
+    "domain": "electronics",
+    "title": "RC circuit",
+    "variant": 2,
+    "components": [
+      "source",
+      "passive_component",
+      "active_component",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->passive_component",
+      "passive_component->connects_to->active_component",
+      "active_component->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of rc circuit",
+      "Inspect relationships between components in a electronics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "rlc_circuit_01",
+    "domain": "electronics",
+    "title": "RLC circuit",
+    "variant": 1,
+    "components": [
+      "source",
+      "passive_component",
+      "active_component",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->passive_component",
+      "passive_component->connects_to->active_component",
+      "active_component->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of rlc circuit",
+      "Inspect relationships between components in a electronics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "rlc_circuit_02",
+    "domain": "electronics",
+    "title": "RLC circuit",
+    "variant": 2,
+    "components": [
+      "source",
+      "passive_component",
+      "active_component",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->passive_component",
+      "passive_component->connects_to->active_component",
+      "active_component->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of rlc circuit",
+      "Inspect relationships between components in a electronics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "rectifier_01",
+    "domain": "electronics",
+    "title": "rectifier",
+    "variant": 1,
+    "components": [
+      "source",
+      "passive_component",
+      "active_component",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->passive_component",
+      "passive_component->connects_to->active_component",
+      "active_component->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of rectifier",
+      "Inspect relationships between components in a electronics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "rectifier_02",
+    "domain": "electronics",
+    "title": "rectifier",
+    "variant": 2,
+    "components": [
+      "source",
+      "passive_component",
+      "active_component",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->passive_component",
+      "passive_component->connects_to->active_component",
+      "active_component->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of rectifier",
+      "Inspect relationships between components in a electronics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "voltage_divider_01",
+    "domain": "electronics",
+    "title": "voltage divider",
+    "variant": 1,
+    "components": [
+      "source",
+      "passive_component",
+      "active_component",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->passive_component",
+      "passive_component->connects_to->active_component",
+      "active_component->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of voltage divider",
+      "Inspect relationships between components in a electronics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "voltage_divider_02",
+    "domain": "electronics",
+    "title": "voltage divider",
+    "variant": 2,
+    "components": [
+      "source",
+      "passive_component",
+      "active_component",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->passive_component",
+      "passive_component->connects_to->active_component",
+      "active_component->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of voltage divider",
+      "Inspect relationships between components in a electronics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "logic_gate_01",
+    "domain": "electronics",
+    "title": "logic gate",
+    "variant": 1,
+    "components": [
+      "source",
+      "passive_component",
+      "active_component",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->passive_component",
+      "passive_component->connects_to->active_component",
+      "active_component->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of logic gate",
+      "Inspect relationships between components in a electronics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "logic_gate_02",
+    "domain": "electronics",
+    "title": "logic gate",
+    "variant": 2,
+    "components": [
+      "source",
+      "passive_component",
+      "active_component",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->passive_component",
+      "passive_component->connects_to->active_component",
+      "active_component->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of logic gate",
+      "Inspect relationships between components in a electronics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "gear_train_01",
+    "domain": "mechanical",
+    "title": "gear train",
+    "variant": 1,
+    "components": [
+      "input",
+      "transmission",
+      "mechanism",
+      "output"
+    ],
+    "relationships": [
+      "input->connects_to->transmission",
+      "transmission->connects_to->mechanism",
+      "mechanism->connects_to->output"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of gear train",
+      "Inspect relationships between components in a mechanical context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "gear_train_02",
+    "domain": "mechanical",
+    "title": "gear train",
+    "variant": 2,
+    "components": [
+      "input",
+      "transmission",
+      "mechanism",
+      "output"
+    ],
+    "relationships": [
+      "input->connects_to->transmission",
+      "transmission->connects_to->mechanism",
+      "mechanism->connects_to->output"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of gear train",
+      "Inspect relationships between components in a mechanical context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "belt_drive_01",
+    "domain": "mechanical",
+    "title": "belt drive",
+    "variant": 1,
+    "components": [
+      "input",
+      "transmission",
+      "mechanism",
+      "output"
+    ],
+    "relationships": [
+      "input->connects_to->transmission",
+      "transmission->connects_to->mechanism",
+      "mechanism->connects_to->output"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of belt drive",
+      "Inspect relationships between components in a mechanical context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "belt_drive_02",
+    "domain": "mechanical",
+    "title": "belt drive",
+    "variant": 2,
+    "components": [
+      "input",
+      "transmission",
+      "mechanism",
+      "output"
+    ],
+    "relationships": [
+      "input->connects_to->transmission",
+      "transmission->connects_to->mechanism",
+      "mechanism->connects_to->output"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of belt drive",
+      "Inspect relationships between components in a mechanical context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "four-stroke_engine_01",
+    "domain": "mechanical",
+    "title": "four-stroke engine",
+    "variant": 1,
+    "components": [
+      "input",
+      "transmission",
+      "mechanism",
+      "output"
+    ],
+    "relationships": [
+      "input->connects_to->transmission",
+      "transmission->connects_to->mechanism",
+      "mechanism->connects_to->output"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of four-stroke engine",
+      "Inspect relationships between components in a mechanical context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "four-stroke_engine_02",
+    "domain": "mechanical",
+    "title": "four-stroke engine",
+    "variant": 2,
+    "components": [
+      "input",
+      "transmission",
+      "mechanism",
+      "output"
+    ],
+    "relationships": [
+      "input->connects_to->transmission",
+      "transmission->connects_to->mechanism",
+      "mechanism->connects_to->output"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of four-stroke engine",
+      "Inspect relationships between components in a mechanical context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "hydraulic_lift_01",
+    "domain": "mechanical",
+    "title": "hydraulic lift",
+    "variant": 1,
+    "components": [
+      "input",
+      "transmission",
+      "mechanism",
+      "output"
+    ],
+    "relationships": [
+      "input->connects_to->transmission",
+      "transmission->connects_to->mechanism",
+      "mechanism->connects_to->output"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of hydraulic lift",
+      "Inspect relationships between components in a mechanical context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "hydraulic_lift_02",
+    "domain": "mechanical",
+    "title": "hydraulic lift",
+    "variant": 2,
+    "components": [
+      "input",
+      "transmission",
+      "mechanism",
+      "output"
+    ],
+    "relationships": [
+      "input->connects_to->transmission",
+      "transmission->connects_to->mechanism",
+      "mechanism->connects_to->output"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of hydraulic lift",
+      "Inspect relationships between components in a mechanical context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "piston_pump_01",
+    "domain": "mechanical",
+    "title": "piston pump",
+    "variant": 1,
+    "components": [
+      "input",
+      "transmission",
+      "mechanism",
+      "output"
+    ],
+    "relationships": [
+      "input->connects_to->transmission",
+      "transmission->connects_to->mechanism",
+      "mechanism->connects_to->output"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of piston pump",
+      "Inspect relationships between components in a mechanical context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "piston_pump_02",
+    "domain": "mechanical",
+    "title": "piston pump",
+    "variant": 2,
+    "components": [
+      "input",
+      "transmission",
+      "mechanism",
+      "output"
+    ],
+    "relationships": [
+      "input->connects_to->transmission",
+      "transmission->connects_to->mechanism",
+      "mechanism->connects_to->output"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of piston pump",
+      "Inspect relationships between components in a mechanical context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "centrifugal_fan_01",
+    "domain": "mechanical",
+    "title": "centrifugal fan",
+    "variant": 1,
+    "components": [
+      "input",
+      "transmission",
+      "mechanism",
+      "output"
+    ],
+    "relationships": [
+      "input->connects_to->transmission",
+      "transmission->connects_to->mechanism",
+      "mechanism->connects_to->output"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of centrifugal fan",
+      "Inspect relationships between components in a mechanical context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "centrifugal_fan_02",
+    "domain": "mechanical",
+    "title": "centrifugal fan",
+    "variant": 2,
+    "components": [
+      "input",
+      "transmission",
+      "mechanism",
+      "output"
+    ],
+    "relationships": [
+      "input->connects_to->transmission",
+      "transmission->connects_to->mechanism",
+      "mechanism->connects_to->output"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of centrifugal fan",
+      "Inspect relationships between components in a mechanical context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "two-axis_arm_01",
+    "domain": "robotics",
+    "title": "two-axis arm",
+    "variant": 1,
+    "components": [
+      "controller",
+      "sensor",
+      "actuator",
+      "structure"
+    ],
+    "relationships": [
+      "controller->connects_to->sensor",
+      "sensor->connects_to->actuator",
+      "actuator->connects_to->structure"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of two-axis arm",
+      "Inspect relationships between components in a robotics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "two-axis_arm_02",
+    "domain": "robotics",
+    "title": "two-axis arm",
+    "variant": 2,
+    "components": [
+      "controller",
+      "sensor",
+      "actuator",
+      "structure"
+    ],
+    "relationships": [
+      "controller->connects_to->sensor",
+      "sensor->connects_to->actuator",
+      "actuator->connects_to->structure"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of two-axis arm",
+      "Inspect relationships between components in a robotics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "four-wheel_rover_01",
+    "domain": "robotics",
+    "title": "four-wheel rover",
+    "variant": 1,
+    "components": [
+      "controller",
+      "sensor",
+      "actuator",
+      "structure"
+    ],
+    "relationships": [
+      "controller->connects_to->sensor",
+      "sensor->connects_to->actuator",
+      "actuator->connects_to->structure"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of four-wheel rover",
+      "Inspect relationships between components in a robotics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "four-wheel_rover_02",
+    "domain": "robotics",
+    "title": "four-wheel rover",
+    "variant": 2,
+    "components": [
+      "controller",
+      "sensor",
+      "actuator",
+      "structure"
+    ],
+    "relationships": [
+      "controller->connects_to->sensor",
+      "sensor->connects_to->actuator",
+      "actuator->connects_to->structure"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of four-wheel rover",
+      "Inspect relationships between components in a robotics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "line_follower_01",
+    "domain": "robotics",
+    "title": "line follower",
+    "variant": 1,
+    "components": [
+      "controller",
+      "sensor",
+      "actuator",
+      "structure"
+    ],
+    "relationships": [
+      "controller->connects_to->sensor",
+      "sensor->connects_to->actuator",
+      "actuator->connects_to->structure"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of line follower",
+      "Inspect relationships between components in a robotics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "line_follower_02",
+    "domain": "robotics",
+    "title": "line follower",
+    "variant": 2,
+    "components": [
+      "controller",
+      "sensor",
+      "actuator",
+      "structure"
+    ],
+    "relationships": [
+      "controller->connects_to->sensor",
+      "sensor->connects_to->actuator",
+      "actuator->connects_to->structure"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of line follower",
+      "Inspect relationships between components in a robotics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "servo_mechanism_01",
+    "domain": "robotics",
+    "title": "servo mechanism",
+    "variant": 1,
+    "components": [
+      "controller",
+      "sensor",
+      "actuator",
+      "structure"
+    ],
+    "relationships": [
+      "controller->connects_to->sensor",
+      "sensor->connects_to->actuator",
+      "actuator->connects_to->structure"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of servo mechanism",
+      "Inspect relationships between components in a robotics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "servo_mechanism_02",
+    "domain": "robotics",
+    "title": "servo mechanism",
+    "variant": 2,
+    "components": [
+      "controller",
+      "sensor",
+      "actuator",
+      "structure"
+    ],
+    "relationships": [
+      "controller->connects_to->sensor",
+      "sensor->connects_to->actuator",
+      "actuator->connects_to->structure"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of servo mechanism",
+      "Inspect relationships between components in a robotics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "gripper_01",
+    "domain": "robotics",
+    "title": "gripper",
+    "variant": 1,
+    "components": [
+      "controller",
+      "sensor",
+      "actuator",
+      "structure"
+    ],
+    "relationships": [
+      "controller->connects_to->sensor",
+      "sensor->connects_to->actuator",
+      "actuator->connects_to->structure"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of gripper",
+      "Inspect relationships between components in a robotics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "gripper_02",
+    "domain": "robotics",
+    "title": "gripper",
+    "variant": 2,
+    "components": [
+      "controller",
+      "sensor",
+      "actuator",
+      "structure"
+    ],
+    "relationships": [
+      "controller->connects_to->sensor",
+      "sensor->connects_to->actuator",
+      "actuator->connects_to->structure"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of gripper",
+      "Inspect relationships between components in a robotics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "sensor_fusion_01",
+    "domain": "robotics",
+    "title": "sensor fusion",
+    "variant": 1,
+    "components": [
+      "controller",
+      "sensor",
+      "actuator",
+      "structure"
+    ],
+    "relationships": [
+      "controller->connects_to->sensor",
+      "sensor->connects_to->actuator",
+      "actuator->connects_to->structure"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of sensor fusion",
+      "Inspect relationships between components in a robotics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "sensor_fusion_02",
+    "domain": "robotics",
+    "title": "sensor fusion",
+    "variant": 2,
+    "components": [
+      "controller",
+      "sensor",
+      "actuator",
+      "structure"
+    ],
+    "relationships": [
+      "controller->connects_to->sensor",
+      "sensor->connects_to->actuator",
+      "actuator->connects_to->structure"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of sensor fusion",
+      "Inspect relationships between components in a robotics context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "solar_system_01",
+    "domain": "energy",
+    "title": "solar system",
+    "variant": 1,
+    "components": [
+      "source",
+      "converter",
+      "storage",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->converter",
+      "converter->connects_to->storage",
+      "storage->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of solar system",
+      "Inspect relationships between components in a energy context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "solar_system_02",
+    "domain": "energy",
+    "title": "solar system",
+    "variant": 2,
+    "components": [
+      "source",
+      "converter",
+      "storage",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->converter",
+      "converter->connects_to->storage",
+      "storage->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of solar system",
+      "Inspect relationships between components in a energy context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "wind_turbine_01",
+    "domain": "energy",
+    "title": "wind turbine",
+    "variant": 1,
+    "components": [
+      "source",
+      "converter",
+      "storage",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->converter",
+      "converter->connects_to->storage",
+      "storage->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of wind turbine",
+      "Inspect relationships between components in a energy context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "wind_turbine_02",
+    "domain": "energy",
+    "title": "wind turbine",
+    "variant": 2,
+    "components": [
+      "source",
+      "converter",
+      "storage",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->converter",
+      "converter->connects_to->storage",
+      "storage->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of wind turbine",
+      "Inspect relationships between components in a energy context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "battery_storage_01",
+    "domain": "energy",
+    "title": "battery storage",
+    "variant": 1,
+    "components": [
+      "source",
+      "converter",
+      "storage",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->converter",
+      "converter->connects_to->storage",
+      "storage->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of battery storage",
+      "Inspect relationships between components in a energy context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "battery_storage_02",
+    "domain": "energy",
+    "title": "battery storage",
+    "variant": 2,
+    "components": [
+      "source",
+      "converter",
+      "storage",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->converter",
+      "converter->connects_to->storage",
+      "storage->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of battery storage",
+      "Inspect relationships between components in a energy context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "microgrid_01",
+    "domain": "energy",
+    "title": "microgrid",
+    "variant": 1,
+    "components": [
+      "source",
+      "converter",
+      "storage",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->converter",
+      "converter->connects_to->storage",
+      "storage->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of microgrid",
+      "Inspect relationships between components in a energy context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "microgrid_02",
+    "domain": "energy",
+    "title": "microgrid",
+    "variant": 2,
+    "components": [
+      "source",
+      "converter",
+      "storage",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->converter",
+      "converter->connects_to->storage",
+      "storage->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of microgrid",
+      "Inspect relationships between components in a energy context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "fuel_cell_01",
+    "domain": "energy",
+    "title": "fuel cell",
+    "variant": 1,
+    "components": [
+      "source",
+      "converter",
+      "storage",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->converter",
+      "converter->connects_to->storage",
+      "storage->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of fuel cell",
+      "Inspect relationships between components in a energy context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "fuel_cell_02",
+    "domain": "energy",
+    "title": "fuel cell",
+    "variant": 2,
+    "components": [
+      "source",
+      "converter",
+      "storage",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->converter",
+      "converter->connects_to->storage",
+      "storage->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of fuel cell",
+      "Inspect relationships between components in a energy context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "electric_vehicle_01",
+    "domain": "energy",
+    "title": "electric vehicle",
+    "variant": 1,
+    "components": [
+      "source",
+      "converter",
+      "storage",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->converter",
+      "converter->connects_to->storage",
+      "storage->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of electric vehicle",
+      "Inspect relationships between components in a energy context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "electric_vehicle_02",
+    "domain": "energy",
+    "title": "electric vehicle",
+    "variant": 2,
+    "components": [
+      "source",
+      "converter",
+      "storage",
+      "load"
+    ],
+    "relationships": [
+      "source->connects_to->converter",
+      "converter->connects_to->storage",
+      "storage->connects_to->load"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of electric vehicle",
+      "Inspect relationships between components in a energy context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "heart_circulation_01",
+    "domain": "biology",
+    "title": "heart circulation",
+    "variant": 1,
+    "components": [
+      "organ",
+      "tissue",
+      "transport",
+      "control"
+    ],
+    "relationships": [
+      "organ->connects_to->tissue",
+      "tissue->connects_to->transport",
+      "transport->connects_to->control"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of heart circulation",
+      "Inspect relationships between components in a biology context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "heart_circulation_02",
+    "domain": "biology",
+    "title": "heart circulation",
+    "variant": 2,
+    "components": [
+      "organ",
+      "tissue",
+      "transport",
+      "control"
+    ],
+    "relationships": [
+      "organ->connects_to->tissue",
+      "tissue->connects_to->transport",
+      "transport->connects_to->control"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of heart circulation",
+      "Inspect relationships between components in a biology context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "neural_signal_01",
+    "domain": "biology",
+    "title": "neural signal",
+    "variant": 1,
+    "components": [
+      "organ",
+      "tissue",
+      "transport",
+      "control"
+    ],
+    "relationships": [
+      "organ->connects_to->tissue",
+      "tissue->connects_to->transport",
+      "transport->connects_to->control"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of neural signal",
+      "Inspect relationships between components in a biology context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "neural_signal_02",
+    "domain": "biology",
+    "title": "neural signal",
+    "variant": 2,
+    "components": [
+      "organ",
+      "tissue",
+      "transport",
+      "control"
+    ],
+    "relationships": [
+      "organ->connects_to->tissue",
+      "tissue->connects_to->transport",
+      "transport->connects_to->control"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of neural signal",
+      "Inspect relationships between components in a biology context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "lung_ventilation_01",
+    "domain": "biology",
+    "title": "lung ventilation",
+    "variant": 1,
+    "components": [
+      "organ",
+      "tissue",
+      "transport",
+      "control"
+    ],
+    "relationships": [
+      "organ->connects_to->tissue",
+      "tissue->connects_to->transport",
+      "transport->connects_to->control"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of lung ventilation",
+      "Inspect relationships between components in a biology context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "lung_ventilation_02",
+    "domain": "biology",
+    "title": "lung ventilation",
+    "variant": 2,
+    "components": [
+      "organ",
+      "tissue",
+      "transport",
+      "control"
+    ],
+    "relationships": [
+      "organ->connects_to->tissue",
+      "tissue->connects_to->transport",
+      "transport->connects_to->control"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of lung ventilation",
+      "Inspect relationships between components in a biology context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "cell_division_01",
+    "domain": "biology",
+    "title": "cell division",
+    "variant": 1,
+    "components": [
+      "organ",
+      "tissue",
+      "transport",
+      "control"
+    ],
+    "relationships": [
+      "organ->connects_to->tissue",
+      "tissue->connects_to->transport",
+      "transport->connects_to->control"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of cell division",
+      "Inspect relationships between components in a biology context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "cell_division_02",
+    "domain": "biology",
+    "title": "cell division",
+    "variant": 2,
+    "components": [
+      "organ",
+      "tissue",
+      "transport",
+      "control"
+    ],
+    "relationships": [
+      "organ->connects_to->tissue",
+      "tissue->connects_to->transport",
+      "transport->connects_to->control"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of cell division",
+      "Inspect relationships between components in a biology context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "dna_replication_01",
+    "domain": "biology",
+    "title": "DNA replication",
+    "variant": 1,
+    "components": [
+      "organ",
+      "tissue",
+      "transport",
+      "control"
+    ],
+    "relationships": [
+      "organ->connects_to->tissue",
+      "tissue->connects_to->transport",
+      "transport->connects_to->control"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of dna replication",
+      "Inspect relationships between components in a biology context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "dna_replication_02",
+    "domain": "biology",
+    "title": "DNA replication",
+    "variant": 2,
+    "components": [
+      "organ",
+      "tissue",
+      "transport",
+      "control"
+    ],
+    "relationships": [
+      "organ->connects_to->tissue",
+      "tissue->connects_to->transport",
+      "transport->connects_to->control"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of dna replication",
+      "Inspect relationships between components in a biology context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "synapse_01",
+    "domain": "biology",
+    "title": "synapse",
+    "variant": 1,
+    "components": [
+      "organ",
+      "tissue",
+      "transport",
+      "control"
+    ],
+    "relationships": [
+      "organ->connects_to->tissue",
+      "tissue->connects_to->transport",
+      "transport->connects_to->control"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of synapse",
+      "Inspect relationships between components in a biology context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "synapse_02",
+    "domain": "biology",
+    "title": "synapse",
+    "variant": 2,
+    "components": [
+      "organ",
+      "tissue",
+      "transport",
+      "control"
+    ],
+    "relationships": [
+      "organ->connects_to->tissue",
+      "tissue->connects_to->transport",
+      "transport->connects_to->control"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of synapse",
+      "Inspect relationships between components in a biology context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "web_request_01",
+    "domain": "computing",
+    "title": "web request",
+    "variant": 1,
+    "components": [
+      "client",
+      "service",
+      "data_store",
+      "network"
+    ],
+    "relationships": [
+      "client->connects_to->service",
+      "service->connects_to->data_store",
+      "data_store->connects_to->network"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of web request",
+      "Inspect relationships between components in a computing context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "web_request_02",
+    "domain": "computing",
+    "title": "web request",
+    "variant": 2,
+    "components": [
+      "client",
+      "service",
+      "data_store",
+      "network"
+    ],
+    "relationships": [
+      "client->connects_to->service",
+      "service->connects_to->data_store",
+      "data_store->connects_to->network"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of web request",
+      "Inspect relationships between components in a computing context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "api_gateway_01",
+    "domain": "computing",
+    "title": "API gateway",
+    "variant": 1,
+    "components": [
+      "client",
+      "service",
+      "data_store",
+      "network"
+    ],
+    "relationships": [
+      "client->connects_to->service",
+      "service->connects_to->data_store",
+      "data_store->connects_to->network"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of api gateway",
+      "Inspect relationships between components in a computing context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "api_gateway_02",
+    "domain": "computing",
+    "title": "API gateway",
+    "variant": 2,
+    "components": [
+      "client",
+      "service",
+      "data_store",
+      "network"
+    ],
+    "relationships": [
+      "client->connects_to->service",
+      "service->connects_to->data_store",
+      "data_store->connects_to->network"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of api gateway",
+      "Inspect relationships between components in a computing context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "database_transaction_01",
+    "domain": "computing",
+    "title": "database transaction",
+    "variant": 1,
+    "components": [
+      "client",
+      "service",
+      "data_store",
+      "network"
+    ],
+    "relationships": [
+      "client->connects_to->service",
+      "service->connects_to->data_store",
+      "data_store->connects_to->network"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of database transaction",
+      "Inspect relationships between components in a computing context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "database_transaction_02",
+    "domain": "computing",
+    "title": "database transaction",
+    "variant": 2,
+    "components": [
+      "client",
+      "service",
+      "data_store",
+      "network"
+    ],
+    "relationships": [
+      "client->connects_to->service",
+      "service->connects_to->data_store",
+      "data_store->connects_to->network"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of database transaction",
+      "Inspect relationships between components in a computing context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "message_queue_01",
+    "domain": "computing",
+    "title": "message queue",
+    "variant": 1,
+    "components": [
+      "client",
+      "service",
+      "data_store",
+      "network"
+    ],
+    "relationships": [
+      "client->connects_to->service",
+      "service->connects_to->data_store",
+      "data_store->connects_to->network"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of message queue",
+      "Inspect relationships between components in a computing context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "message_queue_02",
+    "domain": "computing",
+    "title": "message queue",
+    "variant": 2,
+    "components": [
+      "client",
+      "service",
+      "data_store",
+      "network"
+    ],
+    "relationships": [
+      "client->connects_to->service",
+      "service->connects_to->data_store",
+      "data_store->connects_to->network"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of message queue",
+      "Inspect relationships between components in a computing context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "cache_flow_01",
+    "domain": "computing",
+    "title": "cache flow",
+    "variant": 1,
+    "components": [
+      "client",
+      "service",
+      "data_store",
+      "network"
+    ],
+    "relationships": [
+      "client->connects_to->service",
+      "service->connects_to->data_store",
+      "data_store->connects_to->network"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of cache flow",
+      "Inspect relationships between components in a computing context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "cache_flow_02",
+    "domain": "computing",
+    "title": "cache flow",
+    "variant": 2,
+    "components": [
+      "client",
+      "service",
+      "data_store",
+      "network"
+    ],
+    "relationships": [
+      "client->connects_to->service",
+      "service->connects_to->data_store",
+      "data_store->connects_to->network"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of cache flow",
+      "Inspect relationships between components in a computing context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "load_balancing_01",
+    "domain": "computing",
+    "title": "load balancing",
+    "variant": 1,
+    "components": [
+      "client",
+      "service",
+      "data_store",
+      "network"
+    ],
+    "relationships": [
+      "client->connects_to->service",
+      "service->connects_to->data_store",
+      "data_store->connects_to->network"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of load balancing",
+      "Inspect relationships between components in a computing context"
+    ],
+    "simulation_ready": true
+  },
+  {
+    "id": "load_balancing_02",
+    "domain": "computing",
+    "title": "load balancing",
+    "variant": 2,
+    "components": [
+      "client",
+      "service",
+      "data_store",
+      "network"
+    ],
+    "relationships": [
+      "client->connects_to->service",
+      "service->connects_to->data_store",
+      "data_store->connects_to->network"
+    ],
+    "learning_objectives": [
+      "Visualize the main stages of load balancing",
+      "Inspect relationships between components in a computing context"
+    ],
+    "simulation_ready": true
+  }
+]

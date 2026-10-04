@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "data-analysis",
+  "name": "Data Analysis",
+  "version": "1.0.0",
+  "description": "Analyze datasets, JSON payloads, and logs to extract summary statistics and insights.",
+  "source": "core",
+  "category": "analysis",
+  "tags": ["data", "json", "stats", "insights", "metrics"],
+  "lifecycle": "ENABLED",
+  "entrypoint": "index.js",
+  "permissions": ["READ"],
+  "tools": ["filesystem"],
+  "sandbox": {
+    "allowedPaths": ["."],
+    "timeoutMs": 15000,
+    "allowNetwork": false,
+    "maxMemoryMb": 256
+  },
+  "inputs": {
+    "dataPath": { "type": "string", "description": "Path to data file (JSON or text)" }
+  },
+  "outputs": {
+    "success": { "type": "boolean" },
+    "recordCount": { "type": "number" },
+    "analysis": { "type": "object" }
+  }
+}

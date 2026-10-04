@@ -1,0 +1,609 @@
+{
+  "dataset_info": {
+    "title": "Advanced Technologies & Materials Dataset",
+    "version": "1.1",
+    "description": "Structured catalog of advanced/emerging technologies, advanced materials, and advanced wearable suits, including properties, categories, applications, and readiness levels.",
+    "categories": ["technology", "material", "wearable"],
+    "fields": {
+      "id": "unique identifier",
+      "name": "item name",
+      "category": "technology | material",
+      "subcategory": "domain classification",
+      "description": "brief overview",
+      "properties": "key characteristics/specs",
+      "applications": "known or potential use cases",
+      "readiness_level": "TRL 1-9 (Technology Readiness Level) or commercial status",
+      "tags": "searchable keywords"
+    }
+  },
+  "items": [
+    {
+      "id": "TECH-001",
+      "name": "Quantum Computing",
+      "category": "technology",
+      "subcategory": "computing",
+      "description": "Computation using qubits that leverage superposition and entanglement to solve certain problems exponentially faster than classical computers.",
+      "properties": {
+        "qubit_types": ["superconducting", "trapped ion", "photonic", "topological"],
+        "key_challenge": "decoherence and error correction",
+        "operating_temp": "near absolute zero (superconducting variants)"
+      },
+      "applications": ["cryptography", "drug discovery", "optimization problems", "materials simulation"],
+      "readiness_level": "TRL 5-6",
+      "tags": ["qubits", "superposition", "entanglement", "quantum supremacy"]
+    },
+    {
+      "id": "TECH-002",
+      "name": "Holographic Display Systems",
+      "category": "technology",
+      "subcategory": "display/visualization",
+      "description": "Systems that project or render true 3D light-field images viewable without headsets, using techniques like diffraction, light-field arrays, or plasma excitation.",
+      "properties": {
+        "methods": ["light-field displays", "laser plasma voxels", "diffractive waveguides", "volumetric displays"],
+        "viewing_angle": "up to 360° (varies by method)",
+        "resolution_limit": "voxel density dependent"
+      },
+      "applications": ["medical imaging", "design prototyping", "telepresence", "entertainment"],
+      "readiness_level": "TRL 4-7",
+      "tags": ["3D display", "light field", "volumetric", "AR/VR adjacent"]
+    },
+    {
+      "id": "TECH-003",
+      "name": "Neuromorphic Computing",
+      "category": "technology",
+      "subcategory": "computing",
+      "description": "Chip architectures that mimic biological neural structures for highly efficient, event-driven processing.",
+      "properties": {
+        "architecture": "spiking neural networks",
+        "power_efficiency": "orders of magnitude better than von Neumann architecture for specific tasks"
+      },
+      "applications": ["edge AI", "robotics", "sensory processing", "low-power inference"],
+      "readiness_level": "TRL 6",
+      "tags": ["spiking neural network", "brain-inspired", "edge computing"]
+    },
+    {
+      "id": "TECH-004",
+      "name": "Additive Manufacturing (Metal 3D Printing)",
+      "category": "technology",
+      "subcategory": "manufacturing",
+      "description": "Layer-by-layer fabrication of metal parts using techniques like powder bed fusion or directed energy deposition.",
+      "properties": {
+        "methods": ["SLM", "EBM", "DED", "binder jetting"],
+        "materials_compatible": ["titanium", "Inconel", "stainless steel", "aluminum alloys"]
+      },
+      "applications": ["aerospace components", "medical implants", "tooling", "rapid prototyping"],
+      "readiness_level": "TRL 8-9 (commercial)",
+      "tags": ["3D printing", "SLM", "aerospace manufacturing"]
+    },
+    {
+      "id": "TECH-005",
+      "name": "Brain-Computer Interfaces (BCI)",
+      "category": "technology",
+      "subcategory": "biotechnology/computing",
+      "description": "Direct communication pathways between neural activity and external devices, invasive or non-invasive.",
+      "properties": {
+        "types": ["invasive (implanted electrodes)", "non-invasive (EEG-based)"],
+        "signal_bandwidth": "improving with electrode density"
+      },
+      "applications": ["assistive devices", "neuroprosthetics", "human-machine interfaces"],
+      "readiness_level": "TRL 5-7",
+      "tags": ["neurotech", "EEG", "neural implant"]
+    },
+    {
+      "id": "TECH-006",
+      "name": "Fusion Energy (Magnetic/Inertial Confinement)",
+      "category": "technology",
+      "subcategory": "energy",
+      "description": "Energy generation via nuclear fusion reactions, using tokamak, stellarator, or laser-based inertial confinement approaches.",
+      "properties": {
+        "approaches": ["tokamak", "stellarator", "inertial confinement fusion"],
+        "milestone": "net energy gain demonstrated (ignition)"
+      },
+      "applications": ["baseload clean power generation"],
+      "readiness_level": "TRL 4-5",
+      "tags": ["fusion", "tokamak", "clean energy", "plasma physics"]
+    },
+    {
+      "id": "MAT-001",
+      "name": "Graphene",
+      "category": "material",
+      "subcategory": "2D material",
+      "description": "Single layer of carbon atoms arranged in a hexagonal lattice, exhibiting exceptional strength and conductivity.",
+      "properties": {
+        "tensile_strength": "~130 GPa",
+        "thermal_conductivity": "~5000 W/mK",
+        "electrical_conductivity": "very high",
+        "thickness": "1 atom (~0.34 nm)"
+      },
+      "applications": ["flexible electronics", "composites", "energy storage", "sensors", "water filtration"],
+      "readiness_level": "TRL 6-8",
+      "tags": ["2D material", "carbon", "nanomaterial"]
+    },
+    {
+      "id": "MAT-002",
+      "name": "Metamaterials",
+      "category": "material",
+      "subcategory": "engineered material",
+      "description": "Artificially structured materials engineered to have properties not found in nature, such as negative refractive index.",
+      "properties": {
+        "structure": "sub-wavelength engineered unit cells",
+        "notable_effect": "negative refraction, cloaking effects"
+      },
+      "applications": ["invisibility cloaking research", "advanced antennas", "acoustic control", "superlenses"],
+      "readiness_level": "TRL 3-5",
+      "tags": ["negative refraction", "engineered structure", "photonics"]
+    },
+    {
+      "id": "MAT-003",
+      "name": "Aerogel",
+      "category": "material",
+      "subcategory": "porous material",
+      "description": "Ultra-low-density synthetic porous material derived from a gel, with the liquid replaced by gas.",
+      "properties": {
+        "density": "as low as 0.001 g/cm3",
+        "thermal_conductivity": "extremely low (excellent insulator)",
+        "porosity": "up to 99.8%"
+      },
+      "applications": ["thermal insulation", "aerospace (used in Stardust mission)", "oil absorption"],
+      "readiness_level": "TRL 8-9 (commercial)",
+      "tags": ["insulation", "low density", "silica"]
+    },
+    {
+      "id": "MAT-004",
+      "name": "Shape Memory Alloys (e.g., Nitinol)",
+      "category": "material",
+      "subcategory": "smart material",
+      "description": "Alloys that can return to a predetermined shape when heated, due to a phase transformation.",
+      "properties": {
+        "composition_example": "Nickel-Titanium (Nitinol)",
+        "mechanism": "martensite-austenite phase transformation"
+      },
+      "applications": ["medical stents", "actuators", "robotics", "eyeglass frames"],
+      "readiness_level": "TRL 8-9 (commercial)",
+      "tags": ["smart material", "phase transformation", "actuator"]
+    },
+    {
+      "id": "MAT-005",
+      "name": "High-Entropy Alloys (HEAs)",
+      "category": "material",
+      "subcategory": "metal alloy",
+      "description": "Alloys composed of five or more principal elements in near-equal proportions, offering unusual strength and corrosion resistance.",
+      "properties": {
+        "composition": "≥5 principal elements",
+        "notable_trait": "high strength-to-weight ratio, thermal stability"
+      },
+      "applications": ["aerospace", "extreme-environment components", "nuclear reactors"],
+      "readiness_level": "TRL 4-6",
+      "tags": ["alloy", "high strength", "corrosion resistant"]
+    },
+    {
+      "id": "MAT-006",
+      "name": "Perovskite Solar Cell Material",
+      "category": "material",
+      "subcategory": "semiconductor/photovoltaic",
+      "description": "Crystal-structured compounds used as light-harvesting layers in next-generation solar cells, offering high efficiency at low cost.",
+      "properties": {
+        "efficiency": "over 26% in lab conditions (single junction)",
+        "structure": "ABX3 crystal structure"
+      },
+      "applications": ["solar photovoltaics", "tandem solar cells", "LEDs"],
+      "readiness_level": "TRL 5-7",
+      "tags": ["solar cell", "photovoltaic", "crystal structure"]
+    },
+    {
+      "id": "MAT-007",
+      "name": "Carbon Fiber Reinforced Polymer (CFRP)",
+      "category": "material",
+      "subcategory": "composite material",
+      "description": "Composite material combining carbon fiber strands with polymer resin, offering high strength-to-weight ratio.",
+      "properties": {
+        "strength_to_weight": "5x that of steel",
+        "stiffness": "high"
+      },
+      "applications": ["aerospace structures", "automotive", "sporting goods", "wind turbine blades"],
+      "readiness_level": "TRL 9 (commercial)",
+      "tags": ["composite", "lightweight", "carbon fiber"]
+    },
+    {
+      "id": "MAT-008",
+      "name": "Topological Insulators",
+      "category": "material",
+      "subcategory": "quantum material",
+      "description": "Materials that are insulating in the bulk but conduct electricity on their surface via protected quantum states.",
+      "properties": {
+        "surface_conduction": "spin-momentum locked, dissipationless",
+        "bulk_state": "insulating"
+      },
+      "applications": ["spintronics", "quantum computing", "low-power electronics"],
+      "readiness_level": "TRL 2-4",
+      "tags": ["quantum material", "spintronics", "surface states"]
+    },
+    {
+      "id": "TECH-007",
+      "name": "Photonic Computing",
+      "category": "technology",
+      "subcategory": "computing",
+      "description": "Computation using photons instead of electrons for data transfer and processing, enabling higher bandwidth and lower heat generation.",
+      "properties": {
+        "medium": "light/photons via waveguides or free-space optics",
+        "advantage": "near-light-speed signal transfer, reduced resistive heating"
+      },
+      "applications": ["AI accelerators", "data center interconnects", "optical neural networks"],
+      "readiness_level": "TRL 4-6",
+      "tags": ["optics", "light-based computing", "AI hardware"]
+    },
+    {
+      "id": "TECH-008",
+      "name": "Directed Energy Weapons Systems",
+      "category": "technology",
+      "subcategory": "defense/energy",
+      "description": "Systems that use focused energy (lasers, microwaves, particle beams) for precision effects, primarily developed for defense applications.",
+      "properties": {
+        "types": ["high-energy laser", "high-power microwave"],
+        "power_source": "requires substantial onboard power generation"
+      },
+      "applications": ["missile defense", "counter-drone systems", "industrial cutting (laser variants)"],
+      "readiness_level": "TRL 5-7",
+      "tags": ["laser", "defense tech", "energy weapons"]
+    },
+    {
+      "id": "TECH-009",
+      "name": "Swarm Robotics",
+      "category": "technology",
+      "subcategory": "robotics",
+      "description": "Coordinated systems of many simple robots that exhibit complex collective behavior through local interactions, inspired by insect colonies.",
+      "properties": {
+        "coordination": "decentralized, emergent behavior algorithms",
+        "scalability": "designed for hundreds to thousands of units"
+      },
+      "applications": ["search and rescue", "agriculture monitoring", "distributed sensing", "logistics"],
+      "readiness_level": "TRL 4-6",
+      "tags": ["multi-robot systems", "emergent behavior", "distributed AI"]
+    },
+    {
+      "id": "TECH-010",
+      "name": "Digital Twin Simulation",
+      "category": "technology",
+      "subcategory": "simulation/computing",
+      "description": "Virtual, continuously updated replicas of physical systems used for real-time monitoring, prediction, and optimization.",
+      "properties": {
+        "data_sync": "real-time sensor feedback loop",
+        "modeling": "physics-based plus data-driven models"
+      },
+      "applications": ["manufacturing optimization", "predictive maintenance", "urban planning", "healthcare (organ twins)"],
+      "readiness_level": "TRL 6-8",
+      "tags": ["simulation", "IoT", "predictive modeling"]
+    },
+    {
+      "id": "MAT-009",
+      "name": "Self-Healing Polymers",
+      "category": "material",
+      "subcategory": "smart material",
+      "description": "Polymeric materials engineered to autonomously repair physical damage through embedded microcapsules, reversible bonds, or vascular networks.",
+      "properties": {
+        "healing_mechanism": ["microencapsulation", "reversible covalent bonds", "vascular networks"],
+        "recovery": "can restore up to 90%+ of original strength"
+      },
+      "applications": ["coatings", "flexible electronics", "aerospace skins", "protective gear"],
+      "readiness_level": "TRL 4-6",
+      "tags": ["self-healing", "smart polymer", "damage recovery"]
+    },
+    {
+      "id": "MAT-010",
+      "name": "MXenes",
+      "category": "material",
+      "subcategory": "2D material",
+      "description": "Family of 2D transition metal carbides/nitrides known for high conductivity and tunable surface chemistry.",
+      "properties": {
+        "conductivity": "metallic-level electrical conductivity",
+        "surface_chemistry": "highly tunable terminations (-O, -F, -OH)"
+      },
+      "applications": ["energy storage (supercapacitors)", "EMI shielding", "sensors", "catalysis"],
+      "readiness_level": "TRL 3-5",
+      "tags": ["2D material", "MXene", "energy storage"]
+    },
+    {
+      "id": "MAT-011",
+      "name": "Ultra-High-Temperature Ceramics (UHTCs)",
+      "category": "material",
+      "subcategory": "ceramic material",
+      "description": "Ceramic compounds (e.g., hafnium carbide, zirconium diboride) that retain structural integrity at extreme temperatures above 2000°C.",
+      "properties": {
+        "melting_point": "above 3000°C for some compositions",
+        "examples": ["HfC", "ZrB2", "TaC"]
+      },
+      "applications": ["hypersonic vehicle leading edges", "rocket nozzles", "re-entry heat shields"],
+      "readiness_level": "TRL 5-7",
+      "tags": ["ceramic", "hypersonic", "heat resistant"]
+    },
+    {
+      "id": "SUIT-001",
+      "name": "Powered Exoskeleton Suit",
+      "category": "wearable",
+      "subcategory": "advanced suit",
+      "description": "Wearable robotic frame with motorized joints that augments human strength and endurance for industrial, military, or medical use.",
+      "properties": {
+        "power_source": "battery-electric actuators or hydraulic systems",
+        "load_augmentation": "can add 20-90+ kg of effective lift capacity",
+        "control": "sensor-driven, follows user's natural movement"
+      },
+      "applications": ["industrial lifting", "military load-bearing", "rehabilitation/mobility assistance"],
+      "readiness_level": "TRL 7-9 (early commercial)",
+      "tags": ["exosuit", "exoskeleton", "human augmentation"]
+    },
+    {
+      "id": "SUIT-002",
+      "name": "Extravehicular Activity (EVA) Space Suit",
+      "category": "wearable",
+      "subcategory": "advanced suit",
+      "description": "Pressurized, life-supporting suit designed for survival and mobility in the vacuum of space, incorporating thermal regulation and micrometeoroid protection.",
+      "properties": {
+        "layers": "multi-layer insulation, pressure bladder, micrometeoroid garment",
+        "life_support": "self-contained oxygen, CO2 scrubbing, thermal control",
+        "pressure": "typically ~4.3 psi pure oxygen"
+      },
+      "applications": ["spacewalks", "lunar/planetary surface exploration"],
+      "readiness_level": "TRL 8-9 (operational)",
+      "tags": ["space suit", "EVA", "life support"]
+    },
+    {
+      "id": "SUIT-003",
+      "name": "Smart Textile / E-Textile Suit",
+      "category": "wearable",
+      "subcategory": "advanced suit",
+      "description": "Clothing embedded with conductive fibers, sensors, and flexible electronics for biometric monitoring and adaptive functions.",
+      "properties": {
+        "components": "conductive thread, flexible sensors, embedded microelectronics",
+        "functions": ["heart rate/biometric tracking", "temperature regulation", "haptic feedback"]
+      },
+      "applications": ["athletic performance monitoring", "medical diagnostics", "military biometrics"],
+      "readiness_level": "TRL 6-8",
+      "tags": ["e-textile", "wearable sensors", "smart clothing"]
+    },
+    {
+      "id": "SUIT-004",
+      "name": "Advanced Hazmat / CBRN Protective Suit",
+      "category": "wearable",
+      "subcategory": "advanced suit",
+      "description": "Fully encapsulating protective suit engineered to shield against chemical, biological, radiological, and nuclear hazards.",
+      "properties": {
+        "materials": "laminated barrier films, activated carbon layers",
+        "protection_level": "rated by permeation resistance standards (e.g., NFPA 1991)"
+      },
+      "applications": ["hazmat response", "military CBRN defense", "industrial chemical handling"],
+      "readiness_level": "TRL 9 (commercial)",
+      "tags": ["hazmat", "CBRN", "protective equipment"]
+    },
+    {
+      "id": "SUIT-005",
+      "name": "Liquid Cooling/Warming Garment (LCVG)",
+      "category": "wearable",
+      "subcategory": "advanced suit",
+      "description": "Undergarment with embedded tubing circulating temperature-controlled fluid to regulate body temperature in extreme environments or under a sealed suit.",
+      "properties": {
+        "mechanism": "network of thin tubes carrying water for active thermal exchange",
+        "use_context": "worn beneath EVA suits or firefighting gear"
+      },
+      "applications": ["spacewalk thermal regulation", "firefighting", "extreme climate operations"],
+      "readiness_level": "TRL 8-9",
+      "tags": ["thermal regulation", "life support", "undergarment"]
+    },
+    {
+      "id": "SUIT-006",
+      "name": "Soft Robotic Assistive Suit",
+      "category": "wearable",
+      "subcategory": "advanced suit",
+      "description": "Lightweight, fabric-based wearable using pneumatic or cable-driven actuators to assist natural movement without rigid frames.",
+      "properties": {
+        "actuation": "pneumatic bladders or Bowden cable systems",
+        "weight": "significantly lighter than rigid exoskeletons"
+      },
+      "applications": ["stroke rehabilitation", "elderly mobility assistance", "gait correction"],
+      "readiness_level": "TRL 5-7",
+      "tags": ["soft robotics", "rehabilitation", "assistive wearable"]
+    },
+    {
+      "id": "TECH-011",
+      "name": "Solid-State Batteries",
+      "category": "technology",
+      "subcategory": "energy storage",
+      "description": "Battery technology using solid electrolytes instead of liquid, offering higher energy density and improved safety over lithium-ion.",
+      "properties": {
+        "electrolyte": "solid ceramic, polymer, or glass",
+        "energy_density": "potentially 2-3x conventional Li-ion",
+        "safety": "reduced fire risk (no flammable liquid electrolyte)"
+      },
+      "applications": ["electric vehicles", "consumer electronics", "grid storage"],
+      "readiness_level": "TRL 6-7",
+      "tags": ["battery", "energy storage", "EV"]
+    },
+    {
+      "id": "TECH-012",
+      "name": "CRISPR Gene Editing",
+      "category": "technology",
+      "subcategory": "biotechnology",
+      "description": "Precision gene-editing technology using guide RNA and Cas enzymes to target and modify specific DNA sequences.",
+      "properties": {
+        "mechanism": "RNA-guided nuclease targeting",
+        "precision": "single base-pair editing possible (with newer variants)"
+      },
+      "applications": ["gene therapy", "agricultural crop modification", "disease research"],
+      "readiness_level": "TRL 6-8",
+      "tags": ["gene editing", "CRISPR", "biotech"]
+    },
+    {
+      "id": "TECH-013",
+      "name": "Autonomous Underwater Vehicles (AUVs)",
+      "category": "technology",
+      "subcategory": "robotics/marine",
+      "description": "Untethered robotic vehicles that operate underwater without real-time human control, using onboard navigation and sensing.",
+      "properties": {
+        "navigation": "inertial navigation, sonar, occasionally GPS surfacing",
+        "endurance": "hours to months depending on design (gliders)"
+      },
+      "applications": ["ocean floor mapping", "pipeline inspection", "military reconnaissance", "marine research"],
+      "readiness_level": "TRL 7-9",
+      "tags": ["AUV", "underwater robotics", "marine tech"]
+    },
+    {
+      "id": "TECH-014",
+      "name": "Space-Based Solar Power",
+      "category": "technology",
+      "subcategory": "energy",
+      "description": "Concept and emerging systems for collecting solar energy in orbit and transmitting it wirelessly to Earth via microwave or laser beams.",
+      "properties": {
+        "collection": "orbital solar arrays, unaffected by weather/night",
+        "transmission": "microwave or laser beaming to ground rectenna"
+      },
+      "applications": ["continuous clean baseload power", "remote/disaster power delivery"],
+      "readiness_level": "TRL 3-5",
+      "tags": ["solar power", "wireless power transmission", "space energy"]
+    },
+    {
+      "id": "MAT-012",
+      "name": "Carbon Nanotubes (CNTs)",
+      "category": "material",
+      "subcategory": "nanomaterial",
+      "description": "Cylindrical nanostructures of rolled graphene sheets, exhibiting exceptional tensile strength and electrical conductivity.",
+      "properties": {
+        "tensile_strength": "up to ~100 GPa",
+        "electrical_conductivity": "can be metallic or semiconducting depending on chirality",
+        "aspect_ratio": "extremely high (length-to-diameter)"
+      },
+      "applications": ["structural composites", "conductive films", "electronics", "space elevator research"],
+      "readiness_level": "TRL 6-8",
+      "tags": ["nanotube", "carbon nanomaterial", "high strength"]
+    },
+    {
+      "id": "MAT-013",
+      "name": "Metallic Glass (Amorphous Metal)",
+      "category": "material",
+      "subcategory": "metal alloy",
+      "description": "Metal alloys with a disordered, non-crystalline atomic structure, giving high strength and elasticity with resistance to wear.",
+      "properties": {
+        "structure": "amorphous (non-crystalline)",
+        "elastic_limit": "much higher than crystalline metals",
+        "corrosion_resistance": "high"
+      },
+      "applications": ["sporting goods", "medical devices", "electronic casings", "aerospace fasteners"],
+      "readiness_level": "TRL 7-9",
+      "tags": ["amorphous metal", "metallic glass", "high elasticity"]
+    },
+    {
+      "id": "MAT-014",
+      "name": "Programmable/4D-Printed Materials",
+      "category": "material",
+      "subcategory": "smart material",
+      "description": "Materials designed to change shape or properties over time or in response to stimuli after 3D printing, adding a 'time' dimension to fabrication.",
+      "properties": {
+        "stimuli_response": ["heat", "moisture", "light", "magnetic field"],
+        "mechanism": "engineered material anisotropy and composite layering"
+      },
+      "applications": ["self-assembling structures", "adaptive medical devices", "responsive architecture"],
+      "readiness_level": "TRL 3-5",
+      "tags": ["4D printing", "shape-changing", "programmable matter"]
+    },
+    {
+      "id": "SUIT-007",
+      "name": "Diving/Atmospheric Diving Suit (ADS)",
+      "category": "wearable",
+      "subcategory": "advanced suit",
+      "description": "Rigid, articulated pressure suit that maintains one atmosphere of internal pressure, allowing divers to work at extreme depths without decompression.",
+      "properties": {
+        "structure": "rigid metal/composite joints and shell",
+        "depth_rating": "up to ~700 meters",
+        "pressure": "maintains surface (1 atm) internal pressure"
+      },
+      "applications": ["deep-sea salvage", "offshore rig maintenance", "underwater construction"],
+      "readiness_level": "TRL 8-9 (operational)",
+      "tags": ["ADS", "deep sea", "diving suit"]
+    },
+    {
+      "id": "SUIT-008",
+      "name": "Firefighter Proximity/Fire-Entry Suit",
+      "category": "wearable",
+      "subcategory": "advanced suit",
+      "description": "Reflective, heat-resistant suit designed to allow close-range work near extreme heat sources such as aircraft fires or industrial furnaces.",
+      "properties": {
+        "materials": "aluminized outer layer over fire-resistant composite insulation",
+        "heat_resistance": "withstands radiant heat up to ~1000°C briefly"
+      },
+      "applications": ["aircraft rescue firefighting", "industrial furnace work", "structural fire entry"],
+      "readiness_level": "TRL 9 (commercial)",
+      "tags": ["fire suit", "heat protection", "reflective"]
+    },
+    {
+      "id": "SUIT-009",
+      "name": "Camouflage / Adaptive Optical Suit",
+      "category": "wearable",
+      "subcategory": "advanced suit",
+      "description": "Experimental wearable systems using electrochromic materials or camera-projector arrays to dynamically match surroundings for concealment.",
+      "properties": {
+        "mechanism": ["electrochromic panels", "flexible OLED skins", "metamaterial cloaking research"],
+        "status": "largely experimental/prototype stage"
+      },
+      "applications": ["military concealment", "special operations", "research into adaptive camouflage"],
+      "readiness_level": "TRL 2-4",
+      "tags": ["adaptive camouflage", "electrochromic", "concealment"]
+    },
+    {
+      "id": "SUIT-010",
+      "name": "Integrated Powered Armor Concept (HUD + Repulsor-style Propulsion)",
+      "category": "wearable",
+      "subcategory": "conceptual suit",
+      "description": "Speculative full-body powered armor concept combining structural exoskeleton, heads-up-display (HUD) visor, and distributed thrust modules for flight — inspired by fictional powered-armor designs (e.g., Iron Man). Not an existing deployed system; included as a conceptual/aspirational entry blending real sub-technologies.",
+      "properties": {
+        "constituent_real_technologies": ["exoskeleton actuators", "AR/HUD visor optics", "jet-pack/ducted-fan propulsion", "AI-assisted flight stabilization"],
+        "status": "conceptual - no unified system exists; individual components exist separately at varying TRLs",
+        "power_challenge": "no current compact power source matches fictional portrayals (arc-reactor-equivalent energy density does not exist)"
+      },
+      "applications": ["conceptual/inspirational design reference", "component technologies used separately in real jet suits, HUD helmets, exoskeletons"],
+      "readiness_level": "TRL 1-2 (conceptual; individual subsystems TRL 4-7)",
+      "tags": ["powered armor concept", "sci-fi inspired", "conceptual", "not real deployed system"]
+    },
+    {
+      "id": "SUIT-011",
+      "name": "Jet Suit (Real Personal Flight System)",
+      "category": "wearable",
+      "subcategory": "advanced suit",
+      "description": "Real, commercially demonstrated wearable propulsion system using micro-turbine engines mounted on arms and back to enable controlled personal flight.",
+      "properties": {
+        "propulsion": "five micro gas-turbine engines (typical configuration)",
+        "flight_time": "roughly 5-10 minutes per fuel load (current generation)",
+        "top_speed": "demonstrated over 30 mph in public trials"
+      },
+      "applications": ["remote rescue access", "military demonstration programs", "air racing/sport", "rapid medical response in terrain"],
+      "readiness_level": "TRL 7-8 (demonstrated, limited commercial/military trials)",
+      "tags": ["jet suit", "personal flight", "micro-turbine", "real technology"]
+    },
+    {
+      "id": "SUIT-012",
+      "name": "Augmented-Reality HUD Helmet",
+      "category": "wearable",
+      "subcategory": "advanced suit",
+      "description": "Helmet-integrated visor projecting real-time data, navigation, targeting, or diagnostic overlays into the wearer's field of view.",
+      "properties": {
+        "display_method": ["waveguide optics", "micro-OLED projection"],
+        "data_feeds": ["telemetry", "targeting reticles", "biometrics", "navigation"]
+      },
+      "applications": ["military aviation", "firefighting navigation", "industrial maintenance", "motorsports"],
+      "readiness_level": "TRL 7-9 (fielded in military/aviation)",
+      "tags": ["HUD", "AR visor", "helmet display"]
+    },
+    {
+      "id": "SUIT-013",
+      "name": "Wearable Exosuit with AI Load-Balancing (Iron-Man-style Assist Concept)",
+      "category": "wearable",
+      "subcategory": "conceptual suit",
+      "description": "Speculative near-future extension of current exoskeletons: an AI-driven suit that predicts user intent and dynamically redistributes load across actuators in real time, echoing fictional 'smart armor' concepts.",
+      "properties": {
+        "ai_role": "predictive intent modeling from EMG/motion sensors to preemptively adjust actuator torque",
+        "status": "research-stage; predictive-assist exosuits exist, full 'smart armor' integration does not"
+      },
+      "applications": ["next-gen industrial exosuits", "military load-carriage research", "rehabilitation robotics"],
+      "readiness_level": "TRL 3-5 (predictive-assist subsystems in research)",
+      "tags": ["AI exosuit", "predictive control", "conceptual", "sci-fi inspired"]
+    }
+  ]
+}
+ 

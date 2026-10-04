@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "robot_001_navigation",
+    "class": "humanoid",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_001_manipulation",
+    "class": "humanoid",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_001_vision",
+    "class": "humanoid",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_001_force_control",
+    "class": "humanoid",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_001_planning",
+    "class": "humanoid",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_002_navigation",
+    "class": "quadruped",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_002_manipulation",
+    "class": "quadruped",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_002_vision",
+    "class": "quadruped",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_002_force_control",
+    "class": "quadruped",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_002_planning",
+    "class": "quadruped",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_003_navigation",
+    "class": "hexapod",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_003_manipulation",
+    "class": "hexapod",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_003_vision",
+    "class": "hexapod",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_003_force_control",
+    "class": "hexapod",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_003_planning",
+    "class": "hexapod",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_004_navigation",
+    "class": "industrial_arm",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_004_manipulation",
+    "class": "industrial_arm",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_004_vision",
+    "class": "industrial_arm",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_004_force_control",
+    "class": "industrial_arm",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_004_planning",
+    "class": "industrial_arm",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_005_navigation",
+    "class": "mobile_manipulator",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_005_manipulation",
+    "class": "mobile_manipulator",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_005_vision",
+    "class": "mobile_manipulator",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_005_force_control",
+    "class": "mobile_manipulator",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_005_planning",
+    "class": "mobile_manipulator",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_006_navigation",
+    "class": "warehouse_robot",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_006_manipulation",
+    "class": "warehouse_robot",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_006_vision",
+    "class": "warehouse_robot",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_006_force_control",
+    "class": "warehouse_robot",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_006_planning",
+    "class": "warehouse_robot",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_007_navigation",
+    "class": "underwater_robot",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_007_manipulation",
+    "class": "underwater_robot",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_007_vision",
+    "class": "underwater_robot",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_007_force_control",
+    "class": "underwater_robot",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_007_planning",
+    "class": "underwater_robot",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_008_navigation",
+    "class": "aerial_robot",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_008_manipulation",
+    "class": "aerial_robot",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_008_vision",
+    "class": "aerial_robot",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_008_force_control",
+    "class": "aerial_robot",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_008_planning",
+    "class": "aerial_robot",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_009_navigation",
+    "class": "space_rover",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_009_manipulation",
+    "class": "space_rover",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_009_vision",
+    "class": "space_rover",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_009_force_control",
+    "class": "space_rover",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_009_planning",
+    "class": "space_rover",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_010_navigation",
+    "class": "exoskeleton",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_010_manipulation",
+    "class": "exoskeleton",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_010_vision",
+    "class": "exoskeleton",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_010_force_control",
+    "class": "exoskeleton",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_010_planning",
+    "class": "exoskeleton",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_011_navigation",
+    "class": "medical_robot",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_011_manipulation",
+    "class": "medical_robot",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_011_vision",
+    "class": "medical_robot",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_011_force_control",
+    "class": "medical_robot",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_011_planning",
+    "class": "medical_robot",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_012_navigation",
+    "class": "swarm_robot",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_012_manipulation",
+    "class": "swarm_robot",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_012_vision",
+    "class": "swarm_robot",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_012_force_control",
+    "class": "swarm_robot",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_012_planning",
+    "class": "swarm_robot",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_013_navigation",
+    "class": "inspection_robot",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_013_manipulation",
+    "class": "inspection_robot",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_013_vision",
+    "class": "inspection_robot",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_013_force_control",
+    "class": "inspection_robot",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_013_planning",
+    "class": "inspection_robot",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_014_navigation",
+    "class": "agricultural_robot",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_014_manipulation",
+    "class": "agricultural_robot",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_014_vision",
+    "class": "agricultural_robot",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_014_force_control",
+    "class": "agricultural_robot",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_014_planning",
+    "class": "agricultural_robot",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_015_navigation",
+    "class": "search_and_rescue_robot",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_015_manipulation",
+    "class": "search_and_rescue_robot",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_015_vision",
+    "class": "search_and_rescue_robot",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_015_force_control",
+    "class": "search_and_rescue_robot",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_015_planning",
+    "class": "search_and_rescue_robot",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_016_navigation",
+    "class": "autonomous_vehicle",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_016_manipulation",
+    "class": "autonomous_vehicle",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_016_vision",
+    "class": "autonomous_vehicle",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_016_force_control",
+    "class": "autonomous_vehicle",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_016_planning",
+    "class": "autonomous_vehicle",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_017_navigation",
+    "class": "service_robot",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_017_manipulation",
+    "class": "service_robot",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_017_vision",
+    "class": "service_robot",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_017_force_control",
+    "class": "service_robot",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_017_planning",
+    "class": "service_robot",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_018_navigation",
+    "class": "micro_robot",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_018_manipulation",
+    "class": "micro_robot",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_018_vision",
+    "class": "micro_robot",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_018_force_control",
+    "class": "micro_robot",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_018_planning",
+    "class": "micro_robot",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_019_navigation",
+    "class": "soft_robot",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_019_manipulation",
+    "class": "soft_robot",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_019_vision",
+    "class": "soft_robot",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_019_force_control",
+    "class": "soft_robot",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_019_planning",
+    "class": "soft_robot",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_020_navigation",
+    "class": "modular_robot",
+    "capability": "navigation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_020_manipulation",
+    "class": "modular_robot",
+    "capability": "manipulation",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_020_vision",
+    "class": "modular_robot",
+    "capability": "vision",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_020_force_control",
+    "class": "modular_robot",
+    "capability": "force_control",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  },
+  {
+    "id": "robot_020_planning",
+    "class": "modular_robot",
+    "capability": "planning",
+    "components": [
+      "controller",
+      "sensors",
+      "actuators",
+      "power",
+      "structure"
+    ],
+    "simulation": "kinematic_and_behavioral_conceptual"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "id": "mvp-ssh-detection-test",
+  "name": "SSH Brute Force Detection Test",
+  "description": "MVP experiment: simulate SSH brute force and validate detection + containment",
+  "environmentProfileId": "mvp-range",
+  "targetProfile": "ubuntu-22.04",
+  "backgroundActivityProfileId": "profile-developer",
+  "adversaryScenarioId": "scenario-ssh-brute-force",
+  "detectionRequirements": ["rule-ssh-brute-force"],
+  "responsePolicyId": "playbook-contain-ssh-brute-force",
+  "timeoutSeconds": 300,
+  "cleanupBehavior": "DESTROY",
+  "successCriteria": {
+    "detectionRequired": true,
+    "maxDetectionLatencyMs": 10000,
+    "maxResponseLatencyMs": 30000,
+    "containmentRequired": true
+  }
+}

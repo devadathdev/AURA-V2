@@ -1,0 +1,58 @@
+[
+  {
+    "query": "Show me the periodic table and explain carbon",
+    "route": [
+      "retrieval",
+      "3d_element_view",
+      "explanation"
+    ],
+    "entities": [
+      "element:C"
+    ]
+  },
+  {
+    "query": "Build a graphene nanosheet and show its properties",
+    "route": [
+      "retrieval",
+      "asset_generation",
+      "property_panel"
+    ],
+    "entities": [
+      "material:graphene"
+    ]
+  },
+  {
+    "query": "Show how a quadruped robot walks",
+    "route": [
+      "retrieval",
+      "robot_model",
+      "kinematic_simulation"
+    ],
+    "entities": [
+      "robot:quadruped_robot"
+    ]
+  },
+  {
+    "query": "Visualize antimatter annihilation conceptually",
+    "route": [
+      "retrieval",
+      "particle_visualization",
+      "conceptual_simulation"
+    ],
+    "entities": [
+      "particle:positron",
+      "particle:electron"
+    ]
+  },
+  {
+    "query": "Explore quantum sensing",
+    "route": [
+      "retrieval",
+      "knowledge_graph",
+      "conceptual_visualization"
+    ],
+    "entities": [
+      "concept:quantum_sensing"
+    ]
+  }
+]

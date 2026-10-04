@@ -1,0 +1,72 @@
+[
+  {
+    "id": "steel",
+    "class": "metal",
+    "density_kg_m3": 7850,
+    "youngs_modulus_pa": 200000000000.0,
+    "conceptual": true
+  },
+  {
+    "id": "aluminum",
+    "class": "metal",
+    "density_kg_m3": 2700,
+    "youngs_modulus_pa": 69000000000.0,
+    "conceptual": true
+  },
+  {
+    "id": "copper",
+    "class": "metal",
+    "density_kg_m3": 8960,
+    "youngs_modulus_pa": 110000000000.0,
+    "conceptual": true
+  },
+  {
+    "id": "brass",
+    "class": "metal",
+    "density_kg_m3": 8500,
+    "youngs_modulus_pa": 100000000000.0,
+    "conceptual": true
+  },
+  {
+    "id": "plastic",
+    "class": "polymer",
+    "density_kg_m3": 1200,
+    "youngs_modulus_pa": 2500000000.0,
+    "conceptual": true
+  },
+  {
+    "id": "rubber",
+    "class": "polymer",
+    "density_kg_m3": 1100,
+    "youngs_modulus_pa": 10000000.0,
+    "conceptual": true
+  },
+  {
+    "id": "glass",
+    "class": "ceramic",
+    "density_kg_m3": 2500,
+    "youngs_modulus_pa": 70000000000.0,
+    "conceptual": true
+  },
+  {
+    "id": "wood",
+    "class": "natural",
+    "density_kg_m3": 600,
+    "youngs_modulus_pa": 10000000000.0,
+    "conceptual": true
+  },
+  {
+    "id": "carbon_fiber",
+    "class": "composite",
+    "density_kg_m3": 1600,
+    "youngs_modulus_pa": 70000000000.0,
+    "conceptual": true
+  },
+  {
+    "id": "silicon",
+    "class": "semiconductor",
+    "density_kg_m3": 2330,
+    "youngs_modulus_pa": 130000000000.0,
+    "conceptual": true
+  }
+]

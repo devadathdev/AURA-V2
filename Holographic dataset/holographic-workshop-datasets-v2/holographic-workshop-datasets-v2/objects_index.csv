@@ -1,0 +1,247 @@
+id,category,name,base_type,asset_format,engineering_validated
+gear_01,mechanical,Gear 1,gear,glTF/GLB,False
+gear_02,mechanical,Gear 2,gear,glTF/GLB,False
+gear_03,mechanical,Gear 3,gear,glTF/GLB,False
+shaft_01,mechanical,Shaft 1,shaft,glTF/GLB,False
+shaft_02,mechanical,Shaft 2,shaft,glTF/GLB,False
+shaft_03,mechanical,Shaft 3,shaft,glTF/GLB,False
+bearing_01,mechanical,Bearing 1,bearing,glTF/GLB,False
+bearing_02,mechanical,Bearing 2,bearing,glTF/GLB,False
+bearing_03,mechanical,Bearing 3,bearing,glTF/GLB,False
+pulley_01,mechanical,Pulley 1,pulley,glTF/GLB,False
+pulley_02,mechanical,Pulley 2,pulley,glTF/GLB,False
+pulley_03,mechanical,Pulley 3,pulley,glTF/GLB,False
+lever_01,mechanical,Lever 1,lever,glTF/GLB,False
+lever_02,mechanical,Lever 2,lever,glTF/GLB,False
+lever_03,mechanical,Lever 3,lever,glTF/GLB,False
+spring_01,mechanical,Spring 1,spring,glTF/GLB,False
+spring_02,mechanical,Spring 2,spring,glTF/GLB,False
+spring_03,mechanical,Spring 3,spring,glTF/GLB,False
+piston_01,mechanical,Piston 1,piston,glTF/GLB,False
+piston_02,mechanical,Piston 2,piston,glTF/GLB,False
+piston_03,mechanical,Piston 3,piston,glTF/GLB,False
+crankshaft_01,mechanical,Crankshaft 1,crankshaft,glTF/GLB,False
+crankshaft_02,mechanical,Crankshaft 2,crankshaft,glTF/GLB,False
+crankshaft_03,mechanical,Crankshaft 3,crankshaft,glTF/GLB,False
+flywheel_01,mechanical,Flywheel 1,flywheel,glTF/GLB,False
+flywheel_02,mechanical,Flywheel 2,flywheel,glTF/GLB,False
+flywheel_03,mechanical,Flywheel 3,flywheel,glTF/GLB,False
+belt_01,mechanical,Belt 1,belt,glTF/GLB,False
+belt_02,mechanical,Belt 2,belt,glTF/GLB,False
+belt_03,mechanical,Belt 3,belt,glTF/GLB,False
+motor_mount_01,mechanical,Motor Mount 1,motor_mount,glTF/GLB,False
+motor_mount_02,mechanical,Motor Mount 2,motor_mount,glTF/GLB,False
+motor_mount_03,mechanical,Motor Mount 3,motor_mount,glTF/GLB,False
+bracket_01,mechanical,Bracket 1,bracket,glTF/GLB,False
+bracket_02,mechanical,Bracket 2,bracket,glTF/GLB,False
+bracket_03,mechanical,Bracket 3,bracket,glTF/GLB,False
+battery_01,electrical,Battery 1,battery,glTF/GLB,False
+battery_02,electrical,Battery 2,battery,glTF/GLB,False
+battery_03,electrical,Battery 3,battery,glTF/GLB,False
+resistor_01,electrical,Resistor 1,resistor,glTF/GLB,False
+resistor_02,electrical,Resistor 2,resistor,glTF/GLB,False
+resistor_03,electrical,Resistor 3,resistor,glTF/GLB,False
+capacitor_01,electrical,Capacitor 1,capacitor,glTF/GLB,False
+capacitor_02,electrical,Capacitor 2,capacitor,glTF/GLB,False
+capacitor_03,electrical,Capacitor 3,capacitor,glTF/GLB,False
+inductor_01,electrical,Inductor 1,inductor,glTF/GLB,False
+inductor_02,electrical,Inductor 2,inductor,glTF/GLB,False
+inductor_03,electrical,Inductor 3,inductor,glTF/GLB,False
+diode_01,electrical,Diode 1,diode,glTF/GLB,False
+diode_02,electrical,Diode 2,diode,glTF/GLB,False
+diode_03,electrical,Diode 3,diode,glTF/GLB,False
+led_01,electrical,LED 1,led,glTF/GLB,False
+led_02,electrical,LED 2,led,glTF/GLB,False
+led_03,electrical,LED 3,led,glTF/GLB,False
+switch_01,electrical,Switch 1,switch,glTF/GLB,False
+switch_02,electrical,Switch 2,switch,glTF/GLB,False
+switch_03,electrical,Switch 3,switch,glTF/GLB,False
+relay_01,electrical,Relay 1,relay,glTF/GLB,False
+relay_02,electrical,Relay 2,relay,glTF/GLB,False
+relay_03,electrical,Relay 3,relay,glTF/GLB,False
+transformer_01,electrical,Transformer 1,transformer,glTF/GLB,False
+transformer_02,electrical,Transformer 2,transformer,glTF/GLB,False
+transformer_03,electrical,Transformer 3,transformer,glTF/GLB,False
+wire_01,electrical,Wire 1,wire,glTF/GLB,False
+wire_02,electrical,Wire 2,wire,glTF/GLB,False
+wire_03,electrical,Wire 3,wire,glTF/GLB,False
+fuse_01,electrical,Fuse 1,fuse,glTF/GLB,False
+fuse_02,electrical,Fuse 2,fuse,glTF/GLB,False
+fuse_03,electrical,Fuse 3,fuse,glTF/GLB,False
+motor_dc_01,electrical,DC Motor 1,motor_dc,glTF/GLB,False
+motor_dc_02,electrical,DC Motor 2,motor_dc,glTF/GLB,False
+motor_dc_03,electrical,DC Motor 3,motor_dc,glTF/GLB,False
+microcontroller_01,electronics,Microcontroller 1,microcontroller,glTF/GLB,False
+microcontroller_02,electronics,Microcontroller 2,microcontroller,glTF/GLB,False
+microcontroller_03,electronics,Microcontroller 3,microcontroller,glTF/GLB,False
+sensor_board_01,electronics,Sensor Board 1,sensor_board,glTF/GLB,False
+sensor_board_02,electronics,Sensor Board 2,sensor_board,glTF/GLB,False
+sensor_board_03,electronics,Sensor Board 3,sensor_board,glTF/GLB,False
+breadboard_01,electronics,Breadboard 1,breadboard,glTF/GLB,False
+breadboard_02,electronics,Breadboard 2,breadboard,glTF/GLB,False
+breadboard_03,electronics,Breadboard 3,breadboard,glTF/GLB,False
+op_amp_01,electronics,Operational Amplifier 1,op_amp,glTF/GLB,False
+op_amp_02,electronics,Operational Amplifier 2,op_amp,glTF/GLB,False
+op_amp_03,electronics,Operational Amplifier 3,op_amp,glTF/GLB,False
+logic_gate_01,electronics,Logic Gate 1,logic_gate,glTF/GLB,False
+logic_gate_02,electronics,Logic Gate 2,logic_gate,glTF/GLB,False
+logic_gate_03,electronics,Logic Gate 3,logic_gate,glTF/GLB,False
+adc_01,electronics,ADC 1,adc,glTF/GLB,False
+adc_02,electronics,ADC 2,adc,glTF/GLB,False
+adc_03,electronics,ADC 3,adc,glTF/GLB,False
+dac_01,electronics,DAC 1,dac,glTF/GLB,False
+dac_02,electronics,DAC 2,dac,glTF/GLB,False
+dac_03,electronics,DAC 3,dac,glTF/GLB,False
+display_01,electronics,Display 1,display,glTF/GLB,False
+display_02,electronics,Display 2,display,glTF/GLB,False
+display_03,electronics,Display 3,display,glTF/GLB,False
+button_01,electronics,Push Button 1,button,glTF/GLB,False
+button_02,electronics,Push Button 2,button,glTF/GLB,False
+button_03,electronics,Push Button 3,button,glTF/GLB,False
+encoder_01,electronics,Rotary Encoder 1,encoder,glTF/GLB,False
+encoder_02,electronics,Rotary Encoder 2,encoder,glTF/GLB,False
+encoder_03,electronics,Rotary Encoder 3,encoder,glTF/GLB,False
+servo_01,robotics,Servo 1,servo,glTF/GLB,False
+servo_02,robotics,Servo 2,servo,glTF/GLB,False
+servo_03,robotics,Servo 3,servo,glTF/GLB,False
+robot_joint_01,robotics,Robot Joint 1,robot_joint,glTF/GLB,False
+robot_joint_02,robotics,Robot Joint 2,robot_joint,glTF/GLB,False
+robot_joint_03,robotics,Robot Joint 3,robot_joint,glTF/GLB,False
+robot_wheel_01,robotics,Robot Wheel 1,robot_wheel,glTF/GLB,False
+robot_wheel_02,robotics,Robot Wheel 2,robot_wheel,glTF/GLB,False
+robot_wheel_03,robotics,Robot Wheel 3,robot_wheel,glTF/GLB,False
+gripper_01,robotics,Gripper 1,gripper,glTF/GLB,False
+gripper_02,robotics,Gripper 2,gripper,glTF/GLB,False
+gripper_03,robotics,Gripper 3,gripper,glTF/GLB,False
+lidar_01,robotics,LiDAR 1,lidar,glTF/GLB,False
+lidar_02,robotics,LiDAR 2,lidar,glTF/GLB,False
+lidar_03,robotics,LiDAR 3,lidar,glTF/GLB,False
+imu_01,robotics,IMU 1,imu,glTF/GLB,False
+imu_02,robotics,IMU 2,imu,glTF/GLB,False
+imu_03,robotics,IMU 3,imu,glTF/GLB,False
+robot_arm_segment_01,robotics,Robot Arm Segment 1,robot_arm_segment,glTF/GLB,False
+robot_arm_segment_02,robotics,Robot Arm Segment 2,robot_arm_segment,glTF/GLB,False
+robot_arm_segment_03,robotics,Robot Arm Segment 3,robot_arm_segment,glTF/GLB,False
+controller_01,robotics,Robot Controller 1,controller,glTF/GLB,False
+controller_02,robotics,Robot Controller 2,controller,glTF/GLB,False
+controller_03,robotics,Robot Controller 3,controller,glTF/GLB,False
+motor_driver_01,robotics,Motor Driver 1,motor_driver,glTF/GLB,False
+motor_driver_02,robotics,Motor Driver 2,motor_driver,glTF/GLB,False
+motor_driver_03,robotics,Motor Driver 3,motor_driver,glTF/GLB,False
+actuator_01,robotics,Actuator 1,actuator,glTF/GLB,False
+actuator_02,robotics,Actuator 2,actuator,glTF/GLB,False
+actuator_03,robotics,Actuator 3,actuator,glTF/GLB,False
+solar_panel_01,energy,Solar Panel 1,solar_panel,glTF/GLB,False
+solar_panel_02,energy,Solar Panel 2,solar_panel,glTF/GLB,False
+solar_panel_03,energy,Solar Panel 3,solar_panel,glTF/GLB,False
+wind_turbine_01,energy,Wind Turbine 1,wind_turbine,glTF/GLB,False
+wind_turbine_02,energy,Wind Turbine 2,wind_turbine,glTF/GLB,False
+wind_turbine_03,energy,Wind Turbine 3,wind_turbine,glTF/GLB,False
+inverter_01,energy,Inverter 1,inverter,glTF/GLB,False
+inverter_02,energy,Inverter 2,inverter,glTF/GLB,False
+inverter_03,energy,Inverter 3,inverter,glTF/GLB,False
+charge_controller_01,energy,Charge Controller 1,charge_controller,glTF/GLB,False
+charge_controller_02,energy,Charge Controller 2,charge_controller,glTF/GLB,False
+charge_controller_03,energy,Charge Controller 3,charge_controller,glTF/GLB,False
+generator_01,energy,Generator 1,generator,glTF/GLB,False
+generator_02,energy,Generator 2,generator,glTF/GLB,False
+generator_03,energy,Generator 3,generator,glTF/GLB,False
+fuel_cell_01,energy,Fuel Cell 1,fuel_cell,glTF/GLB,False
+fuel_cell_02,energy,Fuel Cell 2,fuel_cell,glTF/GLB,False
+fuel_cell_03,energy,Fuel Cell 3,fuel_cell,glTF/GLB,False
+supercapacitor_01,energy,Supercapacitor 1,supercapacitor,glTF/GLB,False
+supercapacitor_02,energy,Supercapacitor 2,supercapacitor,glTF/GLB,False
+supercapacitor_03,energy,Supercapacitor 3,supercapacitor,glTF/GLB,False
+energy_meter_01,energy,Energy Meter 1,energy_meter,glTF/GLB,False
+energy_meter_02,energy,Energy Meter 2,energy_meter,glTF/GLB,False
+energy_meter_03,energy,Energy Meter 3,energy_meter,glTF/GLB,False
+atom_01,science,Atom 1,atom,glTF/GLB,False
+atom_02,science,Atom 2,atom,glTF/GLB,False
+atom_03,science,Atom 3,atom,glTF/GLB,False
+molecule_01,science,Molecule 1,molecule,glTF/GLB,False
+molecule_02,science,Molecule 2,molecule,glTF/GLB,False
+molecule_03,science,Molecule 3,molecule,glTF/GLB,False
+magnet_01,science,Magnet 1,magnet,glTF/GLB,False
+magnet_02,science,Magnet 2,magnet,glTF/GLB,False
+magnet_03,science,Magnet 3,magnet,glTF/GLB,False
+coil_01,science,Coil 1,coil,glTF/GLB,False
+coil_02,science,Coil 2,coil,glTF/GLB,False
+coil_03,science,Coil 3,coil,glTF/GLB,False
+pendulum_01,science,Pendulum 1,pendulum,glTF/GLB,False
+pendulum_02,science,Pendulum 2,pendulum,glTF/GLB,False
+pendulum_03,science,Pendulum 3,pendulum,glTF/GLB,False
+spring_mass_01,science,Spring-Mass System 1,spring_mass,glTF/GLB,False
+spring_mass_02,science,Spring-Mass System 2,spring_mass,glTF/GLB,False
+spring_mass_03,science,Spring-Mass System 3,spring_mass,glTF/GLB,False
+lens_01,science,Lens 1,lens,glTF/GLB,False
+lens_02,science,Lens 2,lens,glTF/GLB,False
+lens_03,science,Lens 3,lens,glTF/GLB,False
+prism_01,science,Prism 1,prism,glTF/GLB,False
+prism_02,science,Prism 2,prism,glTF/GLB,False
+prism_03,science,Prism 3,prism,glTF/GLB,False
+circuit_probe_01,science,Circuit Probe 1,circuit_probe,glTF/GLB,False
+circuit_probe_02,science,Circuit Probe 2,circuit_probe,glTF/GLB,False
+circuit_probe_03,science,Circuit Probe 3,circuit_probe,glTF/GLB,False
+fluid_container_01,science,Fluid Container 1,fluid_container,glTF/GLB,False
+fluid_container_02,science,Fluid Container 2,fluid_container,glTF/GLB,False
+fluid_container_03,science,Fluid Container 3,fluid_container,glTF/GLB,False
+heart_01,biology,Heart 1,heart,glTF/GLB,False
+heart_02,biology,Heart 2,heart,glTF/GLB,False
+heart_03,biology,Heart 3,heart,glTF/GLB,False
+lung_01,biology,Lung 1,lung,glTF/GLB,False
+lung_02,biology,Lung 2,lung,glTF/GLB,False
+lung_03,biology,Lung 3,lung,glTF/GLB,False
+neuron_01,biology,Neuron 1,neuron,glTF/GLB,False
+neuron_02,biology,Neuron 2,neuron,glTF/GLB,False
+neuron_03,biology,Neuron 3,neuron,glTF/GLB,False
+cell_01,biology,Cell 1,cell,glTF/GLB,False
+cell_02,biology,Cell 2,cell,glTF/GLB,False
+cell_03,biology,Cell 3,cell,glTF/GLB,False
+dna_01,biology,DNA 1,dna,glTF/GLB,False
+dna_02,biology,DNA 2,dna,glTF/GLB,False
+dna_03,biology,DNA 3,dna,glTF/GLB,False
+ribosome_01,biology,Ribosome 1,ribosome,glTF/GLB,False
+ribosome_02,biology,Ribosome 2,ribosome,glTF/GLB,False
+ribosome_03,biology,Ribosome 3,ribosome,glTF/GLB,False
+blood_vessel_01,biology,Blood Vessel 1,blood_vessel,glTF/GLB,False
+blood_vessel_02,biology,Blood Vessel 2,blood_vessel,glTF/GLB,False
+blood_vessel_03,biology,Blood Vessel 3,blood_vessel,glTF/GLB,False
+skeleton_01,biology,Skeletal Model 1,skeleton,glTF/GLB,False
+skeleton_02,biology,Skeletal Model 2,skeleton,glTF/GLB,False
+skeleton_03,biology,Skeletal Model 3,skeleton,glTF/GLB,False
+eye_01,biology,Eye 1,eye,glTF/GLB,False
+eye_02,biology,Eye 2,eye,glTF/GLB,False
+eye_03,biology,Eye 3,eye,glTF/GLB,False
+ear_01,biology,Ear 1,ear,glTF/GLB,False
+ear_02,biology,Ear 2,ear,glTF/GLB,False
+ear_03,biology,Ear 3,ear,glTF/GLB,False
+server_01,computing,Server 1,server,glTF/GLB,False
+server_02,computing,Server 2,server,glTF/GLB,False
+server_03,computing,Server 3,server,glTF/GLB,False
+router_01,computing,Router 1,router,glTF/GLB,False
+router_02,computing,Router 2,router,glTF/GLB,False
+router_03,computing,Router 3,router,glTF/GLB,False
+switch_network_01,computing,Network Switch 1,switch_network,glTF/GLB,False
+switch_network_02,computing,Network Switch 2,switch_network,glTF/GLB,False
+switch_network_03,computing,Network Switch 3,switch_network,glTF/GLB,False
+database_01,computing,Database 1,database,glTF/GLB,False
+database_02,computing,Database 2,database,glTF/GLB,False
+database_03,computing,Database 3,database,glTF/GLB,False
+client_01,computing,Client 1,client,glTF/GLB,False
+client_02,computing,Client 2,client,glTF/GLB,False
+client_03,computing,Client 3,client,glTF/GLB,False
+api_gateway_01,computing,API Gateway 1,api_gateway,glTF/GLB,False
+api_gateway_02,computing,API Gateway 2,api_gateway,glTF/GLB,False
+api_gateway_03,computing,API Gateway 3,api_gateway,glTF/GLB,False
+queue_01,computing,Message Queue 1,queue,glTF/GLB,False
+queue_02,computing,Message Queue 2,queue,glTF/GLB,False
+queue_03,computing,Message Queue 3,queue,glTF/GLB,False
+cache_01,computing,Cache 1,cache,glTF/GLB,False
+cache_02,computing,Cache 2,cache,glTF/GLB,False
+cache_03,computing,Cache 3,cache,glTF/GLB,False
+load_balancer_01,computing,Load Balancer 1,load_balancer,glTF/GLB,False
+load_balancer_02,computing,Load Balancer 2,load_balancer,glTF/GLB,False
+load_balancer_03,computing,Load Balancer 3,load_balancer,glTF/GLB,False
+container_01,computing,Container 1,container,glTF/GLB,False
+container_02,computing,Container 2,container,glTF/GLB,False
+container_03,computing,Container 3,container,glTF/GLB,False

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "security-audit",
+  "name": "Security Audit",
+  "version": "1.0.0",
+  "description": "Scan codebase for security vulnerabilities, hardcoded credentials, and permissive file access patterns.",
+  "source": "core",
+  "category": "security",
+  "tags": ["security", "audit", "secrets", "cve", "vulnerabilities"],
+  "lifecycle": "ENABLED",
+  "entrypoint": "index.js",
+  "permissions": ["READ"],
+  "tools": ["filesystem"],
+  "sandbox": {
+    "allowedPaths": ["."],
+    "timeoutMs": 20000,
+    "allowNetwork": false,
+    "maxMemoryMb": 256
+  },
+  "inputs": {
+    "scanPath": { "type": "string", "description": "Path to scan", "default": "." }
+  },
+  "outputs": {
+    "success": { "type": "boolean" },
+    "findings": { "type": "array" },
+    "riskLevel": { "type": "string" }
+  }
+}

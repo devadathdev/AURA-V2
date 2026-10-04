@@ -1,0 +1,17 @@
+{
+  "id": "mvp-range",
+  "name": "MVP Cyber Range",
+  "description": "Isolated cyber range with 2 target VMs, Wazuh SIEM, and Suricata IDS",
+  "targetCount": 2,
+  "networkCidr": "10.99.0.0/24",
+  "zones": ["ATTACKER", "TARGET", "DEFENDER", "MANAGEMENT"],
+  "defenderStack": ["wazuh", "suricata", "elasticsearch", "kibana"],
+  "isolationEnabled": true,
+  "infrastructure": {
+    "virtualization": "kvm",
+    "managementNetwork": "10.99.255.0/24",
+    "attackerNetwork": "10.99.1.0/24",
+    "targetNetwork": "10.99.0.0/24",
+    "defenderNetwork": "10.99.2.0/24"
+  }
+}

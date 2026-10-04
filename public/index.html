@@ -1,0 +1,1973 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AURA OS V2 // Futuristic AI Operating System. Intelligent, minimal, cinematic command interface."
+    />
+    <meta name="theme-color" content="#03070D" />
+    <title>AURA OS // AI Operating System V2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+    <script defer src="/liveness-detector.js"></script>
+    <script defer src="/auth-enhanced.js"></script>
+    <script defer src="/local-ai.js"></script>
+  </head>
+  <body class="aura-os-v2">
+    <!-- Atmospheric Visual Canvas Layers -->
+    <canvas id="background-depth-layer-1" class="aura-canvas-bg" aria-hidden="true"></canvas>
+    <canvas id="background-depth-layer-2" class="aura-canvas-bg" aria-hidden="true"></canvas>
+    <canvas id="background-depth-layer-3" class="aura-canvas-bg" aria-hidden="true"></canvas>
+    <canvas id="particle-canvas" class="aura-canvas-particles" aria-hidden="true"></canvas>
+    <canvas id="neural-canvas" class="aura-canvas-neural" aria-hidden="true"></canvas>
+    <canvas id="grid-canvas" class="aura-canvas-grid" aria-hidden="true"></canvas>
+    <canvas id="radar-sweep" class="aura-canvas-radar" aria-hidden="true" style="display:none;"></canvas>
+
+    <!-- Biometric Authentication Overlay / Face ID / PIN Sentinel -->
+    <div class="face-auth-overlay" id="face-auth-overlay" role="dialog" aria-modal="true" aria-labelledby="face-auth-title" hidden>
+      <div class="face-auth-backdrop"></div>
+      <div class="face-auth-container glass-panel">
+        <div class="face-auth-header">
+          <div class="face-auth-brand">
+            <span class="auth-neural-orb"></span>
+          </div>
+          <div class="face-auth-title-wrap">
+            <span class="auth-badge">ZERO TRUST // AES-256</span>
+            <h1 id="face-auth-title" class="face-auth-title">AURA // BIOMETRIC SENTINEL</h1>
+            <p class="face-auth-subtitle">Neural biometric signature or secure passcode required</p>
+          </div>
+        </div>
+
+        <div class="face-auth-video-wrap">
+          <video id="face-auth-video" autoplay muted playsinline aria-hidden="true"></video>
+          <canvas id="face-auth-canvas" aria-hidden="true"></canvas>
+          <div class="scanner-reticle">
+            <span class="reticle-corner tl"></span>
+            <span class="reticle-corner tr"></span>
+            <span class="reticle-corner bl"></span>
+            <span class="reticle-corner br"></span>
+            <div class="scanner-sweep-line"></div>
+          </div>
+        </div>
+
+        <div class="face-auth-status" id="face-auth-panel">
+          <div class="face-auth-status-info">
+            <span class="status-pulse-dot"></span>
+            <p id="face-auth-message" class="face-auth-message">Initializing biometric analyzer...</p>
+          </div>
+          <div class="face-auth-progress" id="face-auth-progress" aria-hidden="true">
+            <span style="width: 0%"></span>
+          </div>
+          <div class="face-auth-stats-row">
+            <p id="face-auth-confidence" class="face-auth-confidence" hidden>Confidence: <strong>--%</strong></p>
+            <span class="biometric-chip">ENCLAVE SECURED</span>
+          </div>
+        </div>
+
+        <div class="face-auth-actions">
+          <button type="button" id="face-auth-enroll" class="btn secondary" hidden>
+            <span>Enroll Signature</span>
+          </button>
+          <button type="button" id="face-auth-skip" class="btn ghost">
+            <span>Use Passcode</span>
+          </button>
+        </div>
+
+        <!-- PIN Entry Matrix UI -->
+        <div id="face-auth-pin" class="face-auth-pin" hidden>
+          <div class="pin-header-bar">
+            <span class="pin-icon">🔒</span>
+            <p class="face-auth-pin-label">ENTER ACCESS PASSCODE</p>
+          </div>
+          <div class="face-auth-pin-inputs" aria-label="PIN entry">
+            <input type="password" maxlength="1" inputmode="numeric" pattern="[0-9]*" aria-label="PIN digit 1">
+            <input type="password" maxlength="1" inputmode="numeric" pattern="[0-9]*" aria-label="PIN digit 2">
+            <input type="password" maxlength="1" inputmode="numeric" pattern="[0-9]*" aria-label="PIN digit 3">
+            <input type="password" maxlength="1" inputmode="numeric" pattern="[0-9]*" aria-label="PIN digit 4">
+            <input type="password" maxlength="1" inputmode="numeric" pattern="[0-9]*" aria-label="PIN digit 5">
+            <input type="password" maxlength="1" inputmode="numeric" pattern="[0-9]*" aria-label="PIN digit 6">
+            <input type="password" maxlength="1" inputmode="numeric" pattern="[0-9]*" aria-label="PIN digit 7">
+            <input type="password" maxlength="1" inputmode="numeric" pattern="[0-9]*" aria-label="PIN digit 8">
+          </div>
+          <p id="face-auth-pin-error" class="face-auth-pin-error" hidden></p>
+          <div class="pin-actions-row">
+            <button type="button" id="face-auth-pin-submit" class="btn primary" hidden>Authenticate</button>
+            <button type="button" id="face-auth-pin-cancel" class="btn ghost" hidden>Back to Face ID</button>
+          </div>
+        </div>
+
+        <div class="face-auth-footer">
+          <span class="face-auth-secure">
+            <i class="sec-dot"></i> Local security enclave active
+          </span>
+          <span id="face-auth-enrolled" class="badge-tag" hidden>REGISTERED</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAIN V2 APPLICATION SHELL -->
+    <div class="aura-shell">
+      <!-- TOP COMMAND / NAVIGATION BAR -->
+      <header class="aura-topbar">
+        <div class="topbar-left">
+          <a class="aura-brand" href="/" data-route="/" aria-label="AURA OS Home">
+            <div class="aura-logo-mark" aria-hidden="true">
+              <svg viewBox="0 0 32 32" class="aura-logo-svg">
+                <circle cx="16" cy="16" r="14" class="logo-ring-outer" />
+                <circle cx="16" cy="16" r="8" class="logo-ring-inner" />
+                <polygon points="16,6 24,16 16,26 8,16" class="logo-diamond" />
+                <circle cx="16" cy="16" r="2.5" class="logo-core" />
+              </svg>
+            </div>
+            <div class="aura-brand-text">
+              <span class="brand-title">AURA</span>
+              <span class="brand-sub">AI OPERATING SYSTEM</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- Global Search / Command Bar -->
+        <div class="topbar-center">
+          <div class="global-search-wrapper" id="topbar-search-trigger" role="button" tabindex="0" aria-label="Open Command Search">
+            <svg class="search-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8">
+              <circle cx="9" cy="9" r="6"/>
+              <path d="M13.5 13.5L18 18"/>
+            </svg>
+            <span class="search-placeholder">Search, create, analyze anything...</span>
+            <span class="search-shortcut"><kbd>CTRL</kbd><kbd>K</kbd></span>
+          </div>
+        </div>
+
+        <div class="topbar-right">
+          <!-- Centralized Command Map Trigger -->
+          <button type="button" id="command-map-toggle" class="topbar-btn" title="Open AURA Command Map (⌘M)" aria-label="Open AURA Command Map">
+            <span class="btn-glyph">❖</span>
+            <span class="btn-text">COMMAND MAP</span>
+            <span class="cmd-map-pulse-dot"></span>
+          </button>
+
+          <!-- Holographic Workshop Quick Link -->
+          <a href="/workshop" id="holo-workshop-toggle" class="topbar-btn" title="Launch Holographic Studio (⌘H)" aria-label="Launch Holographic Studio">
+            <span class="btn-glyph">⬡</span>
+            <span class="btn-text">WORKSHOP</span>
+          </a>
+
+          <!-- Sound Effects Toggle -->
+          <button type="button" id="sfx-toggle" class="topbar-icon-btn active" title="Toggle Sound Effects" aria-label="Toggle Sound Effects">
+            <span class="icon-label">🔊</span>
+          </button>
+
+          <!-- Fullscreen Toggle -->
+          <button type="button" id="fullscreen-toggle" class="topbar-icon-btn" title="Toggle Fullscreen" aria-label="Toggle Fullscreen">
+            <span class="icon-label">⛶</span>
+          </button>
+
+          <!-- Live System Status Chip -->
+          <div class="system-status-chip">
+            <span class="status-indicator-dot online"></span>
+            <span id="connection-label" class="status-text">ONLINE</span>
+            <span class="status-sep">/</span>
+            <span id="latency-value" class="latency-text">12ms</span>
+            <span id="mode-label" style="display:none;">LOCAL CORE</span>
+            <span id="ai-indicator" style="display:none;"></span>
+          </div>
+
+          <!-- Abstract AURA System Identity Glyph (NO HUMAN AVATAR) -->
+          <div class="aura-system-avatar" title="AURA Neural Prime Online" aria-label="System Identity">
+            <div class="system-glyph-box">
+              <span class="system-glyph-dot"></span>
+              <svg viewBox="0 0 24 24" class="system-glyph-icon">
+                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5" fill="none" stroke-dasharray="3 3"/>
+                <circle cx="12" cy="12" r="4" fill="currentColor"/>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Clock Widget -->
+          <div class="topbar-clock">
+            <strong id="clock">00:00:00</strong>
+            <div class="clock-sub">
+              <small id="date">FRI / 12 JUN</small>
+              <span id="utc-clock" style="display:none;">UTC 00:00</span>
+              <span id="stardate-val" style="display:none;">SD 2026.232</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- SHELL BODY: SIDEBAR + MAIN VIEW CONTAINER -->
+      <div class="aura-shell-body">
+        <!-- LEFT NAVIGATION SIDEBAR -->
+        <aside class="aura-sidebar" aria-label="Main Navigation">
+          <nav class="sidebar-nav">
+            <ul class="nav-list">
+              <li>
+                <a href="/" class="nav-item active" data-route="/">
+                  <span class="nav-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                      <path d="M3 10.5L12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1v-9.5z"/>
+                    </svg>
+                  </span>
+                  <span class="nav-label">HOME</span>
+                  <span class="nav-active-edge"></span>
+                </a>
+              </li>
+              <li>
+                <a href="/chat" class="nav-item" data-route="/chat">
+                  <span class="nav-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5z"/>
+                    </svg>
+                  </span>
+                  <span class="nav-label">CHAT</span>
+                  <span class="nav-active-edge"></span>
+                </a>
+              </li>
+              <li>
+                <a href="/workspace" class="nav-item" data-route="/workspace">
+                  <span class="nav-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                      <path d="M16 18l6-6-6-6M8 6l-6 6 6 6M14 4l-4 16"/>
+                    </svg>
+                  </span>
+                  <span class="nav-label">WORKSPACE</span>
+                  <span class="nav-active-edge"></span>
+                </a>
+              </li>
+              <li>
+                <a href="/missions" class="nav-item" data-route="/missions">
+                  <span class="nav-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                      <path d="M9 11l3 3L22 4"/>
+                      <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+                    </svg>
+                  </span>
+                  <span class="nav-label">MISSIONS</span>
+                  <span class="nav-active-edge"></span>
+                </a>
+              </li>
+              <li>
+                <a href="/intelligence" class="nav-item" data-route="/intelligence">
+                  <span class="nav-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                      <circle cx="12" cy="12" r="3"/>
+                      <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                    </svg>
+                  </span>
+                  <span class="nav-label">INTELLIGENCE</span>
+                  <span class="nav-active-edge"></span>
+                </a>
+              </li>
+              <li>
+                <a href="/data" class="nav-item" data-route="/data">
+                  <span class="nav-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                      <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                      <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+                      <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+                    </svg>
+                  </span>
+                  <span class="nav-label">DATA</span>
+                  <span class="nav-active-edge"></span>
+                </a>
+              </li>
+              <li>
+                <a href="/creative" class="nav-item" data-route="/creative">
+                  <span class="nav-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                  </span>
+                  <span class="nav-label">CREATIVE</span>
+                  <span class="nav-active-edge"></span>
+                </a>
+              </li>
+              <li>
+                <a href="/automation" class="nav-item" data-route="/automation">
+                  <span class="nav-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                      <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4"/>
+                      <circle cx="12" cy="12" r="6"/>
+                      <path d="M12 9v3l2 2"/>
+                    </svg>
+                  </span>
+                  <span class="nav-label">AUTOMATION</span>
+                  <span class="nav-active-edge"></span>
+                </a>
+              </li>
+              <li>
+                <a href="/security" class="nav-item" data-route="/security">
+                  <span class="nav-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    </svg>
+                  </span>
+                  <span class="nav-label">SECURITY</span>
+                  <span class="nav-active-edge"></span>
+                </a>
+              </li>
+              <li>
+                <a href="/devices" class="nav-item" data-route="/devices">
+                  <span class="nav-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                      <rect x="2" y="3" width="20" height="14" rx="2"/>
+                      <path d="M8 21h8M12 17v4"/>
+                    </svg>
+                  </span>
+                  <span class="nav-label">DEVICES</span>
+                  <span class="nav-active-edge"></span>
+                </a>
+              </li>
+              <li>
+                <a href="/settings" class="nav-item" data-route="/settings">
+                  <span class="nav-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                      <circle cx="12" cy="12" r="3"/>
+                      <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                    </svg>
+                  </span>
+                  <span class="nav-label">SETTINGS</span>
+                  <span class="nav-active-edge"></span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Sidebar Footer Status -->
+          <div class="sidebar-footer">
+            <div class="os-version-card">
+              <span class="os-name">AURA OS</span>
+              <span class="os-version">V2.0</span>
+              <div class="os-status-row">
+                <span class="status-dot-sm online"></span>
+                <span class="os-status-text">SYSTEM ONLINE</span>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <!-- MAIN VIEW CONTAINER -->
+        <main class="aura-main-content">
+          
+          <!-- ===================================================================
+               VIEW 1: HOME DASHBOARD (#view-home)
+               =================================================================== -->
+          <div class="aura-view active" id="view-home" role="region" aria-label="Home Dashboard">
+            <div class="home-layout-container">
+              
+              <!-- 1. HERO SECTION & AURA NEURAL CORE -->
+              <section class="aura-hero-section">
+                <div class="hero-text-header">
+                  <span class="hero-eyebrow">AURA NEURAL OPERATING SYSTEM</span>
+                  <h1 class="hero-greeting" id="greeting">Good evening.</h1>
+                  <p class="hero-lead-status">All systems are operational.</p>
+                  <p class="hero-subtext" id="assistant-status">How can I assist you today?</p>
+                </div>
+
+                <!-- Centerpiece: AURA NEURAL CORE (NO HUMAN FIGURE) -->
+                <div class="aura-core-centerpiece">
+                  <div class="cognitive-brain-container" aria-hidden="true">
+                    <canvas id="cognitive-brain-canvas"></canvas>
+                  </div>
+
+                  <div class="orb-wrap" id="orb-wrap">
+                    <div class="neural-core-system">
+                      <!-- Orbital Ring 1: Calibrated outer track -->
+                      <div class="core-layer layer-outer-calibrated">
+                        <svg class="calibration-ring-svg" viewBox="0 0 320 320" aria-hidden="true">
+                          <circle cx="160" cy="160" r="150" class="ring-track" />
+                          <circle cx="160" cy="160" r="150" class="ring-ticks" stroke-dasharray="3 14" />
+                        </svg>
+                      </div>
+
+                      <!-- Orbital Ring 2: Segmented Gyroscope -->
+                      <div class="core-layer layer-segmented">
+                        <div class="segmented-ticks">
+                          <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                        </div>
+                      </div>
+
+                      <!-- Orbital Ring 3: Concentric Gyroscopic Rings -->
+                      <div class="core-layer layer-gyro-x"></div>
+                      <div class="core-layer layer-gyro-y"></div>
+
+                      <!-- Neural Synaptic Lattice Canvas -->
+                      <div class="core-layer layer-synaptic-lattice">
+                        <canvas id="neural-core-synapse-canvas" width="280" height="280"></canvas>
+                      </div>
+
+                      <!-- Central Plasma Glow & Radiance -->
+                      <div class="core-layer layer-central-plasma"></div>
+                      <div class="core-layer layer-scanner-beam"></div>
+
+                      <!-- Central Interactive Core Button with Abstract AI Glyph -->
+                      <button class="core-button" id="core-button" aria-label="Engage voice neural interface">
+                        <span class="core-glass">
+                          <span class="core-light"></span>
+                          <!-- Abstract Geometric Neural Core Glyph (NO HUMAN AVATAR) -->
+                          <svg class="ai-core-glyph-svg" viewBox="0 0 64 64" aria-hidden="true">
+                            <defs>
+                              <linearGradient id="glyphGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#00F0FF"/>
+                                <stop offset="100%" stop-color="#3B82F6"/>
+                              </linearGradient>
+                            </defs>
+                            <circle cx="32" cy="32" r="24" stroke="url(#glyphGrad)" stroke-width="1.8" fill="none" opacity="0.6"/>
+                            <polygon points="32,12 48,32 32,52 16,32" stroke="url(#glyphGrad)" stroke-width="2" fill="none"/>
+                            <circle cx="32" cy="32" r="7" fill="#00F0FF" class="core-nucleus-dot"/>
+                            <line x1="32" y1="12" x2="32" y2="25" stroke="#00F0FF" stroke-width="2"/>
+                            <line x1="32" y1="39" x2="32" y2="52" stroke="#00F0FF" stroke-width="2"/>
+                            <line x1="16" y1="32" x2="25" y2="32" stroke="#00F0FF" stroke-width="2"/>
+                            <line x1="39" y1="32" x2="48" y2="32" stroke="#00F0FF" stroke-width="2"/>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+
+                    <div class="orb-label">
+                      <span id="orb-state">SAY "AURA"</span>
+                      <div class="waveform" aria-hidden="true">
+                        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="core-badge-caption">
+                    <span class="core-tag">AURA</span>
+                    <span class="core-sep">•</span>
+                    <span class="core-sub">NEURAL PRIME</span>
+                    <span class="core-sep">•</span>
+                    <span class="core-status">ALL SYSTEMS ONLINE</span>
+                  </div>
+                </div>
+
+                <!-- 7 Interactive Core Capabilities -->
+                <div class="capabilities-grid" aria-label="Core Capabilities">
+                  <div class="capability-card" data-action="understand" role="button" tabindex="0">
+                    <div class="cap-icon-box">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <circle cx="12" cy="12" r="9"/>
+                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                        <line x1="12" y1="17" x2="12.01" y2="17"/>
+                      </svg>
+                    </div>
+                    <strong class="cap-title">UNDERSTAND</strong>
+                    <p class="cap-desc">Natural language &amp; multi-modal reasoning</p>
+                  </div>
+
+                  <div class="capability-card" data-action="learn" role="button" tabindex="0">
+                    <div class="cap-icon-box">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                      </svg>
+                    </div>
+                    <strong class="cap-title">LEARN</strong>
+                    <p class="cap-desc">Continuous feedback &amp; memory loops</p>
+                  </div>
+
+                  <div class="capability-card" data-action="create" role="button" tabindex="0">
+                    <div class="cap-icon-box">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                      </svg>
+                    </div>
+                    <strong class="cap-title">CREATE</strong>
+                    <p class="cap-desc">Generative code, applications &amp; media</p>
+                  </div>
+
+                  <div class="capability-card" data-action="explore" role="button" tabindex="0">
+                    <div class="cap-icon-box">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <circle cx="12" cy="12" r="10"/>
+                        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+                      </svg>
+                    </div>
+                    <strong class="cap-title">EXPLORE</strong>
+                    <p class="cap-desc">1,000+ scientific datasets &amp; knowledge graph</p>
+                  </div>
+
+                  <div class="capability-card" data-action="automate" role="button" tabindex="0">
+                    <div class="cap-icon-box">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <circle cx="12" cy="12" r="3"/>
+                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                      </svg>
+                    </div>
+                    <strong class="cap-title">AUTOMATE</strong>
+                    <p class="cap-desc">Autonomous multi-agent workflows</p>
+                  </div>
+
+                  <div class="capability-card" data-action="solve" role="button" tabindex="0">
+                    <div class="cap-icon-box">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                      </svg>
+                    </div>
+                    <strong class="cap-title">SOLVE</strong>
+                    <p class="cap-desc">Deterministic simulation &amp; diagnostics</p>
+                  </div>
+
+                  <div class="capability-card" data-action="protect" role="button" tabindex="0">
+                    <div class="cap-icon-box">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                      </svg>
+                    </div>
+                    <strong class="cap-title">PROTECT</strong>
+                    <p class="cap-desc">Zero-trust Sentinel defense &amp; kill switches</p>
+                  </div>
+                </div>
+              </section>
+
+              <!-- 2. PRIMARY CHAT STREAM & COMMAND COMPOSER -->
+              <section class="aura-chat-section">
+                <div class="chat-section-header">
+                  <div class="chat-header-left">
+                    <span class="chat-status-dot online"></span>
+                    <strong class="chat-header-title">COGNITIVE STREAM</strong>
+                    <span class="chat-header-model" id="active-model-chip">Nemotron 3 Ultra</span>
+                  </div>
+                  <div class="chat-header-right">
+                    <button type="button" class="chat-util-btn" id="btn-expand-chat" title="Open Fullscreen Chat">
+                      <span>EXPAND CHAT ↗</span>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="conversation-wrapper">
+                  <div class="conversation" id="conversation" aria-live="polite">
+                    <article class="message assistant-message">
+                      <div class="message-meta">
+                        <span class="message-avatar">✦</span>
+                        <span class="message-sender">AURA OS</span>
+                        <time>JUST NOW</time>
+                      </div>
+                      <div class="message-body">
+                        <p>AURA V2 initialized. All cognitive services online. Say "Aura" or enter an instruction below.</p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+
+                <!-- Suggestion Matrix Chips -->
+                <div class="suggestion-row" id="suggestion-row">
+                  <button type="button" data-command="/insights" class="suggestion-chip">✦ AI Insights</button>
+                  <button type="button" data-command="/brief" class="suggestion-chip">📋 Daily Brief</button>
+                  <button type="button" data-command="Give me a system status report" class="suggestion-chip">⚙ Diagnostics</button>
+                  <button type="button" data-command="Generate an app" class="suggestion-chip">💻 Create App</button>
+                  <button type="button" data-command="World news" class="suggestion-chip">🌐 World News</button>
+                  <button type="button" data-command="/focus" class="suggestion-chip">⏱ Focus 25m</button>
+                </div>
+
+                <!-- Large Command Composer -->
+                <div class="command-composer-container">
+                  <form id="command-form" class="command-composer-form">
+                    <div class="composer-controls-left">
+                      <button type="button" class="composer-btn" id="btn-attach" title="Attach File" aria-label="Attach File">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                          <path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"/>
+                        </svg>
+                      </button>
+                      <button type="button" class="composer-btn" id="btn-image" title="Image Generation / Vision" aria-label="Vision">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                          <circle cx="8.5" cy="8.5" r="1.5"/>
+                          <polyline points="21 15 16 10 5 21"/>
+                        </svg>
+                      </button>
+                      <button type="button" class="composer-btn" id="btn-web" title="Web Search" aria-label="Web">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                          <circle cx="12" cy="12" r="10"/>
+                          <line x1="2" y1="12" x2="22" y2="12"/>
+                          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                      </button>
+                    </div>
+
+                    <div class="composer-input-wrap">
+                      <input
+                        id="command-input"
+                        type="text"
+                        autocomplete="off"
+                        spellcheck="false"
+                        placeholder="Ask AURA anything..."
+                        aria-label="Command input"
+                      />
+                    </div>
+
+                    <div class="composer-controls-right">
+                      <button type="button" class="voice-button" id="voice-button" aria-label="Toggle voice input" title="Voice Input">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                          <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                          <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                          <line x1="12" y1="19" x2="12" y2="23"/>
+                          <line x1="8" y1="23" x2="16" y2="23"/>
+                        </svg>
+                      </button>
+                      <button type="submit" class="send-button" aria-label="Send command">
+                        <span>EXECUTE</span>
+                        <svg viewBox="0 0 20 20" fill="currentColor">
+                          <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"/>
+                        </svg>
+                      </button>
+                    </div>
+                  </form>
+
+                  <!-- Quick Action Pills Under Input -->
+                  <div class="quick-actions-bar">
+                    <span class="quick-actions-label">QUICK:</span>
+                    <button type="button" class="quick-pill" data-prefill="Generate a full-stack web application with Tailwind and Node.js">Generate an app</button>
+                    <button type="button" class="quick-pill" data-prefill="Analyze the codebase for performance and security optimizations">Analyze code</button>
+                    <button type="button" class="quick-pill" data-prefill="Create an image concept for a futuristic lunar research habitat">Create an image</button>
+                    <button type="button" class="quick-pill" data-prefill="Research quantum entanglement applications in low-latency communication">Research topic</button>
+                    <button type="button" class="quick-pill" data-prefill="Plan a multi-step roadmap to scale cloud microservices architecture">Plan roadmap</button>
+                  </div>
+                </div>
+              </section>
+
+              <!-- 3. SECONDARY DASHBOARD PANELS (CLEAN HIERARCHY, NOT OVERCROWDED) -->
+              <div class="home-secondary-grid">
+                
+                <!-- System Diagnostics (Secondary, Compact Gauge Metrics) -->
+                <section class="glass-panel system-summary-panel">
+                  <div class="panel-header">
+                    <span class="panel-title">SYSTEM SUMMARY</span>
+                    <span class="panel-badge-green">OPTIMAL</span>
+                  </div>
+                  <div class="metrics-horizontal-grid">
+                    <div class="metric-gauge-card">
+                      <div class="gauge-head">
+                        <span class="gauge-label">CPU LOAD</span>
+                        <strong class="gauge-value" id="diag-cpu">24%</strong>
+                      </div>
+                      <div class="gauge-bar-track">
+                        <div class="gauge-bar-fill" style="width: 24%"></div>
+                      </div>
+                    </div>
+
+                    <div class="metric-gauge-card">
+                      <div class="gauge-head">
+                        <span class="gauge-label">RAM ALLOCATION</span>
+                        <strong class="gauge-value" id="diag-ram">38%</strong>
+                      </div>
+                      <div class="gauge-bar-track">
+                        <div class="gauge-bar-fill" style="width: 38%"></div>
+                      </div>
+                    </div>
+
+                    <div class="metric-gauge-card">
+                      <div class="gauge-head">
+                        <span class="gauge-label">GPU TENSOR</span>
+                        <strong class="gauge-value" id="diag-gpu">48%</strong>
+                      </div>
+                      <div class="gauge-bar-track">
+                        <div class="gauge-bar-fill" style="width: 48%"></div>
+                      </div>
+                    </div>
+
+                    <div class="metric-gauge-card">
+                      <div class="gauge-head">
+                        <span class="gauge-label">STORAGE I/O</span>
+                        <strong class="gauge-value" id="diag-disk">12%</strong>
+                      </div>
+                      <div class="gauge-bar-track">
+                        <div class="gauge-bar-fill" style="width: 12%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="system-meta-row">
+                    <span>UPTIME: <strong id="uptime">00:00</strong></span>
+                    <span>NEURAL LOAD: <strong id="neural-load-text">86%</strong></span>
+                    <span>LATENCY: <strong>12ms</strong></span>
+                  </div>
+                </section>
+
+                <!-- Active Missions Overview -->
+                <section class="glass-panel missions-preview-panel">
+                  <div class="panel-header">
+                    <div class="panel-header-left">
+                      <span class="panel-title">ACTIVE MISSIONS</span>
+                      <span class="badge-tag" id="task-count">0 ACTIVE</span>
+                    </div>
+                    <a href="/missions" data-route="/missions" class="panel-link">VIEW ALL ↗</a>
+                  </div>
+                  <div class="queue-list" id="task-list">
+                    <div class="queue-empty">No active tasks in pipeline.</div>
+                  </div>
+                </section>
+
+                <!-- AI Insights Highlight Card -->
+                <section class="glass-panel insights-preview-panel" id="ai-insights-card">
+                  <div class="panel-header">
+                    <div class="panel-header-left">
+                      <span class="panel-title">✦ AI INSIGHTS</span>
+                      <span class="badge-tag pulse" id="insights-badge">PROACTIVE</span>
+                    </div>
+                    <button type="button" class="panel-link" id="btn-open-insights">DETAILS ↗</button>
+                  </div>
+                  <div class="insights-card-body">
+                    <div class="insights-summary-chips" id="insights-summary-chips">
+                      <span class="chip-item"><strong>2</strong> optimizations</span>
+                      <span class="chip-item"><strong>1</strong> focus window</span>
+                      <span class="chip-item"><strong>1</strong> security advisory</span>
+                    </div>
+                    <div class="insights-top-highlight" id="insights-top-highlight">
+                      <div class="highlight-meta">
+                        <span class="highlight-tag" id="highlight-tag">ADVISORY</span>
+                        <span class="highlight-time" id="highlight-time">Just now</span>
+                      </div>
+                      <strong class="highlight-title" id="highlight-title">System telemetry nominal</strong>
+                      <p class="highlight-desc" id="highlight-desc">All computational nodes and neural routing operational.</p>
+                    </div>
+                  </div>
+                </section>
+
+                <!-- Compact Focus Timer (25:00) -->
+                <section class="glass-panel timer-preview-panel">
+                  <div class="panel-header">
+                    <span class="panel-title">⏱ FOCUS TIMER</span>
+                    <span class="badge-tag" id="timer-phase">WORK</span>
+                  </div>
+                  <div class="timer-preview-body">
+                    <div class="timer-digits-display">
+                      <strong id="timer-time">25:00</strong>
+                    </div>
+                    <div class="timer-progress" id="timer-progress"><span style="width: 0%"></span></div>
+                    <div class="timer-buttons">
+                      <button type="button" id="timer-toggle" class="btn primary btn-sm">START</button>
+                      <button type="button" id="timer-reset" class="btn ghost btn-sm">RESET</button>
+                    </div>
+                    <div class="timer-settings-compact">
+                      <label>Work <input type="number" id="timer-work" value="25" min="1" max="120"/>m</label>
+                      <label>Break <input type="number" id="timer-break" value="5" min="1" max="30"/>m</label>
+                    </div>
+                  </div>
+                </section>
+
+                <!-- Real Activity Stream -->
+                <section class="glass-panel activity-stream-panel">
+                  <div class="panel-header">
+                    <span class="panel-title">ACTIVITY STREAM</span>
+                    <button type="button" id="clear-activity" class="btn-clear-text">CLEAR</button>
+                  </div>
+                  <div class="activity-list" id="activity-list">
+                    <div class="activity-item">
+                      <span class="activity-dot"></span>
+                      <div class="act-text"><strong>AURA OS V2 initialized</strong><small>Just now</small></div>
+                    </div>
+                  </div>
+                </section>
+
+                <!-- Sentinel Security Status Card -->
+                <section class="glass-panel security-status-panel" id="security-card" role="button" tabindex="0" aria-label="Security Status">
+                  <div class="panel-header">
+                    <span class="panel-title">🛡 SENTINEL SECURITY</span>
+                    <span class="badge-tag green">ACTIVE</span>
+                  </div>
+                  <div class="security-status-grid">
+                    <div class="sec-stat-box">
+                      <span class="stat-lbl">FIREWALL</span>
+                      <strong class="stat-val text-cyan">SECURE</strong>
+                    </div>
+                    <div class="sec-stat-box">
+                      <span class="stat-lbl">CIPHER</span>
+                      <strong class="stat-val">AES-256-GCM</strong>
+                    </div>
+                    <div class="sec-stat-box">
+                      <span class="stat-lbl">BIOMETRIC</span>
+                      <strong class="stat-val" id="face-auth-status">STANDBY</strong>
+                    </div>
+                  </div>
+                </section>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- ===================================================================
+               VIEW 2: DEDICATED CHAT VIEW (#view-chat)
+               =================================================================== -->
+          <div class="aura-view" id="view-chat" role="region" aria-label="Full Chat Experience">
+            <div class="chat-view-container">
+              <header class="view-header">
+                <div class="view-header-left">
+                  <span class="view-eyebrow">NEURAL INTERACTION</span>
+                  <h2 class="view-title">CHAT WITH AURA</h2>
+                  <span class="view-status-badge">NEURAL PRIME ONLINE</span>
+                </div>
+                <div class="view-header-right">
+                  <div class="model-select-wrapper">
+                    <label for="chat-model-selector" class="sr-only">Model</label>
+                    <select id="chat-model-selector" class="aura-select">
+                      <option value="nemotron-3-ultra">Nemotron 3 Ultra (NVIDIA, Free)</option>
+                      <option value="nemotron-3.5-lightning">Nemotron 3.5 Lightning (Free)</option>
+                      <option value="gemma-4-31b">Gemma 4 31B (Google, Free)</option>
+                      <option value="claude-3.5-sonnet">Claude 3.5 Sonnet</option>
+                      <option value="gpt-4o">GPT-4o (OpenAI)</option>
+                    </select>
+                  </div>
+                  <button type="button" class="btn secondary btn-sm" id="btn-clear-chat">Clear History</button>
+                  <button type="button" class="btn secondary btn-sm" id="btn-export-chat">Export Transcript</button>
+                </div>
+              </header>
+
+              <div class="chat-workspace-body">
+                <div class="conversation-full" id="conversation-full-stream">
+                  <!-- Synced or dedicated chat messages render here -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===================================================================
+               VIEW 3: DEDICATED WORKSPACE VIEW (#view-workspace)
+               =================================================================== -->
+          <div class="aura-view" id="view-workspace" role="region" aria-label="Workspace">
+            <div class="workspace-view-container">
+              <header class="view-header">
+                <div class="view-header-left">
+                  <span class="view-eyebrow">DEVELOPMENT COPILOT</span>
+                  <h2 class="view-title">AURA WORKSPACE</h2>
+                </div>
+                <div class="view-header-right">
+                  <div class="workspace-selector-wrap">
+                    <select id="workspace-select" class="aura-select">
+                      <option value="default">Default Workspace (Physics &amp; Robotics)</option>
+                      <option value="nano">Nanomaterials Synthesis</option>
+                      <option value="exo">Exosuit Framework</option>
+                    </select>
+                  </div>
+                  <a href="/workshop" class="btn primary btn-sm">Launch Holographic Studio ↗</a>
+                </div>
+              </header>
+
+              <!-- Workspace Multi-tab Interface -->
+              <div class="workspace-tabs-bar" role="tablist">
+                <button type="button" class="ws-tab active" data-tab="code">Code</button>
+                <button type="button" class="ws-tab" data-tab="preview">Preview</button>
+                <button type="button" class="ws-tab" data-tab="files">Files</button>
+                <button type="button" class="ws-tab" data-tab="terminal">Terminal</button>
+                <button type="button" class="ws-tab" data-tab="logs">Logs</button>
+                <button type="button" class="ws-tab" data-tab="ai">AI Copilot</button>
+              </div>
+
+              <div class="workspace-tab-contents">
+                <div class="ws-pane active" id="pane-code">
+                  <div class="code-actions-bar">
+                    <button type="button" class="btn primary btn-sm" id="btn-run-code">▶ Run Sandbox</button>
+                    <button type="button" class="btn secondary btn-sm" id="btn-save-code">💾 Save</button>
+                    <button type="button" class="btn ghost btn-sm" id="btn-clear-code">Clear</button>
+                    <span class="code-status-pill" id="code-status-pill">READY</span>
+                  </div>
+                  <div class="code-editor-shell">
+                    <div class="editor-gutter">
+                      <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                    </div>
+                    <textarea class="code-editor-area" id="ws-code-editor" spellcheck="false" aria-label="Code Editor">// AURA OS V2 — Autonomous Agentic Architecture
+import { HolographicEngine } from '@aura/workshop';
+import { SentinelDefense } from '@aura/sentinel';
+
+export async function bootstrapSystem() {
+  const engine = new HolographicEngine({ mode: 'simulation' });
+  await engine.mountWorkspace('quantum-robotics-01');
+  console.log('[AURA] System online with 0 regressions.');
+  return { status: 'ONLINE', nodes: 12, latencyMs: 14 };
+}
+</textarea>
+                  </div>
+                  <div class="code-execution-output" id="code-exec-output" style="display:none;"></div>
+                </div>
+
+                <div class="ws-pane" id="pane-preview" style="display:none;">
+                  <div class="preview-stage-container">
+                    <div class="preview-banner">
+                      <span>Volumetric Hologram Preview Engine Active</span>
+                      <a href="/workshop" class="btn primary btn-sm">Full Studio ↗</a>
+                    </div>
+                    <div class="hologram-stage-mock">
+                      <canvas id="holo-preview-canvas" width="480" height="260" style="width:100%; height:260px;"></canvas>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ws-pane" id="pane-files" style="display:none;">
+                  <div class="files-tree-list" id="ws-files-tree">
+                    <div class="file-node">📁 core/</div>
+                    <div class="file-node indent clickable-file" data-file="aura-core.ts">📄 aura-core.ts</div>
+                    <div class="file-node indent clickable-file" data-file="holographicWorkshopEngine.js">📄 holographicWorkshopEngine.js</div>
+                    <div class="file-node indent clickable-file" data-file="insightsEngine.js">📄 insightsEngine.js</div>
+                    <div class="file-node">📁 simulation/</div>
+                    <div class="file-node indent clickable-file" data-file="physicsSolver.js">📄 physicsSolver.js</div>
+                    <div class="file-node indent clickable-file" data-file="roboticsKinematics.js">📄 roboticsKinematics.js</div>
+                  </div>
+                </div>
+
+                <div class="ws-pane" id="pane-terminal" style="display:none;">
+                  <div class="terminal-shell" id="ws-terminal-shell">
+                    <div class="term-line output">AURA OS V2 Kernel [Version 2.0.4] — Zero-Trust Enclave</div>
+                    <div class="term-line output">Connected to local node at ws://127.0.0.1:3000</div>
+                    <div class="term-line output success">✓ 34 PASSED / 0 FAILED (TOTAL: 34)</div>
+                    <div class="term-line output info">Type 'help', 'test', 'status', 'models', 'clear', or 'eval 5 * 10' below:</div>
+                    <div id="term-history"></div>
+                    <form id="term-cli-form" class="term-input-row">
+                      <span class="term-prompt">aura&gt;</span>
+                      <input type="text" id="term-cli-input" class="term-input" placeholder="Enter command..." autocomplete="off" />
+                    </form>
+                  </div>
+                </div>
+
+                <div class="ws-pane" id="pane-logs" style="display:none;">
+                  <div class="logs-toolbar">
+                    <button type="button" class="btn secondary btn-sm" id="btn-clear-logs">Clear Logs</button>
+                    <span class="badge-tag green">STREAMING ACTIVE</span>
+                  </div>
+                  <div class="logs-stream-box" id="ws-logs-stream">
+                    <p>[2026-09-13T13:00:00Z] [INFO] Holographic dataset loaded: 1,000 objects, 250 systems, 118 elements.</p>
+                    <p>[2026-09-13T13:00:01Z] [INFO] Zero-Trust Sentinel Enclave active on port 8000.</p>
+                    <p>[2026-09-13T13:00:02Z] [INFO] Biometric liveness check initialized.</p>
+                  </div>
+                </div>
+
+                <div class="ws-pane" id="pane-ai" style="display:none;">
+                  <div class="ai-copilot-pane">
+                    <p class="copilot-intro">AURA Copilot is observing workspace changes and pre-staging AST refactorings.</p>
+                    <div class="copilot-composer">
+                      <input type="text" id="copilot-prompt-input" class="copilot-input" placeholder="Ask AI Copilot to review, refactor, or optimize this code..." />
+                      <button type="button" id="btn-copilot-ask" class="btn primary btn-sm">Analyze Code</button>
+                    </div>
+                    <div class="copilot-response-box glass-panel" id="copilot-response-box" style="display:none; margin-top:12px; padding:12px;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===================================================================
+               VIEW 4: DEDICATED MISSIONS VIEW (#view-missions)
+               =================================================================== -->
+          <div class="aura-view" id="view-missions" role="region" aria-label="Missions">
+            <div class="missions-view-container">
+              <header class="view-header">
+                <div class="view-header-left">
+                  <span class="view-eyebrow">TASK ORCHESTRATION</span>
+                  <h2 class="view-title">MISSION CONTROL</h2>
+                </div>
+                <div class="view-header-right">
+                  <button type="button" class="btn primary" id="btn-create-mission">+ Create Mission</button>
+                </div>
+              </header>
+
+              <!-- Missions Filter Tabs -->
+              <div class="missions-filter-bar">
+                <button type="button" class="filter-btn active" data-filter="all">ALL MISSIONS (<span id="m-count-all">3</span>)</button>
+                <button type="button" class="filter-btn" data-filter="running">RUNNING (<span id="m-count-run">2</span>)</button>
+                <button type="button" class="filter-btn" data-filter="queued">QUEUED (<span id="m-count-queue">1</span>)</button>
+                <button type="button" class="filter-btn" data-filter="completed">COMPLETED (<span id="m-count-done">0</span>)</button>
+              </div>
+
+              <!-- Mission Cards Grid -->
+              <div class="missions-cards-grid" id="missions-grid">
+                <div class="mission-card glass-panel">
+                  <div class="mission-card-head">
+                    <span class="mission-status-pill running">RUNNING</span>
+                    <span class="mission-time">Updated 2m ago</span>
+                  </div>
+                  <h3 class="mission-title">Build AURA OS V2</h3>
+                  <p class="mission-desc">Transform the UI into a polished futuristic AI operating system with no human avatars.</p>
+                  <div class="mission-progress-bar-wrap">
+                    <div class="prog-info">
+                      <span>Progress</span>
+                      <strong>85%</strong>
+                    </div>
+                    <div class="prog-track">
+                      <div class="prog-fill cyan" style="width: 85%"></div>
+                    </div>
+                  </div>
+                  <div class="mission-footer">
+                    <span class="mission-agent">Agent: <strong>AURA Architect</strong></span>
+                    <div class="mission-actions">
+                      <button type="button" class="btn-micro">Pause</button>
+                      <button type="button" class="btn-micro danger">Cancel</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mission-card glass-panel">
+                  <div class="mission-card-head">
+                    <span class="mission-status-pill running">RUNNING</span>
+                    <span class="mission-time">Updated 5m ago</span>
+                  </div>
+                  <h3 class="mission-title">Integrate Scientific Knowledge Datasets</h3>
+                  <p class="mission-desc">Link 118 periodic elements, 100 nanomaterials, and 100 advanced robotic entities.</p>
+                  <div class="mission-progress-bar-wrap">
+                    <div class="prog-info">
+                      <span>Progress</span>
+                      <strong>100%</strong>
+                    </div>
+                    <div class="prog-track">
+                      <div class="prog-fill green" style="width: 100%"></div>
+                    </div>
+                  </div>
+                  <div class="mission-footer">
+                    <span class="mission-agent">Agent: <strong>Knowledge Graph Engine</strong></span>
+                    <div class="mission-actions">
+                      <button type="button" class="btn-micro">Inspect</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mission-card glass-panel">
+                  <div class="mission-card-head">
+                    <span class="mission-status-pill queued">QUEUED</span>
+                    <span class="mission-time">Scheduled</span>
+                  </div>
+                  <h3 class="mission-title">Optimize Model Routing &amp; Latency</h3>
+                  <p class="mission-desc">Benchmarking OpenRouter free tier models against local transformers.js pipeline.</p>
+                  <div class="mission-progress-bar-wrap">
+                    <div class="prog-info">
+                      <span>Progress</span>
+                      <strong>20%</strong>
+                    </div>
+                    <div class="prog-track">
+                      <div class="prog-fill amber" style="width: 20%"></div>
+                    </div>
+                  </div>
+                  <div class="mission-footer">
+                    <span class="mission-agent">Agent: <strong>Model Optimizer</strong></span>
+                    <div class="mission-actions">
+                      <button type="button" class="btn-micro primary">Start Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===================================================================
+               VIEW 5: DEDICATED INTELLIGENCE VIEW (#view-intelligence)
+               =================================================================== -->
+          <div class="aura-view" id="view-intelligence" role="region" aria-label="Intelligence">
+            <div class="intelligence-view-container">
+              <header class="view-header">
+                <div class="view-header-left">
+                  <span class="view-eyebrow">COGNITIVE ARCHITECTURE</span>
+                  <h2 class="view-title">INTELLIGENCE &amp; MODELS</h2>
+                </div>
+                <div class="view-header-right">
+                  <span class="badge-tag green">ORCHESTRATION ACTIVE</span>
+                </div>
+              </header>
+
+              <!-- Connected Models Matrix -->
+              <section class="intel-section">
+                <h3 class="section-title">Connected AI Models</h3>
+                <div class="models-matrix-grid">
+                  <div class="model-node-card glass-panel active-model" data-model="nemotron-3-ultra" role="button" tabindex="0" title="Click to activate Nemotron 3 Ultra">
+                    <div class="model-badge-row">
+                      <span class="badge-tag cyan">ACTIVE CORE</span>
+                      <span class="provider-tag">NVIDIA</span>
+                    </div>
+                    <strong class="model-name">Nemotron 3 Ultra 550B</strong>
+                    <p class="model-specs">550B MoE • Free Tier • Zero Latency Bias</p>
+                    <div class="model-health">
+                      <span class="health-dot online"></span>
+                      <span>Operational</span>
+                    </div>
+                  </div>
+
+                  <div class="model-node-card glass-panel" data-model="gemma-4-31b" role="button" tabindex="0" title="Click to activate Gemma 4 31B">
+                    <div class="model-badge-row">
+                      <span class="badge-tag">FAST INFERENCE</span>
+                      <span class="provider-tag">Google</span>
+                    </div>
+                    <strong class="model-name">Gemma 4 31B IT</strong>
+                    <p class="model-specs">31B Instruction • High Throughput</p>
+                    <div class="model-health">
+                      <span class="health-dot online"></span>
+                      <span>Standby</span>
+                    </div>
+                  </div>
+
+                  <div class="model-node-card glass-panel" data-model="claude-3.5-sonnet" role="button" tabindex="0" title="Click to activate Claude 3.5 Sonnet">
+                    <div class="model-badge-row">
+                      <span class="badge-tag">REASONING</span>
+                      <span class="provider-tag">Anthropic</span>
+                    </div>
+                    <strong class="model-name">Claude 3.5 Sonnet</strong>
+                    <p class="model-specs">Advanced coding &amp; architecture synthesis</p>
+                    <div class="model-health">
+                      <span class="health-dot online"></span>
+                      <span>Configured</span>
+                    </div>
+                  </div>
+
+                  <div class="model-node-card glass-panel" data-model="gpt-oss-20b" role="button" tabindex="0" title="Click to activate GPT-OSS 20B / Local">
+                    <div class="model-badge-row">
+                      <span class="badge-tag">OFFLINE LOCAL</span>
+                      <span class="provider-tag">Local Engine</span>
+                    </div>
+                    <strong class="model-name">SmolLM / GPT-OSS 20B</strong>
+                    <p class="model-specs">Transformers.js in-browser execution</p>
+                    <div class="model-health">
+                      <span class="health-dot online"></span>
+                      <span>Offline Ready</span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <!-- Active AI Model Status Panel -->
+              <section class="hud-card model-card" style="display:none;">
+                <span id="model-status">ONLINE</span>
+                <strong id="active-model-title">AURA Neural Prime</strong>
+                <span id="model-provider">PROVIDER: LOCAL</span>
+                <select id="model-select">
+                  <option value="nemotron-3-ultra">Nemotron 3 Ultra</option>
+                  <option value="gemma-4-31b">Gemma 4 31B</option>
+                  <option value="gpt-4o">GPT-4o</option>
+                </select>
+                <span id="model-type">LOCAL CORE</span>
+              </section>
+
+              <!-- Self-Learning Statistics -->
+              <section class="intel-section">
+                <h3 class="section-title">Continuous Self-Learning Loop</h3>
+                <div class="learning-stats-grid">
+                  <div class="stat-card glass-panel">
+                    <span class="stat-label">POSITIVE FEEDBACK</span>
+                    <strong class="stat-big-number text-cyan" id="learning-positive">0</strong>
+                  </div>
+                  <div class="stat-card glass-panel">
+                    <span class="stat-label">CORRECTIONS STORED</span>
+                    <strong class="stat-big-number text-amber" id="learning-corrections">0</strong>
+                  </div>
+                  <div class="stat-card glass-panel">
+                    <span class="stat-label">NEGATIVE SIGNALS</span>
+                    <strong class="stat-big-number text-crimson" id="learning-negative">0</strong>
+                  </div>
+                </div>
+                <div class="learning-entries-container glass-panel">
+                  <div class="learning-list" id="learning-list">
+                    <div class="learning-empty">No learning entries recorded yet. Rate responses in chat to adapt AURA.</div>
+                  </div>
+                  <div class="learning-actions">
+                    <button type="button" id="learning-clear" class="btn secondary btn-sm">Clear Learning Store</button>
+                    <button type="button" id="learning-export" class="btn secondary btn-sm">Export Stored Weights</button>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <!-- ===================================================================
+               VIEW 6: DEDICATED DATA LIBRARY VIEW (#view-data)
+               =================================================================== -->
+          <div class="aura-view" id="view-data" role="region" aria-label="Data Library">
+            <div class="data-view-container">
+              <header class="view-header">
+                <div class="view-header-left">
+                  <span class="view-eyebrow">SCIENTIFIC KNOWLEDGE GRAPH</span>
+                  <h2 class="view-title">DATA &amp; KNOWLEDGE LIBRARY</h2>
+                </div>
+                <div class="view-header-right">
+                  <button type="button" class="btn secondary btn-sm" id="btn-export-knowledge">Export Data Pack</button>
+                  <button type="button" class="btn primary btn-sm" id="btn-import-knowledge">+ Import Dataset</button>
+                </div>
+              </header>
+
+              <!-- Data Stats Overview Ribbon -->
+              <div class="data-stats-ribbon">
+                <div class="stat-cell">
+                  <span>CANONICAL OBJECTS</span>
+                  <strong id="data-count-objects">1,000</strong>
+                </div>
+                <div class="stat-cell">
+                  <span>INTEGRATED SYSTEMS</span>
+                  <strong id="data-count-systems">250</strong>
+                </div>
+                <div class="stat-cell">
+                  <span>PERIODIC ELEMENTS</span>
+                  <strong id="data-count-elements">118</strong>
+                </div>
+                <div class="stat-cell">
+                  <span>NANOMATERIALS</span>
+                  <strong id="data-count-nano">100</strong>
+                </div>
+                <div class="stat-cell">
+                  <span>ROBOTIC ENTITIES</span>
+                  <strong id="data-count-robots">100</strong>
+                </div>
+                <div class="stat-cell">
+                  <span>EXOSUITS</span>
+                  <strong id="data-count-exos">10</strong>
+                </div>
+                <div class="stat-cell">
+                  <span>ADVANCED TECH &amp; MATERIALS</span>
+                  <strong id="data-count-tech">41</strong>
+                </div>
+              </div>
+
+              <!-- Search and Categories Filter -->
+              <div class="data-filter-bar">
+                <div class="data-search-box">
+                  <input type="text" id="data-search-input" placeholder="Search scientific objects, elements, formulas..." />
+                </div>
+                <div class="data-categories-pills">
+                  <button type="button" class="cat-pill active" data-category="all">All Domains</button>
+                  <button type="button" class="cat-pill" data-category="elements">Periodic Elements (118)</button>
+                  <button type="button" class="cat-pill" data-category="nanomaterials">Nanomaterials (100)</button>
+                  <button type="button" class="cat-pill" data-category="robotics">Robotics &amp; AI (100)</button>
+                  <button type="button" class="cat-pill" data-category="systems">Engineered Systems (250)</button>
+                  <button type="button" class="cat-pill" data-category="exosuits">Exosuits (10)</button>
+                  <button type="button" class="cat-pill" data-category="advanced-tech">All Advanced Tech (41)</button>
+                  <button type="button" class="cat-pill" data-category="tech">Emerging Tech (14)</button>
+                  <button type="button" class="cat-pill" data-category="material">Advanced Materials (14)</button>
+                  <button type="button" class="cat-pill" data-category="wearable">Wearables &amp; Suits (13)</button>
+                </div>
+              </div>
+
+              <!-- Dataset Items Cards Grid -->
+              <div class="dataset-cards-grid" id="dataset-items-grid">
+                <!-- Dynamically populated from /api/workshop/datasets/... -->
+                <div class="data-item-card glass-panel">
+                  <span class="item-tag">Element // 006</span>
+                  <h4 class="item-name">Carbon (C)</h4>
+                  <p class="item-desc">Atomic Mass: 12.011 u. Basis for graphene, carbon nanotubes, and organic chemistry.</p>
+                  <div class="item-meta">
+                    <span>Category: Nonmetal</span>
+                    <button type="button" class="btn-micro" data-inspect-id="C">Inspect ↗</button>
+                  </div>
+                </div>
+
+                <div class="data-item-card glass-panel">
+                  <span class="item-tag">Nanomaterial // Carbon</span>
+                  <h4 class="item-name">Monolayer Graphene Sheet</h4>
+                  <p class="item-desc">Single atom thickness, 130 GPa tensile strength, ballistic electron transport.</p>
+                  <div class="item-meta">
+                    <span>Category: 2D Crystal</span>
+                    <button type="button" class="btn-micro" data-inspect-id="nano-graphene">Inspect ↗</button>
+                  </div>
+                </div>
+
+                <div class="data-item-card glass-panel">
+                  <span class="item-tag">Robotics // Kinematics</span>
+                  <h4 class="item-name">3-Axis Articulated Robotic Arm</h4>
+                  <p class="item-desc">Precision servo-actuated manipulator with inverse kinematics solver.</p>
+                  <div class="item-meta">
+                    <span>Category: Actuator</span>
+                    <button type="button" class="btn-micro" data-inspect-id="robot-arm">Inspect ↗</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===================================================================
+               VIEW 7: DEDICATED CREATIVE STUDIO VIEW (#view-creative)
+               =================================================================== -->
+          <div class="aura-view" id="view-creative" role="region" aria-label="Creative Studio">
+            <div class="creative-view-container">
+              <header class="view-header">
+                <div class="view-header-left">
+                  <span class="view-eyebrow">GENERATIVE STUDIO</span>
+                  <h2 class="view-title">CREATIVE WORKSPACE</h2>
+                </div>
+                <div class="view-header-right">
+                  <span class="badge-tag cyan">STUDIO ONLINE</span>
+                </div>
+              </header>
+
+              <div class="creative-grid">
+                <div class="studio-card glass-panel" data-creative-type="image">
+                  <div class="studio-badge">VISUAL SYNTHESIS</div>
+                  <h3 class="studio-title">Image Generation</h3>
+                  <p class="studio-desc">Generate high-fidelity photorealistic or conceptual art using multi-modal AI models.</p>
+                  <div class="studio-form">
+                    <input type="text" id="creative-input-image" class="studio-prompt-input" placeholder="Enter image prompt e.g. Quantum neural processor in cryogenic vacuum chamber..." />
+                    <button type="button" id="btn-creative-image" class="btn primary btn-sm">Generate Concept</button>
+                  </div>
+                  <div class="creative-output-box glass-panel" id="creative-output-image" style="display:none; margin-top:12px; padding:12px; font-size:13px; line-height:1.5;"></div>
+                </div>
+
+                <div class="studio-card glass-panel" data-creative-type="code">
+                  <div class="studio-badge">CODE ARCHITECTURE</div>
+                  <h3 class="studio-title">Generative App Builder</h3>
+                  <p class="studio-desc">Synthesize full application prototypes, UI components, and API microservices.</p>
+                  <div class="studio-form">
+                    <input type="text" id="creative-input-code" class="studio-prompt-input" placeholder="App description e.g. Real-time telemetry dashboard..." />
+                    <button type="button" id="btn-creative-code" class="btn primary btn-sm">Build Prototype</button>
+                  </div>
+                  <div class="creative-output-box glass-panel" id="creative-output-code" style="display:none; margin-top:12px; padding:12px; font-size:13px; line-height:1.5;"></div>
+                </div>
+
+                <div class="studio-card glass-panel" data-creative-type="3d">
+                  <div class="studio-badge">VOLUMETRIC SYNTHESIS</div>
+                  <h3 class="studio-title">3D Hologram Synthesizer</h3>
+                  <p class="studio-desc">Synthesize deterministic CAD geometries, volumetric meshes, and physical simulation nodes.</p>
+                  <div class="studio-form">
+                    <input type="text" id="creative-input-3d" class="studio-prompt-input" placeholder="e.g. Articulated planar arm with revolute joints..." />
+                    <button type="button" id="btn-creative-3d" class="btn primary btn-sm">Synthesize 3D</button>
+                  </div>
+                  <div class="creative-output-box glass-panel" id="creative-output-3d" style="display:none; margin-top:12px; padding:12px; font-size:13px; line-height:1.5;"></div>
+                </div>
+
+                <div class="studio-card glass-panel" data-creative-type="writing">
+                  <div class="studio-badge">DEEP TEXT</div>
+                  <h3 class="studio-title">Technical Specifications &amp; Writing</h3>
+                  <p class="studio-desc">Draft PRDs, architectural decision records, scientific papers, and security whitepapers.</p>
+                  <div class="studio-form">
+                    <input type="text" id="creative-input-writing" class="studio-prompt-input" placeholder="Document title and scope e.g. Quantum Cryptography Enclave PRD..." />
+                    <button type="button" id="btn-creative-writing" class="btn primary btn-sm">Draft Spec</button>
+                  </div>
+                  <div class="creative-output-box glass-panel" id="creative-output-writing" style="display:none; margin-top:12px; padding:12px; font-size:13px; line-height:1.5;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===================================================================
+               VIEW 8: DEDICATED AUTOMATION VIEW (#view-automation)
+               =================================================================== -->
+          <div class="aura-view" id="view-automation" role="region" aria-label="Automation Center">
+            <div class="automation-view-container">
+              <header class="view-header">
+                <div class="view-header-left">
+                  <span class="view-eyebrow">AGENTIC AUTOMATION</span>
+                  <h2 class="view-title">AUTOMATION &amp; SKILLS</h2>
+                </div>
+                <div class="view-header-right">
+                  <button type="button" class="btn primary" id="skills-install">+ Install Skill</button>
+                  <button type="button" class="btn secondary" id="skills-refresh">Refresh</button>
+                </div>
+              </header>
+
+              <!-- Skills & Workflows Filter Bar -->
+              <div class="skills-filter-row">
+                <select id="skill-category-filter" class="aura-select">
+                  <option value="all">All Categories</option>
+                  <option value="development">Development</option>
+                  <option value="productivity">Productivity</option>
+                  <option value="security">Security</option>
+                  <option value="analysis">Analysis</option>
+                  <option value="utility">Utility</option>
+                  <option value="ai">AI &amp; Autonomous Agents</option>
+                </select>
+                <span class="skills-total-badge">SKILLS: <strong id="skills-count">2</strong></span>
+              </div>
+
+              <!-- Skills List Container -->
+              <div class="skills-cards-grid" id="skills-list">
+                <div class="skills-loading">Loading skills...</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===================================================================
+               VIEW 9: DEDICATED SECURITY & SENTINEL VIEW (#view-security)
+               =================================================================== -->
+          <div class="aura-view" id="view-security" role="region" aria-label="Security">
+            <div class="security-view-container">
+              <header class="view-header">
+                <div class="view-header-left">
+                  <span class="view-eyebrow">DEFENSE-IN-DEPTH</span>
+                  <h2 class="view-title">SENTINEL &amp; CYBER GUARDIAN</h2>
+                </div>
+                <div class="view-header-right">
+                  <button type="button" class="btn danger" id="btn-emergency-killswitch">EMERGENCY KILL SWITCH</button>
+                  <a href="/sentinel/" class="btn secondary">Open Sentinel Web ↗</a>
+                </div>
+              </header>
+
+              <!-- Security Status Summary Cards -->
+              <div class="security-summary-cards">
+                <div class="sec-card glass-panel">
+                  <span class="sec-lbl">SYSTEM SECURITY</span>
+                  <strong class="sec-val text-green" id="sec-posture-state">SECURE</strong>
+                  <small>Zero trust boundary active</small>
+                </div>
+                <div class="sec-card glass-panel">
+                  <span class="sec-lbl">NETWORK ENCRYPTION</span>
+                  <strong class="sec-val text-cyan">TLS 1.3 / AES-256</strong>
+                  <small>End-to-end authenticated</small>
+                </div>
+                <div class="sec-card glass-panel">
+                  <span class="sec-lbl">BIOMETRIC SENTINEL</span>
+                  <strong class="sec-val" id="sec-biometric-state">STANDBY</strong>
+                  <small>68-point neural landmark check</small>
+                </div>
+                <div class="sec-card glass-panel">
+                  <span class="sec-lbl">KILL SWITCH STATUS</span>
+                  <strong class="sec-val text-green" id="sec-killswitch-state">DISARMED</strong>
+                  <small>Normal execution enabled</small>
+                </div>
+              </div>
+
+              <!-- Network Telemetry Visualizer -->
+              <div class="network-monitor-section glass-panel">
+                <div class="section-heading">
+                  <span>NETWORK TELEMETRY — LIVE REAL-TIME</span>
+                  <span class="badge-tag green" id="network-status">ONLINE</span>
+                </div>
+                <div class="network-canvas-wrap">
+                  <canvas id="network-graph" width="600" height="120"></canvas>
+                </div>
+                <div class="net-stats-bar">
+                  <span>THROUGHPUT: <strong id="throughput-value">2.4 Mb/s</strong></span>
+                  <span>STABILITY: <strong id="ping-value">99.9% (14ms)</strong></span>
+                  <span>SECURITY CIPHER: <strong>AES-256-GCM</strong></span>
+                </div>
+              </div>
+
+              <!-- Security Audit Log Table -->
+              <div class="security-audit-section glass-panel">
+                <div class="section-heading">
+                  <span>SECURITY AUDIT LOG</span>
+                  <button type="button" class="btn-micro" id="btn-run-sec-exp">Run Security Audit Experiment</button>
+                </div>
+                <div class="audit-log-table-wrap">
+                  <table class="audit-table">
+                    <thead>
+                      <tr>
+                        <th>Timestamp</th>
+                        <th>Event</th>
+                        <th>Source</th>
+                        <th>Severity</th>
+                        <th>Status</th>
+                      </tr>
+                    </thead>
+                    <tbody id="security-audit-tbody">
+                      <tr>
+                        <td>Just now</td>
+                        <td>Biometric Enclave Initialized</td>
+                        <td>Sentinel Runtime</td>
+                        <td><span class="sev-tag info">INFO</span></td>
+                        <td><span class="text-green">VERIFIED</span></td>
+                      </tr>
+                      <tr>
+                        <td>2m ago</td>
+                        <td>Zero-Trust Rule Synchronization</td>
+                        <td>Cyber Guardian</td>
+                        <td><span class="sev-tag info">INFO</span></td>
+                        <td><span class="text-green">APPLIED</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===================================================================
+               VIEW 10: DEDICATED DEVICES VIEW (#view-devices)
+               =================================================================== -->
+          <div class="aura-view" id="view-devices" role="region" aria-label="Devices">
+            <div class="devices-view-container">
+              <header class="view-header">
+                <div class="view-header-left">
+                  <span class="view-eyebrow">HARDWARE &amp; ENCLAVES</span>
+                  <h2 class="view-title">CONNECTED DEVICES</h2>
+                </div>
+                <div class="view-header-right">
+                  <button type="button" class="btn secondary btn-sm" id="btn-scan-devices">Scan Hardware</button>
+                </div>
+              </header>
+
+              <div class="devices-grid">
+                <div class="device-card glass-panel">
+                  <div class="dev-icon-box">🎙</div>
+                  <div class="dev-info">
+                    <strong class="dev-name">Microphone Input</strong>
+                    <span class="dev-status online">Active • Web Speech API</span>
+                    <p class="dev-desc">Hands-free wake-word listener on "Aura"</p>
+                  </div>
+                  <button type="button" class="btn-micro" id="btn-test-mic">Test Mic</button>
+                </div>
+
+                <div class="device-card glass-panel">
+                  <div class="dev-icon-box">🔊</div>
+                  <div class="dev-info">
+                    <strong class="dev-name">Audio Output</strong>
+                    <span class="dev-status online">Active • Speech Synthesis</span>
+                    <p class="dev-desc">Neural voice feedback engine</p>
+                  </div>
+                  <button type="button" class="btn-micro" id="btn-test-speaker">Test Voice</button>
+                </div>
+
+                <div class="device-card glass-panel">
+                  <div class="dev-icon-box">📹</div>
+                  <div class="dev-info">
+                    <strong class="dev-name">Camera &amp; Vision</strong>
+                    <span class="dev-status online">Ready • Biometric Sentinel</span>
+                    <p class="dev-desc">Face ID &amp; 68-point liveness detection</p>
+                  </div>
+                  <button type="button" class="btn-micro" id="btn-test-camera">Test Camera</button>
+                </div>
+
+                <div class="device-card glass-panel">
+                  <div class="dev-icon-box">⚡</div>
+                  <div class="dev-info">
+                    <strong class="dev-name">GPU / Tensor Accelerator</strong>
+                    <span class="dev-status online">Available • WebGL / WebGPU</span>
+                    <p class="dev-desc">Local browser model quantization (Q4_K_M)</p>
+                  </div>
+                  <button type="button" class="btn-micro" id="btn-gpu-diag">Diagnostics</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===================================================================
+               VIEW 11: DEDICATED SETTINGS VIEW (#view-settings)
+               =================================================================== -->
+          <div class="aura-view" id="view-settings" role="region" aria-label="Settings">
+            <div class="settings-view-container">
+              <header class="view-header">
+                <div class="view-header-left">
+                  <span class="view-eyebrow">PREFERENCES &amp; ENCLAVE</span>
+                  <h2 class="view-title">SYSTEM SETTINGS</h2>
+                </div>
+              </header>
+
+              <div class="settings-sections-list">
+                <!-- Voice & Recognition -->
+                <div class="settings-group glass-panel">
+                  <h3 class="group-title">Voice &amp; Audio</h3>
+                  
+                  <div class="setting-item">
+                    <div class="setting-meta">
+                      <strong>Hands-Free Mode</strong>
+                      <small>Continuously listen for "Aura" wake word</small>
+                    </div>
+                    <button id="hands-free-toggle" type="button" role="switch" aria-checked="true" class="switch-btn">
+                      <i></i><strong>ON</strong>
+                    </button>
+                  </div>
+
+                  <div class="setting-item">
+                    <div class="setting-meta">
+                      <strong>Recognition Language</strong>
+                      <small>Speech recognition dialect &amp; parsing</small>
+                    </div>
+                    <select id="language-select" class="aura-select">
+                      <option value="auto">Browser Default (Auto)</option>
+                      <option value="en-US">English (US)</option>
+                      <option value="en-GB">English (UK)</option>
+                      <option value="en-IN">English (India)</option>
+                      <option value="hi-IN">Hindi (हिन्दी)</option>
+                      <option value="es-ES">Spanish (Español)</option>
+                      <option value="fr-FR">French (Français)</option>
+                      <option value="de-DE">German (Deutsch)</option>
+                      <option value="ja-JP">Japanese (日本語)</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Weather & Location -->
+                <div class="settings-group glass-panel" id="weather-body">
+                  <h3 class="group-title">Atmospheric Weather</h3>
+                  <div class="setting-item">
+                    <div class="setting-meta">
+                      <strong>Current Location: <span id="weather-location">Alappuzha, IN</span></strong>
+                      <small>Condition: <span id="weather-condition">Partly Cloudy</span> | Temp: <span id="weather-temp">28°</span> (Feels: <span id="weather-feels">31°</span>)</small>
+                      <span id="weather-humidity" style="display:none;">78%</span>
+                      <span id="weather-wind" style="display:none;">12 km/h</span>
+                    </div>
+                    <div class="weather-input-pair">
+                      <input type="text" id="weather-city-input" placeholder="City name..." />
+                      <button type="button" id="weather-search" class="btn secondary btn-sm">Update</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Local Encrypted Data Vault -->
+                <div class="settings-group glass-panel">
+                  <h3 class="group-title">Encrypted Data Vault</h3>
+                  <div class="setting-item">
+                    <div class="setting-meta">
+                      <strong>Stored Memories (<span id="memory-count-label">0</span>)</strong>
+                      <small>AES-256 encrypted local neural memories</small>
+                    </div>
+                    <div class="setting-buttons">
+                      <button type="button" id="export-data" class="btn secondary btn-sm">Export Vault</button>
+                      <button type="button" id="import-data" class="btn secondary btn-sm">Import Vault</button>
+                      <button type="button" id="clear-local-data" class="btn danger btn-sm">Purge Data</button>
+                      <input id="import-file" type="file" accept="application/json" hidden />
+                    </div>
+                  </div>
+                  <div id="memory-section" class="memory-vault-preview">
+                    <div id="memory-list">
+                      <div class="queue-empty">No stored memories.</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Reminders Container -->
+                <div class="settings-group glass-panel" style="display:none;">
+                  <span id="reminder-count">0 ACTIVE</span>
+                  <div id="reminder-list"></div>
+                  <button type="button" id="manage-data-btn">Manage</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </main>
+      </div>
+
+      <!-- MOBILE BOTTOM NAVIGATION BAR -->
+      <nav class="aura-mobile-nav" aria-label="Mobile Navigation">
+        <a href="/" class="mobile-nav-item active" data-route="/">
+          <span class="m-icon">🏠</span>
+          <span class="m-label">Home</span>
+        </a>
+        <a href="/chat" class="mobile-nav-item" data-route="/chat">
+          <span class="m-icon">💬</span>
+          <span class="m-label">Chat</span>
+        </a>
+        <a href="/workspace" class="mobile-nav-item" data-route="/workspace">
+          <span class="m-icon">💻</span>
+          <span class="m-label">Workspace</span>
+        </a>
+        <a href="/missions" class="mobile-nav-item" data-route="/missions">
+          <span class="m-icon">❖</span>
+          <span class="m-label">Missions</span>
+        </a>
+        <a href="/data" class="mobile-nav-item" data-route="/data">
+          <span class="m-icon">📊</span>
+          <span class="m-label">Data</span>
+        </a>
+      </nav>
+
+      <!-- HIDDEN DOCK FOR COMPATIBILITY -->
+      <footer class="command-dock hud-dock" style="display:none;">
+        <button type="button" id="dock-forge" class="dock-service-btn" data-url="http://localhost:4000"></button>
+        <button type="button" id="dock-sentinel" class="dock-service-btn" data-url="http://localhost:8000"></button>
+        <span id="voice-support">ARMED</span>
+        <span id="day-period">NIGHT</span>
+        <span id="environment-time">20:42</span>
+        <span id="environment-date">FRI / 12 JUN</span>
+        <span id="environment-mode">LOCAL CORE</span>
+        <span id="env-sync-badge">SYNCHRONIZED</span>
+        <span id="memory-count">0</span>
+      </footer>
+    </div>
+
+    <!-- GLOBAL SEARCH / COMMAND PALETTE MODAL (CTRL K) -->
+    <div class="global-search-modal" id="global-search-modal" role="dialog" aria-modal="true" aria-label="Command Search" hidden>
+      <div class="search-modal-backdrop" id="search-modal-backdrop"></div>
+      <div class="search-modal-container glass-panel">
+        <div class="search-modal-input-row">
+          <svg class="search-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="9" cy="9" r="6"/>
+            <path d="M13.5 13.5L18 18"/>
+          </svg>
+          <input type="text" id="global-command-search-input" placeholder="Type a command, search data, or jump to view..." autofocus />
+          <span class="modal-esc-hint"><kbd>ESC</kbd></span>
+        </div>
+        <div class="search-modal-results" id="global-search-results">
+          <div class="search-group-heading">Navigation</div>
+          <div class="search-result-item" data-route="/">
+            <span class="res-icon">🏠</span>
+            <span class="res-title">Home Dashboard</span>
+            <span class="res-shortcut">Jump</span>
+          </div>
+          <div class="search-result-item" data-route="/chat">
+            <span class="res-icon">💬</span>
+            <span class="res-title">Chat with AURA</span>
+            <span class="res-shortcut">Jump</span>
+          </div>
+          <div class="search-result-item" data-route="/workspace">
+            <span class="res-icon">💻</span>
+            <span class="res-title">Workspace &amp; Code Copilot</span>
+            <span class="res-shortcut">Jump</span>
+          </div>
+          <div class="search-result-item" data-route="/missions">
+            <span class="res-icon">❖</span>
+            <span class="res-title">Mission Control</span>
+            <span class="res-shortcut">Jump</span>
+          </div>
+          <div class="search-result-item" data-route="/data">
+            <span class="res-icon">📊</span>
+            <span class="res-title">Scientific Data Library (1000+ Datasets)</span>
+            <span class="res-shortcut">Jump</span>
+          </div>
+          <div class="search-result-item" data-route="/security">
+            <span class="res-icon">🛡</span>
+            <span class="res-title">Sentinel Security &amp; Cyber Guardian</span>
+            <span class="res-shortcut">Jump</span>
+          </div>
+          <div class="search-group-heading">Quick Directives</div>
+          <div class="search-result-item" data-command="/brief">
+            <span class="res-icon">📋</span>
+            <span class="res-title">Run Daily Brief</span>
+            <span class="res-shortcut">Execute</span>
+          </div>
+          <div class="search-result-item" data-command="Give me a system status report">
+            <span class="res-icon">⚙</span>
+            <span class="res-title">Run Diagnostics Scan</span>
+            <span class="res-shortcut">Execute</span>
+          </div>
+          <div class="search-result-item" data-command="/focus">
+            <span class="res-icon">⏱</span>
+            <span class="res-title">Start 25m Focus Session</span>
+            <span class="res-shortcut">Execute</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- AI Insights Modal Overlay -->
+    <div class="ai-insights-modal-overlay" id="ai-insights-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="insights-modal-title" hidden>
+      <div class="ai-insights-modal glass-panel">
+        <div class="insights-modal-header">
+          <div class="insights-modal-brand">
+            <span class="insights-spark-icon">✦</span>
+            <div>
+              <span class="badge-tag">PROACTIVE REASONING</span>
+              <h2 id="insights-modal-title" class="insights-modal-title">AURA // AI INSIGHTS &amp; ADVISORY</h2>
+            </div>
+          </div>
+          <div class="insights-header-controls">
+            <button type="button" class="btn secondary btn-sm" id="btn-reanalyze-insights">
+              <span class="spin-icon">⟳</span> RE-ANALYZE
+            </button>
+            <button type="button" class="insights-modal-close" id="btn-close-insights" aria-label="Close">✕</button>
+          </div>
+        </div>
+
+        <div class="insights-kpi-ribbon">
+          <div class="kpi-cell">
+            <span class="kpi-tag">TOTAL INSIGHTS</span>
+            <strong class="kpi-number text-cyan" id="kpi-total-insights">5</strong>
+          </div>
+          <div class="kpi-cell">
+            <span class="kpi-tag">OPTIMIZATIONS</span>
+            <strong class="kpi-number text-gold" id="kpi-optimizations">2</strong>
+          </div>
+          <div class="kpi-cell">
+            <span class="kpi-tag">ATTENTION</span>
+            <strong class="kpi-number text-crimson" id="kpi-security">1</strong>
+          </div>
+          <div class="kpi-cell">
+            <span class="kpi-tag">EFFICIENCY</span>
+            <strong class="kpi-number text-cyan" id="kpi-efficiency">94%</strong>
+          </div>
+        </div>
+
+        <div class="insights-feed-scroll" id="insights-feed-scroll">
+          <div class="insights-loading">Analyzing telemetry, system health, and security baseline...</div>
+        </div>
+
+        <div class="insights-modal-footer">
+          <button type="button" class="btn ghost btn-sm" id="btn-reset-insights">Reset Insights Store</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Command Map Overlay -->
+    <div class="command-map-overlay" id="command-map-overlay" role="dialog" aria-modal="true" aria-labelledby="cmd-map-title" hidden>
+      <div class="command-map-hud glass-panel">
+        <header class="cmd-map-header">
+          <div class="cmd-map-brand">
+            <span class="cmd-map-logo-glyph">❖</span>
+            <div>
+              <span class="badge-tag">CENTRALIZED INTELLIGENCE</span>
+              <h2 id="cmd-map-title" class="cmd-map-title">AURA // COMMAND MAP</h2>
+            </div>
+          </div>
+          <div class="cmd-map-header-meta">
+            <button type="button" class="btn secondary btn-sm" id="cmd-map-refresh-btn">Sync</button>
+            <button type="button" class="cmd-map-close-btn" id="cmd-map-close-btn" aria-label="Close">✕</button>
+          </div>
+        </header>
+
+        <div class="cmd-map-spatial-canvas">
+          <!-- North: Current Activity -->
+          <section class="cmd-sector sector-north" id="sector-current-activity">
+            <div class="sector-head">
+              <span class="sector-title">▲ CURRENT ACTIVITY STREAM</span>
+            </div>
+            <div class="activity-scroll-strip" id="cmd-activity-stream"></div>
+          </section>
+
+          <!-- Middle Row: West, Center, East -->
+          <div class="cmd-spatial-mid-row">
+            <section class="cmd-sector sector-west" id="sector-attention">
+              <div class="sector-head">
+                <span class="sector-title">◀ ATTENTION CENTER</span>
+              </div>
+              <div class="attention-feed" id="cmd-attention-feed"></div>
+            </section>
+
+            <section class="cmd-sector sector-center" id="sector-aura-core">
+              <div class="aura-core-orb-hub">
+                <span class="nucleus-icon">◈</span>
+                <span class="nucleus-state" id="core-state-label">PLANNING</span>
+              </div>
+              <div class="core-status-card">
+                <span>PROJECT: <strong id="core-project-val">Aura Assistant</strong></span>
+                <span>GOAL: <strong id="core-goal-val">Complete V2 Interface</strong></span>
+              </div>
+            </section>
+
+            <section class="cmd-sector sector-east" id="sector-next-action">
+              <div class="sector-head">
+                <span class="sector-title">▶ NEXT ACTION</span>
+              </div>
+              <div class="next-action-body">
+                <h3 class="next-action-title" id="next-action-title">Verify System Integration</h3>
+                <div class="next-action-controls">
+                  <button type="button" class="btn secondary btn-sm" id="btn-action-open">OPEN</button>
+                  <button type="button" class="btn primary btn-sm" id="btn-action-execute">EXECUTE</button>
+                  <button type="button" class="btn ghost btn-sm" id="btn-action-dismiss">DISMISS</button>
+                  <button type="button" class="btn secondary btn-sm" id="btn-action-explain">EXPLAIN</button>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skill Install Modal -->
+    <div class="skill-modal-overlay" id="skill-modal-overlay" hidden>
+      <div class="skill-modal glass-panel">
+        <div class="skill-modal-header">
+          <span class="skill-modal-title">Install Skill</span>
+          <button type="button" class="skill-modal-close" id="skill-modal-close" aria-label="Close">✕</button>
+        </div>
+        <form class="skill-modal-form" id="skill-modal-form">
+          <div class="skill-modal-field">
+            <label for="skill-install-method">Installation Method</label>
+            <select id="skill-install-method" class="aura-select">
+              <option value="template">From Template</option>
+              <option value="custom">Create Custom</option>
+            </select>
+          </div>
+          <div id="skill-template-section" class="skill-template-section">
+            <label>Available Templates</label>
+            <div class="skills-grid" id="skill-templates-grid"></div>
+          </div>
+          <div id="skill-url-section" style="display:none;"><input type="url" id="skill-url"></div>
+          <div id="skill-local-section" style="display:none;"><input type="file" id="skill-local-file"></div>
+          <div id="skill-custom-section" style="display:none;">
+            <input type="text" id="skill-custom-id" placeholder="skill-id">
+            <input type="text" id="skill-custom-name" placeholder="Skill Name">
+            <select id="skill-custom-category" class="aura-select"><option value="development">Development</option></select>
+            <textarea id="skill-custom-description" placeholder="Description"></textarea>
+            <textarea id="skill-custom-code" placeholder="// Code"></textarea>
+          </div>
+          <div class="skill-modal-actions">
+            <button type="button" class="btn secondary" id="skill-modal-cancel">Cancel</button>
+            <button type="submit" class="btn primary">Install</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- KNOWLEDGE INSPECTOR MODAL -->
+    <div class="knowledge-inspector-modal" id="knowledge-inspector-modal" role="dialog" aria-modal="true" hidden>
+      <div class="modal-backdrop" id="ki-backdrop"></div>
+      <div class="modal-container glass-panel" style="max-width:640px; width:90%; max-height:85vh; overflow-y:auto; padding:24px; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); z-index:9999; border:1px solid rgba(0,240,255,0.3); box-shadow:0 20px 50px rgba(0,0,0,0.8);">
+        <div class="modal-head" style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:16px;">
+          <div>
+            <span class="view-eyebrow" id="ki-tag" style="color:var(--accent-cyan); font-size:11px; letter-spacing:1.5px; text-transform:uppercase;">SCIENTIFIC PROVENANCE</span>
+            <h3 class="modal-title" id="ki-name" style="margin:4px 0 0 0; font-size:20px; font-weight:700;">Entity Inspector</h3>
+          </div>
+          <button type="button" class="btn-close" id="ki-close" style="background:none; border:none; color:var(--text-secondary); font-size:24px; cursor:pointer;">&times;</button>
+        </div>
+        <div class="modal-body" id="ki-body" style="font-size:14px; line-height:1.6;">
+          <!-- Dynamically populated -->
+        </div>
+        <div class="modal-foot" style="display:flex; justify-content:flex-end; gap:12px; margin-top:20px; border-top:1px solid rgba(255,255,255,0.08); padding-top:16px;">
+          <button type="button" class="btn secondary btn-sm" id="ki-btn-close">Close</button>
+          <button type="button" class="btn primary btn-sm" id="ki-btn-use-chat">Send to Chat ↗</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- CAMERA & VISION TEST MODAL -->
+    <div class="camera-test-modal" id="camera-test-modal" role="dialog" aria-modal="true" hidden>
+      <div class="modal-backdrop" id="camera-backdrop"></div>
+      <div class="modal-container glass-panel" style="max-width:560px; width:90%; padding:24px; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); z-index:9999; border:1px solid rgba(0,240,255,0.3); box-shadow:0 20px 50px rgba(0,0,0,0.8);">
+        <div class="modal-head" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <h3 class="modal-title" style="margin:0; font-size:18px;">Biometric Sentinel Camera Test</h3>
+          <button type="button" class="btn-close" id="camera-close" style="background:none; border:none; color:var(--text-secondary); font-size:24px; cursor:pointer;">&times;</button>
+        </div>
+        <div class="modal-body">
+          <video id="camera-video-preview" autoplay playsinline muted style="width:100%; height:280px; border-radius:10px; background:#000; object-fit:cover; border:1px solid rgba(0,240,255,0.2);"></video>
+          <div class="camera-telemetry-text" id="camera-telemetry-text" style="margin-top:10px; font-size:12px; color:var(--accent-cyan); font-family:var(--font-mono, monospace);">Connecting video sensor stream...</div>
+        </div>
+        <div class="modal-foot" style="display:flex; justify-content:flex-end; gap:12px; margin-top:16px;">
+          <button type="button" class="btn secondary btn-sm" id="camera-stop-btn">Close Sensor</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- GPU DIAGNOSTICS MODAL -->
+    <div class="gpu-diag-modal" id="gpu-diag-modal" role="dialog" aria-modal="true" hidden>
+      <div class="modal-backdrop" id="gpu-backdrop"></div>
+      <div class="modal-container glass-panel" style="max-width:560px; width:90%; padding:24px; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); z-index:9999; border:1px solid rgba(0,240,255,0.3); box-shadow:0 20px 50px rgba(0,0,0,0.8);">
+        <div class="modal-head" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <h3 class="modal-title" style="margin:0; font-size:18px;">GPU &amp; WebGL Diagnostics</h3>
+          <button type="button" class="btn-close" id="gpu-close" style="background:none; border:none; color:var(--text-secondary); font-size:24px; cursor:pointer;">&times;</button>
+        </div>
+        <div class="modal-body" id="gpu-diag-body" style="font-size:13px; line-height:1.6; font-family:var(--font-mono, monospace);">
+          <!-- Populated dynamically -->
+        </div>
+        <div class="modal-foot" style="display:flex; justify-content:flex-end; gap:12px; margin-top:16px;">
+          <button type="button" class="btn secondary btn-sm" id="gpu-close-btn">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Message & Queue Item Templates -->
+    <template id="message-template">
+      <article class="message">
+        <div class="message-meta">
+          <span class="message-avatar">✦</span>
+          <span class="message-name"></span>
+          <time>NOW</time>
+        </div>
+        <div class="message-body">
+          <p></p>
+        </div>
+        <div class="message-actions" style="display:none;">
+          <button class="feedback-btn feedback-positive" title="Good response" data-rating="5">✓</button>
+          <button class="feedback-btn feedback-negative" title="Needs improvement" data-rating="2">✗</button>
+          <button class="feedback-btn feedback-correct" title="Provide better answer">✎</button>
+        </div>
+      </article>
+    </template>
+
+    <template id="queue-item-template">
+      <div class="queue-item-card">
+        <span class="queue-status-dot"></span>
+        <div class="queue-body">
+          <strong class="queue-title"></strong>
+          <small class="queue-meta"></small>
+        </div>
+      </div>
+    </template>
+
+    <template id="reminder-item-template">
+      <div class="reminder-item-card">
+        <div class="queue-body">
+          <strong class="queue-title"></strong>
+          <small class="queue-meta"></small>
+        </div>
+      </div>
+    </template>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

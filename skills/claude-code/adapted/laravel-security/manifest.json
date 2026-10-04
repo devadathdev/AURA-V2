@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "laravel-security",
+  "name": "laravel-security",
+  "version": "1.0.0",
+  "description": "Laravel security best practices — authentication, authorization, Eloquent safety, CSRF, XSS prevention, API security, and secure deployment configurations. Use when reviewing Laravel auth, Eloquent safety, CSRF, XSS, API security, or deployment configuration.",
+  "source": "claude-code",
+  "category": "security",
+  "tags": [
+    "laravel",
+    "security",
+    "aws",
+    "ai",
+    "testing",
+    "database",
+    "git"
+  ],
+  "lifecycle": "ENABLED",
+  "entrypoint": "SKILL.md",
+  "originalSkillPath": "skills/claude-code/imported/laravel-security/SKILL.md",
+  "permissions": [
+    "READ",
+    "WRITE",
+    "NETWORK",
+    "GITHUB",
+    "DEPLOY",
+    "DATABASE",
+    "SECRET"
+  ],
+  "tools": [
+    "filesystem",
+    "git",
+    "github",
+    "web"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 30000,
+    "allowNetwork": true,
+    "maxMemoryMb": 512
+  },
+  "inputs": {
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "description": "Contextual prompt or instruction for executing this skill"
+    },
+    "params": {
+      "type": "object",
+      "required": false,
+      "description": "Optional execution parameters"
+    }
+  },
+  "outputs": {
+    "success": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    }
+  },
+  "adaptedAt": "2026-09-13T18:02:23.270Z"
+}

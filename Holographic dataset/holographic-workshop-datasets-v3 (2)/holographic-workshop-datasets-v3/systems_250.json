@@ -1,0 +1,6752 @@
+[
+  {
+    "id": "sys_0001",
+    "domain": "physics",
+    "title": "Motion System \u2014 Variant 1",
+    "template": "motion",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize motion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "ohms_law"
+    ]
+  },
+  {
+    "id": "sys_0002",
+    "domain": "physics",
+    "title": "Motion System \u2014 Variant 2",
+    "template": "motion",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize motion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "electrical_power"
+    ]
+  },
+  {
+    "id": "sys_0003",
+    "domain": "physics",
+    "title": "Motion System \u2014 Variant 3",
+    "template": "motion",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize motion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "series_resistance"
+    ]
+  },
+  {
+    "id": "sys_0004",
+    "domain": "physics",
+    "title": "Motion System \u2014 Variant 4",
+    "template": "motion",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize motion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "parallel_resistance"
+    ]
+  },
+  {
+    "id": "sys_0005",
+    "domain": "physics",
+    "title": "Forces System \u2014 Variant 1",
+    "template": "forces",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize forces behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "kinetic_energy"
+    ]
+  },
+  {
+    "id": "sys_0006",
+    "domain": "physics",
+    "title": "Forces System \u2014 Variant 2",
+    "template": "forces",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize forces behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "potential_energy"
+    ]
+  },
+  {
+    "id": "sys_0007",
+    "domain": "physics",
+    "title": "Forces System \u2014 Variant 3",
+    "template": "forces",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize forces behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "newton_second_law"
+    ]
+  },
+  {
+    "id": "sys_0008",
+    "domain": "physics",
+    "title": "Forces System \u2014 Variant 4",
+    "template": "forces",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize forces behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "spring_force"
+    ]
+  },
+  {
+    "id": "sys_0009",
+    "domain": "physics",
+    "title": "Energy System \u2014 Variant 1",
+    "template": "energy",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize energy behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "wave_speed"
+    ]
+  },
+  {
+    "id": "sys_0010",
+    "domain": "physics",
+    "title": "Energy System \u2014 Variant 2",
+    "template": "energy",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize energy behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "thermal_energy"
+    ]
+  },
+  {
+    "id": "sys_0011",
+    "domain": "physics",
+    "title": "Energy System \u2014 Variant 3",
+    "template": "energy",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize energy behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "gear_ratio"
+    ]
+  },
+  {
+    "id": "sys_0012",
+    "domain": "physics",
+    "title": "Energy System \u2014 Variant 4",
+    "template": "energy",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize energy behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "torque_power"
+    ]
+  },
+  {
+    "id": "sys_0013",
+    "domain": "physics",
+    "title": "Waves System \u2014 Variant 1",
+    "template": "waves",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize waves behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "hydraulic_pressure"
+    ]
+  },
+  {
+    "id": "sys_0014",
+    "domain": "physics",
+    "title": "Waves System \u2014 Variant 2",
+    "template": "waves",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize waves behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "solar_power"
+    ]
+  },
+  {
+    "id": "sys_0015",
+    "domain": "physics",
+    "title": "Waves System \u2014 Variant 3",
+    "template": "waves",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize waves behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "stored_energy"
+    ]
+  },
+  {
+    "id": "sys_0016",
+    "domain": "physics",
+    "title": "Waves System \u2014 Variant 4",
+    "template": "waves",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize waves behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "battery_soc"
+    ]
+  },
+  {
+    "id": "sys_0017",
+    "domain": "physics",
+    "title": "Optics System \u2014 Variant 1",
+    "template": "optics",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize optics behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_joint_motion"
+    ]
+  },
+  {
+    "id": "sys_0018",
+    "domain": "physics",
+    "title": "Optics System \u2014 Variant 2",
+    "template": "optics",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize optics behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_arm_end_effector"
+    ]
+  },
+  {
+    "id": "sys_0019",
+    "domain": "physics",
+    "title": "Optics System \u2014 Variant 3",
+    "template": "optics",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize optics behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "population_growth"
+    ]
+  },
+  {
+    "id": "sys_0020",
+    "domain": "physics",
+    "title": "Optics System \u2014 Variant 4",
+    "template": "optics",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize optics behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "flow_rate"
+    ]
+  },
+  {
+    "id": "sys_0021",
+    "domain": "physics",
+    "title": "Fields System \u2014 Variant 1",
+    "template": "fields",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize fields behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "ohms_law"
+    ]
+  },
+  {
+    "id": "sys_0022",
+    "domain": "physics",
+    "title": "Fields System \u2014 Variant 2",
+    "template": "fields",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize fields behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "electrical_power"
+    ]
+  },
+  {
+    "id": "sys_0023",
+    "domain": "physics",
+    "title": "Fields System \u2014 Variant 3",
+    "template": "fields",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize fields behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "series_resistance"
+    ]
+  },
+  {
+    "id": "sys_0024",
+    "domain": "physics",
+    "title": "Fields System \u2014 Variant 4",
+    "template": "fields",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize fields behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "parallel_resistance"
+    ]
+  },
+  {
+    "id": "sys_0025",
+    "domain": "physics",
+    "title": "Fluids System \u2014 Variant 1",
+    "template": "fluids",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize fluids behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "kinetic_energy"
+    ]
+  },
+  {
+    "id": "sys_0026",
+    "domain": "physics",
+    "title": "Fluids System \u2014 Variant 2",
+    "template": "fluids",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize fluids behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "potential_energy"
+    ]
+  },
+  {
+    "id": "sys_0027",
+    "domain": "physics",
+    "title": "Fluids System \u2014 Variant 3",
+    "template": "fluids",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize fluids behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "newton_second_law"
+    ]
+  },
+  {
+    "id": "sys_0028",
+    "domain": "physics",
+    "title": "Fluids System \u2014 Variant 4",
+    "template": "fluids",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize fluids behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "spring_force"
+    ]
+  },
+  {
+    "id": "sys_0029",
+    "domain": "physics",
+    "title": "Thermal System \u2014 Variant 1",
+    "template": "thermal",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize thermal behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "wave_speed"
+    ]
+  },
+  {
+    "id": "sys_0030",
+    "domain": "physics",
+    "title": "Thermal System \u2014 Variant 2",
+    "template": "thermal",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize thermal behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "thermal_energy"
+    ]
+  },
+  {
+    "id": "sys_0031",
+    "domain": "physics",
+    "title": "Thermal System \u2014 Variant 3",
+    "template": "thermal",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize thermal behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "gear_ratio"
+    ]
+  },
+  {
+    "id": "sys_0032",
+    "domain": "physics",
+    "title": "Thermal System \u2014 Variant 4",
+    "template": "thermal",
+    "components": [
+      "magnet",
+      "coil",
+      "pendulum",
+      "spring_mass",
+      "projectile"
+    ],
+    "relationships": [
+      "magnet->connects_to->coil",
+      "coil->connects_to->pendulum",
+      "pendulum->connects_to->spring_mass",
+      "spring_mass->connects_to->projectile"
+    ],
+    "learning_objectives": [
+      "Visualize thermal behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "torque_power"
+    ]
+  },
+  {
+    "id": "sys_0033",
+    "domain": "electronics",
+    "title": "Dc System \u2014 Variant 1",
+    "template": "dc",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize dc behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "hydraulic_pressure"
+    ]
+  },
+  {
+    "id": "sys_0034",
+    "domain": "electronics",
+    "title": "Dc System \u2014 Variant 2",
+    "template": "dc",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize dc behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "solar_power"
+    ]
+  },
+  {
+    "id": "sys_0035",
+    "domain": "electronics",
+    "title": "Dc System \u2014 Variant 3",
+    "template": "dc",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize dc behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "stored_energy"
+    ]
+  },
+  {
+    "id": "sys_0036",
+    "domain": "electronics",
+    "title": "Dc System \u2014 Variant 4",
+    "template": "dc",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize dc behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "battery_soc"
+    ]
+  },
+  {
+    "id": "sys_0037",
+    "domain": "electronics",
+    "title": "Ac System \u2014 Variant 1",
+    "template": "ac",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize ac behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_joint_motion"
+    ]
+  },
+  {
+    "id": "sys_0038",
+    "domain": "electronics",
+    "title": "Ac System \u2014 Variant 2",
+    "template": "ac",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize ac behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_arm_end_effector"
+    ]
+  },
+  {
+    "id": "sys_0039",
+    "domain": "electronics",
+    "title": "Ac System \u2014 Variant 3",
+    "template": "ac",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize ac behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "population_growth"
+    ]
+  },
+  {
+    "id": "sys_0040",
+    "domain": "electronics",
+    "title": "Ac System \u2014 Variant 4",
+    "template": "ac",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize ac behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "flow_rate"
+    ]
+  },
+  {
+    "id": "sys_0041",
+    "domain": "electronics",
+    "title": "Analog System \u2014 Variant 1",
+    "template": "analog",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize analog behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "ohms_law"
+    ]
+  },
+  {
+    "id": "sys_0042",
+    "domain": "electronics",
+    "title": "Analog System \u2014 Variant 2",
+    "template": "analog",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize analog behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "electrical_power"
+    ]
+  },
+  {
+    "id": "sys_0043",
+    "domain": "electronics",
+    "title": "Analog System \u2014 Variant 3",
+    "template": "analog",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize analog behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "series_resistance"
+    ]
+  },
+  {
+    "id": "sys_0044",
+    "domain": "electronics",
+    "title": "Analog System \u2014 Variant 4",
+    "template": "analog",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize analog behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "parallel_resistance"
+    ]
+  },
+  {
+    "id": "sys_0045",
+    "domain": "electronics",
+    "title": "Digital System \u2014 Variant 1",
+    "template": "digital",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize digital behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "kinetic_energy"
+    ]
+  },
+  {
+    "id": "sys_0046",
+    "domain": "electronics",
+    "title": "Digital System \u2014 Variant 2",
+    "template": "digital",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize digital behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "potential_energy"
+    ]
+  },
+  {
+    "id": "sys_0047",
+    "domain": "electronics",
+    "title": "Digital System \u2014 Variant 3",
+    "template": "digital",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize digital behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "newton_second_law"
+    ]
+  },
+  {
+    "id": "sys_0048",
+    "domain": "electronics",
+    "title": "Digital System \u2014 Variant 4",
+    "template": "digital",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize digital behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "spring_force"
+    ]
+  },
+  {
+    "id": "sys_0049",
+    "domain": "electronics",
+    "title": "Sensing System \u2014 Variant 1",
+    "template": "sensing",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize sensing behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "wave_speed"
+    ]
+  },
+  {
+    "id": "sys_0050",
+    "domain": "electronics",
+    "title": "Sensing System \u2014 Variant 2",
+    "template": "sensing",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize sensing behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "thermal_energy"
+    ]
+  },
+  {
+    "id": "sys_0051",
+    "domain": "electronics",
+    "title": "Sensing System \u2014 Variant 3",
+    "template": "sensing",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize sensing behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "gear_ratio"
+    ]
+  },
+  {
+    "id": "sys_0052",
+    "domain": "electronics",
+    "title": "Sensing System \u2014 Variant 4",
+    "template": "sensing",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize sensing behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "torque_power"
+    ]
+  },
+  {
+    "id": "sys_0053",
+    "domain": "electronics",
+    "title": "Power System \u2014 Variant 1",
+    "template": "power",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize power behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "hydraulic_pressure"
+    ]
+  },
+  {
+    "id": "sys_0054",
+    "domain": "electronics",
+    "title": "Power System \u2014 Variant 2",
+    "template": "power",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize power behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "solar_power"
+    ]
+  },
+  {
+    "id": "sys_0055",
+    "domain": "electronics",
+    "title": "Power System \u2014 Variant 3",
+    "template": "power",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize power behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "stored_energy"
+    ]
+  },
+  {
+    "id": "sys_0056",
+    "domain": "electronics",
+    "title": "Power System \u2014 Variant 4",
+    "template": "power",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize power behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "battery_soc"
+    ]
+  },
+  {
+    "id": "sys_0057",
+    "domain": "electronics",
+    "title": "Control System \u2014 Variant 1",
+    "template": "control",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize control behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_joint_motion"
+    ]
+  },
+  {
+    "id": "sys_0058",
+    "domain": "electronics",
+    "title": "Control System \u2014 Variant 2",
+    "template": "control",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize control behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_arm_end_effector"
+    ]
+  },
+  {
+    "id": "sys_0059",
+    "domain": "electronics",
+    "title": "Control System \u2014 Variant 3",
+    "template": "control",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize control behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "population_growth"
+    ]
+  },
+  {
+    "id": "sys_0060",
+    "domain": "electronics",
+    "title": "Control System \u2014 Variant 4",
+    "template": "control",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize control behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "flow_rate"
+    ]
+  },
+  {
+    "id": "sys_0061",
+    "domain": "electronics",
+    "title": "Communication System \u2014 Variant 1",
+    "template": "communication",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize communication behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "ohms_law"
+    ]
+  },
+  {
+    "id": "sys_0062",
+    "domain": "electronics",
+    "title": "Communication System \u2014 Variant 2",
+    "template": "communication",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize communication behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "electrical_power"
+    ]
+  },
+  {
+    "id": "sys_0063",
+    "domain": "electronics",
+    "title": "Communication System \u2014 Variant 3",
+    "template": "communication",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize communication behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "series_resistance"
+    ]
+  },
+  {
+    "id": "sys_0064",
+    "domain": "electronics",
+    "title": "Communication System \u2014 Variant 4",
+    "template": "communication",
+    "components": [
+      "microcontroller",
+      "op_amp",
+      "logic_gate",
+      "adc",
+      "dac"
+    ],
+    "relationships": [
+      "microcontroller->connects_to->op_amp",
+      "op_amp->connects_to->logic_gate",
+      "logic_gate->connects_to->adc",
+      "adc->connects_to->dac"
+    ],
+    "learning_objectives": [
+      "Visualize communication behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "parallel_resistance"
+    ]
+  },
+  {
+    "id": "sys_0065",
+    "domain": "mechanical",
+    "title": "Motion System \u2014 Variant 1",
+    "template": "motion",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize motion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "kinetic_energy"
+    ]
+  },
+  {
+    "id": "sys_0066",
+    "domain": "mechanical",
+    "title": "Motion System \u2014 Variant 2",
+    "template": "motion",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize motion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "potential_energy"
+    ]
+  },
+  {
+    "id": "sys_0067",
+    "domain": "mechanical",
+    "title": "Motion System \u2014 Variant 3",
+    "template": "motion",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize motion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "newton_second_law"
+    ]
+  },
+  {
+    "id": "sys_0068",
+    "domain": "mechanical",
+    "title": "Motion System \u2014 Variant 4",
+    "template": "motion",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize motion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "spring_force"
+    ]
+  },
+  {
+    "id": "sys_0069",
+    "domain": "mechanical",
+    "title": "Transmission System \u2014 Variant 1",
+    "template": "transmission",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize transmission behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "wave_speed"
+    ]
+  },
+  {
+    "id": "sys_0070",
+    "domain": "mechanical",
+    "title": "Transmission System \u2014 Variant 2",
+    "template": "transmission",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize transmission behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "thermal_energy"
+    ]
+  },
+  {
+    "id": "sys_0071",
+    "domain": "mechanical",
+    "title": "Transmission System \u2014 Variant 3",
+    "template": "transmission",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize transmission behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "gear_ratio"
+    ]
+  },
+  {
+    "id": "sys_0072",
+    "domain": "mechanical",
+    "title": "Transmission System \u2014 Variant 4",
+    "template": "transmission",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize transmission behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "torque_power"
+    ]
+  },
+  {
+    "id": "sys_0073",
+    "domain": "mechanical",
+    "title": "Engines System \u2014 Variant 1",
+    "template": "engines",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize engines behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "hydraulic_pressure"
+    ]
+  },
+  {
+    "id": "sys_0074",
+    "domain": "mechanical",
+    "title": "Engines System \u2014 Variant 2",
+    "template": "engines",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize engines behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "solar_power"
+    ]
+  },
+  {
+    "id": "sys_0075",
+    "domain": "mechanical",
+    "title": "Engines System \u2014 Variant 3",
+    "template": "engines",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize engines behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "stored_energy"
+    ]
+  },
+  {
+    "id": "sys_0076",
+    "domain": "mechanical",
+    "title": "Engines System \u2014 Variant 4",
+    "template": "engines",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize engines behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "battery_soc"
+    ]
+  },
+  {
+    "id": "sys_0077",
+    "domain": "mechanical",
+    "title": "Pumps System \u2014 Variant 1",
+    "template": "pumps",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize pumps behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_joint_motion"
+    ]
+  },
+  {
+    "id": "sys_0078",
+    "domain": "mechanical",
+    "title": "Pumps System \u2014 Variant 2",
+    "template": "pumps",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize pumps behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_arm_end_effector"
+    ]
+  },
+  {
+    "id": "sys_0079",
+    "domain": "mechanical",
+    "title": "Pumps System \u2014 Variant 3",
+    "template": "pumps",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize pumps behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "population_growth"
+    ]
+  },
+  {
+    "id": "sys_0080",
+    "domain": "mechanical",
+    "title": "Pumps System \u2014 Variant 4",
+    "template": "pumps",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize pumps behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "flow_rate"
+    ]
+  },
+  {
+    "id": "sys_0081",
+    "domain": "mechanical",
+    "title": "Structures System \u2014 Variant 1",
+    "template": "structures",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize structures behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "ohms_law"
+    ]
+  },
+  {
+    "id": "sys_0082",
+    "domain": "mechanical",
+    "title": "Structures System \u2014 Variant 2",
+    "template": "structures",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize structures behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "electrical_power"
+    ]
+  },
+  {
+    "id": "sys_0083",
+    "domain": "mechanical",
+    "title": "Structures System \u2014 Variant 3",
+    "template": "structures",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize structures behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "series_resistance"
+    ]
+  },
+  {
+    "id": "sys_0084",
+    "domain": "mechanical",
+    "title": "Structures System \u2014 Variant 4",
+    "template": "structures",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize structures behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "parallel_resistance"
+    ]
+  },
+  {
+    "id": "sys_0085",
+    "domain": "mechanical",
+    "title": "Vibration System \u2014 Variant 1",
+    "template": "vibration",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize vibration behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "kinetic_energy"
+    ]
+  },
+  {
+    "id": "sys_0086",
+    "domain": "mechanical",
+    "title": "Vibration System \u2014 Variant 2",
+    "template": "vibration",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize vibration behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "potential_energy"
+    ]
+  },
+  {
+    "id": "sys_0087",
+    "domain": "mechanical",
+    "title": "Vibration System \u2014 Variant 3",
+    "template": "vibration",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize vibration behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "newton_second_law"
+    ]
+  },
+  {
+    "id": "sys_0088",
+    "domain": "mechanical",
+    "title": "Vibration System \u2014 Variant 4",
+    "template": "vibration",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize vibration behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "spring_force"
+    ]
+  },
+  {
+    "id": "sys_0089",
+    "domain": "mechanical",
+    "title": "Mechanisms System \u2014 Variant 1",
+    "template": "mechanisms",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize mechanisms behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "wave_speed"
+    ]
+  },
+  {
+    "id": "sys_0090",
+    "domain": "mechanical",
+    "title": "Mechanisms System \u2014 Variant 2",
+    "template": "mechanisms",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize mechanisms behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "thermal_energy"
+    ]
+  },
+  {
+    "id": "sys_0091",
+    "domain": "mechanical",
+    "title": "Mechanisms System \u2014 Variant 3",
+    "template": "mechanisms",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize mechanisms behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "gear_ratio"
+    ]
+  },
+  {
+    "id": "sys_0092",
+    "domain": "mechanical",
+    "title": "Mechanisms System \u2014 Variant 4",
+    "template": "mechanisms",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize mechanisms behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "torque_power"
+    ]
+  },
+  {
+    "id": "sys_0093",
+    "domain": "mechanical",
+    "title": "Machines System \u2014 Variant 1",
+    "template": "machines",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize machines behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "hydraulic_pressure"
+    ]
+  },
+  {
+    "id": "sys_0094",
+    "domain": "mechanical",
+    "title": "Machines System \u2014 Variant 2",
+    "template": "machines",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize machines behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "solar_power"
+    ]
+  },
+  {
+    "id": "sys_0095",
+    "domain": "mechanical",
+    "title": "Machines System \u2014 Variant 3",
+    "template": "machines",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize machines behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "stored_energy"
+    ]
+  },
+  {
+    "id": "sys_0096",
+    "domain": "mechanical",
+    "title": "Machines System \u2014 Variant 4",
+    "template": "machines",
+    "components": [
+      "gear",
+      "bearing",
+      "shaft",
+      "pulley",
+      "belt"
+    ],
+    "relationships": [
+      "gear->connects_to->bearing",
+      "bearing->connects_to->shaft",
+      "shaft->connects_to->pulley",
+      "pulley->connects_to->belt"
+    ],
+    "learning_objectives": [
+      "Visualize machines behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "battery_soc"
+    ]
+  },
+  {
+    "id": "sys_0097",
+    "domain": "robotics",
+    "title": "Navigation System \u2014 Variant 1",
+    "template": "navigation",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize navigation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_joint_motion"
+    ]
+  },
+  {
+    "id": "sys_0098",
+    "domain": "robotics",
+    "title": "Navigation System \u2014 Variant 2",
+    "template": "navigation",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize navigation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_arm_end_effector"
+    ]
+  },
+  {
+    "id": "sys_0099",
+    "domain": "robotics",
+    "title": "Navigation System \u2014 Variant 3",
+    "template": "navigation",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize navigation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "population_growth"
+    ]
+  },
+  {
+    "id": "sys_0100",
+    "domain": "robotics",
+    "title": "Navigation System \u2014 Variant 4",
+    "template": "navigation",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize navigation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "flow_rate"
+    ]
+  },
+  {
+    "id": "sys_0101",
+    "domain": "robotics",
+    "title": "Manipulation System \u2014 Variant 1",
+    "template": "manipulation",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize manipulation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "ohms_law"
+    ]
+  },
+  {
+    "id": "sys_0102",
+    "domain": "robotics",
+    "title": "Manipulation System \u2014 Variant 2",
+    "template": "manipulation",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize manipulation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "electrical_power"
+    ]
+  },
+  {
+    "id": "sys_0103",
+    "domain": "robotics",
+    "title": "Manipulation System \u2014 Variant 3",
+    "template": "manipulation",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize manipulation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "series_resistance"
+    ]
+  },
+  {
+    "id": "sys_0104",
+    "domain": "robotics",
+    "title": "Manipulation System \u2014 Variant 4",
+    "template": "manipulation",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize manipulation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "parallel_resistance"
+    ]
+  },
+  {
+    "id": "sys_0105",
+    "domain": "robotics",
+    "title": "Sensing System \u2014 Variant 1",
+    "template": "sensing",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize sensing behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "kinetic_energy"
+    ]
+  },
+  {
+    "id": "sys_0106",
+    "domain": "robotics",
+    "title": "Sensing System \u2014 Variant 2",
+    "template": "sensing",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize sensing behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "potential_energy"
+    ]
+  },
+  {
+    "id": "sys_0107",
+    "domain": "robotics",
+    "title": "Sensing System \u2014 Variant 3",
+    "template": "sensing",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize sensing behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "newton_second_law"
+    ]
+  },
+  {
+    "id": "sys_0108",
+    "domain": "robotics",
+    "title": "Sensing System \u2014 Variant 4",
+    "template": "sensing",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize sensing behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "spring_force"
+    ]
+  },
+  {
+    "id": "sys_0109",
+    "domain": "robotics",
+    "title": "Control System \u2014 Variant 1",
+    "template": "control",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize control behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "wave_speed"
+    ]
+  },
+  {
+    "id": "sys_0110",
+    "domain": "robotics",
+    "title": "Control System \u2014 Variant 2",
+    "template": "control",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize control behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "thermal_energy"
+    ]
+  },
+  {
+    "id": "sys_0111",
+    "domain": "robotics",
+    "title": "Control System \u2014 Variant 3",
+    "template": "control",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize control behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "gear_ratio"
+    ]
+  },
+  {
+    "id": "sys_0112",
+    "domain": "robotics",
+    "title": "Control System \u2014 Variant 4",
+    "template": "control",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize control behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "torque_power"
+    ]
+  },
+  {
+    "id": "sys_0113",
+    "domain": "robotics",
+    "title": "Locomotion System \u2014 Variant 1",
+    "template": "locomotion",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize locomotion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "hydraulic_pressure"
+    ]
+  },
+  {
+    "id": "sys_0114",
+    "domain": "robotics",
+    "title": "Locomotion System \u2014 Variant 2",
+    "template": "locomotion",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize locomotion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "solar_power"
+    ]
+  },
+  {
+    "id": "sys_0115",
+    "domain": "robotics",
+    "title": "Locomotion System \u2014 Variant 3",
+    "template": "locomotion",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize locomotion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "stored_energy"
+    ]
+  },
+  {
+    "id": "sys_0116",
+    "domain": "robotics",
+    "title": "Locomotion System \u2014 Variant 4",
+    "template": "locomotion",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize locomotion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "battery_soc"
+    ]
+  },
+  {
+    "id": "sys_0117",
+    "domain": "robotics",
+    "title": "Vision System \u2014 Variant 1",
+    "template": "vision",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize vision behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_joint_motion"
+    ]
+  },
+  {
+    "id": "sys_0118",
+    "domain": "robotics",
+    "title": "Vision System \u2014 Variant 2",
+    "template": "vision",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize vision behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_arm_end_effector"
+    ]
+  },
+  {
+    "id": "sys_0119",
+    "domain": "robotics",
+    "title": "Vision System \u2014 Variant 3",
+    "template": "vision",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize vision behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "population_growth"
+    ]
+  },
+  {
+    "id": "sys_0120",
+    "domain": "robotics",
+    "title": "Vision System \u2014 Variant 4",
+    "template": "vision",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize vision behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "flow_rate"
+    ]
+  },
+  {
+    "id": "sys_0121",
+    "domain": "robotics",
+    "title": "Actuation System \u2014 Variant 1",
+    "template": "actuation",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize actuation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "ohms_law"
+    ]
+  },
+  {
+    "id": "sys_0122",
+    "domain": "robotics",
+    "title": "Actuation System \u2014 Variant 2",
+    "template": "actuation",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize actuation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "electrical_power"
+    ]
+  },
+  {
+    "id": "sys_0123",
+    "domain": "robotics",
+    "title": "Actuation System \u2014 Variant 3",
+    "template": "actuation",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize actuation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "series_resistance"
+    ]
+  },
+  {
+    "id": "sys_0124",
+    "domain": "robotics",
+    "title": "Actuation System \u2014 Variant 4",
+    "template": "actuation",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize actuation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "parallel_resistance"
+    ]
+  },
+  {
+    "id": "sys_0125",
+    "domain": "robotics",
+    "title": "Planning System \u2014 Variant 1",
+    "template": "planning",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize planning behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "kinetic_energy"
+    ]
+  },
+  {
+    "id": "sys_0126",
+    "domain": "robotics",
+    "title": "Planning System \u2014 Variant 2",
+    "template": "planning",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize planning behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "potential_energy"
+    ]
+  },
+  {
+    "id": "sys_0127",
+    "domain": "robotics",
+    "title": "Planning System \u2014 Variant 3",
+    "template": "planning",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize planning behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "newton_second_law"
+    ]
+  },
+  {
+    "id": "sys_0128",
+    "domain": "robotics",
+    "title": "Planning System \u2014 Variant 4",
+    "template": "planning",
+    "components": [
+      "servo",
+      "actuator",
+      "robot_joint",
+      "gripper",
+      "wheel"
+    ],
+    "relationships": [
+      "servo->connects_to->actuator",
+      "actuator->connects_to->robot_joint",
+      "robot_joint->connects_to->gripper",
+      "gripper->connects_to->wheel"
+    ],
+    "learning_objectives": [
+      "Visualize planning behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "spring_force"
+    ]
+  },
+  {
+    "id": "sys_0129",
+    "domain": "energy",
+    "title": "Generation System \u2014 Variant 1",
+    "template": "generation",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize generation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "wave_speed"
+    ]
+  },
+  {
+    "id": "sys_0130",
+    "domain": "energy",
+    "title": "Generation System \u2014 Variant 2",
+    "template": "generation",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize generation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "thermal_energy"
+    ]
+  },
+  {
+    "id": "sys_0131",
+    "domain": "energy",
+    "title": "Generation System \u2014 Variant 3",
+    "template": "generation",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize generation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "gear_ratio"
+    ]
+  },
+  {
+    "id": "sys_0132",
+    "domain": "energy",
+    "title": "Generation System \u2014 Variant 4",
+    "template": "generation",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize generation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "torque_power"
+    ]
+  },
+  {
+    "id": "sys_0133",
+    "domain": "energy",
+    "title": "Storage System \u2014 Variant 1",
+    "template": "storage",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize storage behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "hydraulic_pressure"
+    ]
+  },
+  {
+    "id": "sys_0134",
+    "domain": "energy",
+    "title": "Storage System \u2014 Variant 2",
+    "template": "storage",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize storage behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "solar_power"
+    ]
+  },
+  {
+    "id": "sys_0135",
+    "domain": "energy",
+    "title": "Storage System \u2014 Variant 3",
+    "template": "storage",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize storage behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "stored_energy"
+    ]
+  },
+  {
+    "id": "sys_0136",
+    "domain": "energy",
+    "title": "Storage System \u2014 Variant 4",
+    "template": "storage",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize storage behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "battery_soc"
+    ]
+  },
+  {
+    "id": "sys_0137",
+    "domain": "energy",
+    "title": "Conversion System \u2014 Variant 1",
+    "template": "conversion",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize conversion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_joint_motion"
+    ]
+  },
+  {
+    "id": "sys_0138",
+    "domain": "energy",
+    "title": "Conversion System \u2014 Variant 2",
+    "template": "conversion",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize conversion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_arm_end_effector"
+    ]
+  },
+  {
+    "id": "sys_0139",
+    "domain": "energy",
+    "title": "Conversion System \u2014 Variant 3",
+    "template": "conversion",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize conversion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "population_growth"
+    ]
+  },
+  {
+    "id": "sys_0140",
+    "domain": "energy",
+    "title": "Conversion System \u2014 Variant 4",
+    "template": "conversion",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize conversion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "flow_rate"
+    ]
+  },
+  {
+    "id": "sys_0141",
+    "domain": "energy",
+    "title": "Distribution System \u2014 Variant 1",
+    "template": "distribution",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize distribution behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "ohms_law"
+    ]
+  },
+  {
+    "id": "sys_0142",
+    "domain": "energy",
+    "title": "Distribution System \u2014 Variant 2",
+    "template": "distribution",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize distribution behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "electrical_power"
+    ]
+  },
+  {
+    "id": "sys_0143",
+    "domain": "energy",
+    "title": "Distribution System \u2014 Variant 3",
+    "template": "distribution",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize distribution behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "series_resistance"
+    ]
+  },
+  {
+    "id": "sys_0144",
+    "domain": "energy",
+    "title": "Distribution System \u2014 Variant 4",
+    "template": "distribution",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize distribution behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "parallel_resistance"
+    ]
+  },
+  {
+    "id": "sys_0145",
+    "domain": "energy",
+    "title": "Efficiency System \u2014 Variant 1",
+    "template": "efficiency",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize efficiency behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "kinetic_energy"
+    ]
+  },
+  {
+    "id": "sys_0146",
+    "domain": "energy",
+    "title": "Efficiency System \u2014 Variant 2",
+    "template": "efficiency",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize efficiency behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "potential_energy"
+    ]
+  },
+  {
+    "id": "sys_0147",
+    "domain": "energy",
+    "title": "Efficiency System \u2014 Variant 3",
+    "template": "efficiency",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize efficiency behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "newton_second_law"
+    ]
+  },
+  {
+    "id": "sys_0148",
+    "domain": "energy",
+    "title": "Efficiency System \u2014 Variant 4",
+    "template": "efficiency",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize efficiency behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "spring_force"
+    ]
+  },
+  {
+    "id": "sys_0149",
+    "domain": "energy",
+    "title": "Load System \u2014 Variant 1",
+    "template": "load",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize load behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "wave_speed"
+    ]
+  },
+  {
+    "id": "sys_0150",
+    "domain": "energy",
+    "title": "Load System \u2014 Variant 2",
+    "template": "load",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize load behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "thermal_energy"
+    ]
+  },
+  {
+    "id": "sys_0151",
+    "domain": "energy",
+    "title": "Load System \u2014 Variant 3",
+    "template": "load",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize load behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "gear_ratio"
+    ]
+  },
+  {
+    "id": "sys_0152",
+    "domain": "energy",
+    "title": "Load System \u2014 Variant 4",
+    "template": "load",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize load behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "torque_power"
+    ]
+  },
+  {
+    "id": "sys_0153",
+    "domain": "energy",
+    "title": "Charging System \u2014 Variant 1",
+    "template": "charging",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize charging behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "hydraulic_pressure"
+    ]
+  },
+  {
+    "id": "sys_0154",
+    "domain": "energy",
+    "title": "Charging System \u2014 Variant 2",
+    "template": "charging",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize charging behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "solar_power"
+    ]
+  },
+  {
+    "id": "sys_0155",
+    "domain": "energy",
+    "title": "Charging System \u2014 Variant 3",
+    "template": "charging",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize charging behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "stored_energy"
+    ]
+  },
+  {
+    "id": "sys_0156",
+    "domain": "energy",
+    "title": "Charging System \u2014 Variant 4",
+    "template": "charging",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize charging behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "battery_soc"
+    ]
+  },
+  {
+    "id": "sys_0157",
+    "domain": "energy",
+    "title": "Microgrid System \u2014 Variant 1",
+    "template": "microgrid",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize microgrid behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_joint_motion"
+    ]
+  },
+  {
+    "id": "sys_0158",
+    "domain": "energy",
+    "title": "Microgrid System \u2014 Variant 2",
+    "template": "microgrid",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize microgrid behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_arm_end_effector"
+    ]
+  },
+  {
+    "id": "sys_0159",
+    "domain": "energy",
+    "title": "Microgrid System \u2014 Variant 3",
+    "template": "microgrid",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize microgrid behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "population_growth"
+    ]
+  },
+  {
+    "id": "sys_0160",
+    "domain": "energy",
+    "title": "Microgrid System \u2014 Variant 4",
+    "template": "microgrid",
+    "components": [
+      "solar_panel",
+      "wind_turbine",
+      "inverter",
+      "charge_controller",
+      "generator"
+    ],
+    "relationships": [
+      "solar_panel->connects_to->wind_turbine",
+      "wind_turbine->connects_to->inverter",
+      "inverter->connects_to->charge_controller",
+      "charge_controller->connects_to->generator"
+    ],
+    "learning_objectives": [
+      "Visualize microgrid behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "flow_rate"
+    ]
+  },
+  {
+    "id": "sys_0161",
+    "domain": "biology",
+    "title": "Circulation System \u2014 Variant 1",
+    "template": "circulation",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize circulation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "ohms_law"
+    ]
+  },
+  {
+    "id": "sys_0162",
+    "domain": "biology",
+    "title": "Circulation System \u2014 Variant 2",
+    "template": "circulation",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize circulation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "electrical_power"
+    ]
+  },
+  {
+    "id": "sys_0163",
+    "domain": "biology",
+    "title": "Circulation System \u2014 Variant 3",
+    "template": "circulation",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize circulation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "series_resistance"
+    ]
+  },
+  {
+    "id": "sys_0164",
+    "domain": "biology",
+    "title": "Circulation System \u2014 Variant 4",
+    "template": "circulation",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize circulation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "parallel_resistance"
+    ]
+  },
+  {
+    "id": "sys_0165",
+    "domain": "biology",
+    "title": "Respiration System \u2014 Variant 1",
+    "template": "respiration",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize respiration behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "kinetic_energy"
+    ]
+  },
+  {
+    "id": "sys_0166",
+    "domain": "biology",
+    "title": "Respiration System \u2014 Variant 2",
+    "template": "respiration",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize respiration behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "potential_energy"
+    ]
+  },
+  {
+    "id": "sys_0167",
+    "domain": "biology",
+    "title": "Respiration System \u2014 Variant 3",
+    "template": "respiration",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize respiration behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "newton_second_law"
+    ]
+  },
+  {
+    "id": "sys_0168",
+    "domain": "biology",
+    "title": "Respiration System \u2014 Variant 4",
+    "template": "respiration",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize respiration behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "spring_force"
+    ]
+  },
+  {
+    "id": "sys_0169",
+    "domain": "biology",
+    "title": "Neural System \u2014 Variant 1",
+    "template": "neural",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize neural behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "wave_speed"
+    ]
+  },
+  {
+    "id": "sys_0170",
+    "domain": "biology",
+    "title": "Neural System \u2014 Variant 2",
+    "template": "neural",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize neural behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "thermal_energy"
+    ]
+  },
+  {
+    "id": "sys_0171",
+    "domain": "biology",
+    "title": "Neural System \u2014 Variant 3",
+    "template": "neural",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize neural behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "gear_ratio"
+    ]
+  },
+  {
+    "id": "sys_0172",
+    "domain": "biology",
+    "title": "Neural System \u2014 Variant 4",
+    "template": "neural",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize neural behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "torque_power"
+    ]
+  },
+  {
+    "id": "sys_0173",
+    "domain": "biology",
+    "title": "Cellular System \u2014 Variant 1",
+    "template": "cellular",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize cellular behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "hydraulic_pressure"
+    ]
+  },
+  {
+    "id": "sys_0174",
+    "domain": "biology",
+    "title": "Cellular System \u2014 Variant 2",
+    "template": "cellular",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize cellular behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "solar_power"
+    ]
+  },
+  {
+    "id": "sys_0175",
+    "domain": "biology",
+    "title": "Cellular System \u2014 Variant 3",
+    "template": "cellular",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize cellular behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "stored_energy"
+    ]
+  },
+  {
+    "id": "sys_0176",
+    "domain": "biology",
+    "title": "Cellular System \u2014 Variant 4",
+    "template": "cellular",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize cellular behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "battery_soc"
+    ]
+  },
+  {
+    "id": "sys_0177",
+    "domain": "biology",
+    "title": "Genetics System \u2014 Variant 1",
+    "template": "genetics",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize genetics behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_joint_motion"
+    ]
+  },
+  {
+    "id": "sys_0178",
+    "domain": "biology",
+    "title": "Genetics System \u2014 Variant 2",
+    "template": "genetics",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize genetics behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_arm_end_effector"
+    ]
+  },
+  {
+    "id": "sys_0179",
+    "domain": "biology",
+    "title": "Genetics System \u2014 Variant 3",
+    "template": "genetics",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize genetics behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "population_growth"
+    ]
+  },
+  {
+    "id": "sys_0180",
+    "domain": "biology",
+    "title": "Genetics System \u2014 Variant 4",
+    "template": "genetics",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize genetics behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "flow_rate"
+    ]
+  },
+  {
+    "id": "sys_0181",
+    "domain": "biology",
+    "title": "Musculoskeletal System \u2014 Variant 1",
+    "template": "musculoskeletal",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize musculoskeletal behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "ohms_law"
+    ]
+  },
+  {
+    "id": "sys_0182",
+    "domain": "biology",
+    "title": "Musculoskeletal System \u2014 Variant 2",
+    "template": "musculoskeletal",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize musculoskeletal behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "electrical_power"
+    ]
+  },
+  {
+    "id": "sys_0183",
+    "domain": "biology",
+    "title": "Musculoskeletal System \u2014 Variant 3",
+    "template": "musculoskeletal",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize musculoskeletal behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "series_resistance"
+    ]
+  },
+  {
+    "id": "sys_0184",
+    "domain": "biology",
+    "title": "Musculoskeletal System \u2014 Variant 4",
+    "template": "musculoskeletal",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize musculoskeletal behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "parallel_resistance"
+    ]
+  },
+  {
+    "id": "sys_0185",
+    "domain": "biology",
+    "title": "Digestion System \u2014 Variant 1",
+    "template": "digestion",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize digestion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "kinetic_energy"
+    ]
+  },
+  {
+    "id": "sys_0186",
+    "domain": "biology",
+    "title": "Digestion System \u2014 Variant 2",
+    "template": "digestion",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize digestion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "potential_energy"
+    ]
+  },
+  {
+    "id": "sys_0187",
+    "domain": "biology",
+    "title": "Digestion System \u2014 Variant 3",
+    "template": "digestion",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize digestion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "newton_second_law"
+    ]
+  },
+  {
+    "id": "sys_0188",
+    "domain": "biology",
+    "title": "Digestion System \u2014 Variant 4",
+    "template": "digestion",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize digestion behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "spring_force"
+    ]
+  },
+  {
+    "id": "sys_0189",
+    "domain": "biology",
+    "title": "Vision System \u2014 Variant 1",
+    "template": "vision",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize vision behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "wave_speed"
+    ]
+  },
+  {
+    "id": "sys_0190",
+    "domain": "biology",
+    "title": "Vision System \u2014 Variant 2",
+    "template": "vision",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize vision behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "thermal_energy"
+    ]
+  },
+  {
+    "id": "sys_0191",
+    "domain": "biology",
+    "title": "Vision System \u2014 Variant 3",
+    "template": "vision",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize vision behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "gear_ratio"
+    ]
+  },
+  {
+    "id": "sys_0192",
+    "domain": "biology",
+    "title": "Vision System \u2014 Variant 4",
+    "template": "vision",
+    "components": [
+      "heart",
+      "lung",
+      "neuron",
+      "cell",
+      "dna"
+    ],
+    "relationships": [
+      "heart->connects_to->lung",
+      "lung->connects_to->neuron",
+      "neuron->connects_to->cell",
+      "cell->connects_to->dna"
+    ],
+    "learning_objectives": [
+      "Visualize vision behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "torque_power"
+    ]
+  },
+  {
+    "id": "sys_0193",
+    "domain": "computing",
+    "title": "Request System \u2014 Variant 1",
+    "template": "request",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize request behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "hydraulic_pressure"
+    ]
+  },
+  {
+    "id": "sys_0194",
+    "domain": "computing",
+    "title": "Request System \u2014 Variant 2",
+    "template": "request",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize request behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "solar_power"
+    ]
+  },
+  {
+    "id": "sys_0195",
+    "domain": "computing",
+    "title": "Request System \u2014 Variant 3",
+    "template": "request",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize request behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "stored_energy"
+    ]
+  },
+  {
+    "id": "sys_0196",
+    "domain": "computing",
+    "title": "Request System \u2014 Variant 4",
+    "template": "request",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize request behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "battery_soc"
+    ]
+  },
+  {
+    "id": "sys_0197",
+    "domain": "computing",
+    "title": "Data System \u2014 Variant 1",
+    "template": "data",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize data behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_joint_motion"
+    ]
+  },
+  {
+    "id": "sys_0198",
+    "domain": "computing",
+    "title": "Data System \u2014 Variant 2",
+    "template": "data",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize data behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_arm_end_effector"
+    ]
+  },
+  {
+    "id": "sys_0199",
+    "domain": "computing",
+    "title": "Data System \u2014 Variant 3",
+    "template": "data",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize data behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "population_growth"
+    ]
+  },
+  {
+    "id": "sys_0200",
+    "domain": "computing",
+    "title": "Data System \u2014 Variant 4",
+    "template": "data",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize data behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "flow_rate"
+    ]
+  },
+  {
+    "id": "sys_0201",
+    "domain": "computing",
+    "title": "Network System \u2014 Variant 1",
+    "template": "network",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize network behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "ohms_law"
+    ]
+  },
+  {
+    "id": "sys_0202",
+    "domain": "computing",
+    "title": "Network System \u2014 Variant 2",
+    "template": "network",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize network behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "electrical_power"
+    ]
+  },
+  {
+    "id": "sys_0203",
+    "domain": "computing",
+    "title": "Network System \u2014 Variant 3",
+    "template": "network",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize network behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "series_resistance"
+    ]
+  },
+  {
+    "id": "sys_0204",
+    "domain": "computing",
+    "title": "Network System \u2014 Variant 4",
+    "template": "network",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize network behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "parallel_resistance"
+    ]
+  },
+  {
+    "id": "sys_0205",
+    "domain": "computing",
+    "title": "Security System \u2014 Variant 1",
+    "template": "security",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize security behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "kinetic_energy"
+    ]
+  },
+  {
+    "id": "sys_0206",
+    "domain": "computing",
+    "title": "Security System \u2014 Variant 2",
+    "template": "security",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize security behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "potential_energy"
+    ]
+  },
+  {
+    "id": "sys_0207",
+    "domain": "computing",
+    "title": "Security System \u2014 Variant 3",
+    "template": "security",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize security behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "newton_second_law"
+    ]
+  },
+  {
+    "id": "sys_0208",
+    "domain": "computing",
+    "title": "Security System \u2014 Variant 4",
+    "template": "security",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize security behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "spring_force"
+    ]
+  },
+  {
+    "id": "sys_0209",
+    "domain": "computing",
+    "title": "Storage System \u2014 Variant 1",
+    "template": "storage",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize storage behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "wave_speed"
+    ]
+  },
+  {
+    "id": "sys_0210",
+    "domain": "computing",
+    "title": "Storage System \u2014 Variant 2",
+    "template": "storage",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize storage behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "thermal_energy"
+    ]
+  },
+  {
+    "id": "sys_0211",
+    "domain": "computing",
+    "title": "Storage System \u2014 Variant 3",
+    "template": "storage",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize storage behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "gear_ratio"
+    ]
+  },
+  {
+    "id": "sys_0212",
+    "domain": "computing",
+    "title": "Storage System \u2014 Variant 4",
+    "template": "storage",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize storage behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "torque_power"
+    ]
+  },
+  {
+    "id": "sys_0213",
+    "domain": "computing",
+    "title": "Compute System \u2014 Variant 1",
+    "template": "compute",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize compute behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "hydraulic_pressure"
+    ]
+  },
+  {
+    "id": "sys_0214",
+    "domain": "computing",
+    "title": "Compute System \u2014 Variant 2",
+    "template": "compute",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize compute behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "solar_power"
+    ]
+  },
+  {
+    "id": "sys_0215",
+    "domain": "computing",
+    "title": "Compute System \u2014 Variant 3",
+    "template": "compute",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize compute behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "stored_energy"
+    ]
+  },
+  {
+    "id": "sys_0216",
+    "domain": "computing",
+    "title": "Compute System \u2014 Variant 4",
+    "template": "compute",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize compute behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "battery_soc"
+    ]
+  },
+  {
+    "id": "sys_0217",
+    "domain": "computing",
+    "title": "Messaging System \u2014 Variant 1",
+    "template": "messaging",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize messaging behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_joint_motion"
+    ]
+  },
+  {
+    "id": "sys_0218",
+    "domain": "computing",
+    "title": "Messaging System \u2014 Variant 2",
+    "template": "messaging",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize messaging behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_arm_end_effector"
+    ]
+  },
+  {
+    "id": "sys_0219",
+    "domain": "computing",
+    "title": "Messaging System \u2014 Variant 3",
+    "template": "messaging",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize messaging behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "population_growth"
+    ]
+  },
+  {
+    "id": "sys_0220",
+    "domain": "computing",
+    "title": "Messaging System \u2014 Variant 4",
+    "template": "messaging",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize messaging behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "flow_rate"
+    ]
+  },
+  {
+    "id": "sys_0221",
+    "domain": "computing",
+    "title": "Observability System \u2014 Variant 1",
+    "template": "observability",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize observability behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "ohms_law"
+    ]
+  },
+  {
+    "id": "sys_0222",
+    "domain": "computing",
+    "title": "Observability System \u2014 Variant 2",
+    "template": "observability",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize observability behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "electrical_power"
+    ]
+  },
+  {
+    "id": "sys_0223",
+    "domain": "computing",
+    "title": "Observability System \u2014 Variant 3",
+    "template": "observability",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize observability behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "series_resistance"
+    ]
+  },
+  {
+    "id": "sys_0224",
+    "domain": "computing",
+    "title": "Observability System \u2014 Variant 4",
+    "template": "observability",
+    "components": [
+      "client",
+      "server",
+      "router",
+      "network_switch",
+      "database"
+    ],
+    "relationships": [
+      "client->connects_to->server",
+      "server->connects_to->router",
+      "router->connects_to->network_switch",
+      "network_switch->connects_to->database"
+    ],
+    "learning_objectives": [
+      "Visualize observability behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "parallel_resistance"
+    ]
+  },
+  {
+    "id": "sys_0225",
+    "domain": "architecture",
+    "title": "Structure System \u2014 Variant 1",
+    "template": "structure",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize structure behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "kinetic_energy"
+    ]
+  },
+  {
+    "id": "sys_0226",
+    "domain": "architecture",
+    "title": "Structure System \u2014 Variant 2",
+    "template": "structure",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize structure behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "potential_energy"
+    ]
+  },
+  {
+    "id": "sys_0227",
+    "domain": "architecture",
+    "title": "Structure System \u2014 Variant 3",
+    "template": "structure",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize structure behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "newton_second_law"
+    ]
+  },
+  {
+    "id": "sys_0228",
+    "domain": "architecture",
+    "title": "Structure System \u2014 Variant 4",
+    "template": "structure",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize structure behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "spring_force"
+    ]
+  },
+  {
+    "id": "sys_0229",
+    "domain": "architecture",
+    "title": "Circulation System \u2014 Variant 1",
+    "template": "circulation",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize circulation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "wave_speed"
+    ]
+  },
+  {
+    "id": "sys_0230",
+    "domain": "architecture",
+    "title": "Circulation System \u2014 Variant 2",
+    "template": "circulation",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize circulation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "thermal_energy"
+    ]
+  },
+  {
+    "id": "sys_0231",
+    "domain": "architecture",
+    "title": "Circulation System \u2014 Variant 3",
+    "template": "circulation",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize circulation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "gear_ratio"
+    ]
+  },
+  {
+    "id": "sys_0232",
+    "domain": "architecture",
+    "title": "Circulation System \u2014 Variant 4",
+    "template": "circulation",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize circulation behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "torque_power"
+    ]
+  },
+  {
+    "id": "sys_0233",
+    "domain": "architecture",
+    "title": "Energy System \u2014 Variant 1",
+    "template": "energy",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize energy behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "hydraulic_pressure"
+    ]
+  },
+  {
+    "id": "sys_0234",
+    "domain": "architecture",
+    "title": "Energy System \u2014 Variant 2",
+    "template": "energy",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize energy behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "solar_power"
+    ]
+  },
+  {
+    "id": "sys_0235",
+    "domain": "architecture",
+    "title": "Energy System \u2014 Variant 3",
+    "template": "energy",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize energy behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "stored_energy"
+    ]
+  },
+  {
+    "id": "sys_0236",
+    "domain": "architecture",
+    "title": "Energy System \u2014 Variant 4",
+    "template": "energy",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize energy behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "battery_soc"
+    ]
+  },
+  {
+    "id": "sys_0237",
+    "domain": "architecture",
+    "title": "Space System \u2014 Variant 1",
+    "template": "space",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize space behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_joint_motion"
+    ]
+  },
+  {
+    "id": "sys_0238",
+    "domain": "architecture",
+    "title": "Space System \u2014 Variant 2",
+    "template": "space",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize space behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "robot_arm_end_effector"
+    ]
+  },
+  {
+    "id": "sys_0239",
+    "domain": "architecture",
+    "title": "Space System \u2014 Variant 3",
+    "template": "space",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize space behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "population_growth"
+    ]
+  },
+  {
+    "id": "sys_0240",
+    "domain": "architecture",
+    "title": "Space System \u2014 Variant 4",
+    "template": "space",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize space behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "flow_rate"
+    ]
+  },
+  {
+    "id": "sys_0241",
+    "domain": "architecture",
+    "title": "Lighting System \u2014 Variant 1",
+    "template": "lighting",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize lighting behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "ohms_law"
+    ]
+  },
+  {
+    "id": "sys_0242",
+    "domain": "architecture",
+    "title": "Lighting System \u2014 Variant 2",
+    "template": "lighting",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize lighting behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "electrical_power"
+    ]
+  },
+  {
+    "id": "sys_0243",
+    "domain": "architecture",
+    "title": "Lighting System \u2014 Variant 3",
+    "template": "lighting",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize lighting behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "series_resistance"
+    ]
+  },
+  {
+    "id": "sys_0244",
+    "domain": "architecture",
+    "title": "Lighting System \u2014 Variant 4",
+    "template": "lighting",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize lighting behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "parallel_resistance"
+    ]
+  },
+  {
+    "id": "sys_0245",
+    "domain": "architecture",
+    "title": "Water System \u2014 Variant 1",
+    "template": "water",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize water behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "kinetic_energy"
+    ]
+  },
+  {
+    "id": "sys_0246",
+    "domain": "architecture",
+    "title": "Water System \u2014 Variant 2",
+    "template": "water",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize water behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "potential_energy"
+    ]
+  },
+  {
+    "id": "sys_0247",
+    "domain": "architecture",
+    "title": "Water System \u2014 Variant 3",
+    "template": "water",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize water behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "newton_second_law"
+    ]
+  },
+  {
+    "id": "sys_0248",
+    "domain": "architecture",
+    "title": "Water System \u2014 Variant 4",
+    "template": "water",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize water behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "spring_force"
+    ]
+  },
+  {
+    "id": "sys_0249",
+    "domain": "architecture",
+    "title": "Transport System \u2014 Variant 1",
+    "template": "transport",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize transport behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "wave_speed"
+    ]
+  },
+  {
+    "id": "sys_0250",
+    "domain": "architecture",
+    "title": "Transport System \u2014 Variant 2",
+    "template": "transport",
+    "components": [
+      "wall",
+      "door",
+      "window",
+      "column",
+      "beam"
+    ],
+    "relationships": [
+      "wall->connects_to->door",
+      "door->connects_to->window",
+      "window->connects_to->column",
+      "column->connects_to->beam"
+    ],
+    "learning_objectives": [
+      "Visualize transport behavior",
+      "Inspect component relationships",
+      "Experiment with parameters"
+    ],
+    "simulation_schema_ids": [
+      "thermal_energy"
+    ]
+  }
+]

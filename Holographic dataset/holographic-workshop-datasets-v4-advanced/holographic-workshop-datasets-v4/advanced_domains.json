@@ -1,0 +1,758 @@
+[
+  {
+    "id": "quantum_001",
+    "domain": "quantum",
+    "topic": "quantum computing",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "quantum_002",
+    "domain": "quantum",
+    "topic": "quantum sensing",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "quantum_003",
+    "domain": "quantum",
+    "topic": "quantum communication",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "quantum_004",
+    "domain": "quantum",
+    "topic": "quantum materials",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "quantum_005",
+    "domain": "quantum",
+    "topic": "quantum optics",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "quantum_006",
+    "domain": "quantum",
+    "topic": "superposition",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "quantum_007",
+    "domain": "quantum",
+    "topic": "entanglement",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "quantum_008",
+    "domain": "quantum",
+    "topic": "decoherence",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "space_001",
+    "domain": "space",
+    "topic": "orbital mechanics",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "space_002",
+    "domain": "space",
+    "topic": "space robotics",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "space_003",
+    "domain": "space",
+    "topic": "life support",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "space_004",
+    "domain": "space",
+    "topic": "thermal control",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "space_005",
+    "domain": "space",
+    "topic": "radiation environment",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "space_006",
+    "domain": "space",
+    "topic": "in-situ resource utilization",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "space_007",
+    "domain": "space",
+    "topic": "planetary rovers",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "space_008",
+    "domain": "space",
+    "topic": "space habitats",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "fusion_001",
+    "domain": "fusion",
+    "topic": "plasma confinement",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "fusion_002",
+    "domain": "fusion",
+    "topic": "magnetic confinement",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "fusion_003",
+    "domain": "fusion",
+    "topic": "tokamak concept",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "fusion_004",
+    "domain": "fusion",
+    "topic": "stellarator concept",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "fusion_005",
+    "domain": "fusion",
+    "topic": "fusion diagnostics",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "fusion_006",
+    "domain": "fusion",
+    "topic": "plasma instabilities",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "fusion_007",
+    "domain": "fusion",
+    "topic": "energy balance",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "ai_robotics_001",
+    "domain": "ai_robotics",
+    "topic": "multimodal perception",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "ai_robotics_002",
+    "domain": "ai_robotics",
+    "topic": "world models",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "ai_robotics_003",
+    "domain": "ai_robotics",
+    "topic": "motion planning",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "ai_robotics_004",
+    "domain": "ai_robotics",
+    "topic": "reinforcement learning",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "ai_robotics_005",
+    "domain": "ai_robotics",
+    "topic": "robot foundation models",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "ai_robotics_006",
+    "domain": "ai_robotics",
+    "topic": "human-robot interaction",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "ai_robotics_007",
+    "domain": "ai_robotics",
+    "topic": "multi-agent robotics",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "ai_robotics_008",
+    "domain": "ai_robotics",
+    "topic": "sim-to-real",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "materials_001",
+    "domain": "materials",
+    "topic": "metamaterials",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "materials_002",
+    "domain": "materials",
+    "topic": "topological materials",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "materials_003",
+    "domain": "materials",
+    "topic": "shape-memory alloys",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "materials_004",
+    "domain": "materials",
+    "topic": "high-entropy alloys",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "materials_005",
+    "domain": "materials",
+    "topic": "ceramic matrix composites",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "materials_006",
+    "domain": "materials",
+    "topic": "aerogels",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "materials_007",
+    "domain": "materials",
+    "topic": "solid electrolytes",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "materials_008",
+    "domain": "materials",
+    "topic": "perovskite materials",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "biotech_001",
+    "domain": "biotech",
+    "topic": "synthetic biology",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "biotech_002",
+    "domain": "biotech",
+    "topic": "protein structure",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "biotech_003",
+    "domain": "biotech",
+    "topic": "gene regulation",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "biotech_004",
+    "domain": "biotech",
+    "topic": "organoids",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "biotech_005",
+    "domain": "biotech",
+    "topic": "biofabrication",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "biotech_006",
+    "domain": "biotech",
+    "topic": "biosensors",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "biotech_007",
+    "domain": "biotech",
+    "topic": "computational biology",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "biotech_008",
+    "domain": "biotech",
+    "topic": "systems biology",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "earth_science_001",
+    "domain": "earth_science",
+    "topic": "climate systems",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "earth_science_002",
+    "domain": "earth_science",
+    "topic": "ocean circulation",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "earth_science_003",
+    "domain": "earth_science",
+    "topic": "atmospheric dynamics",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "earth_science_004",
+    "domain": "earth_science",
+    "topic": "geophysics",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "earth_science_005",
+    "domain": "earth_science",
+    "topic": "remote sensing",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "earth_science_006",
+    "domain": "earth_science",
+    "topic": "hydrology",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "earth_science_007",
+    "domain": "earth_science",
+    "topic": "earth observation",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "earth_science_008",
+    "domain": "earth_science",
+    "topic": "natural hazards",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "advanced_computing_001",
+    "domain": "advanced_computing",
+    "topic": "distributed systems",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "advanced_computing_002",
+    "domain": "advanced_computing",
+    "topic": "neuromorphic computing",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "advanced_computing_003",
+    "domain": "advanced_computing",
+    "topic": "photonic computing",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "advanced_computing_004",
+    "domain": "advanced_computing",
+    "topic": "edge AI",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "advanced_computing_005",
+    "domain": "advanced_computing",
+    "topic": "accelerators",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "advanced_computing_006",
+    "domain": "advanced_computing",
+    "topic": "high-performance computing",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "advanced_computing_007",
+    "domain": "advanced_computing",
+    "topic": "digital twins",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  },
+  {
+    "id": "advanced_computing_008",
+    "domain": "advanced_computing",
+    "topic": "cyber-physical systems",
+    "visualization_modes": [
+      "3d",
+      "network",
+      "timeline",
+      "simulation"
+    ],
+    "maturity": "research_or_advanced_concept"
+  }
+]

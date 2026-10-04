@@ -1,0 +1,821 @@
+[
+  {
+    "id": "scenario_01_01",
+    "domain": "quantum",
+    "prompt": "Explore quantum computing in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_01_02",
+    "domain": "quantum",
+    "prompt": "Explore quantum sensing in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_01_03",
+    "domain": "quantum",
+    "prompt": "Explore quantum communication in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_01_04",
+    "domain": "quantum",
+    "prompt": "Explore quantum materials in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_01_05",
+    "domain": "quantum",
+    "prompt": "Explore quantum optics in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_01_06",
+    "domain": "quantum",
+    "prompt": "Explore superposition in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_01_07",
+    "domain": "quantum",
+    "prompt": "Explore entanglement in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_01_08",
+    "domain": "quantum",
+    "prompt": "Explore decoherence in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_02_01",
+    "domain": "space",
+    "prompt": "Explore orbital mechanics in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_02_02",
+    "domain": "space",
+    "prompt": "Explore space robotics in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_02_03",
+    "domain": "space",
+    "prompt": "Explore life support in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_02_04",
+    "domain": "space",
+    "prompt": "Explore thermal control in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_02_05",
+    "domain": "space",
+    "prompt": "Explore radiation environment in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_02_06",
+    "domain": "space",
+    "prompt": "Explore in-situ resource utilization in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_02_07",
+    "domain": "space",
+    "prompt": "Explore planetary rovers in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_02_08",
+    "domain": "space",
+    "prompt": "Explore space habitats in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_03_01",
+    "domain": "fusion",
+    "prompt": "Explore plasma confinement in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_03_02",
+    "domain": "fusion",
+    "prompt": "Explore magnetic confinement in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_03_03",
+    "domain": "fusion",
+    "prompt": "Explore tokamak concept in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_03_04",
+    "domain": "fusion",
+    "prompt": "Explore stellarator concept in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_03_05",
+    "domain": "fusion",
+    "prompt": "Explore fusion diagnostics in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_03_06",
+    "domain": "fusion",
+    "prompt": "Explore plasma instabilities in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_03_07",
+    "domain": "fusion",
+    "prompt": "Explore energy balance in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_04_01",
+    "domain": "ai_robotics",
+    "prompt": "Explore multimodal perception in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_04_02",
+    "domain": "ai_robotics",
+    "prompt": "Explore world models in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_04_03",
+    "domain": "ai_robotics",
+    "prompt": "Explore motion planning in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_04_04",
+    "domain": "ai_robotics",
+    "prompt": "Explore reinforcement learning in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_04_05",
+    "domain": "ai_robotics",
+    "prompt": "Explore robot foundation models in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_04_06",
+    "domain": "ai_robotics",
+    "prompt": "Explore human-robot interaction in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_04_07",
+    "domain": "ai_robotics",
+    "prompt": "Explore multi-agent robotics in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_04_08",
+    "domain": "ai_robotics",
+    "prompt": "Explore sim-to-real in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_05_01",
+    "domain": "materials",
+    "prompt": "Explore metamaterials in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_05_02",
+    "domain": "materials",
+    "prompt": "Explore topological materials in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_05_03",
+    "domain": "materials",
+    "prompt": "Explore shape-memory alloys in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_05_04",
+    "domain": "materials",
+    "prompt": "Explore high-entropy alloys in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_05_05",
+    "domain": "materials",
+    "prompt": "Explore ceramic matrix composites in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_05_06",
+    "domain": "materials",
+    "prompt": "Explore aerogels in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_05_07",
+    "domain": "materials",
+    "prompt": "Explore solid electrolytes in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_05_08",
+    "domain": "materials",
+    "prompt": "Explore perovskite materials in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_06_01",
+    "domain": "biotech",
+    "prompt": "Explore synthetic biology in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_06_02",
+    "domain": "biotech",
+    "prompt": "Explore protein structure in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_06_03",
+    "domain": "biotech",
+    "prompt": "Explore gene regulation in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_06_04",
+    "domain": "biotech",
+    "prompt": "Explore organoids in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_06_05",
+    "domain": "biotech",
+    "prompt": "Explore biofabrication in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_06_06",
+    "domain": "biotech",
+    "prompt": "Explore biosensors in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_06_07",
+    "domain": "biotech",
+    "prompt": "Explore computational biology in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_06_08",
+    "domain": "biotech",
+    "prompt": "Explore systems biology in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_07_01",
+    "domain": "earth_science",
+    "prompt": "Explore climate systems in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_07_02",
+    "domain": "earth_science",
+    "prompt": "Explore ocean circulation in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_07_03",
+    "domain": "earth_science",
+    "prompt": "Explore atmospheric dynamics in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_07_04",
+    "domain": "earth_science",
+    "prompt": "Explore geophysics in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_07_05",
+    "domain": "earth_science",
+    "prompt": "Explore remote sensing in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_07_06",
+    "domain": "earth_science",
+    "prompt": "Explore hydrology in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_07_07",
+    "domain": "earth_science",
+    "prompt": "Explore earth observation in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_07_08",
+    "domain": "earth_science",
+    "prompt": "Explore natural hazards in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_08_01",
+    "domain": "advanced_computing",
+    "prompt": "Explore distributed systems in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_08_02",
+    "domain": "advanced_computing",
+    "prompt": "Explore neuromorphic computing in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_08_03",
+    "domain": "advanced_computing",
+    "prompt": "Explore photonic computing in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_08_04",
+    "domain": "advanced_computing",
+    "prompt": "Explore edge AI in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_08_05",
+    "domain": "advanced_computing",
+    "prompt": "Explore accelerators in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_08_06",
+    "domain": "advanced_computing",
+    "prompt": "Explore high-performance computing in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_08_07",
+    "domain": "advanced_computing",
+    "prompt": "Explore digital twins in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  },
+  {
+    "id": "scenario_08_08",
+    "domain": "advanced_computing",
+    "prompt": "Explore cyber-physical systems in Holographic Workshop.",
+    "steps": [
+      "create_workspace",
+      "retrieve_knowledge",
+      "build_visual_model",
+      "inspect_components",
+      "run_conceptual_simulation",
+      "explain_results"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "steel",
+    "density_kg_m3": 7850,
+    "youngs_modulus_pa": 200000000000.0,
+    "thermal_conductivity_w_mk": 50
+  },
+  {
+    "id": "aluminum",
+    "density_kg_m3": 2700,
+    "youngs_modulus_pa": 69000000000.0,
+    "thermal_conductivity_w_mk": 237
+  },
+  {
+    "id": "copper",
+    "density_kg_m3": 8960,
+    "youngs_modulus_pa": 110000000000.0,
+    "thermal_conductivity_w_mk": 401
+  },
+  {
+    "id": "brass",
+    "density_kg_m3": 8500,
+    "youngs_modulus_pa": 100000000000.0,
+    "thermal_conductivity_w_mk": 120
+  },
+  {
+    "id": "plastic",
+    "density_kg_m3": 1200,
+    "youngs_modulus_pa": 2500000000.0,
+    "thermal_conductivity_w_mk": 0.2
+  },
+  {
+    "id": "rubber",
+    "density_kg_m3": 1100,
+    "youngs_modulus_pa": 10000000.0,
+    "thermal_conductivity_w_mk": 0.15
+  },
+  {
+    "id": "glass",
+    "density_kg_m3": 2500,
+    "youngs_modulus_pa": 70000000000.0,
+    "thermal_conductivity_w_mk": 1.0
+  },
+  {
+    "id": "wood",
+    "density_kg_m3": 600,
+    "youngs_modulus_pa": 10000000000.0,
+    "thermal_conductivity_w_mk": 0.15
+  },
+  {
+    "id": "carbon_fiber",
+    "density_kg_m3": 1600,
+    "youngs_modulus_pa": 70000000000.0,
+    "thermal_conductivity_w_mk": 5
+  },
+  {
+    "id": "silicon",
+    "density_kg_m3": 2330,
+    "youngs_modulus_pa": 130000000000.0,
+    "thermal_conductivity_w_mk": 150
+  }
+]

@@ -1,0 +1,3446 @@
+[
+  {
+    "id": "gear_01",
+    "category": "mechanical",
+    "name": "Gear 1",
+    "base_type": "gear",
+    "variant": 1,
+    "description": "Conceptual gear asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "gear_02",
+    "category": "mechanical",
+    "name": "Gear 2",
+    "base_type": "gear",
+    "variant": 2,
+    "description": "Conceptual gear asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "gear_03",
+    "category": "mechanical",
+    "name": "Gear 3",
+    "base_type": "gear",
+    "variant": 3,
+    "description": "Conceptual gear asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "shaft_01",
+    "category": "mechanical",
+    "name": "Shaft 1",
+    "base_type": "shaft",
+    "variant": 1,
+    "description": "Conceptual shaft asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "shaft_02",
+    "category": "mechanical",
+    "name": "Shaft 2",
+    "base_type": "shaft",
+    "variant": 2,
+    "description": "Conceptual shaft asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "shaft_03",
+    "category": "mechanical",
+    "name": "Shaft 3",
+    "base_type": "shaft",
+    "variant": 3,
+    "description": "Conceptual shaft asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "bearing_01",
+    "category": "mechanical",
+    "name": "Bearing 1",
+    "base_type": "bearing",
+    "variant": 1,
+    "description": "Conceptual bearing asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "bearing_02",
+    "category": "mechanical",
+    "name": "Bearing 2",
+    "base_type": "bearing",
+    "variant": 2,
+    "description": "Conceptual bearing asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "bearing_03",
+    "category": "mechanical",
+    "name": "Bearing 3",
+    "base_type": "bearing",
+    "variant": 3,
+    "description": "Conceptual bearing asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "pulley_01",
+    "category": "mechanical",
+    "name": "Pulley 1",
+    "base_type": "pulley",
+    "variant": 1,
+    "description": "Conceptual pulley asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "pulley_02",
+    "category": "mechanical",
+    "name": "Pulley 2",
+    "base_type": "pulley",
+    "variant": 2,
+    "description": "Conceptual pulley asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "pulley_03",
+    "category": "mechanical",
+    "name": "Pulley 3",
+    "base_type": "pulley",
+    "variant": 3,
+    "description": "Conceptual pulley asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "lever_01",
+    "category": "mechanical",
+    "name": "Lever 1",
+    "base_type": "lever",
+    "variant": 1,
+    "description": "Conceptual lever asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "lever_02",
+    "category": "mechanical",
+    "name": "Lever 2",
+    "base_type": "lever",
+    "variant": 2,
+    "description": "Conceptual lever asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "lever_03",
+    "category": "mechanical",
+    "name": "Lever 3",
+    "base_type": "lever",
+    "variant": 3,
+    "description": "Conceptual lever asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "spring_01",
+    "category": "mechanical",
+    "name": "Spring 1",
+    "base_type": "spring",
+    "variant": 1,
+    "description": "Conceptual spring asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "spring_02",
+    "category": "mechanical",
+    "name": "Spring 2",
+    "base_type": "spring",
+    "variant": 2,
+    "description": "Conceptual spring asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "spring_03",
+    "category": "mechanical",
+    "name": "Spring 3",
+    "base_type": "spring",
+    "variant": 3,
+    "description": "Conceptual spring asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "piston_01",
+    "category": "mechanical",
+    "name": "Piston 1",
+    "base_type": "piston",
+    "variant": 1,
+    "description": "Conceptual piston asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "piston_02",
+    "category": "mechanical",
+    "name": "Piston 2",
+    "base_type": "piston",
+    "variant": 2,
+    "description": "Conceptual piston asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "piston_03",
+    "category": "mechanical",
+    "name": "Piston 3",
+    "base_type": "piston",
+    "variant": 3,
+    "description": "Conceptual piston asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "crankshaft_01",
+    "category": "mechanical",
+    "name": "Crankshaft 1",
+    "base_type": "crankshaft",
+    "variant": 1,
+    "description": "Conceptual crankshaft asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "crankshaft_02",
+    "category": "mechanical",
+    "name": "Crankshaft 2",
+    "base_type": "crankshaft",
+    "variant": 2,
+    "description": "Conceptual crankshaft asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "crankshaft_03",
+    "category": "mechanical",
+    "name": "Crankshaft 3",
+    "base_type": "crankshaft",
+    "variant": 3,
+    "description": "Conceptual crankshaft asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "flywheel_01",
+    "category": "mechanical",
+    "name": "Flywheel 1",
+    "base_type": "flywheel",
+    "variant": 1,
+    "description": "Conceptual flywheel asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "flywheel_02",
+    "category": "mechanical",
+    "name": "Flywheel 2",
+    "base_type": "flywheel",
+    "variant": 2,
+    "description": "Conceptual flywheel asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "flywheel_03",
+    "category": "mechanical",
+    "name": "Flywheel 3",
+    "base_type": "flywheel",
+    "variant": 3,
+    "description": "Conceptual flywheel asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "belt_01",
+    "category": "mechanical",
+    "name": "Belt 1",
+    "base_type": "belt",
+    "variant": 1,
+    "description": "Conceptual belt asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "belt_02",
+    "category": "mechanical",
+    "name": "Belt 2",
+    "base_type": "belt",
+    "variant": 2,
+    "description": "Conceptual belt asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "belt_03",
+    "category": "mechanical",
+    "name": "Belt 3",
+    "base_type": "belt",
+    "variant": 3,
+    "description": "Conceptual belt asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "motor_mount_01",
+    "category": "mechanical",
+    "name": "Motor Mount 1",
+    "base_type": "motor_mount",
+    "variant": 1,
+    "description": "Conceptual motor mount asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "motor_mount_02",
+    "category": "mechanical",
+    "name": "Motor Mount 2",
+    "base_type": "motor_mount",
+    "variant": 2,
+    "description": "Conceptual motor mount asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "motor_mount_03",
+    "category": "mechanical",
+    "name": "Motor Mount 3",
+    "base_type": "motor_mount",
+    "variant": 3,
+    "description": "Conceptual motor mount asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "bracket_01",
+    "category": "mechanical",
+    "name": "Bracket 1",
+    "base_type": "bracket",
+    "variant": 1,
+    "description": "Conceptual bracket asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "bracket_02",
+    "category": "mechanical",
+    "name": "Bracket 2",
+    "base_type": "bracket",
+    "variant": 2,
+    "description": "Conceptual bracket asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "bracket_03",
+    "category": "mechanical",
+    "name": "Bracket 3",
+    "base_type": "bracket",
+    "variant": 3,
+    "description": "Conceptual bracket asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "battery_01",
+    "category": "electrical",
+    "name": "Battery 1",
+    "base_type": "battery",
+    "variant": 1,
+    "description": "Conceptual battery asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "battery_02",
+    "category": "electrical",
+    "name": "Battery 2",
+    "base_type": "battery",
+    "variant": 2,
+    "description": "Conceptual battery asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "battery_03",
+    "category": "electrical",
+    "name": "Battery 3",
+    "base_type": "battery",
+    "variant": 3,
+    "description": "Conceptual battery asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "resistor_01",
+    "category": "electrical",
+    "name": "Resistor 1",
+    "base_type": "resistor",
+    "variant": 1,
+    "description": "Conceptual resistor asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "resistor_02",
+    "category": "electrical",
+    "name": "Resistor 2",
+    "base_type": "resistor",
+    "variant": 2,
+    "description": "Conceptual resistor asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "resistor_03",
+    "category": "electrical",
+    "name": "Resistor 3",
+    "base_type": "resistor",
+    "variant": 3,
+    "description": "Conceptual resistor asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "capacitor_01",
+    "category": "electrical",
+    "name": "Capacitor 1",
+    "base_type": "capacitor",
+    "variant": 1,
+    "description": "Conceptual capacitor asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "capacitor_02",
+    "category": "electrical",
+    "name": "Capacitor 2",
+    "base_type": "capacitor",
+    "variant": 2,
+    "description": "Conceptual capacitor asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "capacitor_03",
+    "category": "electrical",
+    "name": "Capacitor 3",
+    "base_type": "capacitor",
+    "variant": 3,
+    "description": "Conceptual capacitor asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "inductor_01",
+    "category": "electrical",
+    "name": "Inductor 1",
+    "base_type": "inductor",
+    "variant": 1,
+    "description": "Conceptual inductor asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "inductor_02",
+    "category": "electrical",
+    "name": "Inductor 2",
+    "base_type": "inductor",
+    "variant": 2,
+    "description": "Conceptual inductor asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "inductor_03",
+    "category": "electrical",
+    "name": "Inductor 3",
+    "base_type": "inductor",
+    "variant": 3,
+    "description": "Conceptual inductor asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "diode_01",
+    "category": "electrical",
+    "name": "Diode 1",
+    "base_type": "diode",
+    "variant": 1,
+    "description": "Conceptual diode asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "diode_02",
+    "category": "electrical",
+    "name": "Diode 2",
+    "base_type": "diode",
+    "variant": 2,
+    "description": "Conceptual diode asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "diode_03",
+    "category": "electrical",
+    "name": "Diode 3",
+    "base_type": "diode",
+    "variant": 3,
+    "description": "Conceptual diode asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "led_01",
+    "category": "electrical",
+    "name": "LED 1",
+    "base_type": "led",
+    "variant": 1,
+    "description": "Conceptual led asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "led_02",
+    "category": "electrical",
+    "name": "LED 2",
+    "base_type": "led",
+    "variant": 2,
+    "description": "Conceptual led asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "led_03",
+    "category": "electrical",
+    "name": "LED 3",
+    "base_type": "led",
+    "variant": 3,
+    "description": "Conceptual led asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "switch_01",
+    "category": "electrical",
+    "name": "Switch 1",
+    "base_type": "switch",
+    "variant": 1,
+    "description": "Conceptual switch asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "switch_02",
+    "category": "electrical",
+    "name": "Switch 2",
+    "base_type": "switch",
+    "variant": 2,
+    "description": "Conceptual switch asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "switch_03",
+    "category": "electrical",
+    "name": "Switch 3",
+    "base_type": "switch",
+    "variant": 3,
+    "description": "Conceptual switch asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "relay_01",
+    "category": "electrical",
+    "name": "Relay 1",
+    "base_type": "relay",
+    "variant": 1,
+    "description": "Conceptual relay asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "relay_02",
+    "category": "electrical",
+    "name": "Relay 2",
+    "base_type": "relay",
+    "variant": 2,
+    "description": "Conceptual relay asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "relay_03",
+    "category": "electrical",
+    "name": "Relay 3",
+    "base_type": "relay",
+    "variant": 3,
+    "description": "Conceptual relay asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "transformer_01",
+    "category": "electrical",
+    "name": "Transformer 1",
+    "base_type": "transformer",
+    "variant": 1,
+    "description": "Conceptual transformer asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "transformer_02",
+    "category": "electrical",
+    "name": "Transformer 2",
+    "base_type": "transformer",
+    "variant": 2,
+    "description": "Conceptual transformer asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "transformer_03",
+    "category": "electrical",
+    "name": "Transformer 3",
+    "base_type": "transformer",
+    "variant": 3,
+    "description": "Conceptual transformer asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "wire_01",
+    "category": "electrical",
+    "name": "Wire 1",
+    "base_type": "wire",
+    "variant": 1,
+    "description": "Conceptual wire asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "wire_02",
+    "category": "electrical",
+    "name": "Wire 2",
+    "base_type": "wire",
+    "variant": 2,
+    "description": "Conceptual wire asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "wire_03",
+    "category": "electrical",
+    "name": "Wire 3",
+    "base_type": "wire",
+    "variant": 3,
+    "description": "Conceptual wire asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "fuse_01",
+    "category": "electrical",
+    "name": "Fuse 1",
+    "base_type": "fuse",
+    "variant": 1,
+    "description": "Conceptual fuse asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "fuse_02",
+    "category": "electrical",
+    "name": "Fuse 2",
+    "base_type": "fuse",
+    "variant": 2,
+    "description": "Conceptual fuse asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "fuse_03",
+    "category": "electrical",
+    "name": "Fuse 3",
+    "base_type": "fuse",
+    "variant": 3,
+    "description": "Conceptual fuse asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "motor_dc_01",
+    "category": "electrical",
+    "name": "DC Motor 1",
+    "base_type": "motor_dc",
+    "variant": 1,
+    "description": "Conceptual dc motor asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "motor_dc_02",
+    "category": "electrical",
+    "name": "DC Motor 2",
+    "base_type": "motor_dc",
+    "variant": 2,
+    "description": "Conceptual dc motor asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "motor_dc_03",
+    "category": "electrical",
+    "name": "DC Motor 3",
+    "base_type": "motor_dc",
+    "variant": 3,
+    "description": "Conceptual dc motor asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "microcontroller_01",
+    "category": "electronics",
+    "name": "Microcontroller 1",
+    "base_type": "microcontroller",
+    "variant": 1,
+    "description": "Conceptual microcontroller asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "microcontroller_02",
+    "category": "electronics",
+    "name": "Microcontroller 2",
+    "base_type": "microcontroller",
+    "variant": 2,
+    "description": "Conceptual microcontroller asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "microcontroller_03",
+    "category": "electronics",
+    "name": "Microcontroller 3",
+    "base_type": "microcontroller",
+    "variant": 3,
+    "description": "Conceptual microcontroller asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "sensor_board_01",
+    "category": "electronics",
+    "name": "Sensor Board 1",
+    "base_type": "sensor_board",
+    "variant": 1,
+    "description": "Conceptual sensor board asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "sensor_board_02",
+    "category": "electronics",
+    "name": "Sensor Board 2",
+    "base_type": "sensor_board",
+    "variant": 2,
+    "description": "Conceptual sensor board asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "sensor_board_03",
+    "category": "electronics",
+    "name": "Sensor Board 3",
+    "base_type": "sensor_board",
+    "variant": 3,
+    "description": "Conceptual sensor board asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "breadboard_01",
+    "category": "electronics",
+    "name": "Breadboard 1",
+    "base_type": "breadboard",
+    "variant": 1,
+    "description": "Conceptual breadboard asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "breadboard_02",
+    "category": "electronics",
+    "name": "Breadboard 2",
+    "base_type": "breadboard",
+    "variant": 2,
+    "description": "Conceptual breadboard asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "breadboard_03",
+    "category": "electronics",
+    "name": "Breadboard 3",
+    "base_type": "breadboard",
+    "variant": 3,
+    "description": "Conceptual breadboard asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "op_amp_01",
+    "category": "electronics",
+    "name": "Operational Amplifier 1",
+    "base_type": "op_amp",
+    "variant": 1,
+    "description": "Conceptual operational amplifier asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "op_amp_02",
+    "category": "electronics",
+    "name": "Operational Amplifier 2",
+    "base_type": "op_amp",
+    "variant": 2,
+    "description": "Conceptual operational amplifier asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "op_amp_03",
+    "category": "electronics",
+    "name": "Operational Amplifier 3",
+    "base_type": "op_amp",
+    "variant": 3,
+    "description": "Conceptual operational amplifier asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "logic_gate_01",
+    "category": "electronics",
+    "name": "Logic Gate 1",
+    "base_type": "logic_gate",
+    "variant": 1,
+    "description": "Conceptual logic gate asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "logic_gate_02",
+    "category": "electronics",
+    "name": "Logic Gate 2",
+    "base_type": "logic_gate",
+    "variant": 2,
+    "description": "Conceptual logic gate asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "logic_gate_03",
+    "category": "electronics",
+    "name": "Logic Gate 3",
+    "base_type": "logic_gate",
+    "variant": 3,
+    "description": "Conceptual logic gate asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "adc_01",
+    "category": "electronics",
+    "name": "ADC 1",
+    "base_type": "adc",
+    "variant": 1,
+    "description": "Conceptual adc asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "adc_02",
+    "category": "electronics",
+    "name": "ADC 2",
+    "base_type": "adc",
+    "variant": 2,
+    "description": "Conceptual adc asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "adc_03",
+    "category": "electronics",
+    "name": "ADC 3",
+    "base_type": "adc",
+    "variant": 3,
+    "description": "Conceptual adc asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "dac_01",
+    "category": "electronics",
+    "name": "DAC 1",
+    "base_type": "dac",
+    "variant": 1,
+    "description": "Conceptual dac asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "dac_02",
+    "category": "electronics",
+    "name": "DAC 2",
+    "base_type": "dac",
+    "variant": 2,
+    "description": "Conceptual dac asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "dac_03",
+    "category": "electronics",
+    "name": "DAC 3",
+    "base_type": "dac",
+    "variant": 3,
+    "description": "Conceptual dac asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "display_01",
+    "category": "electronics",
+    "name": "Display 1",
+    "base_type": "display",
+    "variant": 1,
+    "description": "Conceptual display asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "display_02",
+    "category": "electronics",
+    "name": "Display 2",
+    "base_type": "display",
+    "variant": 2,
+    "description": "Conceptual display asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "display_03",
+    "category": "electronics",
+    "name": "Display 3",
+    "base_type": "display",
+    "variant": 3,
+    "description": "Conceptual display asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "button_01",
+    "category": "electronics",
+    "name": "Push Button 1",
+    "base_type": "button",
+    "variant": 1,
+    "description": "Conceptual push button asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "button_02",
+    "category": "electronics",
+    "name": "Push Button 2",
+    "base_type": "button",
+    "variant": 2,
+    "description": "Conceptual push button asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "button_03",
+    "category": "electronics",
+    "name": "Push Button 3",
+    "base_type": "button",
+    "variant": 3,
+    "description": "Conceptual push button asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "encoder_01",
+    "category": "electronics",
+    "name": "Rotary Encoder 1",
+    "base_type": "encoder",
+    "variant": 1,
+    "description": "Conceptual rotary encoder asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "encoder_02",
+    "category": "electronics",
+    "name": "Rotary Encoder 2",
+    "base_type": "encoder",
+    "variant": 2,
+    "description": "Conceptual rotary encoder asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "encoder_03",
+    "category": "electronics",
+    "name": "Rotary Encoder 3",
+    "base_type": "encoder",
+    "variant": 3,
+    "description": "Conceptual rotary encoder asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "servo_01",
+    "category": "robotics",
+    "name": "Servo 1",
+    "base_type": "servo",
+    "variant": 1,
+    "description": "Conceptual servo asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "servo_02",
+    "category": "robotics",
+    "name": "Servo 2",
+    "base_type": "servo",
+    "variant": 2,
+    "description": "Conceptual servo asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "servo_03",
+    "category": "robotics",
+    "name": "Servo 3",
+    "base_type": "servo",
+    "variant": 3,
+    "description": "Conceptual servo asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "robot_joint_01",
+    "category": "robotics",
+    "name": "Robot Joint 1",
+    "base_type": "robot_joint",
+    "variant": 1,
+    "description": "Conceptual robot joint asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "robot_joint_02",
+    "category": "robotics",
+    "name": "Robot Joint 2",
+    "base_type": "robot_joint",
+    "variant": 2,
+    "description": "Conceptual robot joint asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "robot_joint_03",
+    "category": "robotics",
+    "name": "Robot Joint 3",
+    "base_type": "robot_joint",
+    "variant": 3,
+    "description": "Conceptual robot joint asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "robot_wheel_01",
+    "category": "robotics",
+    "name": "Robot Wheel 1",
+    "base_type": "robot_wheel",
+    "variant": 1,
+    "description": "Conceptual robot wheel asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "robot_wheel_02",
+    "category": "robotics",
+    "name": "Robot Wheel 2",
+    "base_type": "robot_wheel",
+    "variant": 2,
+    "description": "Conceptual robot wheel asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "robot_wheel_03",
+    "category": "robotics",
+    "name": "Robot Wheel 3",
+    "base_type": "robot_wheel",
+    "variant": 3,
+    "description": "Conceptual robot wheel asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "gripper_01",
+    "category": "robotics",
+    "name": "Gripper 1",
+    "base_type": "gripper",
+    "variant": 1,
+    "description": "Conceptual gripper asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "gripper_02",
+    "category": "robotics",
+    "name": "Gripper 2",
+    "base_type": "gripper",
+    "variant": 2,
+    "description": "Conceptual gripper asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "gripper_03",
+    "category": "robotics",
+    "name": "Gripper 3",
+    "base_type": "gripper",
+    "variant": 3,
+    "description": "Conceptual gripper asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "lidar_01",
+    "category": "robotics",
+    "name": "LiDAR 1",
+    "base_type": "lidar",
+    "variant": 1,
+    "description": "Conceptual lidar asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "lidar_02",
+    "category": "robotics",
+    "name": "LiDAR 2",
+    "base_type": "lidar",
+    "variant": 2,
+    "description": "Conceptual lidar asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "lidar_03",
+    "category": "robotics",
+    "name": "LiDAR 3",
+    "base_type": "lidar",
+    "variant": 3,
+    "description": "Conceptual lidar asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "imu_01",
+    "category": "robotics",
+    "name": "IMU 1",
+    "base_type": "imu",
+    "variant": 1,
+    "description": "Conceptual imu asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "imu_02",
+    "category": "robotics",
+    "name": "IMU 2",
+    "base_type": "imu",
+    "variant": 2,
+    "description": "Conceptual imu asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "imu_03",
+    "category": "robotics",
+    "name": "IMU 3",
+    "base_type": "imu",
+    "variant": 3,
+    "description": "Conceptual imu asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "robot_arm_segment_01",
+    "category": "robotics",
+    "name": "Robot Arm Segment 1",
+    "base_type": "robot_arm_segment",
+    "variant": 1,
+    "description": "Conceptual robot arm segment asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "robot_arm_segment_02",
+    "category": "robotics",
+    "name": "Robot Arm Segment 2",
+    "base_type": "robot_arm_segment",
+    "variant": 2,
+    "description": "Conceptual robot arm segment asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "robot_arm_segment_03",
+    "category": "robotics",
+    "name": "Robot Arm Segment 3",
+    "base_type": "robot_arm_segment",
+    "variant": 3,
+    "description": "Conceptual robot arm segment asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "controller_01",
+    "category": "robotics",
+    "name": "Robot Controller 1",
+    "base_type": "controller",
+    "variant": 1,
+    "description": "Conceptual robot controller asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "controller_02",
+    "category": "robotics",
+    "name": "Robot Controller 2",
+    "base_type": "controller",
+    "variant": 2,
+    "description": "Conceptual robot controller asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "controller_03",
+    "category": "robotics",
+    "name": "Robot Controller 3",
+    "base_type": "controller",
+    "variant": 3,
+    "description": "Conceptual robot controller asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "motor_driver_01",
+    "category": "robotics",
+    "name": "Motor Driver 1",
+    "base_type": "motor_driver",
+    "variant": 1,
+    "description": "Conceptual motor driver asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "motor_driver_02",
+    "category": "robotics",
+    "name": "Motor Driver 2",
+    "base_type": "motor_driver",
+    "variant": 2,
+    "description": "Conceptual motor driver asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "motor_driver_03",
+    "category": "robotics",
+    "name": "Motor Driver 3",
+    "base_type": "motor_driver",
+    "variant": 3,
+    "description": "Conceptual motor driver asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "actuator_01",
+    "category": "robotics",
+    "name": "Actuator 1",
+    "base_type": "actuator",
+    "variant": 1,
+    "description": "Conceptual actuator asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "actuator_02",
+    "category": "robotics",
+    "name": "Actuator 2",
+    "base_type": "actuator",
+    "variant": 2,
+    "description": "Conceptual actuator asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "actuator_03",
+    "category": "robotics",
+    "name": "Actuator 3",
+    "base_type": "actuator",
+    "variant": 3,
+    "description": "Conceptual actuator asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "solar_panel_01",
+    "category": "energy",
+    "name": "Solar Panel 1",
+    "base_type": "solar_panel",
+    "variant": 1,
+    "description": "Conceptual solar panel asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "solar_panel_02",
+    "category": "energy",
+    "name": "Solar Panel 2",
+    "base_type": "solar_panel",
+    "variant": 2,
+    "description": "Conceptual solar panel asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "solar_panel_03",
+    "category": "energy",
+    "name": "Solar Panel 3",
+    "base_type": "solar_panel",
+    "variant": 3,
+    "description": "Conceptual solar panel asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "wind_turbine_01",
+    "category": "energy",
+    "name": "Wind Turbine 1",
+    "base_type": "wind_turbine",
+    "variant": 1,
+    "description": "Conceptual wind turbine asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "wind_turbine_02",
+    "category": "energy",
+    "name": "Wind Turbine 2",
+    "base_type": "wind_turbine",
+    "variant": 2,
+    "description": "Conceptual wind turbine asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "wind_turbine_03",
+    "category": "energy",
+    "name": "Wind Turbine 3",
+    "base_type": "wind_turbine",
+    "variant": 3,
+    "description": "Conceptual wind turbine asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "inverter_01",
+    "category": "energy",
+    "name": "Inverter 1",
+    "base_type": "inverter",
+    "variant": 1,
+    "description": "Conceptual inverter asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "inverter_02",
+    "category": "energy",
+    "name": "Inverter 2",
+    "base_type": "inverter",
+    "variant": 2,
+    "description": "Conceptual inverter asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "inverter_03",
+    "category": "energy",
+    "name": "Inverter 3",
+    "base_type": "inverter",
+    "variant": 3,
+    "description": "Conceptual inverter asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "charge_controller_01",
+    "category": "energy",
+    "name": "Charge Controller 1",
+    "base_type": "charge_controller",
+    "variant": 1,
+    "description": "Conceptual charge controller asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "charge_controller_02",
+    "category": "energy",
+    "name": "Charge Controller 2",
+    "base_type": "charge_controller",
+    "variant": 2,
+    "description": "Conceptual charge controller asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "charge_controller_03",
+    "category": "energy",
+    "name": "Charge Controller 3",
+    "base_type": "charge_controller",
+    "variant": 3,
+    "description": "Conceptual charge controller asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "generator_01",
+    "category": "energy",
+    "name": "Generator 1",
+    "base_type": "generator",
+    "variant": 1,
+    "description": "Conceptual generator asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "generator_02",
+    "category": "energy",
+    "name": "Generator 2",
+    "base_type": "generator",
+    "variant": 2,
+    "description": "Conceptual generator asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "generator_03",
+    "category": "energy",
+    "name": "Generator 3",
+    "base_type": "generator",
+    "variant": 3,
+    "description": "Conceptual generator asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "fuel_cell_01",
+    "category": "energy",
+    "name": "Fuel Cell 1",
+    "base_type": "fuel_cell",
+    "variant": 1,
+    "description": "Conceptual fuel cell asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "fuel_cell_02",
+    "category": "energy",
+    "name": "Fuel Cell 2",
+    "base_type": "fuel_cell",
+    "variant": 2,
+    "description": "Conceptual fuel cell asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "fuel_cell_03",
+    "category": "energy",
+    "name": "Fuel Cell 3",
+    "base_type": "fuel_cell",
+    "variant": 3,
+    "description": "Conceptual fuel cell asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "supercapacitor_01",
+    "category": "energy",
+    "name": "Supercapacitor 1",
+    "base_type": "supercapacitor",
+    "variant": 1,
+    "description": "Conceptual supercapacitor asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "supercapacitor_02",
+    "category": "energy",
+    "name": "Supercapacitor 2",
+    "base_type": "supercapacitor",
+    "variant": 2,
+    "description": "Conceptual supercapacitor asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "supercapacitor_03",
+    "category": "energy",
+    "name": "Supercapacitor 3",
+    "base_type": "supercapacitor",
+    "variant": 3,
+    "description": "Conceptual supercapacitor asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "energy_meter_01",
+    "category": "energy",
+    "name": "Energy Meter 1",
+    "base_type": "energy_meter",
+    "variant": 1,
+    "description": "Conceptual energy meter asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "energy_meter_02",
+    "category": "energy",
+    "name": "Energy Meter 2",
+    "base_type": "energy_meter",
+    "variant": 2,
+    "description": "Conceptual energy meter asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "energy_meter_03",
+    "category": "energy",
+    "name": "Energy Meter 3",
+    "base_type": "energy_meter",
+    "variant": 3,
+    "description": "Conceptual energy meter asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "atom_01",
+    "category": "science",
+    "name": "Atom 1",
+    "base_type": "atom",
+    "variant": 1,
+    "description": "Conceptual atom asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "atom_02",
+    "category": "science",
+    "name": "Atom 2",
+    "base_type": "atom",
+    "variant": 2,
+    "description": "Conceptual atom asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "atom_03",
+    "category": "science",
+    "name": "Atom 3",
+    "base_type": "atom",
+    "variant": 3,
+    "description": "Conceptual atom asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "molecule_01",
+    "category": "science",
+    "name": "Molecule 1",
+    "base_type": "molecule",
+    "variant": 1,
+    "description": "Conceptual molecule asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "molecule_02",
+    "category": "science",
+    "name": "Molecule 2",
+    "base_type": "molecule",
+    "variant": 2,
+    "description": "Conceptual molecule asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "molecule_03",
+    "category": "science",
+    "name": "Molecule 3",
+    "base_type": "molecule",
+    "variant": 3,
+    "description": "Conceptual molecule asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "magnet_01",
+    "category": "science",
+    "name": "Magnet 1",
+    "base_type": "magnet",
+    "variant": 1,
+    "description": "Conceptual magnet asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "magnet_02",
+    "category": "science",
+    "name": "Magnet 2",
+    "base_type": "magnet",
+    "variant": 2,
+    "description": "Conceptual magnet asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "magnet_03",
+    "category": "science",
+    "name": "Magnet 3",
+    "base_type": "magnet",
+    "variant": 3,
+    "description": "Conceptual magnet asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "coil_01",
+    "category": "science",
+    "name": "Coil 1",
+    "base_type": "coil",
+    "variant": 1,
+    "description": "Conceptual coil asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "coil_02",
+    "category": "science",
+    "name": "Coil 2",
+    "base_type": "coil",
+    "variant": 2,
+    "description": "Conceptual coil asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "coil_03",
+    "category": "science",
+    "name": "Coil 3",
+    "base_type": "coil",
+    "variant": 3,
+    "description": "Conceptual coil asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "pendulum_01",
+    "category": "science",
+    "name": "Pendulum 1",
+    "base_type": "pendulum",
+    "variant": 1,
+    "description": "Conceptual pendulum asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "pendulum_02",
+    "category": "science",
+    "name": "Pendulum 2",
+    "base_type": "pendulum",
+    "variant": 2,
+    "description": "Conceptual pendulum asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "pendulum_03",
+    "category": "science",
+    "name": "Pendulum 3",
+    "base_type": "pendulum",
+    "variant": 3,
+    "description": "Conceptual pendulum asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "spring_mass_01",
+    "category": "science",
+    "name": "Spring-Mass System 1",
+    "base_type": "spring_mass",
+    "variant": 1,
+    "description": "Conceptual spring-mass system asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "spring_mass_02",
+    "category": "science",
+    "name": "Spring-Mass System 2",
+    "base_type": "spring_mass",
+    "variant": 2,
+    "description": "Conceptual spring-mass system asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "spring_mass_03",
+    "category": "science",
+    "name": "Spring-Mass System 3",
+    "base_type": "spring_mass",
+    "variant": 3,
+    "description": "Conceptual spring-mass system asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "lens_01",
+    "category": "science",
+    "name": "Lens 1",
+    "base_type": "lens",
+    "variant": 1,
+    "description": "Conceptual lens asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "lens_02",
+    "category": "science",
+    "name": "Lens 2",
+    "base_type": "lens",
+    "variant": 2,
+    "description": "Conceptual lens asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "lens_03",
+    "category": "science",
+    "name": "Lens 3",
+    "base_type": "lens",
+    "variant": 3,
+    "description": "Conceptual lens asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "prism_01",
+    "category": "science",
+    "name": "Prism 1",
+    "base_type": "prism",
+    "variant": 1,
+    "description": "Conceptual prism asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "prism_02",
+    "category": "science",
+    "name": "Prism 2",
+    "base_type": "prism",
+    "variant": 2,
+    "description": "Conceptual prism asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "prism_03",
+    "category": "science",
+    "name": "Prism 3",
+    "base_type": "prism",
+    "variant": 3,
+    "description": "Conceptual prism asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "circuit_probe_01",
+    "category": "science",
+    "name": "Circuit Probe 1",
+    "base_type": "circuit_probe",
+    "variant": 1,
+    "description": "Conceptual circuit probe asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "circuit_probe_02",
+    "category": "science",
+    "name": "Circuit Probe 2",
+    "base_type": "circuit_probe",
+    "variant": 2,
+    "description": "Conceptual circuit probe asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "circuit_probe_03",
+    "category": "science",
+    "name": "Circuit Probe 3",
+    "base_type": "circuit_probe",
+    "variant": 3,
+    "description": "Conceptual circuit probe asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "fluid_container_01",
+    "category": "science",
+    "name": "Fluid Container 1",
+    "base_type": "fluid_container",
+    "variant": 1,
+    "description": "Conceptual fluid container asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "fluid_container_02",
+    "category": "science",
+    "name": "Fluid Container 2",
+    "base_type": "fluid_container",
+    "variant": 2,
+    "description": "Conceptual fluid container asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "fluid_container_03",
+    "category": "science",
+    "name": "Fluid Container 3",
+    "base_type": "fluid_container",
+    "variant": 3,
+    "description": "Conceptual fluid container asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "heart_01",
+    "category": "biology",
+    "name": "Heart 1",
+    "base_type": "heart",
+    "variant": 1,
+    "description": "Conceptual heart asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "heart_02",
+    "category": "biology",
+    "name": "Heart 2",
+    "base_type": "heart",
+    "variant": 2,
+    "description": "Conceptual heart asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "heart_03",
+    "category": "biology",
+    "name": "Heart 3",
+    "base_type": "heart",
+    "variant": 3,
+    "description": "Conceptual heart asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "lung_01",
+    "category": "biology",
+    "name": "Lung 1",
+    "base_type": "lung",
+    "variant": 1,
+    "description": "Conceptual lung asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "lung_02",
+    "category": "biology",
+    "name": "Lung 2",
+    "base_type": "lung",
+    "variant": 2,
+    "description": "Conceptual lung asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "lung_03",
+    "category": "biology",
+    "name": "Lung 3",
+    "base_type": "lung",
+    "variant": 3,
+    "description": "Conceptual lung asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "neuron_01",
+    "category": "biology",
+    "name": "Neuron 1",
+    "base_type": "neuron",
+    "variant": 1,
+    "description": "Conceptual neuron asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "neuron_02",
+    "category": "biology",
+    "name": "Neuron 2",
+    "base_type": "neuron",
+    "variant": 2,
+    "description": "Conceptual neuron asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "neuron_03",
+    "category": "biology",
+    "name": "Neuron 3",
+    "base_type": "neuron",
+    "variant": 3,
+    "description": "Conceptual neuron asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "cell_01",
+    "category": "biology",
+    "name": "Cell 1",
+    "base_type": "cell",
+    "variant": 1,
+    "description": "Conceptual cell asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "cell_02",
+    "category": "biology",
+    "name": "Cell 2",
+    "base_type": "cell",
+    "variant": 2,
+    "description": "Conceptual cell asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "cell_03",
+    "category": "biology",
+    "name": "Cell 3",
+    "base_type": "cell",
+    "variant": 3,
+    "description": "Conceptual cell asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "dna_01",
+    "category": "biology",
+    "name": "DNA 1",
+    "base_type": "dna",
+    "variant": 1,
+    "description": "Conceptual dna asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "dna_02",
+    "category": "biology",
+    "name": "DNA 2",
+    "base_type": "dna",
+    "variant": 2,
+    "description": "Conceptual dna asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "dna_03",
+    "category": "biology",
+    "name": "DNA 3",
+    "base_type": "dna",
+    "variant": 3,
+    "description": "Conceptual dna asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "ribosome_01",
+    "category": "biology",
+    "name": "Ribosome 1",
+    "base_type": "ribosome",
+    "variant": 1,
+    "description": "Conceptual ribosome asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "ribosome_02",
+    "category": "biology",
+    "name": "Ribosome 2",
+    "base_type": "ribosome",
+    "variant": 2,
+    "description": "Conceptual ribosome asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "ribosome_03",
+    "category": "biology",
+    "name": "Ribosome 3",
+    "base_type": "ribosome",
+    "variant": 3,
+    "description": "Conceptual ribosome asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "blood_vessel_01",
+    "category": "biology",
+    "name": "Blood Vessel 1",
+    "base_type": "blood_vessel",
+    "variant": 1,
+    "description": "Conceptual blood vessel asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "blood_vessel_02",
+    "category": "biology",
+    "name": "Blood Vessel 2",
+    "base_type": "blood_vessel",
+    "variant": 2,
+    "description": "Conceptual blood vessel asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "blood_vessel_03",
+    "category": "biology",
+    "name": "Blood Vessel 3",
+    "base_type": "blood_vessel",
+    "variant": 3,
+    "description": "Conceptual blood vessel asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "skeleton_01",
+    "category": "biology",
+    "name": "Skeletal Model 1",
+    "base_type": "skeleton",
+    "variant": 1,
+    "description": "Conceptual skeletal model asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "skeleton_02",
+    "category": "biology",
+    "name": "Skeletal Model 2",
+    "base_type": "skeleton",
+    "variant": 2,
+    "description": "Conceptual skeletal model asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "skeleton_03",
+    "category": "biology",
+    "name": "Skeletal Model 3",
+    "base_type": "skeleton",
+    "variant": 3,
+    "description": "Conceptual skeletal model asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "eye_01",
+    "category": "biology",
+    "name": "Eye 1",
+    "base_type": "eye",
+    "variant": 1,
+    "description": "Conceptual eye asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "eye_02",
+    "category": "biology",
+    "name": "Eye 2",
+    "base_type": "eye",
+    "variant": 2,
+    "description": "Conceptual eye asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "eye_03",
+    "category": "biology",
+    "name": "Eye 3",
+    "base_type": "eye",
+    "variant": 3,
+    "description": "Conceptual eye asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "ear_01",
+    "category": "biology",
+    "name": "Ear 1",
+    "base_type": "ear",
+    "variant": 1,
+    "description": "Conceptual ear asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "ear_02",
+    "category": "biology",
+    "name": "Ear 2",
+    "base_type": "ear",
+    "variant": 2,
+    "description": "Conceptual ear asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "ear_03",
+    "category": "biology",
+    "name": "Ear 3",
+    "base_type": "ear",
+    "variant": 3,
+    "description": "Conceptual ear asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "server_01",
+    "category": "computing",
+    "name": "Server 1",
+    "base_type": "server",
+    "variant": 1,
+    "description": "Conceptual server asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "server_02",
+    "category": "computing",
+    "name": "Server 2",
+    "base_type": "server",
+    "variant": 2,
+    "description": "Conceptual server asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "server_03",
+    "category": "computing",
+    "name": "Server 3",
+    "base_type": "server",
+    "variant": 3,
+    "description": "Conceptual server asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "router_01",
+    "category": "computing",
+    "name": "Router 1",
+    "base_type": "router",
+    "variant": 1,
+    "description": "Conceptual router asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "router_02",
+    "category": "computing",
+    "name": "Router 2",
+    "base_type": "router",
+    "variant": 2,
+    "description": "Conceptual router asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "router_03",
+    "category": "computing",
+    "name": "Router 3",
+    "base_type": "router",
+    "variant": 3,
+    "description": "Conceptual router asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "switch_network_01",
+    "category": "computing",
+    "name": "Network Switch 1",
+    "base_type": "switch_network",
+    "variant": 1,
+    "description": "Conceptual network switch asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "switch_network_02",
+    "category": "computing",
+    "name": "Network Switch 2",
+    "base_type": "switch_network",
+    "variant": 2,
+    "description": "Conceptual network switch asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "switch_network_03",
+    "category": "computing",
+    "name": "Network Switch 3",
+    "base_type": "switch_network",
+    "variant": 3,
+    "description": "Conceptual network switch asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "database_01",
+    "category": "computing",
+    "name": "Database 1",
+    "base_type": "database",
+    "variant": 1,
+    "description": "Conceptual database asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "database_02",
+    "category": "computing",
+    "name": "Database 2",
+    "base_type": "database",
+    "variant": 2,
+    "description": "Conceptual database asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "database_03",
+    "category": "computing",
+    "name": "Database 3",
+    "base_type": "database",
+    "variant": 3,
+    "description": "Conceptual database asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "client_01",
+    "category": "computing",
+    "name": "Client 1",
+    "base_type": "client",
+    "variant": 1,
+    "description": "Conceptual client asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "client_02",
+    "category": "computing",
+    "name": "Client 2",
+    "base_type": "client",
+    "variant": 2,
+    "description": "Conceptual client asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "client_03",
+    "category": "computing",
+    "name": "Client 3",
+    "base_type": "client",
+    "variant": 3,
+    "description": "Conceptual client asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "api_gateway_01",
+    "category": "computing",
+    "name": "API Gateway 1",
+    "base_type": "api_gateway",
+    "variant": 1,
+    "description": "Conceptual api gateway asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "api_gateway_02",
+    "category": "computing",
+    "name": "API Gateway 2",
+    "base_type": "api_gateway",
+    "variant": 2,
+    "description": "Conceptual api gateway asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "api_gateway_03",
+    "category": "computing",
+    "name": "API Gateway 3",
+    "base_type": "api_gateway",
+    "variant": 3,
+    "description": "Conceptual api gateway asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "queue_01",
+    "category": "computing",
+    "name": "Message Queue 1",
+    "base_type": "queue",
+    "variant": 1,
+    "description": "Conceptual message queue asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "queue_02",
+    "category": "computing",
+    "name": "Message Queue 2",
+    "base_type": "queue",
+    "variant": 2,
+    "description": "Conceptual message queue asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "queue_03",
+    "category": "computing",
+    "name": "Message Queue 3",
+    "base_type": "queue",
+    "variant": 3,
+    "description": "Conceptual message queue asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "cache_01",
+    "category": "computing",
+    "name": "Cache 1",
+    "base_type": "cache",
+    "variant": 1,
+    "description": "Conceptual cache asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "cache_02",
+    "category": "computing",
+    "name": "Cache 2",
+    "base_type": "cache",
+    "variant": 2,
+    "description": "Conceptual cache asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "cache_03",
+    "category": "computing",
+    "name": "Cache 3",
+    "base_type": "cache",
+    "variant": 3,
+    "description": "Conceptual cache asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "load_balancer_01",
+    "category": "computing",
+    "name": "Load Balancer 1",
+    "base_type": "load_balancer",
+    "variant": 1,
+    "description": "Conceptual load balancer asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "load_balancer_02",
+    "category": "computing",
+    "name": "Load Balancer 2",
+    "base_type": "load_balancer",
+    "variant": 2,
+    "description": "Conceptual load balancer asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "load_balancer_03",
+    "category": "computing",
+    "name": "Load Balancer 3",
+    "base_type": "load_balancer",
+    "variant": 3,
+    "description": "Conceptual load balancer asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "container_01",
+    "category": "computing",
+    "name": "Container 1",
+    "base_type": "container",
+    "variant": 1,
+    "description": "Conceptual container asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "container_02",
+    "category": "computing",
+    "name": "Container 2",
+    "base_type": "container",
+    "variant": 2,
+    "description": "Conceptual container asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  },
+  {
+    "id": "container_03",
+    "category": "computing",
+    "name": "Container 3",
+    "base_type": "container",
+    "variant": 3,
+    "description": "Conceptual container asset for interactive Workshop visualization.",
+    "asset_format": "glTF/GLB",
+    "units": "SI where applicable",
+    "metadata": {
+      "source_type": "starter_conceptual",
+      "validated_for_engineering": false
+    }
+  }
+]

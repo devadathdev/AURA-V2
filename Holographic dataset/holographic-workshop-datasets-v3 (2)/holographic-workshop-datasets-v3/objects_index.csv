@@ -1,0 +1,1001 @@
+id,name,category,variant,asset_id,asset_status,license
+obj_0001,Gear (basic),mechanical,basic,asset_0001,metadata_only,TBD
+obj_0002,Gear (compact),mechanical,compact,asset_0002,metadata_only,TBD
+obj_0003,Gear (large),mechanical,large,asset_0003,metadata_only,TBD
+obj_0004,Gear (transparent),mechanical,transparent,asset_0004,metadata_only,TBD
+obj_0005,Gear (cutaway),mechanical,cutaway,asset_0005,metadata_only,TBD
+obj_0006,Gear (exploded),mechanical,exploded,asset_0006,metadata_only,TBD
+obj_0007,Gear (labeled),mechanical,labeled,asset_0007,metadata_only,TBD
+obj_0008,Gear (animated),mechanical,animated,asset_0008,metadata_only,TBD
+obj_0009,Gear (sensorized),mechanical,sensorized,asset_0009,metadata_only,TBD
+obj_0010,Gear (educational),mechanical,educational,asset_0010,metadata_only,TBD
+obj_0011,Bearing (basic),mechanical,basic,asset_0011,metadata_only,TBD
+obj_0012,Bearing (compact),mechanical,compact,asset_0012,metadata_only,TBD
+obj_0013,Bearing (large),mechanical,large,asset_0013,metadata_only,TBD
+obj_0014,Bearing (transparent),mechanical,transparent,asset_0014,metadata_only,TBD
+obj_0015,Bearing (cutaway),mechanical,cutaway,asset_0015,metadata_only,TBD
+obj_0016,Bearing (exploded),mechanical,exploded,asset_0016,metadata_only,TBD
+obj_0017,Bearing (labeled),mechanical,labeled,asset_0017,metadata_only,TBD
+obj_0018,Bearing (animated),mechanical,animated,asset_0018,metadata_only,TBD
+obj_0019,Bearing (sensorized),mechanical,sensorized,asset_0019,metadata_only,TBD
+obj_0020,Bearing (educational),mechanical,educational,asset_0020,metadata_only,TBD
+obj_0021,Shaft (basic),mechanical,basic,asset_0021,metadata_only,TBD
+obj_0022,Shaft (compact),mechanical,compact,asset_0022,metadata_only,TBD
+obj_0023,Shaft (large),mechanical,large,asset_0023,metadata_only,TBD
+obj_0024,Shaft (transparent),mechanical,transparent,asset_0024,metadata_only,TBD
+obj_0025,Shaft (cutaway),mechanical,cutaway,asset_0025,metadata_only,TBD
+obj_0026,Shaft (exploded),mechanical,exploded,asset_0026,metadata_only,TBD
+obj_0027,Shaft (labeled),mechanical,labeled,asset_0027,metadata_only,TBD
+obj_0028,Shaft (animated),mechanical,animated,asset_0028,metadata_only,TBD
+obj_0029,Shaft (sensorized),mechanical,sensorized,asset_0029,metadata_only,TBD
+obj_0030,Shaft (educational),mechanical,educational,asset_0030,metadata_only,TBD
+obj_0031,Pulley (basic),mechanical,basic,asset_0031,metadata_only,TBD
+obj_0032,Pulley (compact),mechanical,compact,asset_0032,metadata_only,TBD
+obj_0033,Pulley (large),mechanical,large,asset_0033,metadata_only,TBD
+obj_0034,Pulley (transparent),mechanical,transparent,asset_0034,metadata_only,TBD
+obj_0035,Pulley (cutaway),mechanical,cutaway,asset_0035,metadata_only,TBD
+obj_0036,Pulley (exploded),mechanical,exploded,asset_0036,metadata_only,TBD
+obj_0037,Pulley (labeled),mechanical,labeled,asset_0037,metadata_only,TBD
+obj_0038,Pulley (animated),mechanical,animated,asset_0038,metadata_only,TBD
+obj_0039,Pulley (sensorized),mechanical,sensorized,asset_0039,metadata_only,TBD
+obj_0040,Pulley (educational),mechanical,educational,asset_0040,metadata_only,TBD
+obj_0041,Belt (basic),mechanical,basic,asset_0041,metadata_only,TBD
+obj_0042,Belt (compact),mechanical,compact,asset_0042,metadata_only,TBD
+obj_0043,Belt (large),mechanical,large,asset_0043,metadata_only,TBD
+obj_0044,Belt (transparent),mechanical,transparent,asset_0044,metadata_only,TBD
+obj_0045,Belt (cutaway),mechanical,cutaway,asset_0045,metadata_only,TBD
+obj_0046,Belt (exploded),mechanical,exploded,asset_0046,metadata_only,TBD
+obj_0047,Belt (labeled),mechanical,labeled,asset_0047,metadata_only,TBD
+obj_0048,Belt (animated),mechanical,animated,asset_0048,metadata_only,TBD
+obj_0049,Belt (sensorized),mechanical,sensorized,asset_0049,metadata_only,TBD
+obj_0050,Belt (educational),mechanical,educational,asset_0050,metadata_only,TBD
+obj_0051,Chain (basic),mechanical,basic,asset_0051,metadata_only,TBD
+obj_0052,Chain (compact),mechanical,compact,asset_0052,metadata_only,TBD
+obj_0053,Chain (large),mechanical,large,asset_0053,metadata_only,TBD
+obj_0054,Chain (transparent),mechanical,transparent,asset_0054,metadata_only,TBD
+obj_0055,Chain (cutaway),mechanical,cutaway,asset_0055,metadata_only,TBD
+obj_0056,Chain (exploded),mechanical,exploded,asset_0056,metadata_only,TBD
+obj_0057,Chain (labeled),mechanical,labeled,asset_0057,metadata_only,TBD
+obj_0058,Chain (animated),mechanical,animated,asset_0058,metadata_only,TBD
+obj_0059,Chain (sensorized),mechanical,sensorized,asset_0059,metadata_only,TBD
+obj_0060,Chain (educational),mechanical,educational,asset_0060,metadata_only,TBD
+obj_0061,Spring (basic),mechanical,basic,asset_0061,metadata_only,TBD
+obj_0062,Spring (compact),mechanical,compact,asset_0062,metadata_only,TBD
+obj_0063,Spring (large),mechanical,large,asset_0063,metadata_only,TBD
+obj_0064,Spring (transparent),mechanical,transparent,asset_0064,metadata_only,TBD
+obj_0065,Spring (cutaway),mechanical,cutaway,asset_0065,metadata_only,TBD
+obj_0066,Spring (exploded),mechanical,exploded,asset_0066,metadata_only,TBD
+obj_0067,Spring (labeled),mechanical,labeled,asset_0067,metadata_only,TBD
+obj_0068,Spring (animated),mechanical,animated,asset_0068,metadata_only,TBD
+obj_0069,Spring (sensorized),mechanical,sensorized,asset_0069,metadata_only,TBD
+obj_0070,Spring (educational),mechanical,educational,asset_0070,metadata_only,TBD
+obj_0071,Lever (basic),mechanical,basic,asset_0071,metadata_only,TBD
+obj_0072,Lever (compact),mechanical,compact,asset_0072,metadata_only,TBD
+obj_0073,Lever (large),mechanical,large,asset_0073,metadata_only,TBD
+obj_0074,Lever (transparent),mechanical,transparent,asset_0074,metadata_only,TBD
+obj_0075,Lever (cutaway),mechanical,cutaway,asset_0075,metadata_only,TBD
+obj_0076,Lever (exploded),mechanical,exploded,asset_0076,metadata_only,TBD
+obj_0077,Lever (labeled),mechanical,labeled,asset_0077,metadata_only,TBD
+obj_0078,Lever (animated),mechanical,animated,asset_0078,metadata_only,TBD
+obj_0079,Lever (sensorized),mechanical,sensorized,asset_0079,metadata_only,TBD
+obj_0080,Lever (educational),mechanical,educational,asset_0080,metadata_only,TBD
+obj_0081,Piston (basic),mechanical,basic,asset_0081,metadata_only,TBD
+obj_0082,Piston (compact),mechanical,compact,asset_0082,metadata_only,TBD
+obj_0083,Piston (large),mechanical,large,asset_0083,metadata_only,TBD
+obj_0084,Piston (transparent),mechanical,transparent,asset_0084,metadata_only,TBD
+obj_0085,Piston (cutaway),mechanical,cutaway,asset_0085,metadata_only,TBD
+obj_0086,Piston (exploded),mechanical,exploded,asset_0086,metadata_only,TBD
+obj_0087,Piston (labeled),mechanical,labeled,asset_0087,metadata_only,TBD
+obj_0088,Piston (animated),mechanical,animated,asset_0088,metadata_only,TBD
+obj_0089,Piston (sensorized),mechanical,sensorized,asset_0089,metadata_only,TBD
+obj_0090,Piston (educational),mechanical,educational,asset_0090,metadata_only,TBD
+obj_0091,Cylinder (basic),mechanical,basic,asset_0091,metadata_only,TBD
+obj_0092,Cylinder (compact),mechanical,compact,asset_0092,metadata_only,TBD
+obj_0093,Cylinder (large),mechanical,large,asset_0093,metadata_only,TBD
+obj_0094,Cylinder (transparent),mechanical,transparent,asset_0094,metadata_only,TBD
+obj_0095,Cylinder (cutaway),mechanical,cutaway,asset_0095,metadata_only,TBD
+obj_0096,Cylinder (exploded),mechanical,exploded,asset_0096,metadata_only,TBD
+obj_0097,Cylinder (labeled),mechanical,labeled,asset_0097,metadata_only,TBD
+obj_0098,Cylinder (animated),mechanical,animated,asset_0098,metadata_only,TBD
+obj_0099,Cylinder (sensorized),mechanical,sensorized,asset_0099,metadata_only,TBD
+obj_0100,Cylinder (educational),mechanical,educational,asset_0100,metadata_only,TBD
+obj_0101,Crankshaft (basic),mechanical,basic,asset_0101,metadata_only,TBD
+obj_0102,Crankshaft (compact),mechanical,compact,asset_0102,metadata_only,TBD
+obj_0103,Crankshaft (large),mechanical,large,asset_0103,metadata_only,TBD
+obj_0104,Crankshaft (transparent),mechanical,transparent,asset_0104,metadata_only,TBD
+obj_0105,Crankshaft (cutaway),mechanical,cutaway,asset_0105,metadata_only,TBD
+obj_0106,Crankshaft (exploded),mechanical,exploded,asset_0106,metadata_only,TBD
+obj_0107,Crankshaft (labeled),mechanical,labeled,asset_0107,metadata_only,TBD
+obj_0108,Crankshaft (animated),mechanical,animated,asset_0108,metadata_only,TBD
+obj_0109,Crankshaft (sensorized),mechanical,sensorized,asset_0109,metadata_only,TBD
+obj_0110,Crankshaft (educational),mechanical,educational,asset_0110,metadata_only,TBD
+obj_0111,Flywheel (basic),mechanical,basic,asset_0111,metadata_only,TBD
+obj_0112,Flywheel (compact),mechanical,compact,asset_0112,metadata_only,TBD
+obj_0113,Flywheel (large),mechanical,large,asset_0113,metadata_only,TBD
+obj_0114,Flywheel (transparent),mechanical,transparent,asset_0114,metadata_only,TBD
+obj_0115,Flywheel (cutaway),mechanical,cutaway,asset_0115,metadata_only,TBD
+obj_0116,Flywheel (exploded),mechanical,exploded,asset_0116,metadata_only,TBD
+obj_0117,Flywheel (labeled),mechanical,labeled,asset_0117,metadata_only,TBD
+obj_0118,Flywheel (animated),mechanical,animated,asset_0118,metadata_only,TBD
+obj_0119,Flywheel (sensorized),mechanical,sensorized,asset_0119,metadata_only,TBD
+obj_0120,Flywheel (educational),mechanical,educational,asset_0120,metadata_only,TBD
+obj_0121,Valve (basic),mechanical,basic,asset_0121,metadata_only,TBD
+obj_0122,Valve (compact),mechanical,compact,asset_0122,metadata_only,TBD
+obj_0123,Valve (large),mechanical,large,asset_0123,metadata_only,TBD
+obj_0124,Valve (transparent),mechanical,transparent,asset_0124,metadata_only,TBD
+obj_0125,Valve (cutaway),mechanical,cutaway,asset_0125,metadata_only,TBD
+obj_0126,Valve (exploded),mechanical,exploded,asset_0126,metadata_only,TBD
+obj_0127,Valve (labeled),mechanical,labeled,asset_0127,metadata_only,TBD
+obj_0128,Valve (animated),mechanical,animated,asset_0128,metadata_only,TBD
+obj_0129,Valve (sensorized),mechanical,sensorized,asset_0129,metadata_only,TBD
+obj_0130,Valve (educational),mechanical,educational,asset_0130,metadata_only,TBD
+obj_0131,Cam (basic),mechanical,basic,asset_0131,metadata_only,TBD
+obj_0132,Cam (compact),mechanical,compact,asset_0132,metadata_only,TBD
+obj_0133,Cam (large),mechanical,large,asset_0133,metadata_only,TBD
+obj_0134,Cam (transparent),mechanical,transparent,asset_0134,metadata_only,TBD
+obj_0135,Cam (cutaway),mechanical,cutaway,asset_0135,metadata_only,TBD
+obj_0136,Cam (exploded),mechanical,exploded,asset_0136,metadata_only,TBD
+obj_0137,Cam (labeled),mechanical,labeled,asset_0137,metadata_only,TBD
+obj_0138,Cam (animated),mechanical,animated,asset_0138,metadata_only,TBD
+obj_0139,Cam (sensorized),mechanical,sensorized,asset_0139,metadata_only,TBD
+obj_0140,Cam (educational),mechanical,educational,asset_0140,metadata_only,TBD
+obj_0141,Bracket (basic),mechanical,basic,asset_0141,metadata_only,TBD
+obj_0142,Bracket (compact),mechanical,compact,asset_0142,metadata_only,TBD
+obj_0143,Bracket (large),mechanical,large,asset_0143,metadata_only,TBD
+obj_0144,Bracket (transparent),mechanical,transparent,asset_0144,metadata_only,TBD
+obj_0145,Bracket (cutaway),mechanical,cutaway,asset_0145,metadata_only,TBD
+obj_0146,Bracket (exploded),mechanical,exploded,asset_0146,metadata_only,TBD
+obj_0147,Bracket (labeled),mechanical,labeled,asset_0147,metadata_only,TBD
+obj_0148,Bracket (animated),mechanical,animated,asset_0148,metadata_only,TBD
+obj_0149,Bracket (sensorized),mechanical,sensorized,asset_0149,metadata_only,TBD
+obj_0150,Bracket (educational),mechanical,educational,asset_0150,metadata_only,TBD
+obj_0151,Coupling (basic),mechanical,basic,asset_0151,metadata_only,TBD
+obj_0152,Coupling (compact),mechanical,compact,asset_0152,metadata_only,TBD
+obj_0153,Coupling (large),mechanical,large,asset_0153,metadata_only,TBD
+obj_0154,Coupling (transparent),mechanical,transparent,asset_0154,metadata_only,TBD
+obj_0155,Coupling (cutaway),mechanical,cutaway,asset_0155,metadata_only,TBD
+obj_0156,Coupling (exploded),mechanical,exploded,asset_0156,metadata_only,TBD
+obj_0157,Coupling (labeled),mechanical,labeled,asset_0157,metadata_only,TBD
+obj_0158,Coupling (animated),mechanical,animated,asset_0158,metadata_only,TBD
+obj_0159,Coupling (sensorized),mechanical,sensorized,asset_0159,metadata_only,TBD
+obj_0160,Coupling (educational),mechanical,educational,asset_0160,metadata_only,TBD
+obj_0161,Wheel (basic),mechanical,basic,asset_0161,metadata_only,TBD
+obj_0162,Wheel (compact),mechanical,compact,asset_0162,metadata_only,TBD
+obj_0163,Wheel (large),mechanical,large,asset_0163,metadata_only,TBD
+obj_0164,Wheel (transparent),mechanical,transparent,asset_0164,metadata_only,TBD
+obj_0165,Wheel (cutaway),mechanical,cutaway,asset_0165,metadata_only,TBD
+obj_0166,Wheel (exploded),mechanical,exploded,asset_0166,metadata_only,TBD
+obj_0167,Wheel (labeled),mechanical,labeled,asset_0167,metadata_only,TBD
+obj_0168,Wheel (animated),mechanical,animated,asset_0168,metadata_only,TBD
+obj_0169,Wheel (sensorized),mechanical,sensorized,asset_0169,metadata_only,TBD
+obj_0170,Wheel (educational),mechanical,educational,asset_0170,metadata_only,TBD
+obj_0171,Axle (basic),mechanical,basic,asset_0171,metadata_only,TBD
+obj_0172,Axle (compact),mechanical,compact,asset_0172,metadata_only,TBD
+obj_0173,Axle (large),mechanical,large,asset_0173,metadata_only,TBD
+obj_0174,Axle (transparent),mechanical,transparent,asset_0174,metadata_only,TBD
+obj_0175,Axle (cutaway),mechanical,cutaway,asset_0175,metadata_only,TBD
+obj_0176,Axle (exploded),mechanical,exploded,asset_0176,metadata_only,TBD
+obj_0177,Axle (labeled),mechanical,labeled,asset_0177,metadata_only,TBD
+obj_0178,Axle (animated),mechanical,animated,asset_0178,metadata_only,TBD
+obj_0179,Axle (sensorized),mechanical,sensorized,asset_0179,metadata_only,TBD
+obj_0180,Axle (educational),mechanical,educational,asset_0180,metadata_only,TBD
+obj_0181,Frame (basic),mechanical,basic,asset_0181,metadata_only,TBD
+obj_0182,Frame (compact),mechanical,compact,asset_0182,metadata_only,TBD
+obj_0183,Frame (large),mechanical,large,asset_0183,metadata_only,TBD
+obj_0184,Frame (transparent),mechanical,transparent,asset_0184,metadata_only,TBD
+obj_0185,Frame (cutaway),mechanical,cutaway,asset_0185,metadata_only,TBD
+obj_0186,Frame (exploded),mechanical,exploded,asset_0186,metadata_only,TBD
+obj_0187,Frame (labeled),mechanical,labeled,asset_0187,metadata_only,TBD
+obj_0188,Frame (animated),mechanical,animated,asset_0188,metadata_only,TBD
+obj_0189,Frame (sensorized),mechanical,sensorized,asset_0189,metadata_only,TBD
+obj_0190,Frame (educational),mechanical,educational,asset_0190,metadata_only,TBD
+obj_0191,Housing (basic),mechanical,basic,asset_0191,metadata_only,TBD
+obj_0192,Housing (compact),mechanical,compact,asset_0192,metadata_only,TBD
+obj_0193,Housing (large),mechanical,large,asset_0193,metadata_only,TBD
+obj_0194,Housing (transparent),mechanical,transparent,asset_0194,metadata_only,TBD
+obj_0195,Housing (cutaway),mechanical,cutaway,asset_0195,metadata_only,TBD
+obj_0196,Housing (exploded),mechanical,exploded,asset_0196,metadata_only,TBD
+obj_0197,Housing (labeled),mechanical,labeled,asset_0197,metadata_only,TBD
+obj_0198,Housing (animated),mechanical,animated,asset_0198,metadata_only,TBD
+obj_0199,Housing (sensorized),mechanical,sensorized,asset_0199,metadata_only,TBD
+obj_0200,Housing (educational),mechanical,educational,asset_0200,metadata_only,TBD
+obj_0201,Battery (basic),electrical,basic,asset_0201,metadata_only,TBD
+obj_0202,Battery (compact),electrical,compact,asset_0202,metadata_only,TBD
+obj_0203,Battery (large),electrical,large,asset_0203,metadata_only,TBD
+obj_0204,Battery (transparent),electrical,transparent,asset_0204,metadata_only,TBD
+obj_0205,Battery (cutaway),electrical,cutaway,asset_0205,metadata_only,TBD
+obj_0206,Battery (exploded),electrical,exploded,asset_0206,metadata_only,TBD
+obj_0207,Battery (labeled),electrical,labeled,asset_0207,metadata_only,TBD
+obj_0208,Battery (animated),electrical,animated,asset_0208,metadata_only,TBD
+obj_0209,Battery (sensorized),electrical,sensorized,asset_0209,metadata_only,TBD
+obj_0210,Battery (educational),electrical,educational,asset_0210,metadata_only,TBD
+obj_0211,Resistor (basic),electrical,basic,asset_0211,metadata_only,TBD
+obj_0212,Resistor (compact),electrical,compact,asset_0212,metadata_only,TBD
+obj_0213,Resistor (large),electrical,large,asset_0213,metadata_only,TBD
+obj_0214,Resistor (transparent),electrical,transparent,asset_0214,metadata_only,TBD
+obj_0215,Resistor (cutaway),electrical,cutaway,asset_0215,metadata_only,TBD
+obj_0216,Resistor (exploded),electrical,exploded,asset_0216,metadata_only,TBD
+obj_0217,Resistor (labeled),electrical,labeled,asset_0217,metadata_only,TBD
+obj_0218,Resistor (animated),electrical,animated,asset_0218,metadata_only,TBD
+obj_0219,Resistor (sensorized),electrical,sensorized,asset_0219,metadata_only,TBD
+obj_0220,Resistor (educational),electrical,educational,asset_0220,metadata_only,TBD
+obj_0221,Capacitor (basic),electrical,basic,asset_0221,metadata_only,TBD
+obj_0222,Capacitor (compact),electrical,compact,asset_0222,metadata_only,TBD
+obj_0223,Capacitor (large),electrical,large,asset_0223,metadata_only,TBD
+obj_0224,Capacitor (transparent),electrical,transparent,asset_0224,metadata_only,TBD
+obj_0225,Capacitor (cutaway),electrical,cutaway,asset_0225,metadata_only,TBD
+obj_0226,Capacitor (exploded),electrical,exploded,asset_0226,metadata_only,TBD
+obj_0227,Capacitor (labeled),electrical,labeled,asset_0227,metadata_only,TBD
+obj_0228,Capacitor (animated),electrical,animated,asset_0228,metadata_only,TBD
+obj_0229,Capacitor (sensorized),electrical,sensorized,asset_0229,metadata_only,TBD
+obj_0230,Capacitor (educational),electrical,educational,asset_0230,metadata_only,TBD
+obj_0231,Inductor (basic),electrical,basic,asset_0231,metadata_only,TBD
+obj_0232,Inductor (compact),electrical,compact,asset_0232,metadata_only,TBD
+obj_0233,Inductor (large),electrical,large,asset_0233,metadata_only,TBD
+obj_0234,Inductor (transparent),electrical,transparent,asset_0234,metadata_only,TBD
+obj_0235,Inductor (cutaway),electrical,cutaway,asset_0235,metadata_only,TBD
+obj_0236,Inductor (exploded),electrical,exploded,asset_0236,metadata_only,TBD
+obj_0237,Inductor (labeled),electrical,labeled,asset_0237,metadata_only,TBD
+obj_0238,Inductor (animated),electrical,animated,asset_0238,metadata_only,TBD
+obj_0239,Inductor (sensorized),electrical,sensorized,asset_0239,metadata_only,TBD
+obj_0240,Inductor (educational),electrical,educational,asset_0240,metadata_only,TBD
+obj_0241,Diode (basic),electrical,basic,asset_0241,metadata_only,TBD
+obj_0242,Diode (compact),electrical,compact,asset_0242,metadata_only,TBD
+obj_0243,Diode (large),electrical,large,asset_0243,metadata_only,TBD
+obj_0244,Diode (transparent),electrical,transparent,asset_0244,metadata_only,TBD
+obj_0245,Diode (cutaway),electrical,cutaway,asset_0245,metadata_only,TBD
+obj_0246,Diode (exploded),electrical,exploded,asset_0246,metadata_only,TBD
+obj_0247,Diode (labeled),electrical,labeled,asset_0247,metadata_only,TBD
+obj_0248,Diode (animated),electrical,animated,asset_0248,metadata_only,TBD
+obj_0249,Diode (sensorized),electrical,sensorized,asset_0249,metadata_only,TBD
+obj_0250,Diode (educational),electrical,educational,asset_0250,metadata_only,TBD
+obj_0251,Led (basic),electrical,basic,asset_0251,metadata_only,TBD
+obj_0252,Led (compact),electrical,compact,asset_0252,metadata_only,TBD
+obj_0253,Led (large),electrical,large,asset_0253,metadata_only,TBD
+obj_0254,Led (transparent),electrical,transparent,asset_0254,metadata_only,TBD
+obj_0255,Led (cutaway),electrical,cutaway,asset_0255,metadata_only,TBD
+obj_0256,Led (exploded),electrical,exploded,asset_0256,metadata_only,TBD
+obj_0257,Led (labeled),electrical,labeled,asset_0257,metadata_only,TBD
+obj_0258,Led (animated),electrical,animated,asset_0258,metadata_only,TBD
+obj_0259,Led (sensorized),electrical,sensorized,asset_0259,metadata_only,TBD
+obj_0260,Led (educational),electrical,educational,asset_0260,metadata_only,TBD
+obj_0261,Switch (basic),electrical,basic,asset_0261,metadata_only,TBD
+obj_0262,Switch (compact),electrical,compact,asset_0262,metadata_only,TBD
+obj_0263,Switch (large),electrical,large,asset_0263,metadata_only,TBD
+obj_0264,Switch (transparent),electrical,transparent,asset_0264,metadata_only,TBD
+obj_0265,Switch (cutaway),electrical,cutaway,asset_0265,metadata_only,TBD
+obj_0266,Switch (exploded),electrical,exploded,asset_0266,metadata_only,TBD
+obj_0267,Switch (labeled),electrical,labeled,asset_0267,metadata_only,TBD
+obj_0268,Switch (animated),electrical,animated,asset_0268,metadata_only,TBD
+obj_0269,Switch (sensorized),electrical,sensorized,asset_0269,metadata_only,TBD
+obj_0270,Switch (educational),electrical,educational,asset_0270,metadata_only,TBD
+obj_0271,Relay (basic),electrical,basic,asset_0271,metadata_only,TBD
+obj_0272,Relay (compact),electrical,compact,asset_0272,metadata_only,TBD
+obj_0273,Relay (large),electrical,large,asset_0273,metadata_only,TBD
+obj_0274,Relay (transparent),electrical,transparent,asset_0274,metadata_only,TBD
+obj_0275,Relay (cutaway),electrical,cutaway,asset_0275,metadata_only,TBD
+obj_0276,Relay (exploded),electrical,exploded,asset_0276,metadata_only,TBD
+obj_0277,Relay (labeled),electrical,labeled,asset_0277,metadata_only,TBD
+obj_0278,Relay (animated),electrical,animated,asset_0278,metadata_only,TBD
+obj_0279,Relay (sensorized),electrical,sensorized,asset_0279,metadata_only,TBD
+obj_0280,Relay (educational),electrical,educational,asset_0280,metadata_only,TBD
+obj_0281,Fuse (basic),electrical,basic,asset_0281,metadata_only,TBD
+obj_0282,Fuse (compact),electrical,compact,asset_0282,metadata_only,TBD
+obj_0283,Fuse (large),electrical,large,asset_0283,metadata_only,TBD
+obj_0284,Fuse (transparent),electrical,transparent,asset_0284,metadata_only,TBD
+obj_0285,Fuse (cutaway),electrical,cutaway,asset_0285,metadata_only,TBD
+obj_0286,Fuse (exploded),electrical,exploded,asset_0286,metadata_only,TBD
+obj_0287,Fuse (labeled),electrical,labeled,asset_0287,metadata_only,TBD
+obj_0288,Fuse (animated),electrical,animated,asset_0288,metadata_only,TBD
+obj_0289,Fuse (sensorized),electrical,sensorized,asset_0289,metadata_only,TBD
+obj_0290,Fuse (educational),electrical,educational,asset_0290,metadata_only,TBD
+obj_0291,Wire (basic),electrical,basic,asset_0291,metadata_only,TBD
+obj_0292,Wire (compact),electrical,compact,asset_0292,metadata_only,TBD
+obj_0293,Wire (large),electrical,large,asset_0293,metadata_only,TBD
+obj_0294,Wire (transparent),electrical,transparent,asset_0294,metadata_only,TBD
+obj_0295,Wire (cutaway),electrical,cutaway,asset_0295,metadata_only,TBD
+obj_0296,Wire (exploded),electrical,exploded,asset_0296,metadata_only,TBD
+obj_0297,Wire (labeled),electrical,labeled,asset_0297,metadata_only,TBD
+obj_0298,Wire (animated),electrical,animated,asset_0298,metadata_only,TBD
+obj_0299,Wire (sensorized),electrical,sensorized,asset_0299,metadata_only,TBD
+obj_0300,Wire (educational),electrical,educational,asset_0300,metadata_only,TBD
+obj_0301,Transformer (basic),electrical,basic,asset_0301,metadata_only,TBD
+obj_0302,Transformer (compact),electrical,compact,asset_0302,metadata_only,TBD
+obj_0303,Transformer (large),electrical,large,asset_0303,metadata_only,TBD
+obj_0304,Transformer (transparent),electrical,transparent,asset_0304,metadata_only,TBD
+obj_0305,Transformer (cutaway),electrical,cutaway,asset_0305,metadata_only,TBD
+obj_0306,Transformer (exploded),electrical,exploded,asset_0306,metadata_only,TBD
+obj_0307,Transformer (labeled),electrical,labeled,asset_0307,metadata_only,TBD
+obj_0308,Transformer (animated),electrical,animated,asset_0308,metadata_only,TBD
+obj_0309,Transformer (sensorized),electrical,sensorized,asset_0309,metadata_only,TBD
+obj_0310,Transformer (educational),electrical,educational,asset_0310,metadata_only,TBD
+obj_0311,Dc Motor (basic),electrical,basic,asset_0311,metadata_only,TBD
+obj_0312,Dc Motor (compact),electrical,compact,asset_0312,metadata_only,TBD
+obj_0313,Dc Motor (large),electrical,large,asset_0313,metadata_only,TBD
+obj_0314,Dc Motor (transparent),electrical,transparent,asset_0314,metadata_only,TBD
+obj_0315,Dc Motor (cutaway),electrical,cutaway,asset_0315,metadata_only,TBD
+obj_0316,Dc Motor (exploded),electrical,exploded,asset_0316,metadata_only,TBD
+obj_0317,Dc Motor (labeled),electrical,labeled,asset_0317,metadata_only,TBD
+obj_0318,Dc Motor (animated),electrical,animated,asset_0318,metadata_only,TBD
+obj_0319,Dc Motor (sensorized),electrical,sensorized,asset_0319,metadata_only,TBD
+obj_0320,Dc Motor (educational),electrical,educational,asset_0320,metadata_only,TBD
+obj_0321,Ac Motor (basic),electrical,basic,asset_0321,metadata_only,TBD
+obj_0322,Ac Motor (compact),electrical,compact,asset_0322,metadata_only,TBD
+obj_0323,Ac Motor (large),electrical,large,asset_0323,metadata_only,TBD
+obj_0324,Ac Motor (transparent),electrical,transparent,asset_0324,metadata_only,TBD
+obj_0325,Ac Motor (cutaway),electrical,cutaway,asset_0325,metadata_only,TBD
+obj_0326,Ac Motor (exploded),electrical,exploded,asset_0326,metadata_only,TBD
+obj_0327,Ac Motor (labeled),electrical,labeled,asset_0327,metadata_only,TBD
+obj_0328,Ac Motor (animated),electrical,animated,asset_0328,metadata_only,TBD
+obj_0329,Ac Motor (sensorized),electrical,sensorized,asset_0329,metadata_only,TBD
+obj_0330,Ac Motor (educational),electrical,educational,asset_0330,metadata_only,TBD
+obj_0331,Generator (basic),electrical,basic,asset_0331,metadata_only,TBD
+obj_0332,Generator (compact),electrical,compact,asset_0332,metadata_only,TBD
+obj_0333,Generator (large),electrical,large,asset_0333,metadata_only,TBD
+obj_0334,Generator (transparent),electrical,transparent,asset_0334,metadata_only,TBD
+obj_0335,Generator (cutaway),electrical,cutaway,asset_0335,metadata_only,TBD
+obj_0336,Generator (exploded),electrical,exploded,asset_0336,metadata_only,TBD
+obj_0337,Generator (labeled),electrical,labeled,asset_0337,metadata_only,TBD
+obj_0338,Generator (animated),electrical,animated,asset_0338,metadata_only,TBD
+obj_0339,Generator (sensorized),electrical,sensorized,asset_0339,metadata_only,TBD
+obj_0340,Generator (educational),electrical,educational,asset_0340,metadata_only,TBD
+obj_0341,Connector (basic),electrical,basic,asset_0341,metadata_only,TBD
+obj_0342,Connector (compact),electrical,compact,asset_0342,metadata_only,TBD
+obj_0343,Connector (large),electrical,large,asset_0343,metadata_only,TBD
+obj_0344,Connector (transparent),electrical,transparent,asset_0344,metadata_only,TBD
+obj_0345,Connector (cutaway),electrical,cutaway,asset_0345,metadata_only,TBD
+obj_0346,Connector (exploded),electrical,exploded,asset_0346,metadata_only,TBD
+obj_0347,Connector (labeled),electrical,labeled,asset_0347,metadata_only,TBD
+obj_0348,Connector (animated),electrical,animated,asset_0348,metadata_only,TBD
+obj_0349,Connector (sensorized),electrical,sensorized,asset_0349,metadata_only,TBD
+obj_0350,Connector (educational),electrical,educational,asset_0350,metadata_only,TBD
+obj_0351,Terminal (basic),electrical,basic,asset_0351,metadata_only,TBD
+obj_0352,Terminal (compact),electrical,compact,asset_0352,metadata_only,TBD
+obj_0353,Terminal (large),electrical,large,asset_0353,metadata_only,TBD
+obj_0354,Terminal (transparent),electrical,transparent,asset_0354,metadata_only,TBD
+obj_0355,Terminal (cutaway),electrical,cutaway,asset_0355,metadata_only,TBD
+obj_0356,Terminal (exploded),electrical,exploded,asset_0356,metadata_only,TBD
+obj_0357,Terminal (labeled),electrical,labeled,asset_0357,metadata_only,TBD
+obj_0358,Terminal (animated),electrical,animated,asset_0358,metadata_only,TBD
+obj_0359,Terminal (sensorized),electrical,sensorized,asset_0359,metadata_only,TBD
+obj_0360,Terminal (educational),electrical,educational,asset_0360,metadata_only,TBD
+obj_0361,Busbar (basic),electrical,basic,asset_0361,metadata_only,TBD
+obj_0362,Busbar (compact),electrical,compact,asset_0362,metadata_only,TBD
+obj_0363,Busbar (large),electrical,large,asset_0363,metadata_only,TBD
+obj_0364,Busbar (transparent),electrical,transparent,asset_0364,metadata_only,TBD
+obj_0365,Busbar (cutaway),electrical,cutaway,asset_0365,metadata_only,TBD
+obj_0366,Busbar (exploded),electrical,exploded,asset_0366,metadata_only,TBD
+obj_0367,Busbar (labeled),electrical,labeled,asset_0367,metadata_only,TBD
+obj_0368,Busbar (animated),electrical,animated,asset_0368,metadata_only,TBD
+obj_0369,Busbar (sensorized),electrical,sensorized,asset_0369,metadata_only,TBD
+obj_0370,Busbar (educational),electrical,educational,asset_0370,metadata_only,TBD
+obj_0371,Power Supply (basic),electrical,basic,asset_0371,metadata_only,TBD
+obj_0372,Power Supply (compact),electrical,compact,asset_0372,metadata_only,TBD
+obj_0373,Power Supply (large),electrical,large,asset_0373,metadata_only,TBD
+obj_0374,Power Supply (transparent),electrical,transparent,asset_0374,metadata_only,TBD
+obj_0375,Power Supply (cutaway),electrical,cutaway,asset_0375,metadata_only,TBD
+obj_0376,Power Supply (exploded),electrical,exploded,asset_0376,metadata_only,TBD
+obj_0377,Power Supply (labeled),electrical,labeled,asset_0377,metadata_only,TBD
+obj_0378,Power Supply (animated),electrical,animated,asset_0378,metadata_only,TBD
+obj_0379,Power Supply (sensorized),electrical,sensorized,asset_0379,metadata_only,TBD
+obj_0380,Power Supply (educational),electrical,educational,asset_0380,metadata_only,TBD
+obj_0381,Voltage Source (basic),electrical,basic,asset_0381,metadata_only,TBD
+obj_0382,Voltage Source (compact),electrical,compact,asset_0382,metadata_only,TBD
+obj_0383,Voltage Source (large),electrical,large,asset_0383,metadata_only,TBD
+obj_0384,Voltage Source (transparent),electrical,transparent,asset_0384,metadata_only,TBD
+obj_0385,Voltage Source (cutaway),electrical,cutaway,asset_0385,metadata_only,TBD
+obj_0386,Voltage Source (exploded),electrical,exploded,asset_0386,metadata_only,TBD
+obj_0387,Voltage Source (labeled),electrical,labeled,asset_0387,metadata_only,TBD
+obj_0388,Voltage Source (animated),electrical,animated,asset_0388,metadata_only,TBD
+obj_0389,Voltage Source (sensorized),electrical,sensorized,asset_0389,metadata_only,TBD
+obj_0390,Voltage Source (educational),electrical,educational,asset_0390,metadata_only,TBD
+obj_0391,Current Source (basic),electrical,basic,asset_0391,metadata_only,TBD
+obj_0392,Current Source (compact),electrical,compact,asset_0392,metadata_only,TBD
+obj_0393,Current Source (large),electrical,large,asset_0393,metadata_only,TBD
+obj_0394,Current Source (transparent),electrical,transparent,asset_0394,metadata_only,TBD
+obj_0395,Current Source (cutaway),electrical,cutaway,asset_0395,metadata_only,TBD
+obj_0396,Current Source (exploded),electrical,exploded,asset_0396,metadata_only,TBD
+obj_0397,Current Source (labeled),electrical,labeled,asset_0397,metadata_only,TBD
+obj_0398,Current Source (animated),electrical,animated,asset_0398,metadata_only,TBD
+obj_0399,Current Source (sensorized),electrical,sensorized,asset_0399,metadata_only,TBD
+obj_0400,Current Source (educational),electrical,educational,asset_0400,metadata_only,TBD
+obj_0401,Microcontroller (basic),electronics,basic,asset_0401,metadata_only,TBD
+obj_0402,Microcontroller (compact),electronics,compact,asset_0402,metadata_only,TBD
+obj_0403,Microcontroller (large),electronics,large,asset_0403,metadata_only,TBD
+obj_0404,Microcontroller (transparent),electronics,transparent,asset_0404,metadata_only,TBD
+obj_0405,Microcontroller (cutaway),electronics,cutaway,asset_0405,metadata_only,TBD
+obj_0406,Microcontroller (exploded),electronics,exploded,asset_0406,metadata_only,TBD
+obj_0407,Microcontroller (labeled),electronics,labeled,asset_0407,metadata_only,TBD
+obj_0408,Microcontroller (animated),electronics,animated,asset_0408,metadata_only,TBD
+obj_0409,Microcontroller (sensorized),electronics,sensorized,asset_0409,metadata_only,TBD
+obj_0410,Microcontroller (educational),electronics,educational,asset_0410,metadata_only,TBD
+obj_0411,Op Amp (basic),electronics,basic,asset_0411,metadata_only,TBD
+obj_0412,Op Amp (compact),electronics,compact,asset_0412,metadata_only,TBD
+obj_0413,Op Amp (large),electronics,large,asset_0413,metadata_only,TBD
+obj_0414,Op Amp (transparent),electronics,transparent,asset_0414,metadata_only,TBD
+obj_0415,Op Amp (cutaway),electronics,cutaway,asset_0415,metadata_only,TBD
+obj_0416,Op Amp (exploded),electronics,exploded,asset_0416,metadata_only,TBD
+obj_0417,Op Amp (labeled),electronics,labeled,asset_0417,metadata_only,TBD
+obj_0418,Op Amp (animated),electronics,animated,asset_0418,metadata_only,TBD
+obj_0419,Op Amp (sensorized),electronics,sensorized,asset_0419,metadata_only,TBD
+obj_0420,Op Amp (educational),electronics,educational,asset_0420,metadata_only,TBD
+obj_0421,Logic Gate (basic),electronics,basic,asset_0421,metadata_only,TBD
+obj_0422,Logic Gate (compact),electronics,compact,asset_0422,metadata_only,TBD
+obj_0423,Logic Gate (large),electronics,large,asset_0423,metadata_only,TBD
+obj_0424,Logic Gate (transparent),electronics,transparent,asset_0424,metadata_only,TBD
+obj_0425,Logic Gate (cutaway),electronics,cutaway,asset_0425,metadata_only,TBD
+obj_0426,Logic Gate (exploded),electronics,exploded,asset_0426,metadata_only,TBD
+obj_0427,Logic Gate (labeled),electronics,labeled,asset_0427,metadata_only,TBD
+obj_0428,Logic Gate (animated),electronics,animated,asset_0428,metadata_only,TBD
+obj_0429,Logic Gate (sensorized),electronics,sensorized,asset_0429,metadata_only,TBD
+obj_0430,Logic Gate (educational),electronics,educational,asset_0430,metadata_only,TBD
+obj_0431,Adc (basic),electronics,basic,asset_0431,metadata_only,TBD
+obj_0432,Adc (compact),electronics,compact,asset_0432,metadata_only,TBD
+obj_0433,Adc (large),electronics,large,asset_0433,metadata_only,TBD
+obj_0434,Adc (transparent),electronics,transparent,asset_0434,metadata_only,TBD
+obj_0435,Adc (cutaway),electronics,cutaway,asset_0435,metadata_only,TBD
+obj_0436,Adc (exploded),electronics,exploded,asset_0436,metadata_only,TBD
+obj_0437,Adc (labeled),electronics,labeled,asset_0437,metadata_only,TBD
+obj_0438,Adc (animated),electronics,animated,asset_0438,metadata_only,TBD
+obj_0439,Adc (sensorized),electronics,sensorized,asset_0439,metadata_only,TBD
+obj_0440,Adc (educational),electronics,educational,asset_0440,metadata_only,TBD
+obj_0441,Dac (basic),electronics,basic,asset_0441,metadata_only,TBD
+obj_0442,Dac (compact),electronics,compact,asset_0442,metadata_only,TBD
+obj_0443,Dac (large),electronics,large,asset_0443,metadata_only,TBD
+obj_0444,Dac (transparent),electronics,transparent,asset_0444,metadata_only,TBD
+obj_0445,Dac (cutaway),electronics,cutaway,asset_0445,metadata_only,TBD
+obj_0446,Dac (exploded),electronics,exploded,asset_0446,metadata_only,TBD
+obj_0447,Dac (labeled),electronics,labeled,asset_0447,metadata_only,TBD
+obj_0448,Dac (animated),electronics,animated,asset_0448,metadata_only,TBD
+obj_0449,Dac (sensorized),electronics,sensorized,asset_0449,metadata_only,TBD
+obj_0450,Dac (educational),electronics,educational,asset_0450,metadata_only,TBD
+obj_0451,Breadboard (basic),electronics,basic,asset_0451,metadata_only,TBD
+obj_0452,Breadboard (compact),electronics,compact,asset_0452,metadata_only,TBD
+obj_0453,Breadboard (large),electronics,large,asset_0453,metadata_only,TBD
+obj_0454,Breadboard (transparent),electronics,transparent,asset_0454,metadata_only,TBD
+obj_0455,Breadboard (cutaway),electronics,cutaway,asset_0455,metadata_only,TBD
+obj_0456,Breadboard (exploded),electronics,exploded,asset_0456,metadata_only,TBD
+obj_0457,Breadboard (labeled),electronics,labeled,asset_0457,metadata_only,TBD
+obj_0458,Breadboard (animated),electronics,animated,asset_0458,metadata_only,TBD
+obj_0459,Breadboard (sensorized),electronics,sensorized,asset_0459,metadata_only,TBD
+obj_0460,Breadboard (educational),electronics,educational,asset_0460,metadata_only,TBD
+obj_0461,Pcb (basic),electronics,basic,asset_0461,metadata_only,TBD
+obj_0462,Pcb (compact),electronics,compact,asset_0462,metadata_only,TBD
+obj_0463,Pcb (large),electronics,large,asset_0463,metadata_only,TBD
+obj_0464,Pcb (transparent),electronics,transparent,asset_0464,metadata_only,TBD
+obj_0465,Pcb (cutaway),electronics,cutaway,asset_0465,metadata_only,TBD
+obj_0466,Pcb (exploded),electronics,exploded,asset_0466,metadata_only,TBD
+obj_0467,Pcb (labeled),electronics,labeled,asset_0467,metadata_only,TBD
+obj_0468,Pcb (animated),electronics,animated,asset_0468,metadata_only,TBD
+obj_0469,Pcb (sensorized),electronics,sensorized,asset_0469,metadata_only,TBD
+obj_0470,Pcb (educational),electronics,educational,asset_0470,metadata_only,TBD
+obj_0471,Transistor (basic),electronics,basic,asset_0471,metadata_only,TBD
+obj_0472,Transistor (compact),electronics,compact,asset_0472,metadata_only,TBD
+obj_0473,Transistor (large),electronics,large,asset_0473,metadata_only,TBD
+obj_0474,Transistor (transparent),electronics,transparent,asset_0474,metadata_only,TBD
+obj_0475,Transistor (cutaway),electronics,cutaway,asset_0475,metadata_only,TBD
+obj_0476,Transistor (exploded),electronics,exploded,asset_0476,metadata_only,TBD
+obj_0477,Transistor (labeled),electronics,labeled,asset_0477,metadata_only,TBD
+obj_0478,Transistor (animated),electronics,animated,asset_0478,metadata_only,TBD
+obj_0479,Transistor (sensorized),electronics,sensorized,asset_0479,metadata_only,TBD
+obj_0480,Transistor (educational),electronics,educational,asset_0480,metadata_only,TBD
+obj_0481,Mosfet (basic),electronics,basic,asset_0481,metadata_only,TBD
+obj_0482,Mosfet (compact),electronics,compact,asset_0482,metadata_only,TBD
+obj_0483,Mosfet (large),electronics,large,asset_0483,metadata_only,TBD
+obj_0484,Mosfet (transparent),electronics,transparent,asset_0484,metadata_only,TBD
+obj_0485,Mosfet (cutaway),electronics,cutaway,asset_0485,metadata_only,TBD
+obj_0486,Mosfet (exploded),electronics,exploded,asset_0486,metadata_only,TBD
+obj_0487,Mosfet (labeled),electronics,labeled,asset_0487,metadata_only,TBD
+obj_0488,Mosfet (animated),electronics,animated,asset_0488,metadata_only,TBD
+obj_0489,Mosfet (sensorized),electronics,sensorized,asset_0489,metadata_only,TBD
+obj_0490,Mosfet (educational),electronics,educational,asset_0490,metadata_only,TBD
+obj_0491,Sensor Board (basic),electronics,basic,asset_0491,metadata_only,TBD
+obj_0492,Sensor Board (compact),electronics,compact,asset_0492,metadata_only,TBD
+obj_0493,Sensor Board (large),electronics,large,asset_0493,metadata_only,TBD
+obj_0494,Sensor Board (transparent),electronics,transparent,asset_0494,metadata_only,TBD
+obj_0495,Sensor Board (cutaway),electronics,cutaway,asset_0495,metadata_only,TBD
+obj_0496,Sensor Board (exploded),electronics,exploded,asset_0496,metadata_only,TBD
+obj_0497,Sensor Board (labeled),electronics,labeled,asset_0497,metadata_only,TBD
+obj_0498,Sensor Board (animated),electronics,animated,asset_0498,metadata_only,TBD
+obj_0499,Sensor Board (sensorized),electronics,sensorized,asset_0499,metadata_only,TBD
+obj_0500,Sensor Board (educational),electronics,educational,asset_0500,metadata_only,TBD
+obj_0501,Display (basic),electronics,basic,asset_0501,metadata_only,TBD
+obj_0502,Display (compact),electronics,compact,asset_0502,metadata_only,TBD
+obj_0503,Display (large),electronics,large,asset_0503,metadata_only,TBD
+obj_0504,Display (transparent),electronics,transparent,asset_0504,metadata_only,TBD
+obj_0505,Display (cutaway),electronics,cutaway,asset_0505,metadata_only,TBD
+obj_0506,Display (exploded),electronics,exploded,asset_0506,metadata_only,TBD
+obj_0507,Display (labeled),electronics,labeled,asset_0507,metadata_only,TBD
+obj_0508,Display (animated),electronics,animated,asset_0508,metadata_only,TBD
+obj_0509,Display (sensorized),electronics,sensorized,asset_0509,metadata_only,TBD
+obj_0510,Display (educational),electronics,educational,asset_0510,metadata_only,TBD
+obj_0511,Button (basic),electronics,basic,asset_0511,metadata_only,TBD
+obj_0512,Button (compact),electronics,compact,asset_0512,metadata_only,TBD
+obj_0513,Button (large),electronics,large,asset_0513,metadata_only,TBD
+obj_0514,Button (transparent),electronics,transparent,asset_0514,metadata_only,TBD
+obj_0515,Button (cutaway),electronics,cutaway,asset_0515,metadata_only,TBD
+obj_0516,Button (exploded),electronics,exploded,asset_0516,metadata_only,TBD
+obj_0517,Button (labeled),electronics,labeled,asset_0517,metadata_only,TBD
+obj_0518,Button (animated),electronics,animated,asset_0518,metadata_only,TBD
+obj_0519,Button (sensorized),electronics,sensorized,asset_0519,metadata_only,TBD
+obj_0520,Button (educational),electronics,educational,asset_0520,metadata_only,TBD
+obj_0521,Encoder (basic),electronics,basic,asset_0521,metadata_only,TBD
+obj_0522,Encoder (compact),electronics,compact,asset_0522,metadata_only,TBD
+obj_0523,Encoder (large),electronics,large,asset_0523,metadata_only,TBD
+obj_0524,Encoder (transparent),electronics,transparent,asset_0524,metadata_only,TBD
+obj_0525,Encoder (cutaway),electronics,cutaway,asset_0525,metadata_only,TBD
+obj_0526,Encoder (exploded),electronics,exploded,asset_0526,metadata_only,TBD
+obj_0527,Encoder (labeled),electronics,labeled,asset_0527,metadata_only,TBD
+obj_0528,Encoder (animated),electronics,animated,asset_0528,metadata_only,TBD
+obj_0529,Encoder (sensorized),electronics,sensorized,asset_0529,metadata_only,TBD
+obj_0530,Encoder (educational),electronics,educational,asset_0530,metadata_only,TBD
+obj_0531,Clock (basic),electronics,basic,asset_0531,metadata_only,TBD
+obj_0532,Clock (compact),electronics,compact,asset_0532,metadata_only,TBD
+obj_0533,Clock (large),electronics,large,asset_0533,metadata_only,TBD
+obj_0534,Clock (transparent),electronics,transparent,asset_0534,metadata_only,TBD
+obj_0535,Clock (cutaway),electronics,cutaway,asset_0535,metadata_only,TBD
+obj_0536,Clock (exploded),electronics,exploded,asset_0536,metadata_only,TBD
+obj_0537,Clock (labeled),electronics,labeled,asset_0537,metadata_only,TBD
+obj_0538,Clock (animated),electronics,animated,asset_0538,metadata_only,TBD
+obj_0539,Clock (sensorized),electronics,sensorized,asset_0539,metadata_only,TBD
+obj_0540,Clock (educational),electronics,educational,asset_0540,metadata_only,TBD
+obj_0541,Regulator (basic),electronics,basic,asset_0541,metadata_only,TBD
+obj_0542,Regulator (compact),electronics,compact,asset_0542,metadata_only,TBD
+obj_0543,Regulator (large),electronics,large,asset_0543,metadata_only,TBD
+obj_0544,Regulator (transparent),electronics,transparent,asset_0544,metadata_only,TBD
+obj_0545,Regulator (cutaway),electronics,cutaway,asset_0545,metadata_only,TBD
+obj_0546,Regulator (exploded),electronics,exploded,asset_0546,metadata_only,TBD
+obj_0547,Regulator (labeled),electronics,labeled,asset_0547,metadata_only,TBD
+obj_0548,Regulator (animated),electronics,animated,asset_0548,metadata_only,TBD
+obj_0549,Regulator (sensorized),electronics,sensorized,asset_0549,metadata_only,TBD
+obj_0550,Regulator (educational),electronics,educational,asset_0550,metadata_only,TBD
+obj_0551,Oscillator (basic),electronics,basic,asset_0551,metadata_only,TBD
+obj_0552,Oscillator (compact),electronics,compact,asset_0552,metadata_only,TBD
+obj_0553,Oscillator (large),electronics,large,asset_0553,metadata_only,TBD
+obj_0554,Oscillator (transparent),electronics,transparent,asset_0554,metadata_only,TBD
+obj_0555,Oscillator (cutaway),electronics,cutaway,asset_0555,metadata_only,TBD
+obj_0556,Oscillator (exploded),electronics,exploded,asset_0556,metadata_only,TBD
+obj_0557,Oscillator (labeled),electronics,labeled,asset_0557,metadata_only,TBD
+obj_0558,Oscillator (animated),electronics,animated,asset_0558,metadata_only,TBD
+obj_0559,Oscillator (sensorized),electronics,sensorized,asset_0559,metadata_only,TBD
+obj_0560,Oscillator (educational),electronics,educational,asset_0560,metadata_only,TBD
+obj_0561,Speaker (basic),electronics,basic,asset_0561,metadata_only,TBD
+obj_0562,Speaker (compact),electronics,compact,asset_0562,metadata_only,TBD
+obj_0563,Speaker (large),electronics,large,asset_0563,metadata_only,TBD
+obj_0564,Speaker (transparent),electronics,transparent,asset_0564,metadata_only,TBD
+obj_0565,Speaker (cutaway),electronics,cutaway,asset_0565,metadata_only,TBD
+obj_0566,Speaker (exploded),electronics,exploded,asset_0566,metadata_only,TBD
+obj_0567,Speaker (labeled),electronics,labeled,asset_0567,metadata_only,TBD
+obj_0568,Speaker (animated),electronics,animated,asset_0568,metadata_only,TBD
+obj_0569,Speaker (sensorized),electronics,sensorized,asset_0569,metadata_only,TBD
+obj_0570,Speaker (educational),electronics,educational,asset_0570,metadata_only,TBD
+obj_0571,Microphone (basic),electronics,basic,asset_0571,metadata_only,TBD
+obj_0572,Microphone (compact),electronics,compact,asset_0572,metadata_only,TBD
+obj_0573,Microphone (large),electronics,large,asset_0573,metadata_only,TBD
+obj_0574,Microphone (transparent),electronics,transparent,asset_0574,metadata_only,TBD
+obj_0575,Microphone (cutaway),electronics,cutaway,asset_0575,metadata_only,TBD
+obj_0576,Microphone (exploded),electronics,exploded,asset_0576,metadata_only,TBD
+obj_0577,Microphone (labeled),electronics,labeled,asset_0577,metadata_only,TBD
+obj_0578,Microphone (animated),electronics,animated,asset_0578,metadata_only,TBD
+obj_0579,Microphone (sensorized),electronics,sensorized,asset_0579,metadata_only,TBD
+obj_0580,Microphone (educational),electronics,educational,asset_0580,metadata_only,TBD
+obj_0581,Camera Module (basic),electronics,basic,asset_0581,metadata_only,TBD
+obj_0582,Camera Module (compact),electronics,compact,asset_0582,metadata_only,TBD
+obj_0583,Camera Module (large),electronics,large,asset_0583,metadata_only,TBD
+obj_0584,Camera Module (transparent),electronics,transparent,asset_0584,metadata_only,TBD
+obj_0585,Camera Module (cutaway),electronics,cutaway,asset_0585,metadata_only,TBD
+obj_0586,Camera Module (exploded),electronics,exploded,asset_0586,metadata_only,TBD
+obj_0587,Camera Module (labeled),electronics,labeled,asset_0587,metadata_only,TBD
+obj_0588,Camera Module (animated),electronics,animated,asset_0588,metadata_only,TBD
+obj_0589,Camera Module (sensorized),electronics,sensorized,asset_0589,metadata_only,TBD
+obj_0590,Camera Module (educational),electronics,educational,asset_0590,metadata_only,TBD
+obj_0591,Wireless Module (basic),electronics,basic,asset_0591,metadata_only,TBD
+obj_0592,Wireless Module (compact),electronics,compact,asset_0592,metadata_only,TBD
+obj_0593,Wireless Module (large),electronics,large,asset_0593,metadata_only,TBD
+obj_0594,Wireless Module (transparent),electronics,transparent,asset_0594,metadata_only,TBD
+obj_0595,Wireless Module (cutaway),electronics,cutaway,asset_0595,metadata_only,TBD
+obj_0596,Wireless Module (exploded),electronics,exploded,asset_0596,metadata_only,TBD
+obj_0597,Wireless Module (labeled),electronics,labeled,asset_0597,metadata_only,TBD
+obj_0598,Wireless Module (animated),electronics,animated,asset_0598,metadata_only,TBD
+obj_0599,Wireless Module (sensorized),electronics,sensorized,asset_0599,metadata_only,TBD
+obj_0600,Wireless Module (educational),electronics,educational,asset_0600,metadata_only,TBD
+obj_0601,Servo (basic),robotics,basic,asset_0601,metadata_only,TBD
+obj_0602,Servo (compact),robotics,compact,asset_0602,metadata_only,TBD
+obj_0603,Servo (large),robotics,large,asset_0603,metadata_only,TBD
+obj_0604,Servo (transparent),robotics,transparent,asset_0604,metadata_only,TBD
+obj_0605,Servo (cutaway),robotics,cutaway,asset_0605,metadata_only,TBD
+obj_0606,Servo (exploded),robotics,exploded,asset_0606,metadata_only,TBD
+obj_0607,Servo (labeled),robotics,labeled,asset_0607,metadata_only,TBD
+obj_0608,Servo (animated),robotics,animated,asset_0608,metadata_only,TBD
+obj_0609,Servo (sensorized),robotics,sensorized,asset_0609,metadata_only,TBD
+obj_0610,Servo (educational),robotics,educational,asset_0610,metadata_only,TBD
+obj_0611,Actuator (basic),robotics,basic,asset_0611,metadata_only,TBD
+obj_0612,Actuator (compact),robotics,compact,asset_0612,metadata_only,TBD
+obj_0613,Actuator (large),robotics,large,asset_0613,metadata_only,TBD
+obj_0614,Actuator (transparent),robotics,transparent,asset_0614,metadata_only,TBD
+obj_0615,Actuator (cutaway),robotics,cutaway,asset_0615,metadata_only,TBD
+obj_0616,Actuator (exploded),robotics,exploded,asset_0616,metadata_only,TBD
+obj_0617,Actuator (labeled),robotics,labeled,asset_0617,metadata_only,TBD
+obj_0618,Actuator (animated),robotics,animated,asset_0618,metadata_only,TBD
+obj_0619,Actuator (sensorized),robotics,sensorized,asset_0619,metadata_only,TBD
+obj_0620,Actuator (educational),robotics,educational,asset_0620,metadata_only,TBD
+obj_0621,Robot Joint (basic),robotics,basic,asset_0621,metadata_only,TBD
+obj_0622,Robot Joint (compact),robotics,compact,asset_0622,metadata_only,TBD
+obj_0623,Robot Joint (large),robotics,large,asset_0623,metadata_only,TBD
+obj_0624,Robot Joint (transparent),robotics,transparent,asset_0624,metadata_only,TBD
+obj_0625,Robot Joint (cutaway),robotics,cutaway,asset_0625,metadata_only,TBD
+obj_0626,Robot Joint (exploded),robotics,exploded,asset_0626,metadata_only,TBD
+obj_0627,Robot Joint (labeled),robotics,labeled,asset_0627,metadata_only,TBD
+obj_0628,Robot Joint (animated),robotics,animated,asset_0628,metadata_only,TBD
+obj_0629,Robot Joint (sensorized),robotics,sensorized,asset_0629,metadata_only,TBD
+obj_0630,Robot Joint (educational),robotics,educational,asset_0630,metadata_only,TBD
+obj_0631,Gripper (basic),robotics,basic,asset_0631,metadata_only,TBD
+obj_0632,Gripper (compact),robotics,compact,asset_0632,metadata_only,TBD
+obj_0633,Gripper (large),robotics,large,asset_0633,metadata_only,TBD
+obj_0634,Gripper (transparent),robotics,transparent,asset_0634,metadata_only,TBD
+obj_0635,Gripper (cutaway),robotics,cutaway,asset_0635,metadata_only,TBD
+obj_0636,Gripper (exploded),robotics,exploded,asset_0636,metadata_only,TBD
+obj_0637,Gripper (labeled),robotics,labeled,asset_0637,metadata_only,TBD
+obj_0638,Gripper (animated),robotics,animated,asset_0638,metadata_only,TBD
+obj_0639,Gripper (sensorized),robotics,sensorized,asset_0639,metadata_only,TBD
+obj_0640,Gripper (educational),robotics,educational,asset_0640,metadata_only,TBD
+obj_0641,Wheel (basic),robotics,basic,asset_0641,metadata_only,TBD
+obj_0642,Wheel (compact),robotics,compact,asset_0642,metadata_only,TBD
+obj_0643,Wheel (large),robotics,large,asset_0643,metadata_only,TBD
+obj_0644,Wheel (transparent),robotics,transparent,asset_0644,metadata_only,TBD
+obj_0645,Wheel (cutaway),robotics,cutaway,asset_0645,metadata_only,TBD
+obj_0646,Wheel (exploded),robotics,exploded,asset_0646,metadata_only,TBD
+obj_0647,Wheel (labeled),robotics,labeled,asset_0647,metadata_only,TBD
+obj_0648,Wheel (animated),robotics,animated,asset_0648,metadata_only,TBD
+obj_0649,Wheel (sensorized),robotics,sensorized,asset_0649,metadata_only,TBD
+obj_0650,Wheel (educational),robotics,educational,asset_0650,metadata_only,TBD
+obj_0651,Lidar (basic),robotics,basic,asset_0651,metadata_only,TBD
+obj_0652,Lidar (compact),robotics,compact,asset_0652,metadata_only,TBD
+obj_0653,Lidar (large),robotics,large,asset_0653,metadata_only,TBD
+obj_0654,Lidar (transparent),robotics,transparent,asset_0654,metadata_only,TBD
+obj_0655,Lidar (cutaway),robotics,cutaway,asset_0655,metadata_only,TBD
+obj_0656,Lidar (exploded),robotics,exploded,asset_0656,metadata_only,TBD
+obj_0657,Lidar (labeled),robotics,labeled,asset_0657,metadata_only,TBD
+obj_0658,Lidar (animated),robotics,animated,asset_0658,metadata_only,TBD
+obj_0659,Lidar (sensorized),robotics,sensorized,asset_0659,metadata_only,TBD
+obj_0660,Lidar (educational),robotics,educational,asset_0660,metadata_only,TBD
+obj_0661,Imu (basic),robotics,basic,asset_0661,metadata_only,TBD
+obj_0662,Imu (compact),robotics,compact,asset_0662,metadata_only,TBD
+obj_0663,Imu (large),robotics,large,asset_0663,metadata_only,TBD
+obj_0664,Imu (transparent),robotics,transparent,asset_0664,metadata_only,TBD
+obj_0665,Imu (cutaway),robotics,cutaway,asset_0665,metadata_only,TBD
+obj_0666,Imu (exploded),robotics,exploded,asset_0666,metadata_only,TBD
+obj_0667,Imu (labeled),robotics,labeled,asset_0667,metadata_only,TBD
+obj_0668,Imu (animated),robotics,animated,asset_0668,metadata_only,TBD
+obj_0669,Imu (sensorized),robotics,sensorized,asset_0669,metadata_only,TBD
+obj_0670,Imu (educational),robotics,educational,asset_0670,metadata_only,TBD
+obj_0671,Controller (basic),robotics,basic,asset_0671,metadata_only,TBD
+obj_0672,Controller (compact),robotics,compact,asset_0672,metadata_only,TBD
+obj_0673,Controller (large),robotics,large,asset_0673,metadata_only,TBD
+obj_0674,Controller (transparent),robotics,transparent,asset_0674,metadata_only,TBD
+obj_0675,Controller (cutaway),robotics,cutaway,asset_0675,metadata_only,TBD
+obj_0676,Controller (exploded),robotics,exploded,asset_0676,metadata_only,TBD
+obj_0677,Controller (labeled),robotics,labeled,asset_0677,metadata_only,TBD
+obj_0678,Controller (animated),robotics,animated,asset_0678,metadata_only,TBD
+obj_0679,Controller (sensorized),robotics,sensorized,asset_0679,metadata_only,TBD
+obj_0680,Controller (educational),robotics,educational,asset_0680,metadata_only,TBD
+obj_0681,Motor Driver (basic),robotics,basic,asset_0681,metadata_only,TBD
+obj_0682,Motor Driver (compact),robotics,compact,asset_0682,metadata_only,TBD
+obj_0683,Motor Driver (large),robotics,large,asset_0683,metadata_only,TBD
+obj_0684,Motor Driver (transparent),robotics,transparent,asset_0684,metadata_only,TBD
+obj_0685,Motor Driver (cutaway),robotics,cutaway,asset_0685,metadata_only,TBD
+obj_0686,Motor Driver (exploded),robotics,exploded,asset_0686,metadata_only,TBD
+obj_0687,Motor Driver (labeled),robotics,labeled,asset_0687,metadata_only,TBD
+obj_0688,Motor Driver (animated),robotics,animated,asset_0688,metadata_only,TBD
+obj_0689,Motor Driver (sensorized),robotics,sensorized,asset_0689,metadata_only,TBD
+obj_0690,Motor Driver (educational),robotics,educational,asset_0690,metadata_only,TBD
+obj_0691,Robot Arm Segment (basic),robotics,basic,asset_0691,metadata_only,TBD
+obj_0692,Robot Arm Segment (compact),robotics,compact,asset_0692,metadata_only,TBD
+obj_0693,Robot Arm Segment (large),robotics,large,asset_0693,metadata_only,TBD
+obj_0694,Robot Arm Segment (transparent),robotics,transparent,asset_0694,metadata_only,TBD
+obj_0695,Robot Arm Segment (cutaway),robotics,cutaway,asset_0695,metadata_only,TBD
+obj_0696,Robot Arm Segment (exploded),robotics,exploded,asset_0696,metadata_only,TBD
+obj_0697,Robot Arm Segment (labeled),robotics,labeled,asset_0697,metadata_only,TBD
+obj_0698,Robot Arm Segment (animated),robotics,animated,asset_0698,metadata_only,TBD
+obj_0699,Robot Arm Segment (sensorized),robotics,sensorized,asset_0699,metadata_only,TBD
+obj_0700,Robot Arm Segment (educational),robotics,educational,asset_0700,metadata_only,TBD
+obj_0701,Encoder (basic),robotics,basic,asset_0701,metadata_only,TBD
+obj_0702,Encoder (compact),robotics,compact,asset_0702,metadata_only,TBD
+obj_0703,Encoder (large),robotics,large,asset_0703,metadata_only,TBD
+obj_0704,Encoder (transparent),robotics,transparent,asset_0704,metadata_only,TBD
+obj_0705,Encoder (cutaway),robotics,cutaway,asset_0705,metadata_only,TBD
+obj_0706,Encoder (exploded),robotics,exploded,asset_0706,metadata_only,TBD
+obj_0707,Encoder (labeled),robotics,labeled,asset_0707,metadata_only,TBD
+obj_0708,Encoder (animated),robotics,animated,asset_0708,metadata_only,TBD
+obj_0709,Encoder (sensorized),robotics,sensorized,asset_0709,metadata_only,TBD
+obj_0710,Encoder (educational),robotics,educational,asset_0710,metadata_only,TBD
+obj_0711,Depth Camera (basic),robotics,basic,asset_0711,metadata_only,TBD
+obj_0712,Depth Camera (compact),robotics,compact,asset_0712,metadata_only,TBD
+obj_0713,Depth Camera (large),robotics,large,asset_0713,metadata_only,TBD
+obj_0714,Depth Camera (transparent),robotics,transparent,asset_0714,metadata_only,TBD
+obj_0715,Depth Camera (cutaway),robotics,cutaway,asset_0715,metadata_only,TBD
+obj_0716,Depth Camera (exploded),robotics,exploded,asset_0716,metadata_only,TBD
+obj_0717,Depth Camera (labeled),robotics,labeled,asset_0717,metadata_only,TBD
+obj_0718,Depth Camera (animated),robotics,animated,asset_0718,metadata_only,TBD
+obj_0719,Depth Camera (sensorized),robotics,sensorized,asset_0719,metadata_only,TBD
+obj_0720,Depth Camera (educational),robotics,educational,asset_0720,metadata_only,TBD
+obj_0721,Ultrasonic Sensor (basic),robotics,basic,asset_0721,metadata_only,TBD
+obj_0722,Ultrasonic Sensor (compact),robotics,compact,asset_0722,metadata_only,TBD
+obj_0723,Ultrasonic Sensor (large),robotics,large,asset_0723,metadata_only,TBD
+obj_0724,Ultrasonic Sensor (transparent),robotics,transparent,asset_0724,metadata_only,TBD
+obj_0725,Ultrasonic Sensor (cutaway),robotics,cutaway,asset_0725,metadata_only,TBD
+obj_0726,Ultrasonic Sensor (exploded),robotics,exploded,asset_0726,metadata_only,TBD
+obj_0727,Ultrasonic Sensor (labeled),robotics,labeled,asset_0727,metadata_only,TBD
+obj_0728,Ultrasonic Sensor (animated),robotics,animated,asset_0728,metadata_only,TBD
+obj_0729,Ultrasonic Sensor (sensorized),robotics,sensorized,asset_0729,metadata_only,TBD
+obj_0730,Ultrasonic Sensor (educational),robotics,educational,asset_0730,metadata_only,TBD
+obj_0731,Bumper (basic),robotics,basic,asset_0731,metadata_only,TBD
+obj_0732,Bumper (compact),robotics,compact,asset_0732,metadata_only,TBD
+obj_0733,Bumper (large),robotics,large,asset_0733,metadata_only,TBD
+obj_0734,Bumper (transparent),robotics,transparent,asset_0734,metadata_only,TBD
+obj_0735,Bumper (cutaway),robotics,cutaway,asset_0735,metadata_only,TBD
+obj_0736,Bumper (exploded),robotics,exploded,asset_0736,metadata_only,TBD
+obj_0737,Bumper (labeled),robotics,labeled,asset_0737,metadata_only,TBD
+obj_0738,Bumper (animated),robotics,animated,asset_0738,metadata_only,TBD
+obj_0739,Bumper (sensorized),robotics,sensorized,asset_0739,metadata_only,TBD
+obj_0740,Bumper (educational),robotics,educational,asset_0740,metadata_only,TBD
+obj_0741,Robot Base (basic),robotics,basic,asset_0741,metadata_only,TBD
+obj_0742,Robot Base (compact),robotics,compact,asset_0742,metadata_only,TBD
+obj_0743,Robot Base (large),robotics,large,asset_0743,metadata_only,TBD
+obj_0744,Robot Base (transparent),robotics,transparent,asset_0744,metadata_only,TBD
+obj_0745,Robot Base (cutaway),robotics,cutaway,asset_0745,metadata_only,TBD
+obj_0746,Robot Base (exploded),robotics,exploded,asset_0746,metadata_only,TBD
+obj_0747,Robot Base (labeled),robotics,labeled,asset_0747,metadata_only,TBD
+obj_0748,Robot Base (animated),robotics,animated,asset_0748,metadata_only,TBD
+obj_0749,Robot Base (sensorized),robotics,sensorized,asset_0749,metadata_only,TBD
+obj_0750,Robot Base (educational),robotics,educational,asset_0750,metadata_only,TBD
+obj_0751,Linear Actuator (basic),robotics,basic,asset_0751,metadata_only,TBD
+obj_0752,Linear Actuator (compact),robotics,compact,asset_0752,metadata_only,TBD
+obj_0753,Linear Actuator (large),robotics,large,asset_0753,metadata_only,TBD
+obj_0754,Linear Actuator (transparent),robotics,transparent,asset_0754,metadata_only,TBD
+obj_0755,Linear Actuator (cutaway),robotics,cutaway,asset_0755,metadata_only,TBD
+obj_0756,Linear Actuator (exploded),robotics,exploded,asset_0756,metadata_only,TBD
+obj_0757,Linear Actuator (labeled),robotics,labeled,asset_0757,metadata_only,TBD
+obj_0758,Linear Actuator (animated),robotics,animated,asset_0758,metadata_only,TBD
+obj_0759,Linear Actuator (sensorized),robotics,sensorized,asset_0759,metadata_only,TBD
+obj_0760,Linear Actuator (educational),robotics,educational,asset_0760,metadata_only,TBD
+obj_0761,End Effector (basic),robotics,basic,asset_0761,metadata_only,TBD
+obj_0762,End Effector (compact),robotics,compact,asset_0762,metadata_only,TBD
+obj_0763,End Effector (large),robotics,large,asset_0763,metadata_only,TBD
+obj_0764,End Effector (transparent),robotics,transparent,asset_0764,metadata_only,TBD
+obj_0765,End Effector (cutaway),robotics,cutaway,asset_0765,metadata_only,TBD
+obj_0766,End Effector (exploded),robotics,exploded,asset_0766,metadata_only,TBD
+obj_0767,End Effector (labeled),robotics,labeled,asset_0767,metadata_only,TBD
+obj_0768,End Effector (animated),robotics,animated,asset_0768,metadata_only,TBD
+obj_0769,End Effector (sensorized),robotics,sensorized,asset_0769,metadata_only,TBD
+obj_0770,End Effector (educational),robotics,educational,asset_0770,metadata_only,TBD
+obj_0771,Battery Pack (basic),robotics,basic,asset_0771,metadata_only,TBD
+obj_0772,Battery Pack (compact),robotics,compact,asset_0772,metadata_only,TBD
+obj_0773,Battery Pack (large),robotics,large,asset_0773,metadata_only,TBD
+obj_0774,Battery Pack (transparent),robotics,transparent,asset_0774,metadata_only,TBD
+obj_0775,Battery Pack (cutaway),robotics,cutaway,asset_0775,metadata_only,TBD
+obj_0776,Battery Pack (exploded),robotics,exploded,asset_0776,metadata_only,TBD
+obj_0777,Battery Pack (labeled),robotics,labeled,asset_0777,metadata_only,TBD
+obj_0778,Battery Pack (animated),robotics,animated,asset_0778,metadata_only,TBD
+obj_0779,Battery Pack (sensorized),robotics,sensorized,asset_0779,metadata_only,TBD
+obj_0780,Battery Pack (educational),robotics,educational,asset_0780,metadata_only,TBD
+obj_0781,Navigation Module (basic),robotics,basic,asset_0781,metadata_only,TBD
+obj_0782,Navigation Module (compact),robotics,compact,asset_0782,metadata_only,TBD
+obj_0783,Navigation Module (large),robotics,large,asset_0783,metadata_only,TBD
+obj_0784,Navigation Module (transparent),robotics,transparent,asset_0784,metadata_only,TBD
+obj_0785,Navigation Module (cutaway),robotics,cutaway,asset_0785,metadata_only,TBD
+obj_0786,Navigation Module (exploded),robotics,exploded,asset_0786,metadata_only,TBD
+obj_0787,Navigation Module (labeled),robotics,labeled,asset_0787,metadata_only,TBD
+obj_0788,Navigation Module (animated),robotics,animated,asset_0788,metadata_only,TBD
+obj_0789,Navigation Module (sensorized),robotics,sensorized,asset_0789,metadata_only,TBD
+obj_0790,Navigation Module (educational),robotics,educational,asset_0790,metadata_only,TBD
+obj_0791,Robot Chassis (basic),robotics,basic,asset_0791,metadata_only,TBD
+obj_0792,Robot Chassis (compact),robotics,compact,asset_0792,metadata_only,TBD
+obj_0793,Robot Chassis (large),robotics,large,asset_0793,metadata_only,TBD
+obj_0794,Robot Chassis (transparent),robotics,transparent,asset_0794,metadata_only,TBD
+obj_0795,Robot Chassis (cutaway),robotics,cutaway,asset_0795,metadata_only,TBD
+obj_0796,Robot Chassis (exploded),robotics,exploded,asset_0796,metadata_only,TBD
+obj_0797,Robot Chassis (labeled),robotics,labeled,asset_0797,metadata_only,TBD
+obj_0798,Robot Chassis (animated),robotics,animated,asset_0798,metadata_only,TBD
+obj_0799,Robot Chassis (sensorized),robotics,sensorized,asset_0799,metadata_only,TBD
+obj_0800,Robot Chassis (educational),robotics,educational,asset_0800,metadata_only,TBD
+obj_0801,Solar Panel (basic),energy,basic,asset_0801,metadata_only,TBD
+obj_0802,Solar Panel (compact),energy,compact,asset_0802,metadata_only,TBD
+obj_0803,Solar Panel (large),energy,large,asset_0803,metadata_only,TBD
+obj_0804,Solar Panel (transparent),energy,transparent,asset_0804,metadata_only,TBD
+obj_0805,Solar Panel (cutaway),energy,cutaway,asset_0805,metadata_only,TBD
+obj_0806,Solar Panel (exploded),energy,exploded,asset_0806,metadata_only,TBD
+obj_0807,Solar Panel (labeled),energy,labeled,asset_0807,metadata_only,TBD
+obj_0808,Solar Panel (animated),energy,animated,asset_0808,metadata_only,TBD
+obj_0809,Solar Panel (sensorized),energy,sensorized,asset_0809,metadata_only,TBD
+obj_0810,Solar Panel (educational),energy,educational,asset_0810,metadata_only,TBD
+obj_0811,Wind Turbine (basic),energy,basic,asset_0811,metadata_only,TBD
+obj_0812,Wind Turbine (compact),energy,compact,asset_0812,metadata_only,TBD
+obj_0813,Wind Turbine (large),energy,large,asset_0813,metadata_only,TBD
+obj_0814,Wind Turbine (transparent),energy,transparent,asset_0814,metadata_only,TBD
+obj_0815,Wind Turbine (cutaway),energy,cutaway,asset_0815,metadata_only,TBD
+obj_0816,Wind Turbine (exploded),energy,exploded,asset_0816,metadata_only,TBD
+obj_0817,Wind Turbine (labeled),energy,labeled,asset_0817,metadata_only,TBD
+obj_0818,Wind Turbine (animated),energy,animated,asset_0818,metadata_only,TBD
+obj_0819,Wind Turbine (sensorized),energy,sensorized,asset_0819,metadata_only,TBD
+obj_0820,Wind Turbine (educational),energy,educational,asset_0820,metadata_only,TBD
+obj_0821,Inverter (basic),energy,basic,asset_0821,metadata_only,TBD
+obj_0822,Inverter (compact),energy,compact,asset_0822,metadata_only,TBD
+obj_0823,Inverter (large),energy,large,asset_0823,metadata_only,TBD
+obj_0824,Inverter (transparent),energy,transparent,asset_0824,metadata_only,TBD
+obj_0825,Inverter (cutaway),energy,cutaway,asset_0825,metadata_only,TBD
+obj_0826,Inverter (exploded),energy,exploded,asset_0826,metadata_only,TBD
+obj_0827,Inverter (labeled),energy,labeled,asset_0827,metadata_only,TBD
+obj_0828,Inverter (animated),energy,animated,asset_0828,metadata_only,TBD
+obj_0829,Inverter (sensorized),energy,sensorized,asset_0829,metadata_only,TBD
+obj_0830,Inverter (educational),energy,educational,asset_0830,metadata_only,TBD
+obj_0831,Charge Controller (basic),energy,basic,asset_0831,metadata_only,TBD
+obj_0832,Charge Controller (compact),energy,compact,asset_0832,metadata_only,TBD
+obj_0833,Charge Controller (large),energy,large,asset_0833,metadata_only,TBD
+obj_0834,Charge Controller (transparent),energy,transparent,asset_0834,metadata_only,TBD
+obj_0835,Charge Controller (cutaway),energy,cutaway,asset_0835,metadata_only,TBD
+obj_0836,Charge Controller (exploded),energy,exploded,asset_0836,metadata_only,TBD
+obj_0837,Charge Controller (labeled),energy,labeled,asset_0837,metadata_only,TBD
+obj_0838,Charge Controller (animated),energy,animated,asset_0838,metadata_only,TBD
+obj_0839,Charge Controller (sensorized),energy,sensorized,asset_0839,metadata_only,TBD
+obj_0840,Charge Controller (educational),energy,educational,asset_0840,metadata_only,TBD
+obj_0841,Generator (basic),energy,basic,asset_0841,metadata_only,TBD
+obj_0842,Generator (compact),energy,compact,asset_0842,metadata_only,TBD
+obj_0843,Generator (large),energy,large,asset_0843,metadata_only,TBD
+obj_0844,Generator (transparent),energy,transparent,asset_0844,metadata_only,TBD
+obj_0845,Generator (cutaway),energy,cutaway,asset_0845,metadata_only,TBD
+obj_0846,Generator (exploded),energy,exploded,asset_0846,metadata_only,TBD
+obj_0847,Generator (labeled),energy,labeled,asset_0847,metadata_only,TBD
+obj_0848,Generator (animated),energy,animated,asset_0848,metadata_only,TBD
+obj_0849,Generator (sensorized),energy,sensorized,asset_0849,metadata_only,TBD
+obj_0850,Generator (educational),energy,educational,asset_0850,metadata_only,TBD
+obj_0851,Fuel Cell (basic),energy,basic,asset_0851,metadata_only,TBD
+obj_0852,Fuel Cell (compact),energy,compact,asset_0852,metadata_only,TBD
+obj_0853,Fuel Cell (large),energy,large,asset_0853,metadata_only,TBD
+obj_0854,Fuel Cell (transparent),energy,transparent,asset_0854,metadata_only,TBD
+obj_0855,Fuel Cell (cutaway),energy,cutaway,asset_0855,metadata_only,TBD
+obj_0856,Fuel Cell (exploded),energy,exploded,asset_0856,metadata_only,TBD
+obj_0857,Fuel Cell (labeled),energy,labeled,asset_0857,metadata_only,TBD
+obj_0858,Fuel Cell (animated),energy,animated,asset_0858,metadata_only,TBD
+obj_0859,Fuel Cell (sensorized),energy,sensorized,asset_0859,metadata_only,TBD
+obj_0860,Fuel Cell (educational),energy,educational,asset_0860,metadata_only,TBD
+obj_0861,Supercapacitor (basic),energy,basic,asset_0861,metadata_only,TBD
+obj_0862,Supercapacitor (compact),energy,compact,asset_0862,metadata_only,TBD
+obj_0863,Supercapacitor (large),energy,large,asset_0863,metadata_only,TBD
+obj_0864,Supercapacitor (transparent),energy,transparent,asset_0864,metadata_only,TBD
+obj_0865,Supercapacitor (cutaway),energy,cutaway,asset_0865,metadata_only,TBD
+obj_0866,Supercapacitor (exploded),energy,exploded,asset_0866,metadata_only,TBD
+obj_0867,Supercapacitor (labeled),energy,labeled,asset_0867,metadata_only,TBD
+obj_0868,Supercapacitor (animated),energy,animated,asset_0868,metadata_only,TBD
+obj_0869,Supercapacitor (sensorized),energy,sensorized,asset_0869,metadata_only,TBD
+obj_0870,Supercapacitor (educational),energy,educational,asset_0870,metadata_only,TBD
+obj_0871,Energy Meter (basic),energy,basic,asset_0871,metadata_only,TBD
+obj_0872,Energy Meter (compact),energy,compact,asset_0872,metadata_only,TBD
+obj_0873,Energy Meter (large),energy,large,asset_0873,metadata_only,TBD
+obj_0874,Energy Meter (transparent),energy,transparent,asset_0874,metadata_only,TBD
+obj_0875,Energy Meter (cutaway),energy,cutaway,asset_0875,metadata_only,TBD
+obj_0876,Energy Meter (exploded),energy,exploded,asset_0876,metadata_only,TBD
+obj_0877,Energy Meter (labeled),energy,labeled,asset_0877,metadata_only,TBD
+obj_0878,Energy Meter (animated),energy,animated,asset_0878,metadata_only,TBD
+obj_0879,Energy Meter (sensorized),energy,sensorized,asset_0879,metadata_only,TBD
+obj_0880,Energy Meter (educational),energy,educational,asset_0880,metadata_only,TBD
+obj_0881,Battery Storage (basic),energy,basic,asset_0881,metadata_only,TBD
+obj_0882,Battery Storage (compact),energy,compact,asset_0882,metadata_only,TBD
+obj_0883,Battery Storage (large),energy,large,asset_0883,metadata_only,TBD
+obj_0884,Battery Storage (transparent),energy,transparent,asset_0884,metadata_only,TBD
+obj_0885,Battery Storage (cutaway),energy,cutaway,asset_0885,metadata_only,TBD
+obj_0886,Battery Storage (exploded),energy,exploded,asset_0886,metadata_only,TBD
+obj_0887,Battery Storage (labeled),energy,labeled,asset_0887,metadata_only,TBD
+obj_0888,Battery Storage (animated),energy,animated,asset_0888,metadata_only,TBD
+obj_0889,Battery Storage (sensorized),energy,sensorized,asset_0889,metadata_only,TBD
+obj_0890,Battery Storage (educational),energy,educational,asset_0890,metadata_only,TBD
+obj_0891,Thermal Storage (basic),energy,basic,asset_0891,metadata_only,TBD
+obj_0892,Thermal Storage (compact),energy,compact,asset_0892,metadata_only,TBD
+obj_0893,Thermal Storage (large),energy,large,asset_0893,metadata_only,TBD
+obj_0894,Thermal Storage (transparent),energy,transparent,asset_0894,metadata_only,TBD
+obj_0895,Thermal Storage (cutaway),energy,cutaway,asset_0895,metadata_only,TBD
+obj_0896,Thermal Storage (exploded),energy,exploded,asset_0896,metadata_only,TBD
+obj_0897,Thermal Storage (labeled),energy,labeled,asset_0897,metadata_only,TBD
+obj_0898,Thermal Storage (animated),energy,animated,asset_0898,metadata_only,TBD
+obj_0899,Thermal Storage (sensorized),energy,sensorized,asset_0899,metadata_only,TBD
+obj_0900,Thermal Storage (educational),energy,educational,asset_0900,metadata_only,TBD
+obj_0901,Heat Pump (basic),energy,basic,asset_0901,metadata_only,TBD
+obj_0902,Heat Pump (compact),energy,compact,asset_0902,metadata_only,TBD
+obj_0903,Heat Pump (large),energy,large,asset_0903,metadata_only,TBD
+obj_0904,Heat Pump (transparent),energy,transparent,asset_0904,metadata_only,TBD
+obj_0905,Heat Pump (cutaway),energy,cutaway,asset_0905,metadata_only,TBD
+obj_0906,Heat Pump (exploded),energy,exploded,asset_0906,metadata_only,TBD
+obj_0907,Heat Pump (labeled),energy,labeled,asset_0907,metadata_only,TBD
+obj_0908,Heat Pump (animated),energy,animated,asset_0908,metadata_only,TBD
+obj_0909,Heat Pump (sensorized),energy,sensorized,asset_0909,metadata_only,TBD
+obj_0910,Heat Pump (educational),energy,educational,asset_0910,metadata_only,TBD
+obj_0911,Transformer (basic),energy,basic,asset_0911,metadata_only,TBD
+obj_0912,Transformer (compact),energy,compact,asset_0912,metadata_only,TBD
+obj_0913,Transformer (large),energy,large,asset_0913,metadata_only,TBD
+obj_0914,Transformer (transparent),energy,transparent,asset_0914,metadata_only,TBD
+obj_0915,Transformer (cutaway),energy,cutaway,asset_0915,metadata_only,TBD
+obj_0916,Transformer (exploded),energy,exploded,asset_0916,metadata_only,TBD
+obj_0917,Transformer (labeled),energy,labeled,asset_0917,metadata_only,TBD
+obj_0918,Transformer (animated),energy,animated,asset_0918,metadata_only,TBD
+obj_0919,Transformer (sensorized),energy,sensorized,asset_0919,metadata_only,TBD
+obj_0920,Transformer (educational),energy,educational,asset_0920,metadata_only,TBD
+obj_0921,Grid Node (basic),energy,basic,asset_0921,metadata_only,TBD
+obj_0922,Grid Node (compact),energy,compact,asset_0922,metadata_only,TBD
+obj_0923,Grid Node (large),energy,large,asset_0923,metadata_only,TBD
+obj_0924,Grid Node (transparent),energy,transparent,asset_0924,metadata_only,TBD
+obj_0925,Grid Node (cutaway),energy,cutaway,asset_0925,metadata_only,TBD
+obj_0926,Grid Node (exploded),energy,exploded,asset_0926,metadata_only,TBD
+obj_0927,Grid Node (labeled),energy,labeled,asset_0927,metadata_only,TBD
+obj_0928,Grid Node (animated),energy,animated,asset_0928,metadata_only,TBD
+obj_0929,Grid Node (sensorized),energy,sensorized,asset_0929,metadata_only,TBD
+obj_0930,Grid Node (educational),energy,educational,asset_0930,metadata_only,TBD
+obj_0931,Load Bank (basic),energy,basic,asset_0931,metadata_only,TBD
+obj_0932,Load Bank (compact),energy,compact,asset_0932,metadata_only,TBD
+obj_0933,Load Bank (large),energy,large,asset_0933,metadata_only,TBD
+obj_0934,Load Bank (transparent),energy,transparent,asset_0934,metadata_only,TBD
+obj_0935,Load Bank (cutaway),energy,cutaway,asset_0935,metadata_only,TBD
+obj_0936,Load Bank (exploded),energy,exploded,asset_0936,metadata_only,TBD
+obj_0937,Load Bank (labeled),energy,labeled,asset_0937,metadata_only,TBD
+obj_0938,Load Bank (animated),energy,animated,asset_0938,metadata_only,TBD
+obj_0939,Load Bank (sensorized),energy,sensorized,asset_0939,metadata_only,TBD
+obj_0940,Load Bank (educational),energy,educational,asset_0940,metadata_only,TBD
+obj_0941,Ev Charger (basic),energy,basic,asset_0941,metadata_only,TBD
+obj_0942,Ev Charger (compact),energy,compact,asset_0942,metadata_only,TBD
+obj_0943,Ev Charger (large),energy,large,asset_0943,metadata_only,TBD
+obj_0944,Ev Charger (transparent),energy,transparent,asset_0944,metadata_only,TBD
+obj_0945,Ev Charger (cutaway),energy,cutaway,asset_0945,metadata_only,TBD
+obj_0946,Ev Charger (exploded),energy,exploded,asset_0946,metadata_only,TBD
+obj_0947,Ev Charger (labeled),energy,labeled,asset_0947,metadata_only,TBD
+obj_0948,Ev Charger (animated),energy,animated,asset_0948,metadata_only,TBD
+obj_0949,Ev Charger (sensorized),energy,sensorized,asset_0949,metadata_only,TBD
+obj_0950,Ev Charger (educational),energy,educational,asset_0950,metadata_only,TBD
+obj_0951,Motor Drive (basic),energy,basic,asset_0951,metadata_only,TBD
+obj_0952,Motor Drive (compact),energy,compact,asset_0952,metadata_only,TBD
+obj_0953,Motor Drive (large),energy,large,asset_0953,metadata_only,TBD
+obj_0954,Motor Drive (transparent),energy,transparent,asset_0954,metadata_only,TBD
+obj_0955,Motor Drive (cutaway),energy,cutaway,asset_0955,metadata_only,TBD
+obj_0956,Motor Drive (exploded),energy,exploded,asset_0956,metadata_only,TBD
+obj_0957,Motor Drive (labeled),energy,labeled,asset_0957,metadata_only,TBD
+obj_0958,Motor Drive (animated),energy,animated,asset_0958,metadata_only,TBD
+obj_0959,Motor Drive (sensorized),energy,sensorized,asset_0959,metadata_only,TBD
+obj_0960,Motor Drive (educational),energy,educational,asset_0960,metadata_only,TBD
+obj_0961,Hydrogen Tank (basic),energy,basic,asset_0961,metadata_only,TBD
+obj_0962,Hydrogen Tank (compact),energy,compact,asset_0962,metadata_only,TBD
+obj_0963,Hydrogen Tank (large),energy,large,asset_0963,metadata_only,TBD
+obj_0964,Hydrogen Tank (transparent),energy,transparent,asset_0964,metadata_only,TBD
+obj_0965,Hydrogen Tank (cutaway),energy,cutaway,asset_0965,metadata_only,TBD
+obj_0966,Hydrogen Tank (exploded),energy,exploded,asset_0966,metadata_only,TBD
+obj_0967,Hydrogen Tank (labeled),energy,labeled,asset_0967,metadata_only,TBD
+obj_0968,Hydrogen Tank (animated),energy,animated,asset_0968,metadata_only,TBD
+obj_0969,Hydrogen Tank (sensorized),energy,sensorized,asset_0969,metadata_only,TBD
+obj_0970,Hydrogen Tank (educational),energy,educational,asset_0970,metadata_only,TBD
+obj_0971,Electrolyzer (basic),energy,basic,asset_0971,metadata_only,TBD
+obj_0972,Electrolyzer (compact),energy,compact,asset_0972,metadata_only,TBD
+obj_0973,Electrolyzer (large),energy,large,asset_0973,metadata_only,TBD
+obj_0974,Electrolyzer (transparent),energy,transparent,asset_0974,metadata_only,TBD
+obj_0975,Electrolyzer (cutaway),energy,cutaway,asset_0975,metadata_only,TBD
+obj_0976,Electrolyzer (exploded),energy,exploded,asset_0976,metadata_only,TBD
+obj_0977,Electrolyzer (labeled),energy,labeled,asset_0977,metadata_only,TBD
+obj_0978,Electrolyzer (animated),energy,animated,asset_0978,metadata_only,TBD
+obj_0979,Electrolyzer (sensorized),energy,sensorized,asset_0979,metadata_only,TBD
+obj_0980,Electrolyzer (educational),energy,educational,asset_0980,metadata_only,TBD
+obj_0981,Power Converter (basic),energy,basic,asset_0981,metadata_only,TBD
+obj_0982,Power Converter (compact),energy,compact,asset_0982,metadata_only,TBD
+obj_0983,Power Converter (large),energy,large,asset_0983,metadata_only,TBD
+obj_0984,Power Converter (transparent),energy,transparent,asset_0984,metadata_only,TBD
+obj_0985,Power Converter (cutaway),energy,cutaway,asset_0985,metadata_only,TBD
+obj_0986,Power Converter (exploded),energy,exploded,asset_0986,metadata_only,TBD
+obj_0987,Power Converter (labeled),energy,labeled,asset_0987,metadata_only,TBD
+obj_0988,Power Converter (animated),energy,animated,asset_0988,metadata_only,TBD
+obj_0989,Power Converter (sensorized),energy,sensorized,asset_0989,metadata_only,TBD
+obj_0990,Power Converter (educational),energy,educational,asset_0990,metadata_only,TBD
+obj_0991,Microgrid Node (basic),energy,basic,asset_0991,metadata_only,TBD
+obj_0992,Microgrid Node (compact),energy,compact,asset_0992,metadata_only,TBD
+obj_0993,Microgrid Node (large),energy,large,asset_0993,metadata_only,TBD
+obj_0994,Microgrid Node (transparent),energy,transparent,asset_0994,metadata_only,TBD
+obj_0995,Microgrid Node (cutaway),energy,cutaway,asset_0995,metadata_only,TBD
+obj_0996,Microgrid Node (exploded),energy,exploded,asset_0996,metadata_only,TBD
+obj_0997,Microgrid Node (labeled),energy,labeled,asset_0997,metadata_only,TBD
+obj_0998,Microgrid Node (animated),energy,animated,asset_0998,metadata_only,TBD
+obj_0999,Microgrid Node (sensorized),energy,sensorized,asset_0999,metadata_only,TBD
+obj_1000,Microgrid Node (educational),energy,educational,asset_1000,metadata_only,TBD

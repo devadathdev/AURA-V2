@@ -1,0 +1,329 @@
+[
+  {
+    "id": "ohms_law",
+    "domain": "electronics",
+    "equation": "I = V / R",
+    "inputs": [
+      "voltage_v",
+      "resistance_ohm"
+    ],
+    "outputs": [
+      "current_a"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "electrical_power",
+    "domain": "electronics",
+    "equation": "P = V * I",
+    "inputs": [
+      "voltage_v",
+      "current_a"
+    ],
+    "outputs": [
+      "power_w"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "series_resistance",
+    "domain": "electronics",
+    "equation": "R_total = R1 + R2 + ...",
+    "inputs": [
+      "resistances_ohm"
+    ],
+    "outputs": [
+      "total_resistance_ohm"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "parallel_resistance",
+    "domain": "electronics",
+    "equation": "1/R_total = sum(1/Ri)",
+    "inputs": [
+      "resistances_ohm"
+    ],
+    "outputs": [
+      "total_resistance_ohm"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "kinetic_energy",
+    "domain": "physics",
+    "equation": "E = 0.5*m*v^2",
+    "inputs": [
+      "mass_kg",
+      "velocity_m_s"
+    ],
+    "outputs": [
+      "energy_j"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "potential_energy",
+    "domain": "physics",
+    "equation": "E = m*g*h",
+    "inputs": [
+      "mass_kg",
+      "gravity_m_s2",
+      "height_m"
+    ],
+    "outputs": [
+      "energy_j"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "newton_second_law",
+    "domain": "physics",
+    "equation": "F = m*a",
+    "inputs": [
+      "mass_kg",
+      "acceleration_m_s2"
+    ],
+    "outputs": [
+      "force_n"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "spring_force",
+    "domain": "physics",
+    "equation": "F = k*x",
+    "inputs": [
+      "spring_constant_n_m",
+      "displacement_m"
+    ],
+    "outputs": [
+      "force_n"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "wave_speed",
+    "domain": "physics",
+    "equation": "v = f*lambda",
+    "inputs": [
+      "frequency_hz",
+      "wavelength_m"
+    ],
+    "outputs": [
+      "speed_m_s"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "thermal_energy",
+    "domain": "physics",
+    "equation": "Q = m*c*dT",
+    "inputs": [
+      "mass_kg",
+      "specific_heat_j_kgk",
+      "delta_temperature_k"
+    ],
+    "outputs": [
+      "energy_j"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "gear_ratio",
+    "domain": "mechanical",
+    "equation": "ratio = teeth_out/teeth_in",
+    "inputs": [
+      "teeth_in",
+      "teeth_out"
+    ],
+    "outputs": [
+      "gear_ratio"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "torque_power",
+    "domain": "mechanical",
+    "equation": "P = tau*omega",
+    "inputs": [
+      "torque_nm",
+      "angular_speed_rad_s"
+    ],
+    "outputs": [
+      "power_w"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "hydraulic_pressure",
+    "domain": "mechanical",
+    "equation": "P = F/A",
+    "inputs": [
+      "force_n",
+      "area_m2"
+    ],
+    "outputs": [
+      "pressure_pa"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "solar_power",
+    "domain": "energy",
+    "equation": "P = irradiance*area*efficiency",
+    "inputs": [
+      "irradiance_w_m2",
+      "area_m2",
+      "efficiency"
+    ],
+    "outputs": [
+      "power_w"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "stored_energy",
+    "domain": "energy",
+    "equation": "E = P*t",
+    "inputs": [
+      "power_w",
+      "time_s"
+    ],
+    "outputs": [
+      "energy_j"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "battery_soc",
+    "domain": "energy",
+    "equation": "SOC_next = SOC + charge - discharge",
+    "inputs": [
+      "soc",
+      "charge_fraction",
+      "discharge_fraction"
+    ],
+    "outputs": [
+      "soc_next"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "robot_joint_motion",
+    "domain": "robotics",
+    "equation": "theta = theta0 + omega*t",
+    "inputs": [
+      "theta0_deg",
+      "omega_deg_s",
+      "time_s"
+    ],
+    "outputs": [
+      "theta_deg"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "robot_arm_end_effector",
+    "domain": "robotics",
+    "equation": "planar_2link_kinematics",
+    "inputs": [
+      "length1_m",
+      "length2_m",
+      "theta1_deg",
+      "theta2_deg"
+    ],
+    "outputs": [
+      "x_m",
+      "y_m"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "population_growth",
+    "domain": "biology",
+    "equation": "N(t)=N0*exp(r*t)",
+    "inputs": [
+      "initial_population",
+      "growth_rate",
+      "time"
+    ],
+    "outputs": [
+      "population"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  },
+  {
+    "id": "flow_rate",
+    "domain": "physics",
+    "equation": "Q = A*v",
+    "inputs": [
+      "area_m2",
+      "velocity_m_s"
+    ],
+    "outputs": [
+      "flow_m3_s"
+    ],
+    "deterministic": true,
+    "units_checked": true,
+    "safety_class": "conceptual",
+    "notes": "Starter educational model; not a validated engineering solver."
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "intent": "create",
+    "examples": [
+      "build a DC motor",
+      "create an LED circuit",
+      "make a robotic arm"
+    ],
+    "action": "create_object_or_system"
+  },
+  {
+    "intent": "add",
+    "examples": [
+      "add another motor",
+      "add a battery"
+    ],
+    "action": "create_object"
+  },
+  {
+    "intent": "remove",
+    "examples": [
+      "remove the coil",
+      "delete joint 2"
+    ],
+    "action": "delete_object"
+  },
+  {
+    "intent": "transform",
+    "examples": [
+      "rotate the motor 45 degrees",
+      "scale the robot arm"
+    ],
+    "action": "transform_object"
+  },
+  {
+    "intent": "inspect",
+    "examples": [
+      "inspect this component",
+      "what is this part?"
+    ],
+    "action": "inspect_object"
+  },
+  {
+    "intent": "explain",
+    "examples": [
+      "explain how this works",
+      "teach me this system"
+    ],
+    "action": "explain_system"
+  },
+  {
+    "intent": "simulate",
+    "examples": [
+      "simulate it",
+      "start the simulation",
+      "show current flow"
+    ],
+    "action": "simulate"
+  },
+  {
+    "intent": "compare",
+    "examples": [
+      "compare these two designs",
+      "which design is more efficient?"
+    ],
+    "action": "compare_systems"
+  }
+]

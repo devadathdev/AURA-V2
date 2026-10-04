@@ -1,0 +1,29 @@
+{
+  "executionId": "exec_1789323534666_ww4kx",
+  "skillId": "code-analysis",
+  "source": "core",
+  "category": "development",
+  "status": "SUCCESS",
+  "startTime": "2026-09-13T18:18:54.666Z",
+  "endTime": "2026-09-13T18:18:54.671Z",
+  "durationMs": 5,
+  "inputs": {
+    "instruction": "Run code analysis on our files"
+  },
+  "outputs": "Analyzed 56 items in .: 18 files, 38 directories.",
+  "error": null,
+  "permissionsGranted": [
+    "READ"
+  ],
+  "toolsUsed": [
+    "filesystem"
+  ],
+  "sandbox": {
+    "allowedPaths": [
+      "."
+    ],
+    "timeoutMs": 15000,
+    "allowNetwork": false,
+    "maxMemoryMb": 256
+  }
+}

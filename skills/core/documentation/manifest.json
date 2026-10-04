@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "documentation",
+  "name": "Documentation Generator",
+  "version": "1.0.0",
+  "description": "Generate and update project documentation, API references, and architecture guides.",
+  "source": "core",
+  "category": "productivity",
+  "tags": ["docs", "markdown", "architecture", "api", "guides"],
+  "lifecycle": "ENABLED",
+  "entrypoint": "index.js",
+  "permissions": ["READ", "WRITE"],
+  "tools": ["filesystem"],
+  "sandbox": {
+    "allowedPaths": ["."],
+    "timeoutMs": 20000,
+    "allowNetwork": false,
+    "maxMemoryMb": 256
+  },
+  "inputs": {
+    "docPath": { "type": "string", "description": "Destination file path", "default": "docs/GENERATED.md" },
+    "title": { "type": "string", "description": "Document title" },
+    "content": { "type": "string", "description": "Markdown body content" }
+  },
+  "outputs": {
+    "success": { "type": "boolean" },
+    "filePath": { "type": "string" },
+    "bytesWritten": { "type": "number" }
+  }
+}

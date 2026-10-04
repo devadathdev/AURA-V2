@@ -1,0 +1,206 @@
+[
+  {
+    "id": "act_001",
+    "intent": "create_object",
+    "utterance": "Create a motor",
+    "tool": "create_object"
+  },
+  {
+    "id": "act_002",
+    "intent": "create_object",
+    "utterance": "Create a battery",
+    "tool": "create_object"
+  },
+  {
+    "id": "act_003",
+    "intent": "create_object",
+    "utterance": "Create the LED",
+    "tool": "create_object"
+  },
+  {
+    "id": "act_004",
+    "intent": "create_object",
+    "utterance": "Create this robot joint",
+    "tool": "create_object"
+  },
+  {
+    "id": "act_005",
+    "intent": "create_object",
+    "utterance": "Create a solar panel",
+    "tool": "create_object"
+  },
+  {
+    "id": "act_006",
+    "intent": "create_object",
+    "utterance": "Create the gear",
+    "tool": "create_object"
+  },
+  {
+    "id": "act_007",
+    "intent": "delete_object",
+    "utterance": "Remove a motor",
+    "tool": "delete_object"
+  },
+  {
+    "id": "act_008",
+    "intent": "delete_object",
+    "utterance": "Remove a battery",
+    "tool": "delete_object"
+  },
+  {
+    "id": "act_009",
+    "intent": "delete_object",
+    "utterance": "Remove the LED",
+    "tool": "delete_object"
+  },
+  {
+    "id": "act_010",
+    "intent": "delete_object",
+    "utterance": "Remove this robot joint",
+    "tool": "delete_object"
+  },
+  {
+    "id": "act_011",
+    "intent": "delete_object",
+    "utterance": "Remove a solar panel",
+    "tool": "delete_object"
+  },
+  {
+    "id": "act_012",
+    "intent": "delete_object",
+    "utterance": "Remove the gear",
+    "tool": "delete_object"
+  },
+  {
+    "id": "act_013",
+    "intent": "inspect_object",
+    "utterance": "Inspect a motor",
+    "tool": "inspect_object"
+  },
+  {
+    "id": "act_014",
+    "intent": "inspect_object",
+    "utterance": "Inspect a battery",
+    "tool": "inspect_object"
+  },
+  {
+    "id": "act_015",
+    "intent": "inspect_object",
+    "utterance": "Inspect the LED",
+    "tool": "inspect_object"
+  },
+  {
+    "id": "act_016",
+    "intent": "inspect_object",
+    "utterance": "Inspect this robot joint",
+    "tool": "inspect_object"
+  },
+  {
+    "id": "act_017",
+    "intent": "inspect_object",
+    "utterance": "Inspect a solar panel",
+    "tool": "inspect_object"
+  },
+  {
+    "id": "act_018",
+    "intent": "inspect_object",
+    "utterance": "Inspect the gear",
+    "tool": "inspect_object"
+  },
+  {
+    "id": "act_019",
+    "intent": "explain_object",
+    "utterance": "Explain a motor",
+    "tool": "explain_object"
+  },
+  {
+    "id": "act_020",
+    "intent": "explain_object",
+    "utterance": "Explain a battery",
+    "tool": "explain_object"
+  },
+  {
+    "id": "act_021",
+    "intent": "explain_object",
+    "utterance": "Explain the LED",
+    "tool": "explain_object"
+  },
+  {
+    "id": "act_022",
+    "intent": "explain_object",
+    "utterance": "Explain this robot joint",
+    "tool": "explain_object"
+  },
+  {
+    "id": "act_023",
+    "intent": "explain_object",
+    "utterance": "Explain a solar panel",
+    "tool": "explain_object"
+  },
+  {
+    "id": "act_024",
+    "intent": "explain_object",
+    "utterance": "Explain the gear",
+    "tool": "explain_object"
+  },
+  {
+    "id": "act_025",
+    "intent": "simulate",
+    "utterance": "Simulate the circuit",
+    "tool": "simulate"
+  },
+  {
+    "id": "act_026",
+    "intent": "simulate",
+    "utterance": "Simulate the robotic arm",
+    "tool": "simulate"
+  },
+  {
+    "id": "act_027",
+    "intent": "simulate",
+    "utterance": "Simulate the solar system",
+    "tool": "simulate"
+  },
+  {
+    "id": "act_028",
+    "intent": "simulate",
+    "utterance": "Simulate the engine",
+    "tool": "simulate"
+  },
+  {
+    "id": "act_029",
+    "intent": "simulate",
+    "utterance": "Simulate the API architecture",
+    "tool": "simulate"
+  },
+  {
+    "id": "act_030",
+    "intent": "compare",
+    "utterance": "Compare the circuit designs",
+    "tool": "compare_systems"
+  },
+  {
+    "id": "act_031",
+    "intent": "compare",
+    "utterance": "Compare the robotic arm designs",
+    "tool": "compare_systems"
+  },
+  {
+    "id": "act_032",
+    "intent": "compare",
+    "utterance": "Compare the solar system designs",
+    "tool": "compare_systems"
+  },
+  {
+    "id": "act_033",
+    "intent": "compare",
+    "utterance": "Compare the engine designs",
+    "tool": "compare_systems"
+  },
+  {
+    "id": "act_034",
+    "intent": "compare",
+    "utterance": "Compare the API architecture designs",
+    "tool": "compare_systems"
+  }
+]

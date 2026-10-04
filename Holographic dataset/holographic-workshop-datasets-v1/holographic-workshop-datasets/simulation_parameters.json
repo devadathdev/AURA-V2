@@ -1,0 +1,72 @@
+[
+  {
+    "system": "simple_led_circuit",
+    "parameter": "voltage",
+    "symbol": "V",
+    "unit": "V",
+    "min": 0,
+    "max": 24,
+    "default": 9,
+    "step": 0.5
+  },
+  {
+    "system": "simple_led_circuit",
+    "parameter": "resistance",
+    "symbol": "R",
+    "unit": "ohm",
+    "min": 10,
+    "max": 2000,
+    "default": 220,
+    "step": 10
+  },
+  {
+    "system": "dc_motor",
+    "parameter": "voltage",
+    "symbol": "V",
+    "unit": "V",
+    "min": 0,
+    "max": 24,
+    "default": 12,
+    "step": 0.5
+  },
+  {
+    "system": "dc_motor",
+    "parameter": "load_torque",
+    "symbol": "T",
+    "unit": "N*m",
+    "min": 0,
+    "max": 10,
+    "default": 2,
+    "step": 0.1
+  },
+  {
+    "system": "solar_ev_system",
+    "parameter": "irradiance",
+    "symbol": "G",
+    "unit": "W/m2",
+    "min": 0,
+    "max": 1200,
+    "default": 800,
+    "step": 50
+  },
+  {
+    "system": "solar_ev_system",
+    "parameter": "load_power",
+    "symbol": "P",
+    "unit": "W",
+    "min": 0,
+    "max": 1000,
+    "default": 250,
+    "step": 10
+  },
+  {
+    "system": "robot_arm",
+    "parameter": "joint_angle",
+    "symbol": "theta",
+    "unit": "deg",
+    "min": -180,
+    "max": 180,
+    "default": 0,
+    "step": 5
+  }
+]

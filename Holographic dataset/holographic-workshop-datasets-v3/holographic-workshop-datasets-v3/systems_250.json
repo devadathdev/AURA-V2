@@ -1,0 +1,7002 @@
+[
+  {
+    "id": "pendulum_01",
+    "domain": "physics",
+    "title": "pendulum",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of pendulum",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "pendulum_02",
+    "domain": "physics",
+    "title": "pendulum",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of pendulum",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "pendulum_03",
+    "domain": "physics",
+    "title": "pendulum",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of pendulum",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "pendulum_04",
+    "domain": "physics",
+    "title": "pendulum",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of pendulum",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "pendulum_05",
+    "domain": "physics",
+    "title": "pendulum",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of pendulum",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "pendulum_06",
+    "domain": "physics",
+    "title": "pendulum",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of pendulum",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "pendulum_07",
+    "domain": "physics",
+    "title": "pendulum",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of pendulum",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "pendulum_08",
+    "domain": "physics",
+    "title": "pendulum",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of pendulum",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "pendulum_09",
+    "domain": "physics",
+    "title": "pendulum",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of pendulum",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "pendulum_10",
+    "domain": "physics",
+    "title": "pendulum",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of pendulum",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "projectile_01",
+    "domain": "physics",
+    "title": "projectile",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of projectile",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "projectile_02",
+    "domain": "physics",
+    "title": "projectile",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of projectile",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "projectile_03",
+    "domain": "physics",
+    "title": "projectile",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of projectile",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "projectile_04",
+    "domain": "physics",
+    "title": "projectile",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of projectile",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "projectile_05",
+    "domain": "physics",
+    "title": "projectile",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of projectile",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "projectile_06",
+    "domain": "physics",
+    "title": "projectile",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of projectile",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "projectile_07",
+    "domain": "physics",
+    "title": "projectile",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of projectile",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "projectile_08",
+    "domain": "physics",
+    "title": "projectile",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of projectile",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "projectile_09",
+    "domain": "physics",
+    "title": "projectile",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of projectile",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "projectile_10",
+    "domain": "physics",
+    "title": "projectile",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of projectile",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "optics_01",
+    "domain": "physics",
+    "title": "optics",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of optics",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "optics_02",
+    "domain": "physics",
+    "title": "optics",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of optics",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "optics_03",
+    "domain": "physics",
+    "title": "optics",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of optics",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "optics_04",
+    "domain": "physics",
+    "title": "optics",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of optics",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "optics_05",
+    "domain": "physics",
+    "title": "optics",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of optics",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "optics_06",
+    "domain": "physics",
+    "title": "optics",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of optics",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "optics_07",
+    "domain": "physics",
+    "title": "optics",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of optics",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "optics_08",
+    "domain": "physics",
+    "title": "optics",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of optics",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "optics_09",
+    "domain": "physics",
+    "title": "optics",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of optics",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "optics_10",
+    "domain": "physics",
+    "title": "optics",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of optics",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wave_interference_01",
+    "domain": "physics",
+    "title": "wave interference",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wave interference",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wave_interference_02",
+    "domain": "physics",
+    "title": "wave interference",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wave interference",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wave_interference_03",
+    "domain": "physics",
+    "title": "wave interference",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wave interference",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wave_interference_04",
+    "domain": "physics",
+    "title": "wave interference",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wave interference",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wave_interference_05",
+    "domain": "physics",
+    "title": "wave interference",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wave interference",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wave_interference_06",
+    "domain": "physics",
+    "title": "wave interference",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wave interference",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wave_interference_07",
+    "domain": "physics",
+    "title": "wave interference",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wave interference",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wave_interference_08",
+    "domain": "physics",
+    "title": "wave interference",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wave interference",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wave_interference_09",
+    "domain": "physics",
+    "title": "wave interference",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wave interference",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wave_interference_10",
+    "domain": "physics",
+    "title": "wave interference",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wave interference",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electromagnetic_induction_01",
+    "domain": "physics",
+    "title": "electromagnetic induction",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electromagnetic induction",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electromagnetic_induction_02",
+    "domain": "physics",
+    "title": "electromagnetic induction",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electromagnetic induction",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electromagnetic_induction_03",
+    "domain": "physics",
+    "title": "electromagnetic induction",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electromagnetic induction",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electromagnetic_induction_04",
+    "domain": "physics",
+    "title": "electromagnetic induction",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electromagnetic induction",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electromagnetic_induction_05",
+    "domain": "physics",
+    "title": "electromagnetic induction",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electromagnetic induction",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electromagnetic_induction_06",
+    "domain": "physics",
+    "title": "electromagnetic induction",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electromagnetic induction",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electromagnetic_induction_07",
+    "domain": "physics",
+    "title": "electromagnetic induction",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electromagnetic induction",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electromagnetic_induction_08",
+    "domain": "physics",
+    "title": "electromagnetic induction",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electromagnetic induction",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electromagnetic_induction_09",
+    "domain": "physics",
+    "title": "electromagnetic induction",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electromagnetic induction",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electromagnetic_induction_10",
+    "domain": "physics",
+    "title": "electromagnetic induction",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electromagnetic induction",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "led_circuit_01",
+    "domain": "electronics",
+    "title": "LED circuit",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of led circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "led_circuit_02",
+    "domain": "electronics",
+    "title": "LED circuit",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of led circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "led_circuit_03",
+    "domain": "electronics",
+    "title": "LED circuit",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of led circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "led_circuit_04",
+    "domain": "electronics",
+    "title": "LED circuit",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of led circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "led_circuit_05",
+    "domain": "electronics",
+    "title": "LED circuit",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of led circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "led_circuit_06",
+    "domain": "electronics",
+    "title": "LED circuit",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of led circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "led_circuit_07",
+    "domain": "electronics",
+    "title": "LED circuit",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of led circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "led_circuit_08",
+    "domain": "electronics",
+    "title": "LED circuit",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of led circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "led_circuit_09",
+    "domain": "electronics",
+    "title": "LED circuit",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of led circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "led_circuit_10",
+    "domain": "electronics",
+    "title": "LED circuit",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of led circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rc_circuit_01",
+    "domain": "electronics",
+    "title": "RC circuit",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rc_circuit_02",
+    "domain": "electronics",
+    "title": "RC circuit",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rc_circuit_03",
+    "domain": "electronics",
+    "title": "RC circuit",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rc_circuit_04",
+    "domain": "electronics",
+    "title": "RC circuit",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rc_circuit_05",
+    "domain": "electronics",
+    "title": "RC circuit",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rc_circuit_06",
+    "domain": "electronics",
+    "title": "RC circuit",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rc_circuit_07",
+    "domain": "electronics",
+    "title": "RC circuit",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rc_circuit_08",
+    "domain": "electronics",
+    "title": "RC circuit",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rc_circuit_09",
+    "domain": "electronics",
+    "title": "RC circuit",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rc_circuit_10",
+    "domain": "electronics",
+    "title": "RC circuit",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rlc_circuit_01",
+    "domain": "electronics",
+    "title": "RLC circuit",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rlc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rlc_circuit_02",
+    "domain": "electronics",
+    "title": "RLC circuit",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rlc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rlc_circuit_03",
+    "domain": "electronics",
+    "title": "RLC circuit",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rlc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rlc_circuit_04",
+    "domain": "electronics",
+    "title": "RLC circuit",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rlc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rlc_circuit_05",
+    "domain": "electronics",
+    "title": "RLC circuit",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rlc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rlc_circuit_06",
+    "domain": "electronics",
+    "title": "RLC circuit",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rlc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rlc_circuit_07",
+    "domain": "electronics",
+    "title": "RLC circuit",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rlc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rlc_circuit_08",
+    "domain": "electronics",
+    "title": "RLC circuit",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rlc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rlc_circuit_09",
+    "domain": "electronics",
+    "title": "RLC circuit",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rlc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rlc_circuit_10",
+    "domain": "electronics",
+    "title": "RLC circuit",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rlc circuit",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rectifier_01",
+    "domain": "electronics",
+    "title": "rectifier",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rectifier",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rectifier_02",
+    "domain": "electronics",
+    "title": "rectifier",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rectifier",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rectifier_03",
+    "domain": "electronics",
+    "title": "rectifier",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rectifier",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rectifier_04",
+    "domain": "electronics",
+    "title": "rectifier",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rectifier",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rectifier_05",
+    "domain": "electronics",
+    "title": "rectifier",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rectifier",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rectifier_06",
+    "domain": "electronics",
+    "title": "rectifier",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rectifier",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rectifier_07",
+    "domain": "electronics",
+    "title": "rectifier",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rectifier",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rectifier_08",
+    "domain": "electronics",
+    "title": "rectifier",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rectifier",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rectifier_09",
+    "domain": "electronics",
+    "title": "rectifier",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rectifier",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "rectifier_10",
+    "domain": "electronics",
+    "title": "rectifier",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of rectifier",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "voltage_divider_01",
+    "domain": "electronics",
+    "title": "voltage divider",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of voltage divider",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "voltage_divider_02",
+    "domain": "electronics",
+    "title": "voltage divider",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of voltage divider",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "voltage_divider_03",
+    "domain": "electronics",
+    "title": "voltage divider",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of voltage divider",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "voltage_divider_04",
+    "domain": "electronics",
+    "title": "voltage divider",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of voltage divider",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "voltage_divider_05",
+    "domain": "electronics",
+    "title": "voltage divider",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of voltage divider",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "voltage_divider_06",
+    "domain": "electronics",
+    "title": "voltage divider",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of voltage divider",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "voltage_divider_07",
+    "domain": "electronics",
+    "title": "voltage divider",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of voltage divider",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "voltage_divider_08",
+    "domain": "electronics",
+    "title": "voltage divider",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of voltage divider",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "voltage_divider_09",
+    "domain": "electronics",
+    "title": "voltage divider",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of voltage divider",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "voltage_divider_10",
+    "domain": "electronics",
+    "title": "voltage divider",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of voltage divider",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gear_train_01",
+    "domain": "mechanical",
+    "title": "gear train",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gear train",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gear_train_02",
+    "domain": "mechanical",
+    "title": "gear train",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gear train",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gear_train_03",
+    "domain": "mechanical",
+    "title": "gear train",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gear train",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gear_train_04",
+    "domain": "mechanical",
+    "title": "gear train",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gear train",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gear_train_05",
+    "domain": "mechanical",
+    "title": "gear train",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gear train",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gear_train_06",
+    "domain": "mechanical",
+    "title": "gear train",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gear train",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gear_train_07",
+    "domain": "mechanical",
+    "title": "gear train",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gear train",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gear_train_08",
+    "domain": "mechanical",
+    "title": "gear train",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gear train",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gear_train_09",
+    "domain": "mechanical",
+    "title": "gear train",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gear train",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gear_train_10",
+    "domain": "mechanical",
+    "title": "gear train",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gear train",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "belt_drive_01",
+    "domain": "mechanical",
+    "title": "belt drive",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of belt drive",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "belt_drive_02",
+    "domain": "mechanical",
+    "title": "belt drive",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of belt drive",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "belt_drive_03",
+    "domain": "mechanical",
+    "title": "belt drive",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of belt drive",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "belt_drive_04",
+    "domain": "mechanical",
+    "title": "belt drive",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of belt drive",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "belt_drive_05",
+    "domain": "mechanical",
+    "title": "belt drive",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of belt drive",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "belt_drive_06",
+    "domain": "mechanical",
+    "title": "belt drive",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of belt drive",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "belt_drive_07",
+    "domain": "mechanical",
+    "title": "belt drive",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of belt drive",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "belt_drive_08",
+    "domain": "mechanical",
+    "title": "belt drive",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of belt drive",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "belt_drive_09",
+    "domain": "mechanical",
+    "title": "belt drive",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of belt drive",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "belt_drive_10",
+    "domain": "mechanical",
+    "title": "belt drive",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of belt drive",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-stroke_engine_01",
+    "domain": "mechanical",
+    "title": "four-stroke engine",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-stroke engine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-stroke_engine_02",
+    "domain": "mechanical",
+    "title": "four-stroke engine",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-stroke engine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-stroke_engine_03",
+    "domain": "mechanical",
+    "title": "four-stroke engine",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-stroke engine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-stroke_engine_04",
+    "domain": "mechanical",
+    "title": "four-stroke engine",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-stroke engine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-stroke_engine_05",
+    "domain": "mechanical",
+    "title": "four-stroke engine",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-stroke engine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-stroke_engine_06",
+    "domain": "mechanical",
+    "title": "four-stroke engine",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-stroke engine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-stroke_engine_07",
+    "domain": "mechanical",
+    "title": "four-stroke engine",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-stroke engine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-stroke_engine_08",
+    "domain": "mechanical",
+    "title": "four-stroke engine",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-stroke engine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-stroke_engine_09",
+    "domain": "mechanical",
+    "title": "four-stroke engine",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-stroke engine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-stroke_engine_10",
+    "domain": "mechanical",
+    "title": "four-stroke engine",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-stroke engine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "hydraulic_lift_01",
+    "domain": "mechanical",
+    "title": "hydraulic lift",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of hydraulic lift",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "hydraulic_lift_02",
+    "domain": "mechanical",
+    "title": "hydraulic lift",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of hydraulic lift",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "hydraulic_lift_03",
+    "domain": "mechanical",
+    "title": "hydraulic lift",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of hydraulic lift",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "hydraulic_lift_04",
+    "domain": "mechanical",
+    "title": "hydraulic lift",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of hydraulic lift",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "hydraulic_lift_05",
+    "domain": "mechanical",
+    "title": "hydraulic lift",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of hydraulic lift",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "hydraulic_lift_06",
+    "domain": "mechanical",
+    "title": "hydraulic lift",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of hydraulic lift",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "hydraulic_lift_07",
+    "domain": "mechanical",
+    "title": "hydraulic lift",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of hydraulic lift",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "hydraulic_lift_08",
+    "domain": "mechanical",
+    "title": "hydraulic lift",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of hydraulic lift",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "hydraulic_lift_09",
+    "domain": "mechanical",
+    "title": "hydraulic lift",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of hydraulic lift",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "hydraulic_lift_10",
+    "domain": "mechanical",
+    "title": "hydraulic lift",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of hydraulic lift",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "piston_pump_01",
+    "domain": "mechanical",
+    "title": "piston pump",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of piston pump",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "piston_pump_02",
+    "domain": "mechanical",
+    "title": "piston pump",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of piston pump",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "piston_pump_03",
+    "domain": "mechanical",
+    "title": "piston pump",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of piston pump",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "piston_pump_04",
+    "domain": "mechanical",
+    "title": "piston pump",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of piston pump",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "piston_pump_05",
+    "domain": "mechanical",
+    "title": "piston pump",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of piston pump",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "piston_pump_06",
+    "domain": "mechanical",
+    "title": "piston pump",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of piston pump",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "piston_pump_07",
+    "domain": "mechanical",
+    "title": "piston pump",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of piston pump",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "piston_pump_08",
+    "domain": "mechanical",
+    "title": "piston pump",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of piston pump",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "piston_pump_09",
+    "domain": "mechanical",
+    "title": "piston pump",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of piston pump",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "piston_pump_10",
+    "domain": "mechanical",
+    "title": "piston pump",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of piston pump",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "two-axis_arm_01",
+    "domain": "robotics",
+    "title": "two-axis arm",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of two-axis arm",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "two-axis_arm_02",
+    "domain": "robotics",
+    "title": "two-axis arm",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of two-axis arm",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "two-axis_arm_03",
+    "domain": "robotics",
+    "title": "two-axis arm",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of two-axis arm",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "two-axis_arm_04",
+    "domain": "robotics",
+    "title": "two-axis arm",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of two-axis arm",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "two-axis_arm_05",
+    "domain": "robotics",
+    "title": "two-axis arm",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of two-axis arm",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "two-axis_arm_06",
+    "domain": "robotics",
+    "title": "two-axis arm",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of two-axis arm",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "two-axis_arm_07",
+    "domain": "robotics",
+    "title": "two-axis arm",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of two-axis arm",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "two-axis_arm_08",
+    "domain": "robotics",
+    "title": "two-axis arm",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of two-axis arm",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "two-axis_arm_09",
+    "domain": "robotics",
+    "title": "two-axis arm",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of two-axis arm",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "two-axis_arm_10",
+    "domain": "robotics",
+    "title": "two-axis arm",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of two-axis arm",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-wheel_rover_01",
+    "domain": "robotics",
+    "title": "four-wheel rover",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-wheel rover",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-wheel_rover_02",
+    "domain": "robotics",
+    "title": "four-wheel rover",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-wheel rover",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-wheel_rover_03",
+    "domain": "robotics",
+    "title": "four-wheel rover",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-wheel rover",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-wheel_rover_04",
+    "domain": "robotics",
+    "title": "four-wheel rover",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-wheel rover",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-wheel_rover_05",
+    "domain": "robotics",
+    "title": "four-wheel rover",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-wheel rover",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-wheel_rover_06",
+    "domain": "robotics",
+    "title": "four-wheel rover",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-wheel rover",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-wheel_rover_07",
+    "domain": "robotics",
+    "title": "four-wheel rover",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-wheel rover",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-wheel_rover_08",
+    "domain": "robotics",
+    "title": "four-wheel rover",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-wheel rover",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-wheel_rover_09",
+    "domain": "robotics",
+    "title": "four-wheel rover",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-wheel rover",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "four-wheel_rover_10",
+    "domain": "robotics",
+    "title": "four-wheel rover",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of four-wheel rover",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "line_follower_01",
+    "domain": "robotics",
+    "title": "line follower",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of line follower",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "line_follower_02",
+    "domain": "robotics",
+    "title": "line follower",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of line follower",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "line_follower_03",
+    "domain": "robotics",
+    "title": "line follower",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of line follower",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "line_follower_04",
+    "domain": "robotics",
+    "title": "line follower",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of line follower",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "line_follower_05",
+    "domain": "robotics",
+    "title": "line follower",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of line follower",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "line_follower_06",
+    "domain": "robotics",
+    "title": "line follower",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of line follower",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "line_follower_07",
+    "domain": "robotics",
+    "title": "line follower",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of line follower",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "line_follower_08",
+    "domain": "robotics",
+    "title": "line follower",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of line follower",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "line_follower_09",
+    "domain": "robotics",
+    "title": "line follower",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of line follower",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "line_follower_10",
+    "domain": "robotics",
+    "title": "line follower",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of line follower",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "servo_mechanism_01",
+    "domain": "robotics",
+    "title": "servo mechanism",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of servo mechanism",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "servo_mechanism_02",
+    "domain": "robotics",
+    "title": "servo mechanism",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of servo mechanism",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "servo_mechanism_03",
+    "domain": "robotics",
+    "title": "servo mechanism",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of servo mechanism",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "servo_mechanism_04",
+    "domain": "robotics",
+    "title": "servo mechanism",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of servo mechanism",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "servo_mechanism_05",
+    "domain": "robotics",
+    "title": "servo mechanism",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of servo mechanism",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "servo_mechanism_06",
+    "domain": "robotics",
+    "title": "servo mechanism",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of servo mechanism",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "servo_mechanism_07",
+    "domain": "robotics",
+    "title": "servo mechanism",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of servo mechanism",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "servo_mechanism_08",
+    "domain": "robotics",
+    "title": "servo mechanism",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of servo mechanism",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "servo_mechanism_09",
+    "domain": "robotics",
+    "title": "servo mechanism",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of servo mechanism",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "servo_mechanism_10",
+    "domain": "robotics",
+    "title": "servo mechanism",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of servo mechanism",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gripper_01",
+    "domain": "robotics",
+    "title": "gripper",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gripper",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gripper_02",
+    "domain": "robotics",
+    "title": "gripper",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gripper",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gripper_03",
+    "domain": "robotics",
+    "title": "gripper",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gripper",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gripper_04",
+    "domain": "robotics",
+    "title": "gripper",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gripper",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gripper_05",
+    "domain": "robotics",
+    "title": "gripper",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gripper",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gripper_06",
+    "domain": "robotics",
+    "title": "gripper",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gripper",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gripper_07",
+    "domain": "robotics",
+    "title": "gripper",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gripper",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gripper_08",
+    "domain": "robotics",
+    "title": "gripper",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gripper",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gripper_09",
+    "domain": "robotics",
+    "title": "gripper",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gripper",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "gripper_10",
+    "domain": "robotics",
+    "title": "gripper",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of gripper",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "solar_system_01",
+    "domain": "energy",
+    "title": "solar system",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of solar system",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "solar_system_02",
+    "domain": "energy",
+    "title": "solar system",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of solar system",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "solar_system_03",
+    "domain": "energy",
+    "title": "solar system",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of solar system",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "solar_system_04",
+    "domain": "energy",
+    "title": "solar system",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of solar system",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "solar_system_05",
+    "domain": "energy",
+    "title": "solar system",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of solar system",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "solar_system_06",
+    "domain": "energy",
+    "title": "solar system",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of solar system",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "solar_system_07",
+    "domain": "energy",
+    "title": "solar system",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of solar system",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "solar_system_08",
+    "domain": "energy",
+    "title": "solar system",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of solar system",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "solar_system_09",
+    "domain": "energy",
+    "title": "solar system",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of solar system",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "solar_system_10",
+    "domain": "energy",
+    "title": "solar system",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of solar system",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wind_turbine_01",
+    "domain": "energy",
+    "title": "wind turbine",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wind turbine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wind_turbine_02",
+    "domain": "energy",
+    "title": "wind turbine",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wind turbine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wind_turbine_03",
+    "domain": "energy",
+    "title": "wind turbine",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wind turbine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wind_turbine_04",
+    "domain": "energy",
+    "title": "wind turbine",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wind turbine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wind_turbine_05",
+    "domain": "energy",
+    "title": "wind turbine",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wind turbine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wind_turbine_06",
+    "domain": "energy",
+    "title": "wind turbine",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wind turbine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wind_turbine_07",
+    "domain": "energy",
+    "title": "wind turbine",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wind turbine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wind_turbine_08",
+    "domain": "energy",
+    "title": "wind turbine",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wind turbine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wind_turbine_09",
+    "domain": "energy",
+    "title": "wind turbine",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wind turbine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "wind_turbine_10",
+    "domain": "energy",
+    "title": "wind turbine",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of wind turbine",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "battery_storage_01",
+    "domain": "energy",
+    "title": "battery storage",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of battery storage",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "battery_storage_02",
+    "domain": "energy",
+    "title": "battery storage",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of battery storage",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "battery_storage_03",
+    "domain": "energy",
+    "title": "battery storage",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of battery storage",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "battery_storage_04",
+    "domain": "energy",
+    "title": "battery storage",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of battery storage",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "battery_storage_05",
+    "domain": "energy",
+    "title": "battery storage",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of battery storage",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "battery_storage_06",
+    "domain": "energy",
+    "title": "battery storage",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of battery storage",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "battery_storage_07",
+    "domain": "energy",
+    "title": "battery storage",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of battery storage",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "battery_storage_08",
+    "domain": "energy",
+    "title": "battery storage",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of battery storage",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "battery_storage_09",
+    "domain": "energy",
+    "title": "battery storage",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of battery storage",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "battery_storage_10",
+    "domain": "energy",
+    "title": "battery storage",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of battery storage",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "microgrid_01",
+    "domain": "energy",
+    "title": "microgrid",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of microgrid",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "microgrid_02",
+    "domain": "energy",
+    "title": "microgrid",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of microgrid",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "microgrid_03",
+    "domain": "energy",
+    "title": "microgrid",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of microgrid",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "microgrid_04",
+    "domain": "energy",
+    "title": "microgrid",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of microgrid",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "microgrid_05",
+    "domain": "energy",
+    "title": "microgrid",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of microgrid",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "microgrid_06",
+    "domain": "energy",
+    "title": "microgrid",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of microgrid",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "microgrid_07",
+    "domain": "energy",
+    "title": "microgrid",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of microgrid",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "microgrid_08",
+    "domain": "energy",
+    "title": "microgrid",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of microgrid",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "microgrid_09",
+    "domain": "energy",
+    "title": "microgrid",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of microgrid",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "microgrid_10",
+    "domain": "energy",
+    "title": "microgrid",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of microgrid",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electric_vehicle_01",
+    "domain": "energy",
+    "title": "electric vehicle",
+    "variant": 1,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electric vehicle",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electric_vehicle_02",
+    "domain": "energy",
+    "title": "electric vehicle",
+    "variant": 2,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electric vehicle",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electric_vehicle_03",
+    "domain": "energy",
+    "title": "electric vehicle",
+    "variant": 3,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electric vehicle",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electric_vehicle_04",
+    "domain": "energy",
+    "title": "electric vehicle",
+    "variant": 4,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electric vehicle",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electric_vehicle_05",
+    "domain": "energy",
+    "title": "electric vehicle",
+    "variant": 5,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electric vehicle",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electric_vehicle_06",
+    "domain": "energy",
+    "title": "electric vehicle",
+    "variant": 6,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electric vehicle",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electric_vehicle_07",
+    "domain": "energy",
+    "title": "electric vehicle",
+    "variant": 7,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electric vehicle",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electric_vehicle_08",
+    "domain": "energy",
+    "title": "electric vehicle",
+    "variant": 8,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electric vehicle",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electric_vehicle_09",
+    "domain": "energy",
+    "title": "electric vehicle",
+    "variant": 9,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electric vehicle",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  },
+  {
+    "id": "electric_vehicle_10",
+    "domain": "energy",
+    "title": "electric vehicle",
+    "variant": 10,
+    "components": [
+      "source",
+      "controller",
+      "mechanism",
+      "measurement",
+      "output"
+    ],
+    "relationships": [
+      "source->controller",
+      "controller->mechanism",
+      "mechanism->measurement",
+      "measurement->output"
+    ],
+    "learning_objectives": [
+      "Visualize the stages of electric vehicle",
+      "Explore component relationships"
+    ],
+    "simulation_ready": true,
+    "provenance": {
+      "source": "internal_conceptual_recipe",
+      "license": "internal"
+    }
+  }
+]
