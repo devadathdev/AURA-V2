@@ -20,13 +20,11 @@
     "docker:logs": "docker-compose logs -f",
     "docker:build": "docker-compose build",
     "docker:restart": "docker-compose restart",
-    "desktop": "electron desktop/main.js",
-    "desktop:dev": "electron desktop/main.js",
+    "desktop": "electron desktop/main-entry.js",
+    "desktop:dev": "electron desktop/main-entry.js",
     "desktop:dist": "electron-builder"
   },
-  "engines": {
-    "node": ">=18"
-  },
+  "engines": { "node": ">=18" },
   "dependencies": {
     "@openrouter/sdk": "^0.13.24",
     "dotenv": "^17.4.2",
@@ -41,36 +39,14 @@
     "appId": "ai.aura.assistant",
     "productName": "AURA",
     "artifactName": "AURA-Setup-${version}.${ext}",
-    "directories": {
-      "output": "dist"
-    },
+    "directories": { "output": "dist" },
     "files": [
-      "server.js",
-      "public/**/*",
-      "core/**/*",
-      "agents/**/*",
-      "audit/**/*",
-      "cyber_guardian/**/*",
-      "database/**/*",
-      "governance/**/*",
-      "memory/**/*",
-      "sandbox/**/*",
-      "tools/**/*",
-      "skills/**/*",
-      "package.json",
-      "node_modules/**/*",
+      "server.js", "public/**/*", "core/**/*", "agents/**/*", "audit/**/*",
+      "cyber_guardian/**/*", "database/**/*", "governance/**/*", "memory/**/*",
+      "sandbox/**/*", "tools/**/*", "skills/**/*", "package.json", "node_modules/**/*",
       "desktop/**/*"
     ],
-    "win": {
-      "target": [
-        {
-          "target": "nsis",
-          "arch": [
-            "x64"
-          ]
-        }
-      ]
-    },
+    "win": { "target": [{ "target": "nsis", "arch": ["x64"] }] },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
