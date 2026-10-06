@@ -1,7 +1,7 @@
 import http from 'http';
 import { fileURLToPath } from 'url';
 import { dirname, join, extname } from 'path';
-import { readFile, stat, writeFile } from 'fs/promises';
+import { mkdir, readFile, stat, writeFile } from 'fs/promises';
 import 'dotenv/config';
 import * as cyberGuardian from './cyber_guardian/runtime.mjs';
 import * as insightsEngine from './core/insights/insightsEngine.js';
@@ -102,7 +102,10 @@ for (const m of defaultMissions) {
 
 // Self-learning store
 const learningStore = new Map();
-const LEARNING_FILE = join(__dirname, 'learning-data.json');
+const DATA_DIR = process.env.AURA_DATA_DIR || __dirname;
+const LEARNING_FILE = join(DATA_DIR, 'learning-data.json');
+
+await mkdir(DATA_DIR, { recursive: true });
 
 async function loadLearningData() {
   try {
@@ -1317,7 +1320,7 @@ const server = http.createServer(async (req, res) => {
 
 // Skills storage
 const skillsStore = new Map();
-const SKILLS_FILE = join(__dirname, 'skills-data.json');
+const SKILLS_FILE = join(DATA_DIR, 'skills-data.json');
 
 async function loadSkillsData() {
   try {
