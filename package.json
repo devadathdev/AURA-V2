@@ -19,7 +19,10 @@
     "docker:down": "docker-compose down",
     "docker:logs": "docker-compose logs -f",
     "docker:build": "docker-compose build",
-    "docker:restart": "docker-compose restart"
+    "docker:restart": "docker-compose restart",
+    "desktop": "electron desktop/main.js",
+    "desktop:dev": "electron desktop/main.js",
+    "desktop:dist": "electron-builder"
   },
   "engines": {
     "node": ">=18"
@@ -30,6 +33,8 @@
     "wikijs": "^6.4.1"
   },
   "devDependencies": {
-    "@omniroute/opencode-provider": "^0.1.0"
+    "@omniroute/opencode-provider": "^0.1.0",
+    "electron": "^39.8.10",
+    "electron-builder": "^26.15.3"
   }
 }
