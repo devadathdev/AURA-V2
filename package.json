@@ -19,17 +19,40 @@
     "docker:down": "docker-compose down",
     "docker:logs": "docker-compose logs -f",
     "docker:build": "docker-compose build",
-    "docker:restart": "docker-compose restart"
+    "docker:restart": "docker-compose restart",
+    "desktop": "electron desktop/main-entry.js",
+    "desktop:dev": "electron desktop/main-entry.js",
+    "desktop:dist": "electron-builder"
   },
-  "engines": {
-    "node": ">=18"
-  },
+  "engines": { "node": ">=18" },
   "dependencies": {
     "@openrouter/sdk": "^0.13.24",
     "dotenv": "^17.4.2",
     "wikijs": "^6.4.1"
   },
   "devDependencies": {
-    "@omniroute/opencode-provider": "^0.1.0"
+    "@omniroute/opencode-provider": "^0.1.0",
+    "electron": "^39.8.10",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "ai.aura.assistant",
+    "productName": "AURA",
+    "artifactName": "AURA-Setup-${version}.${ext}",
+    "directories": { "output": "dist" },
+    "files": [
+      "server.js", "public/**/*", "core/**/*", "agents/**/*", "audit/**/*",
+      "cyber_guardian/**/*", "database/**/*", "governance/**/*", "memory/**/*",
+      "sandbox/**/*", "tools/**/*", "skills/**/*", "package.json", "node_modules/**/*",
+      "desktop/**/*"
+    ],
+    "win": { "target": [{ "target": "nsis", "arch": ["x64"] }] },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "AURA"
+    }
   }
 }
